@@ -13,3 +13,10 @@ Initial build (Situation A) against the current clone.
 - Policy binding: `portfolio` -> `n0-design-constraints-common` 0.1.0 + local extension, approval pending architecture review.
 - Divergences from the project IA draft: product gallery + buy box merged into `hero.product-detail`; the two Rise prototypes modelled as a chapter `demo` field backed by components.
 - No IR generated (none requested).
+
+### Verification of commit 20343e3 (fresh `git clone` into a durable directory under the home folder)
+
+- 1,876 tracked files; none under node_modules/, dist/, _recon/, .playwright-mcp/, no .DS_Store / __pycache__ / design-repo.zip.
+- `npm ci` (132 packages) and `npm run build` succeeded; `vite preview` served /, /work/rise, /shop/inked-frame and a public/ asset with HTTP 200.
+- In the clone: verify_all 19/19, semantic 14/14, adversarial 112 mutations rejected + 25 controls, prove_drift 57/57 + clean copy, wrapper gate 0/0, baseline audit 26 pass / 0 fail.
+- design-repo copied alone into an empty directory: verify_all 19/19 (citations and route table degrade to WARN, as designed), adversarial 112 + 25, prove_drift 53/53 (4 sibling-only cases skipped).
