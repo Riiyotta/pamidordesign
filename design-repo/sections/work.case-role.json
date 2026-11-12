@@ -1,0 +1,78 @@
+{
+  "id": "work.case-role",
+  "title": "Case-study role",
+  "contractVersion": "1.0.0",
+  "source": {
+    "id": "src.work-case-role",
+    "file": "src/pages/WorkFigcoms.jsx",
+    "tag": "<section",
+    "lines": "194-214",
+    "citation": "cite.case.role"
+  },
+  "semantic": {
+    "id": "work.case-role",
+    "category": "WORK",
+    "purpose": "Eyebrow plus a short list of statements of what the designer personally did on the project."
+  },
+  "retrievalEligible": true,
+  "templates": [
+    "case-study"
+  ],
+  "content": {
+    "fields": {
+      "eyebrow": {
+        "type": "text",
+        "required": true,
+        "maxWords": 2,
+        "evidence": "measured:fieldProfiles.work.case-role.eyebrow.maxWords"
+      },
+      "points": {
+        "type": "list",
+        "required": true,
+        "minItems": 1,
+        "items": {
+          "type": "text",
+          "required": true,
+          "maxWords": 26,
+          "evidence": "measured:fieldProfiles.work.case-role.li.maxWords"
+        },
+        "maxItems": 4,
+        "evidence": "measured:fieldProfiles.work.case-role.li.maxCount"
+      }
+    }
+  },
+  "constraints": {},
+  "layout": {
+    "position": "in-flow",
+    "surfaceTokens": [
+      "surface.page"
+    ],
+    "height": "227-251px at 1440 (measured)"
+  },
+  "responsive": {
+    "breakpoints": [
+      "breakpoint.lg"
+    ],
+    "changes": [
+      {
+        "at": "breakpoint.lg",
+        "property": "layout",
+        "below": "stacked",
+        "atOrAbove": "5-col grid 2 / 3",
+        "evidence": "cite.rwd.grid5"
+      }
+    ]
+  },
+  "motion": {
+    "allowedPatterns": [
+      "reveal-rise",
+      "none"
+    ],
+    "default": "reveal-rise"
+  },
+  "assetRoles": [],
+  "generatedAssetRoles": [
+    "original-copy"
+  ],
+  "measuredInstances": 4
+}

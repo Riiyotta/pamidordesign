@@ -1,0 +1,113 @@
+{
+  "id": "services.skillset",
+  "title": "Skillset",
+  "contractVersion": "1.0.0",
+  "source": {
+    "id": "src.services-skillset",
+    "file": "src/sections/home/HomeMain5.jsx",
+    "tag": "<section",
+    "lines": "95-153",
+    "citation": "cite.home.skillset"
+  },
+  "semantic": {
+    "id": "services.skillset",
+    "category": "SERVICES",
+    "purpose": "Night band listing the studio's disciplines as numbered rows (name + one-line promise); rows slide in and a preview image follows the cursor."
+  },
+  "retrievalEligible": true,
+  "templates": [
+    "home"
+  ],
+  "content": {
+    "fields": {
+      "title": {
+        "type": "text",
+        "required": true,
+        "maxWords": 1,
+        "evidence": "measured:fieldProfiles.services.skillset.h2.maxWords"
+      },
+      "items": {
+        "type": "list",
+        "required": true,
+        "minItems": 2,
+        "items": {
+          "index": {
+            "type": "text",
+            "required": true,
+            "maxWords": 1,
+            "evidence": "cite.home.skillset"
+          },
+          "name": {
+            "type": "text",
+            "required": true,
+            "maxWords": 4,
+            "evidence": "cite.home.skillset"
+          },
+          "body": {
+            "type": "text",
+            "required": true,
+            "maxWords": 16,
+            "evidence": "measured:fieldProfiles.services.skillset.li.maxWords"
+          },
+          "preview": {
+            "type": "media",
+            "required": true,
+            "maxWords": 10,
+            "evidence": "cite.case.chapter",
+            "assetRoles": {
+              "reference": [
+                "client-case-media",
+                "owner-artwork"
+              ],
+              "generated": [
+                "generated-project-media",
+                "generated-artwork-visual"
+              ]
+            }
+          }
+        },
+        "maxItems": 4,
+        "evidence": "cite.home.skillset"
+      }
+    }
+  },
+  "constraints": {},
+  "layout": {
+    "position": "in-flow",
+    "surfaceTokens": [
+      "surface.night"
+    ],
+    "height": "min 100svh; 1067px at 1440 (measured)"
+  },
+  "responsive": {
+    "breakpoints": [
+      "breakpoint.lg"
+    ],
+    "changes": [
+      {
+        "at": "breakpoint.lg",
+        "property": "padding",
+        "below": "py-16",
+        "atOrAbove": "py-52 (13rem)",
+        "evidence": "cite.rwd.skill-pad"
+      }
+    ]
+  },
+  "motion": {
+    "allowedPatterns": [
+      "reveal-rise",
+      "none"
+    ],
+    "default": "reveal-rise"
+  },
+  "assetRoles": [
+    "client-case-media",
+    "owner-artwork"
+  ],
+  "generatedAssetRoles": [
+    "generated-artwork-visual",
+    "generated-project-media",
+    "original-copy"
+  ],
+  "measuredInstances": 1
+}

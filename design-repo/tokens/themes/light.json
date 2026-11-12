@@ -1,0 +1,20 @@
+{
+  "theme": "light",
+  "default": true,
+  "note": "The site has one theme (warm canvas). Night is a section surface, not a theme.",
+  "resolved": {
+    "surface.page": "#efeeeb",
+    "surface.night": "#0d0d0b",
+    "surface.ink": "#0a0a0a",
+    "text.primary": "#0a0a0a",
+    "text.muted": "#6b6862",
+    "text.accent": "#d12424",
+    "text.on-night": "#ffffff",
+    "text.on-night-body": "#bfbab2",
+    "text.on-night-muted": "#9e9991",
+    "text.on-page-inverse": "#efeeeb",
+    "border.rule": "#ccc9c4",
+    "border.chip": "#b8b5b0",
+    "accent.primary": "#d12424"
+  }
+}

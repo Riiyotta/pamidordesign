@@ -1,0 +1,108 @@
+{
+  "id": "hero.studio-intro",
+  "title": "Studio hero",
+  "contractVersion": "1.0.0",
+  "source": {
+    "id": "src.hero-studio-intro",
+    "file": "src/pages/Studio.jsx",
+    "tag": "<section",
+    "lines": "129-183",
+    "citation": "cite.studio.hero"
+  },
+  "semantic": {
+    "id": "hero.studio-intro",
+    "category": "HERO",
+    "purpose": "About-page opener: eyebrow, large page title, four key facts and the first question with a long answer introducing the designer."
+  },
+  "retrievalEligible": true,
+  "templates": [
+    "studio"
+  ],
+  "content": {
+    "fields": {
+      "eyebrow": {
+        "type": "text",
+        "required": true,
+        "maxWords": 5,
+        "evidence": "measured:fieldProfiles.hero.studio-intro.eyebrow.maxWords"
+      },
+      "title": {
+        "type": "text",
+        "required": true,
+        "maxWords": 1,
+        "evidence": "measured:fieldProfiles.hero.studio-intro.h1.maxWords"
+      },
+      "facts": {
+        "type": "list",
+        "required": true,
+        "minItems": 2,
+        "items": {
+          "label": {
+            "type": "text",
+            "required": true,
+            "maxWords": 2,
+            "evidence": "measured:fieldProfiles.hero.studio-intro.dt.maxWords"
+          },
+          "value": {
+            "type": "text",
+            "required": true,
+            "maxWords": 3,
+            "evidence": "measured:fieldProfiles.hero.studio-intro.dd.maxWords"
+          }
+        },
+        "maxItems": 4,
+        "evidence": "measured:fieldProfiles.hero.studio-intro.dt.maxCount"
+      },
+      "question": {
+        "type": "text",
+        "required": true,
+        "maxWords": 4,
+        "evidence": "measured:fieldProfiles.hero.studio-intro.h2.maxWords"
+      },
+      "answer": {
+        "type": "text",
+        "required": true,
+        "maxWords": 149,
+        "evidence": "measured:fieldProfiles.hero.studio-intro.p.maxWords"
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true,
+    "mustBeFirstContent": true
+  },
+  "layout": {
+    "position": "in-flow",
+    "surfaceTokens": [
+      "surface.page"
+    ],
+    "height": "min 100svh-72px; 828px at 1440 (measured)"
+  },
+  "responsive": {
+    "breakpoints": [
+      "breakpoint.lg"
+    ],
+    "changes": [
+      {
+        "at": "breakpoint.lg",
+        "property": "facts / answer",
+        "below": "stacked",
+        "atOrAbove": "5-col grid: facts 2 cols, answer 3 cols",
+        "evidence": "cite.rwd.grid5"
+      }
+    ]
+  },
+  "motion": {
+    "allowedPatterns": [
+      "reveal-rise",
+      "page-enter",
+      "none"
+    ],
+    "default": "reveal-rise"
+  },
+  "assetRoles": [],
+  "generatedAssetRoles": [
+    "original-copy"
+  ],
+  "measuredInstances": 1
+}

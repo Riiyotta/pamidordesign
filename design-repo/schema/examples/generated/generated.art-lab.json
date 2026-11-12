@@ -1,0 +1,175 @@
+{
+  "pageSpecVersion": "1.0.0",
+  "mode": "generated",
+  "template": "art-lab",
+  "route": "/art-lab",
+  "meta": {
+    "title": "Sketchbook wall - Larkspur Atelier (sample)"
+  },
+  "nodes": [
+    {
+      "section": "shell.skip-link",
+      "content": {
+        "label": "Go to content"
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      },
+      "retrievalEligible": false
+    },
+    {
+      "section": "art.lab-header",
+      "content": {
+        "wordmark": {
+          "assetRole": "placeholder-brand-mark",
+          "alt": "Larkspur Atelier"
+        },
+        "cornerLink": {
+          "label": "Tidewell",
+          "href": "/work/tidewell"
+        }
+      },
+      "motion": {
+        "pattern": "char-sweep",
+        "reducedMotionFallback": "static-label"
+      }
+    },
+    {
+      "section": "art.draggable-plane",
+      "content": {
+        "srTitle": "Sketchbook wall",
+        "srDescription": "Forty sample sketches arranged by colour on one plane you can pan in any direction.",
+        "artworks": [
+          {
+            "assetRole": "generated-artwork-visual",
+            "alt": "Sample sketch",
+            "src": "https://media.larkspur.example/wall-1.webp"
+          },
+          {
+            "assetRole": "generated-artwork-visual",
+            "alt": "Sample sketch",
+            "src": "https://media.larkspur.example/wall-2.webp"
+          },
+          {
+            "assetRole": "generated-artwork-visual",
+            "alt": "Sample sketch",
+            "src": "https://media.larkspur.example/wall-3.webp"
+          },
+          {
+            "assetRole": "generated-artwork-visual",
+            "alt": "Sample sketch",
+            "src": "https://media.larkspur.example/wall-4.webp"
+          },
+          {
+            "assetRole": "generated-artwork-visual",
+            "alt": "Sample sketch",
+            "src": "https://media.larkspur.example/wall-5.webp"
+          },
+          {
+            "assetRole": "generated-artwork-visual",
+            "alt": "Sample sketch",
+            "src": "https://media.larkspur.example/wall-6.webp"
+          },
+          {
+            "assetRole": "generated-artwork-visual",
+            "alt": "Sample sketch",
+            "src": "https://media.larkspur.example/wall-7.webp"
+          },
+          {
+            "assetRole": "generated-artwork-visual",
+            "alt": "Sample sketch",
+            "src": "https://media.larkspur.example/wall-8.webp"
+          },
+          {
+            "assetRole": "generated-artwork-visual",
+            "alt": "Sample sketch",
+            "src": "https://media.larkspur.example/wall-9.webp"
+          },
+          {
+            "assetRole": "generated-artwork-visual",
+            "alt": "Sample sketch",
+            "src": "https://media.larkspur.example/wall-10.webp"
+          },
+          {
+            "assetRole": "generated-artwork-visual",
+            "alt": "Sample sketch",
+            "src": "https://media.larkspur.example/wall-11.webp"
+          },
+          {
+            "assetRole": "generated-artwork-visual",
+            "alt": "Sample sketch",
+            "src": "https://media.larkspur.example/wall-12.webp"
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "plane-inertia",
+        "reducedMotionFallback": "no-inertia"
+      }
+    },
+    {
+      "section": "overlay.drag-cue",
+      "content": {
+        "label": "(PULL AROUND)"
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      },
+      "retrievalEligible": false
+    },
+    {
+      "section": "overlay.cookie-notice",
+      "content": {
+        "body": "This sample page stores one preference and runs no trackers.",
+        "policyLink": {
+          "label": "Read more",
+          "href": "/privacy"
+        },
+        "accept": "Okay",
+        "decline": "No"
+      },
+      "motion": {
+        "pattern": "delayed-slide-in",
+        "reducedMotionFallback": "instant-show"
+      },
+      "retrievalEligible": false
+    },
+    {
+      "section": "overlay.cart-drawer",
+      "content": {
+        "title": "Basket",
+        "closeLabel": "Close"
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      },
+      "retrievalEligible": false
+    },
+    {
+      "section": "overlay.route-curtain",
+      "content": {},
+      "motion": {
+        "pattern": "route-curtain",
+        "reducedMotionFallback": "instant-swap"
+      },
+      "retrievalEligible": false
+    },
+    {
+      "section": "shell.custom-cursor",
+      "content": {
+        "cursor": {
+          "assetRole": "ui-icon-glyph",
+          "alt": ""
+        }
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      },
+      "retrievalEligible": false
+    }
+  ]
+}

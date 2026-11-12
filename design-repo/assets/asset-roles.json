@@ -1,0 +1,185 @@
+{
+  "version": "1.0.0",
+  "licensing": "The source is the live portfolio of a real, named designer. Every reference-only or blocked role is that person's, their clients' or a third party's property. Generated pages never reproduce, trace, restyle or describe the owner's likeness, wordmark, client logos, client work, artworks, award badge, contact details or endpoints; they use the generation-safe substitutes.",
+  "availabilityPinnedIn": [
+    "schema/semantic_validate.py PINNED_AVAILABILITY",
+    "extraction/verify_all.py PINNED_AVAILABILITY"
+  ],
+  "notApplicable": "No reviews, testimonials or star ratings exist in the source. Its only rating-like claims are a third-party award ribbon and a launch ranking inside a case study (both blocked by GENERATED_MODE_RATING).",
+  "roles": {
+    "owner-portrait-photo": {
+      "availability": "blocked-for-generation",
+      "generationPolicy": "must-not-fabricate",
+      "description": "Photographs of the real owner (hero backdrop, portrait, studio imagery). A real person's likeness: never reproduced, imitated or described for generation.",
+      "evidence": "cite.home.hero",
+      "generationSafeSubstitutes": [
+        "fictional-person-portrait"
+      ]
+    },
+    "source-wordmark": {
+      "availability": "blocked-for-generation",
+      "generationPolicy": "must-not-reuse",
+      "description": "The studio wordmark images (ink / white) and the spelled-out loader letters.",
+      "evidence": "cite.shell.nav-home",
+      "generationSafeSubstitutes": [
+        "placeholder-brand-mark"
+      ]
+    },
+    "client-logo": {
+      "availability": "blocked-for-generation",
+      "generationPolicy": "must-not-reuse",
+      "description": "Real client and collaborator logos (the clients marquee). Third-party trademarks.",
+      "evidence": "cite.home.studio",
+      "generationSafeSubstitutes": [
+        "placeholder-brand-mark"
+      ]
+    },
+    "award-badge": {
+      "availability": "blocked-for-generation",
+      "generationPolicy": "must-not-fabricate",
+      "description": "The third-party award ribbon. An award claim; generated pages carry no award badge at all.",
+      "evidence": "cite.shell.badge",
+      "generationSafeSubstitutes": [
+        "placeholder-rating"
+      ]
+    },
+    "owner-contact-link": {
+      "availability": "blocked-for-generation",
+      "generationPolicy": "must-not-reuse",
+      "description": "The owner's e-mail and social profiles.",
+      "evidence": "cite.shell.footer",
+      "generationSafeSubstitutes": [
+        "placeholder-url"
+      ]
+    },
+    "source-endpoint": {
+      "availability": "blocked-for-generation",
+      "generationPolicy": "must-not-reuse",
+      "description": "The source's form endpoints (lead + drops subscribe). In this clone they are local stubs.",
+      "evidence": "cite.forms.endpoints",
+      "generationSafeSubstitutes": [
+        "placeholder-endpoint"
+      ]
+    },
+    "client-case-media": {
+      "availability": "reference-only",
+      "generationPolicy": "must-not-reuse",
+      "description": "Client project images, videos and boards inside case studies and project rows (client-owned work).",
+      "evidence": "cite.case.chapter",
+      "generationSafeSubstitutes": [
+        "generated-project-media"
+      ]
+    },
+    "client-product-ui": {
+      "availability": "reference-only",
+      "generationPolicy": "must-not-reuse",
+      "description": "Interactive recreations of a client's internal product UI (dashboard finder, customer dashboard).",
+      "evidence": "cite.case.finder",
+      "generationSafeSubstitutes": [
+        "generated-product-ui-mock"
+      ]
+    },
+    "owner-artwork": {
+      "availability": "reference-only",
+      "generationPolicy": "must-not-reuse",
+      "description": "The owner's personal artworks: art-lab plane, shop products, hero trail, loader chip, art-lab teaser.",
+      "evidence": "cite.artlab.main",
+      "generationSafeSubstitutes": [
+        "generated-artwork-visual"
+      ]
+    },
+    "studio-showreel": {
+      "availability": "reference-only",
+      "generationPolicy": "must-not-reuse",
+      "description": "The studio showreel video.",
+      "evidence": "cite.home.showreel",
+      "generationSafeSubstitutes": [
+        "generated-project-media"
+      ]
+    },
+    "ambient-backdrop-video": {
+      "availability": "reference-only",
+      "generationPolicy": "must-not-reuse",
+      "description": "Decorative looping backdrop video behind the lead form.",
+      "evidence": "cite.home.lead",
+      "generationSafeSubstitutes": [
+        "generated-backdrop-video"
+      ]
+    },
+    "custom-cursor-image": {
+      "availability": "reference-only",
+      "generationPolicy": "must-not-reuse",
+      "description": "The site's custom cursor images (dark / light / pressed).",
+      "evidence": "cite.css.cursor",
+      "generationSafeSubstitutes": [
+        "ui-icon-glyph"
+      ]
+    },
+    "placeholder-brand-mark": {
+      "availability": "generation-safe",
+      "generationPolicy": "may-generate-new",
+      "description": "A neutral wordmark for a fictional or user-supplied brand.",
+      "evidence": "cite.shell.nav-home"
+    },
+    "fictional-person-portrait": {
+      "availability": "generation-safe",
+      "generationPolicy": "may-generate-new",
+      "description": "A portrait of a clearly fictional person (generated or licensed stock), never resembling the owner.",
+      "evidence": "cite.home.hero"
+    },
+    "generated-artwork-visual": {
+      "availability": "generation-safe",
+      "generationPolicy": "may-generate-new",
+      "description": "Newly generated artwork for galleries, shop cards, trails and loaders.",
+      "evidence": "cite.artlab.main"
+    },
+    "generated-project-media": {
+      "availability": "generation-safe",
+      "generationPolicy": "may-generate-new",
+      "description": "Newly generated project imagery or video for a fictional client.",
+      "evidence": "cite.case.chapter"
+    },
+    "generated-product-ui-mock": {
+      "availability": "generation-safe",
+      "generationPolicy": "may-generate-new",
+      "description": "A newly designed product UI mock for a fictional product.",
+      "evidence": "cite.case.finder"
+    },
+    "generated-backdrop-video": {
+      "availability": "generation-safe",
+      "generationPolicy": "may-generate-new",
+      "description": "A newly made ambient loop (sky, texture) for dark bands.",
+      "evidence": "cite.home.lead"
+    },
+    "ui-icon-glyph": {
+      "availability": "generation-safe",
+      "generationPolicy": "may-generate-new",
+      "description": "Generic UI glyphs (arrow, plus, close, hamburger) drawn new.",
+      "evidence": "cite.studio.faq-anim"
+    },
+    "placeholder-url": {
+      "availability": "generation-safe",
+      "generationPolicy": "may-generate-new",
+      "description": "Links and e-mails on reserved domains only (*.example, *.invalid) or site-relative paths.",
+      "evidence": "cite.shell.footer"
+    },
+    "placeholder-endpoint": {
+      "availability": "generation-safe",
+      "generationPolicy": "may-generate-new",
+      "description": "Form endpoints on reserved domains (*.invalid) or a documented stub path.",
+      "evidence": "cite.forms.endpoints"
+    },
+    "placeholder-rating": {
+      "availability": "generation-safe",
+      "generationPolicy": "may-generate-new",
+      "description": "A visibly placeholder rating / recognition slot (e.g. 'Recognition placeholder'). The source has no reviews; its only rating-like claims are an award ribbon and a launch ranking.",
+      "evidence": "cite.shell.badge"
+    },
+    "original-copy": {
+      "availability": "generation-safe",
+      "generationPolicy": "may-generate-new",
+      "description": "Copy written fresh for the generated page.",
+      "evidence": "cite.routes"
+    }
+  }
+}

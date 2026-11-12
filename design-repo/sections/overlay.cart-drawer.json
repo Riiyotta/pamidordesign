@@ -1,0 +1,77 @@
+{
+  "id": "overlay.cart-drawer",
+  "title": "Cart drawer",
+  "contractVersion": "1.0.0",
+  "source": {
+    "id": "src.overlay-cart-drawer",
+    "file": "src/components/global/CartDrawer.jsx",
+    "tag": "",
+    "lines": "59-59",
+    "citation": "cite.overlay.cart"
+  },
+  "semantic": {
+    "id": "overlay.cart-drawer",
+    "category": "OVERLAY",
+    "purpose": "Side drawer listing added shop items; mounted site-wide, opened only by add-to-cart (unreachable while every product is sold out)."
+  },
+  "retrievalEligible": false,
+  "retrievalIneligibleReason": "Shopping-cart drawer overlay (modal dialog) opened by an action; runtime UI, never page content.",
+  "templates": [
+    "home",
+    "studio",
+    "case-study",
+    "shop-index",
+    "product-detail",
+    "legal",
+    "art-lab"
+  ],
+  "content": {
+    "fields": {
+      "title": {
+        "type": "text",
+        "required": true,
+        "maxWords": 1,
+        "evidence": "cite.overlay.cart"
+      },
+      "closeLabel": {
+        "type": "text",
+        "required": true,
+        "maxWords": 2,
+        "evidence": "cite.overlay.cart"
+      }
+    }
+  },
+  "constraints": {},
+  "layout": {
+    "position": "fixed",
+    "surfaceTokens": [
+      "surface.page"
+    ],
+    "height": "100vh side drawer"
+  },
+  "responsive": {
+    "breakpoints": [
+      "breakpoint.sm"
+    ],
+    "changes": [
+      {
+        "at": "breakpoint.sm",
+        "property": "width",
+        "below": "100vw",
+        "atOrAbove": "min(480*--px, 100vw)",
+        "evidence": "cite.overlay.cart"
+      }
+    ]
+  },
+  "motion": {
+    "allowedPatterns": [
+      "menu-slide",
+      "none"
+    ],
+    "default": "none"
+  },
+  "assetRoles": [],
+  "generatedAssetRoles": [
+    "original-copy"
+  ]
+}

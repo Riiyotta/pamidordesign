@@ -1,0 +1,6 @@
+{
+  "id": "component.customer-dashboard",
+  "description": "Interactive customer-dashboard prototype (sidebar, tabs, searchable table).",
+  "evidence": "cite.case.customer-dash",
+  "overridableProps": []
+}

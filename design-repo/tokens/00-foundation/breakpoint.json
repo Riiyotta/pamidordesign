@@ -1,0 +1,43 @@
+{
+  "breakpoint": {
+    "sm": {
+      "$type": "dimension",
+      "$value": "640px",
+      "evidence": "cite.css.bp-sm",
+      "note": "2-col grids, wider gutters"
+    },
+    "md": {
+      "$type": "dimension",
+      "$value": "768px",
+      "evidence": "cite.css.bp-md"
+    },
+    "lg": {
+      "$type": "dimension",
+      "$value": "1024px",
+      "evidence": "cite.css.bp-lg",
+      "note": "5-col editorial grid, pinned statements, desktop nav padding"
+    },
+    "xl": {
+      "$type": "dimension",
+      "$value": "1280px",
+      "evidence": "cite.css.bp-xl"
+    },
+    "wide": {
+      "$type": "dimension",
+      "$value": "1440px",
+      "evidence": "cite.css.bp-wide",
+      "note": "home hero full-bleed backdrop"
+    },
+    "2xl": {
+      "$type": "dimension",
+      "$value": "1536px",
+      "evidence": "cite.css.bp-2xl"
+    },
+    "max": {
+      "$type": "dimension",
+      "$value": "1729px",
+      "evidence": "cite.css.bp-max",
+      "note": "artboard width 1728 exceeded"
+    }
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "graphVersion": "1.0.0",
+  "note": "Every rule here is implemented in schema/semantic_validate.py with the same id and severity; verify_all fails if the two disagree.",
+  "NO_HERO_TEMPLATES": [
+    "art-lab"
+  ],
+  "noHeroReason": {
+    "art-lab": "One fixed full-viewport canvas; its title and description are visually hidden, so the page has no opening composition separate from the canvas."
+  },
+  "rules": [
+    {
+      "id": "TEMPLATE_ROUTE",
+      "severity": "error",
+      "description": "route must match the template routePattern"
+    },
+    {
+      "id": "TEMPLATE_SEQUENCE",
+      "severity": "error",
+      "description": "node sequence must match the declared template's node list (min/max per (section, variant))"
+    },
+    {
+      "id": "TEMPLATE_VARIANT",
+      "severity": "error",
+      "description": "a section with variants needs one of them; a section without variants takes none"
+    },
+    {
+      "id": "ONE_HERO",
+      "severity": "error",
+      "description": "exactly one HERO node, except NO_HERO_TEMPLATES"
+    },
+    {
+      "id": "HERO_FIRST_CONTENT",
+      "severity": "error",
+      "description": "the HERO is the first in-flow content node (sticky nav and fixed overlays excluded)"
+    },
+    {
+      "id": "LAST_CONTENT_NODE",
+      "severity": "error",
+      "description": "sections with mustBeLastContent close the in-flow content (footer excluded)"
+    },
+    {
+      "id": "PART_OPENER_FIRST",
+      "severity": "error",
+      "description": "when a case study uses part openers, its first chapter is one (observed on both case studies that use them)"
+    },
+    {
+      "id": "PART_FIELDS_MATCH_VARIANT",
+      "severity": "error",
+      "description": "partLabel/partTitle only on part-opener chapters, and required there"
+    },
+    {
+      "id": "DEMO_ONCE",
+      "severity": "error",
+      "description": "each interactive demo kind appears at most once per page"
+    },
+    {
+      "id": "STAT_VALUE_NUMERIC",
+      "severity": "error",
+      "description": "a count-up stat value must contain a number (the count-up parser needs one)"
+    },
+    {
+      "id": "LEGAL_LABEL_STYLE",
+      "severity": "warn",
+      "description": "legal clause labels are parenthesised uppercase, e.g. (HOSTING)"
+    },
+    {
+      "id": "PRICE_FORMAT",
+      "severity": "warn",
+      "description": "prices are a currency sign followed by a number"
+    },
+    {
+      "id": "MAX_WORDS",
+      "severity": "error",
+      "description": "text over the field's measured maxWords"
+    },
+    {
+      "id": "MOTION_PATTERN_NOT_ALLOWED",
+      "severity": "error",
+      "description": "motion pattern not allowed for the section"
+    },
+    {
+      "id": "MOTION_FALLBACK_MISMATCH",
+      "severity": "error",
+      "description": "reducedMotionFallback differs from the pattern's pinned fallback"
+    },
+    {
+      "id": "ASSET_ROLE_NOT_ALLOWED",
+      "severity": "error",
+      "description": "asset role not allowed for this field in this mode"
+    },
+    {
+      "id": "RETRIEVAL_MISMATCH",
+      "severity": "error",
+      "description": "retrievalEligible disagrees with the pinned RETRIEVAL_INELIGIBLE set"
+    },
+    {
+      "id": "TOKEN_UNKNOWN",
+      "severity": "error",
+      "description": "style value is not a catalog token"
+    },
+    {
+      "id": "TOKEN_RAW_COLOR",
+      "severity": "error",
+      "description": "raw hex/rgb/hsl/named colour in a style field"
+    },
+    {
+      "id": "TOKEN_ARBITRARY_SPACING",
+      "severity": "error",
+      "description": "raw length in a spacing field"
+    },
+    {
+      "id": "TOKEN_FONT_UNSUPPORTED",
+      "severity": "error",
+      "description": "font outside token-policy allowedFonts"
+    },
+    {
+      "id": "TOKEN_WRONG_CATEGORY",
+      "severity": "error",
+      "description": "token category not allowed for the style field"
+    },
+    {
+      "id": "TOKEN_SECTION_SURFACE",
+      "severity": "error",
+      "description": "surface not allowed for the section"
+    },
+    {
+      "id": "TOKEN_THEME_COMBO",
+      "severity": "error",
+      "description": "text token not allowed on that surface"
+    },
+    {
+      "id": "GENERATED_MODE_BRAND",
+      "severity": "error",
+      "description": "source brand / wordmark / domain-name variants in a generated page"
+    },
+    {
+      "id": "GENERATED_MODE_PERSON",
+      "severity": "error",
+      "description": "the real owner's name or handles in a generated page"
+    },
+    {
+      "id": "GENERATED_MODE_CLIENT",
+      "severity": "error",
+      "description": "real client, collaborator or third-party company names in a generated page"
+    },
+    {
+      "id": "GENERATED_MODE_URL",
+      "severity": "error",
+      "description": "source URLs, e-mails, social profiles, endpoints or non-reserved hosts in a generated page"
+    },
+    {
+      "id": "GENERATED_MODE_COPY",
+      "severity": "error",
+      "description": "source copy (distinctive phrases or any shared 6-word sequence) in a generated page"
+    },
+    {
+      "id": "GENERATED_MODE_CTA",
+      "severity": "error",
+      "description": "source-specific CTA strings in a generated page"
+    },
+    {
+      "id": "GENERATED_MODE_ASSET",
+      "severity": "error",
+      "description": "non-generation-safe asset role or a source asset path in a generated page"
+    },
+    {
+      "id": "GENERATED_MODE_LIKENESS",
+      "severity": "error",
+      "description": "the owner's portrait / likeness role in a generated page"
+    },
+    {
+      "id": "GENERATED_MODE_RATING",
+      "severity": "error",
+      "description": "award badges, rankings or rating claims taken from the source in a generated page"
+    }
+  ],
+  "adjacency": {
+    "case-study": "role -> (context) -> process -> chapters (3-10) -> next-project, observed on all four case studies; context absent on one.",
+    "home": "hero -> studio band -> projects -> art-lab teaser -> skillset (night) -> lead form (night)"
+  }
+}

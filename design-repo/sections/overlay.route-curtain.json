@@ -1,0 +1,64 @@
+{
+  "id": "overlay.route-curtain",
+  "title": "Route transition curtain",
+  "contractVersion": "1.0.0",
+  "source": {
+    "id": "src.overlay-route-curtain",
+    "file": "src/components/global/RouteCurtain.jsx",
+    "tag": "",
+    "lines": "49-49",
+    "citation": "cite.overlay.curtain"
+  },
+  "semantic": {
+    "id": "overlay.route-curtain",
+    "category": "OVERLAY",
+    "purpose": "Night curtain that covers the viewport on in-site navigation, swaps the route and lifts."
+  },
+  "retrievalEligible": false,
+  "retrievalIneligibleReason": "Transient page-transition overlay with no content; exists only for a fraction of a second.",
+  "templates": [
+    "home",
+    "studio",
+    "case-study",
+    "shop-index",
+    "product-detail",
+    "legal",
+    "art-lab"
+  ],
+  "content": {
+    "fields": {}
+  },
+  "constraints": {},
+  "layout": {
+    "position": "fixed",
+    "surfaceTokens": [
+      "surface.night"
+    ],
+    "height": "100vh fixed overlay"
+  },
+  "responsive": {
+    "breakpoints": [
+      "breakpoint.sm"
+    ],
+    "changes": [
+      {
+        "at": "breakpoint.sm",
+        "property": "coverage",
+        "below": "full viewport",
+        "atOrAbove": "full viewport",
+        "evidence": "cite.overlay.curtain"
+      }
+    ]
+  },
+  "motion": {
+    "allowedPatterns": [
+      "route-curtain"
+    ],
+    "default": "route-curtain"
+  },
+  "assetRoles": [],
+  "generatedAssetRoles": [
+    "original-copy"
+  ],
+  "measuredInstances": 15
+}

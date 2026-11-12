@@ -1,0 +1,10 @@
+{
+  "id": "component.numbered-step",
+  "description": "Ruled numbered step: index, title, one-line description.",
+  "evidence": "cite.studio.process",
+  "overridableProps": [
+    "index",
+    "title",
+    "body"
+  ]
+}

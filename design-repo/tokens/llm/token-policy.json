@@ -1,0 +1,97 @@
+{
+  "policyVersion": "1.0.0",
+  "enforcedBy": "schema/semantic_validate.py (TOKEN_* rules)",
+  "catalogCategories": [
+    "accent",
+    "border",
+    "breakpoint",
+    "color",
+    "component",
+    "duration",
+    "easing",
+    "elevation",
+    "font",
+    "layout",
+    "motion",
+    "radius",
+    "space",
+    "surface",
+    "text",
+    "type",
+    "weight"
+  ],
+  "styleFields": {
+    "surface": [
+      "surface"
+    ],
+    "text": [
+      "text"
+    ],
+    "accent": [
+      "accent"
+    ],
+    "paddingBlock": [
+      "space"
+    ],
+    "displayFont": [
+      "font"
+    ]
+  },
+  "allowedFonts": [
+    "font.display",
+    "font.text",
+    "font.grotesk"
+  ],
+  "accentTokens": [
+    "accent.primary"
+  ],
+  "spacingTokensForPadding": [
+    "space.section-xl",
+    "space.section-lg",
+    "space.section-md",
+    "space.section-sm",
+    "space.section-xs",
+    "space.section-end",
+    "space.block-mobile-lg",
+    "space.block-mobile"
+  ],
+  "surfaceTextPairs": {
+    "surface.page": [
+      "text.primary",
+      "text.muted",
+      "text.accent"
+    ],
+    "surface.night": [
+      "text.on-night",
+      "text.on-night-body",
+      "text.on-night-muted",
+      "text.on-page-inverse",
+      "text.accent"
+    ],
+    "surface.ink": [
+      "text.on-night",
+      "text.on-page-inverse"
+    ]
+  },
+  "rawValueRestrictions": {
+    "accent": "reference a catalog token id; raw values are rejected",
+    "border": "reference a catalog token id; raw values are rejected",
+    "breakpoint": "reference a catalog token id; raw values are rejected",
+    "color": "reference a catalog token id; raw values are rejected",
+    "component": "reference a catalog token id; raw values are rejected",
+    "duration": "reference a catalog token id; raw values are rejected",
+    "easing": "reference a catalog token id; raw values are rejected",
+    "elevation": "reference a catalog token id; raw values are rejected",
+    "font": "reference a catalog token id; raw values are rejected",
+    "layout": "reference a catalog token id; raw values are rejected",
+    "motion": "reference a catalog token id; raw values are rejected",
+    "radius": "reference a catalog token id; raw values are rejected",
+    "space": "reference a catalog token id; raw values are rejected",
+    "surface": "reference a catalog token id; raw values are rejected",
+    "text": "reference a catalog token id; raw values are rejected",
+    "type": "reference a catalog token id; raw values are rejected",
+    "weight": "reference a catalog token id; raw values are rejected"
+  },
+  "overrides": "PageSpec nodes may set only the five style fields above, each to a catalog token id of the listed category. Everything else is owned by the section contract.",
+  "notTokens": "Inline hex values found only inside the recreated client product UI (dashboard prototypes, e.g. #111827, #6B7280) belong to the client's product, not to this visual language, and are deliberately absent from the catalog."
+}

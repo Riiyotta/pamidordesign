@@ -1,0 +1,113 @@
+{
+  "id": "narrative.studio-teaser",
+  "title": "Home studio band",
+  "contractVersion": "1.0.0",
+  "source": {
+    "id": "src.narrative-studio-teaser",
+    "file": "src/sections/home/HomeMain2Studio.jsx",
+    "tag": "<section",
+    "lines": "13-1118",
+    "citation": "cite.home.studio"
+  },
+  "semantic": {
+    "id": "narrative.studio-teaser",
+    "category": "NARRATIVE",
+    "purpose": "Pinned scroll-lit first-person introduction of the designer with the showreel video and a looping row of client logos."
+  },
+  "retrievalEligible": true,
+  "templates": [
+    "home"
+  ],
+  "content": {
+    "fields": {
+      "statement": {
+        "type": "text",
+        "required": true,
+        "maxWords": 56,
+        "evidence": "measured:fieldProfiles.narrative.studio-teaser.p.maxWords"
+      },
+      "showreel": {
+        "type": "media",
+        "required": true,
+        "maxWords": 2,
+        "evidence": "cite.case.chapter",
+        "assetRoles": {
+          "reference": [
+            "studio-showreel"
+          ],
+          "generated": [
+            "generated-project-media"
+          ]
+        }
+      },
+      "clientsLabel": {
+        "type": "text",
+        "required": true,
+        "maxWords": 3,
+        "evidence": "measured:fieldProfiles.narrative.studio-teaser.eyebrow.maxWords"
+      },
+      "clientLogos": {
+        "type": "list",
+        "required": true,
+        "minItems": 0,
+        "items": {
+          "type": "media",
+          "required": true,
+          "maxWords": 3,
+          "evidence": "cite.case.chapter",
+          "assetRoles": {
+            "reference": [
+              "client-logo"
+            ],
+            "generated": [
+              "placeholder-brand-mark"
+            ]
+          }
+        },
+        "maxItems": 48,
+        "evidence": "cite.home.studio"
+      }
+    }
+  },
+  "constraints": {},
+  "layout": {
+    "position": "in-flow",
+    "surfaceTokens": [
+      "surface.page"
+    ],
+    "height": "100vh + 135vh travel; 2115px at 1440 (measured)"
+  },
+  "responsive": {
+    "breakpoints": [
+      "breakpoint.lg"
+    ],
+    "changes": [
+      {
+        "at": "breakpoint.lg",
+        "property": "pinning",
+        "below": "sticky 100svh track on mobile",
+        "atOrAbove": "sticky 100vh stage with 135vh travel",
+        "evidence": "cite.rwd.studio-travel"
+      }
+    ]
+  },
+  "motion": {
+    "allowedPatterns": [
+      "scroll-char-wave",
+      "marquee-loop",
+      "inview-video",
+      "none"
+    ],
+    "default": "scroll-char-wave"
+  },
+  "assetRoles": [
+    "client-logo",
+    "studio-showreel"
+  ],
+  "generatedAssetRoles": [
+    "generated-project-media",
+    "original-copy",
+    "placeholder-brand-mark"
+  ],
+  "measuredInstances": 1
+}

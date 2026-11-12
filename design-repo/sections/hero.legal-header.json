@@ -1,0 +1,74 @@
+{
+  "id": "hero.legal-header",
+  "title": "Legal page header",
+  "contractVersion": "1.0.0",
+  "source": {
+    "id": "src.hero-legal-header",
+    "file": "src/pages/Privacy.jsx",
+    "tag": "<p",
+    "lines": "108-108",
+    "citation": "cite.legal.header"
+  },
+  "semantic": {
+    "id": "hero.legal-header",
+    "category": "HERO",
+    "purpose": "Legal opener: last-updated eyebrow and a one-word page title."
+  },
+  "retrievalEligible": true,
+  "templates": [
+    "legal"
+  ],
+  "content": {
+    "fields": {
+      "eyebrow": {
+        "type": "text",
+        "required": true,
+        "maxWords": 5,
+        "evidence": "measured:fieldProfiles.hero.legal-header.eyebrow.maxWords"
+      },
+      "title": {
+        "type": "text",
+        "required": true,
+        "maxWords": 1,
+        "evidence": "measured:fieldProfiles.hero.legal-header.h1.maxWords"
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true,
+    "mustBeFirstContent": true
+  },
+  "layout": {
+    "position": "in-flow",
+    "surfaceTokens": [
+      "surface.page"
+    ],
+    "height": "293px at 1440 (measured, 2 routes)"
+  },
+  "responsive": {
+    "breakpoints": [
+      "breakpoint.lg"
+    ],
+    "changes": [
+      {
+        "at": "breakpoint.lg",
+        "property": "top padding",
+        "below": "3rem",
+        "atOrAbove": "126*--px",
+        "evidence": "cite.legal.header"
+      }
+    ]
+  },
+  "motion": {
+    "allowedPatterns": [
+      "page-enter",
+      "none"
+    ],
+    "default": "page-enter"
+  },
+  "assetRoles": [],
+  "generatedAssetRoles": [
+    "original-copy"
+  ],
+  "measuredInstances": 2
+}

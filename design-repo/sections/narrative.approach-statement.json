@@ -1,0 +1,77 @@
+{
+  "id": "narrative.approach-statement",
+  "title": "Approach statement",
+  "contractVersion": "1.0.0",
+  "source": {
+    "id": "src.narrative-approach-statement",
+    "file": "src/pages/Studio.jsx",
+    "tag": "<section",
+    "lines": "184-768",
+    "citation": "cite.studio.approach"
+  },
+  "semantic": {
+    "id": "narrative.approach-statement",
+    "category": "NARRATIVE",
+    "purpose": "Pinned scroll-lit statement followed by a ruled question-and-answer row on what makes the approach different."
+  },
+  "retrievalEligible": true,
+  "templates": [
+    "studio"
+  ],
+  "content": {
+    "fields": {
+      "statement": {
+        "type": "text",
+        "required": true,
+        "maxWords": 69,
+        "evidence": "measured:fieldProfiles.narrative.approach-statement.p.maxWords"
+      },
+      "question": {
+        "type": "text",
+        "required": true,
+        "maxWords": 5,
+        "evidence": "measured:fieldProfiles.narrative.approach-statement.h2.maxWords"
+      },
+      "answer": {
+        "type": "text",
+        "required": true,
+        "maxWords": 69,
+        "evidence": "measured:fieldProfiles.narrative.approach-statement.p.maxWords"
+      }
+    }
+  },
+  "constraints": {},
+  "layout": {
+    "position": "in-flow",
+    "surfaceTokens": [
+      "surface.page"
+    ],
+    "height": "100vh + 135vh travel; 2115px at 1440 (measured)"
+  },
+  "responsive": {
+    "breakpoints": [
+      "breakpoint.lg"
+    ],
+    "changes": [
+      {
+        "at": "breakpoint.lg",
+        "property": "pinning",
+        "below": "sticky 100svh track",
+        "atOrAbove": "sticky 100vh stage, 135vh travel",
+        "evidence": "cite.rwd.studio-travel"
+      }
+    ]
+  },
+  "motion": {
+    "allowedPatterns": [
+      "scroll-char-wave",
+      "none"
+    ],
+    "default": "scroll-char-wave"
+  },
+  "assetRoles": [],
+  "generatedAssetRoles": [
+    "original-copy"
+  ],
+  "measuredInstances": 1
+}

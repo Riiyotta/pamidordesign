@@ -1,0 +1,8 @@
+{
+  "id": "component.board-gallery",
+  "description": "Horizontal board strip whose items open the lightbox.",
+  "evidence": "cite.overlay.lightbox",
+  "overridableProps": [
+    "items"
+  ]
+}

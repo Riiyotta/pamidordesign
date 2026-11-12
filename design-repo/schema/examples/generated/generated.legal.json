@@ -1,0 +1,210 @@
+{
+  "pageSpecVersion": "1.0.0",
+  "mode": "generated",
+  "template": "legal",
+  "route": "/privacy",
+  "meta": {
+    "title": "Privacy - Larkspur Atelier (sample)"
+  },
+  "nodes": [
+    {
+      "section": "shell.skip-link",
+      "content": {
+        "label": "Go to content"
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      },
+      "retrievalEligible": false
+    },
+    {
+      "section": "shell.primary-nav",
+      "variant": "sticky-bar",
+      "content": {
+        "wordmark": {
+          "assetRole": "placeholder-brand-mark",
+          "alt": "Larkspur Atelier"
+        },
+        "menuLabel": "Menu"
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      }
+    },
+    {
+      "section": "overlay.menu-panel",
+      "content": {
+        "items": [
+          {
+            "label": "Index",
+            "href": "/"
+          },
+          {
+            "label": "About",
+            "href": "/about"
+          },
+          {
+            "label": "Projects",
+            "href": "/#work"
+          },
+          {
+            "label": "Sketchbook",
+            "href": "/sketchbook"
+          }
+        ],
+        "contact": {
+          "assetRole": "placeholder-url",
+          "label": "hello@larkspur.example",
+          "href": "mailto:hello@larkspur.example"
+        }
+      },
+      "motion": {
+        "pattern": "menu-slide",
+        "reducedMotionFallback": "instant-toggle"
+      },
+      "retrievalEligible": false
+    },
+    {
+      "section": "hero.legal-header",
+      "content": {
+        "eyebrow": "(REVISED: MARCH 2031)",
+        "title": "Privacy"
+      },
+      "motion": {
+        "pattern": "page-enter",
+        "reducedMotionFallback": "static-final-state"
+      }
+    },
+    {
+      "section": "legal.clause",
+      "content": {
+        "label": "(WHO WE ARE)",
+        "paragraphs": [
+          "Larkspur Atelier is a fictional studio used to demonstrate this page layout."
+        ]
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      }
+    },
+    {
+      "section": "legal.clause",
+      "content": {
+        "label": "(WHAT WE KEEP)",
+        "paragraphs": [
+          "Only what you type into the brief form, kept for one year and then deleted."
+        ]
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      }
+    },
+    {
+      "section": "legal.clause",
+      "content": {
+        "label": "(YOUR CHOICES)",
+        "paragraphs": [
+          "Ask us to show, fix or remove anything we hold about you."
+        ],
+        "action": "Clear my preference"
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      }
+    },
+    {
+      "section": "shell.footer",
+      "content": {
+        "wordmark": {
+          "assetRole": "placeholder-brand-mark",
+          "alt": "Larkspur Atelier"
+        },
+        "motto": "Careful systems, loose sketches.",
+        "contact": {
+          "assetRole": "placeholder-url",
+          "label": "hello@larkspur.example",
+          "href": "mailto:hello@larkspur.example"
+        },
+        "legalLinks": [
+          {
+            "label": "Privacy",
+            "href": "/privacy"
+          },
+          {
+            "label": "Terms",
+            "href": "/terms"
+          }
+        ],
+        "socials": [
+          {
+            "label": "Journal",
+            "href": "https://journal.larkspur.example/"
+          }
+        ],
+        "copyright": "© 2031 Larkspur Atelier (fictional).",
+        "credit": "Sample page composed from a design system."
+      },
+      "motion": {
+        "pattern": "clip-reveal",
+        "reducedMotionFallback": "static-final-state"
+      }
+    },
+    {
+      "section": "overlay.cookie-notice",
+      "content": {
+        "body": "This sample page stores one preference and runs no trackers.",
+        "policyLink": {
+          "label": "Read more",
+          "href": "/privacy"
+        },
+        "accept": "Okay",
+        "decline": "No"
+      },
+      "motion": {
+        "pattern": "delayed-slide-in",
+        "reducedMotionFallback": "instant-show"
+      },
+      "retrievalEligible": false
+    },
+    {
+      "section": "overlay.cart-drawer",
+      "content": {
+        "title": "Basket",
+        "closeLabel": "Close"
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      },
+      "retrievalEligible": false
+    },
+    {
+      "section": "overlay.route-curtain",
+      "content": {},
+      "motion": {
+        "pattern": "route-curtain",
+        "reducedMotionFallback": "instant-swap"
+      },
+      "retrievalEligible": false
+    },
+    {
+      "section": "shell.custom-cursor",
+      "content": {
+        "cursor": {
+          "assetRole": "ui-icon-glyph",
+          "alt": ""
+        }
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      },
+      "retrievalEligible": false
+    }
+  ]
+}

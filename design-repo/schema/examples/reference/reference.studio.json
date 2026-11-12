@@ -1,0 +1,351 @@
+{
+  "pageSpecVersion": "1.0.0",
+  "mode": "reference",
+  "template": "studio",
+  "route": "/studio",
+  "meta": {
+    "title": "Studio - Dor Sharaby · Pamidor Studio"
+  },
+  "nodes": [
+    {
+      "section": "shell.skip-link",
+      "content": {
+        "label": "Skip to content"
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      },
+      "retrievalEligible": false
+    },
+    {
+      "section": "shell.primary-nav",
+      "variant": "sticky-bar",
+      "content": {
+        "wordmark": {
+          "assetRole": "source-wordmark",
+          "alt": "PAMIDOR® STUDIO",
+          "src": "/images/wordmark-pamidor-studio-ink.svg"
+        },
+        "menuLabel": "Open menu"
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      }
+    },
+    {
+      "section": "overlay.menu-panel",
+      "content": {
+        "items": [
+          {
+            "label": "Home",
+            "href": "/"
+          },
+          {
+            "label": "Studio",
+            "href": "/studio"
+          },
+          {
+            "label": "Work",
+            "href": "/#projects"
+          },
+          {
+            "label": "Art Lab",
+            "href": "/art-lab"
+          }
+        ],
+        "contact": {
+          "assetRole": "owner-contact-link",
+          "label": "DOR@PAMIDORDESIGN.CO",
+          "href": "mailto:dor@pamidordesign.co"
+        }
+      },
+      "motion": {
+        "pattern": "menu-slide",
+        "reducedMotionFallback": "instant-toggle"
+      },
+      "retrievalEligible": false
+    },
+    {
+      "section": "hero.studio-intro",
+      "content": {
+        "eyebrow": "(DOR SHARABY · PAMIDOR STUDIO)",
+        "title": "Studio",
+        "facts": [
+          {
+            "label": "Designing since",
+            "value": "2021"
+          },
+          {
+            "label": "Studio founded",
+            "value": "2023"
+          },
+          {
+            "label": "Based in",
+            "value": "Tel Aviv"
+          },
+          {
+            "label": "Clients",
+            "value": "Israel & worldwide"
+          }
+        ],
+        "question": "Who is Dor Sharaby?",
+        "answer": "I’m Dor Sharaby, a brand and product designer based in Tel Aviv, Israel, and the founder of Pamidor Studio. I’ve been designing professionally since 2021 and opened the studio in 2023."
+      },
+      "motion": {
+        "pattern": "reveal-rise",
+        "reducedMotionFallback": "static-final-state"
+      }
+    },
+    {
+      "section": "narrative.approach-statement",
+      "content": {
+        "statement": "I combine persistence, creative thinking, and attention to detail to solve problems through visual design.",
+        "question": "What makes your approach different?",
+        "answer": "I combine product thinking with a strong background in visual design, branding and art direction, and I enjoy solving complex problems through visual ideas that challenge both how people see and how they feel."
+      },
+      "motion": {
+        "pattern": "scroll-char-wave",
+        "reducedMotionFallback": "fully-lit-static"
+      }
+    },
+    {
+      "section": "narrative.industries",
+      "content": {
+        "sectors": [
+          "Technology & SaaS",
+          "Artificial Intelligence",
+          "Fintech",
+          "Cybersecurity",
+          "AdTech",
+          "Consumer Brands",
+          "Digital Products"
+        ],
+        "question": "Which industries do you work in?",
+        "answer": "I work mostly in technology and SaaS, artificial intelligence, fintech, cybersecurity, adtech, consumer brands and digital products."
+      },
+      "motion": {
+        "pattern": "marquee-loop",
+        "reducedMotionFallback": "static-row"
+      }
+    },
+    {
+      "section": "narrative.process-steps",
+      "content": {
+        "title": "What does working with you look like?",
+        "intro": "Most projects move through five stages, adapted to what each one actually needs. The process is flexible and changes with the kind of project - not every one needs all five stages, and some spend most of their time in just one or two of them.",
+        "steps": [
+          {
+            "index": "01",
+            "title": "Discovery & Research",
+            "body": "Understanding the business, its audience, challenges, and goals."
+          },
+          {
+            "index": "02",
+            "title": "Strategy & Direction",
+            "body": "Defining the creative direction, design approach, and project priorities."
+          },
+          {
+            "index": "03",
+            "title": "Concept & Exploration",
+            "body": "Exploring visual ideas, structures, interactions, and possible solutions."
+          },
+          {
+            "index": "04",
+            "title": "Design & Development",
+            "body": "Turning selected concepts into complete visual identities, interfaces, or digital experiences."
+          },
+          {
+            "index": "05",
+            "title": "Refinement & Delivery",
+            "body": "Testing, refining, and preparing the final design assets for implementation."
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "reveal-rise",
+        "reducedMotionFallback": "static-final-state"
+      }
+    },
+    {
+      "section": "narrative.faq",
+      "content": {
+        "eyebrow": "(Questions)",
+        "items": [
+          {
+            "question": "What do you specialize in?",
+            "answer": "I focus on digital product design, brand identity and visual systems, combining UX/UI with strong visual direction."
+          },
+          {
+            "question": "Do you work with startups?",
+            "answer": "Yes - I work with early-stage startups, growing companies and established brands, and also with independent clients."
+          },
+          {
+            "question": "Do you work internationally?",
+            "answer": "Yes - I’m based in Tel Aviv and work with clients both in Israel and around the world."
+          },
+          {
+            "question": "Can you handle both branding and product design?",
+            "answer": "Yes - I can develop a visual identity and carry its design language into digital products and interfaces."
+          },
+          {
+            "question": "Do you offer 3D and motion design?",
+            "answer": "Yes - I use 3D, motion and digital illustration when they add value to the project, not as decoration laid on top of it."
+          },
+          {
+            "question": "How do projects usually start?",
+            "answer": "With a conversation about the idea, the challenges, the scope and what needs to be achieved."
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "accordion-height",
+        "reducedMotionFallback": "instant-toggle"
+      }
+    },
+    {
+      "section": "conversion.studio-cta",
+      "content": {
+        "headlineLines": [
+          "LET’S WORK",
+          "TOGETHER"
+        ],
+        "button": {
+          "label": "Start Project",
+          "href": "/#start-project"
+        },
+        "contact": {
+          "assetRole": "owner-contact-link",
+          "label": "dor@pamidordesign.co",
+          "href": "mailto:dor@pamidordesign.co"
+        }
+      },
+      "motion": {
+        "pattern": "reveal-rise",
+        "reducedMotionFallback": "static-final-state"
+      }
+    },
+    {
+      "section": "shell.footer",
+      "content": {
+        "wordmark": {
+          "assetRole": "source-wordmark",
+          "alt": "Pamidor.Studio®",
+          "src": "/images/wordmark-pamidor-studio.svg"
+        },
+        "motto": "Somewhere between structure and instinct.",
+        "contact": {
+          "assetRole": "owner-contact-link",
+          "label": "DOR@PAMIDORDESIGN.CO",
+          "href": "mailto:dor@pamidordesign.co"
+        },
+        "legalLinks": [
+          {
+            "label": "PRIVACY",
+            "href": "/privacy"
+          },
+          {
+            "label": "TERMS",
+            "href": "/terms"
+          }
+        ],
+        "socials": [
+          {
+            "label": "Instagram",
+            "href": "https://www.instagram.com/pamidor_design/"
+          },
+          {
+            "label": "LinkedIn",
+            "href": "https://www.linkedin.com/in/dor-sharaby/"
+          },
+          {
+            "label": "Dribbble",
+            "href": "https://dribbble.com/pamidordesign69"
+          },
+          {
+            "label": "Pinterest",
+            "href": "https://www.pinterest.com/PamidorDesign/"
+          },
+          {
+            "label": "TikTok",
+            "href": "https://www.tiktok.com/@dorsharaby"
+          }
+        ],
+        "copyright": "© 2026 Pamidor Studio. All rights reserved.",
+        "credit": "Designed and built at Pamidor Studio by Dor Sharaby."
+      },
+      "motion": {
+        "pattern": "clip-reveal",
+        "reducedMotionFallback": "static-final-state"
+      }
+    },
+    {
+      "section": "shell.awwwards-badge",
+      "content": {
+        "badge": {
+          "assetRole": "award-badge",
+          "alt": "Nominee on Awwwards"
+        }
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      },
+      "retrievalEligible": false
+    },
+    {
+      "section": "overlay.cookie-notice",
+      "content": {
+        "body": "Analytics only - a count of visits and which work gets read. No ads, nothing sold.",
+        "policyLink": {
+          "label": "Cookie policy",
+          "href": "/privacy#cookies"
+        },
+        "accept": "Accept",
+        "decline": "Decline"
+      },
+      "motion": {
+        "pattern": "delayed-slide-in",
+        "reducedMotionFallback": "instant-show"
+      },
+      "retrievalEligible": false
+    },
+    {
+      "section": "overlay.cart-drawer",
+      "content": {
+        "title": "Cart",
+        "closeLabel": "Close cart"
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      },
+      "retrievalEligible": false
+    },
+    {
+      "section": "overlay.route-curtain",
+      "content": {},
+      "motion": {
+        "pattern": "route-curtain",
+        "reducedMotionFallback": "instant-swap"
+      },
+      "retrievalEligible": false
+    },
+    {
+      "section": "shell.custom-cursor",
+      "content": {
+        "cursor": {
+          "assetRole": "custom-cursor-image",
+          "alt": "",
+          "src": "/icons/cursor-28.png"
+        }
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      },
+      "retrievalEligible": false
+    }
+  ]
+}

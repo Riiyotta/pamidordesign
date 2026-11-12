@@ -1,0 +1,136 @@
+{
+  "id": "commerce.more-from-shop",
+  "title": "More from the shop",
+  "contractVersion": "1.0.0",
+  "source": {
+    "id": "src.commerce-more-from-shop",
+    "file": "src/pages/ShopRedSeries01.jsx",
+    "tag": "<section",
+    "lines": "188-272",
+    "citation": "cite.shop.more"
+  },
+  "semantic": {
+    "id": "commerce.more-from-shop",
+    "category": "COMMERCE",
+    "purpose": "Cross-sell row: heading, view-all link and three other product cards."
+  },
+  "retrievalEligible": true,
+  "templates": [
+    "product-detail"
+  ],
+  "content": {
+    "fields": {
+      "title": {
+        "type": "text",
+        "required": true,
+        "maxWords": 4,
+        "evidence": "measured:fieldProfiles.commerce.more-from-shop.h2.maxWords"
+      },
+      "viewAll": {
+        "type": "link",
+        "required": true,
+        "maxWords": 2,
+        "evidence": "cite.shop.more"
+      },
+      "products": {
+        "type": "list",
+        "required": true,
+        "minItems": 1,
+        "items": {
+          "category": {
+            "type": "text",
+            "required": true,
+            "maxWords": 1,
+            "evidence": "cite.shop.card"
+          },
+          "flag": {
+            "type": "text",
+            "required": false,
+            "maxWords": 2,
+            "evidence": "cite.shop.products"
+          },
+          "title": {
+            "type": "text",
+            "required": true,
+            "maxWords": 3,
+            "evidence": "cite.shop.card"
+          },
+          "price": {
+            "type": "text",
+            "required": true,
+            "maxWords": 1,
+            "evidence": "cite.shop.card"
+          },
+          "edition": {
+            "type": "text",
+            "required": true,
+            "maxWords": 6,
+            "evidence": "cite.shop.card"
+          },
+          "image": {
+            "type": "media",
+            "required": true,
+            "maxWords": 6,
+            "evidence": "cite.case.chapter",
+            "assetRoles": {
+              "reference": [
+                "owner-artwork"
+              ],
+              "generated": [
+                "generated-artwork-visual"
+              ]
+            }
+          },
+          "href": {
+            "type": "link",
+            "required": true,
+            "maxWords": 3,
+            "evidence": "cite.shop.card"
+          }
+        },
+        "maxItems": 3,
+        "evidence": "cite.shop.more"
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true,
+    "mustBeLastContent": true
+  },
+  "layout": {
+    "position": "in-flow",
+    "surfaceTokens": [
+      "surface.page"
+    ],
+    "height": "min 100svh; 900px at 1440 (measured)"
+  },
+  "responsive": {
+    "breakpoints": [
+      "breakpoint.sm"
+    ],
+    "changes": [
+      {
+        "at": "breakpoint.sm",
+        "property": "columns",
+        "below": "1",
+        "atOrAbove": "2, then 3 at lg",
+        "evidence": "cite.rwd.shop-grid"
+      }
+    ]
+  },
+  "motion": {
+    "allowedPatterns": [
+      "reveal-rise",
+      "none"
+    ],
+    "default": "reveal-rise"
+  },
+  "assetRoles": [
+    "owner-artwork"
+  ],
+  "generatedAssetRoles": [
+    "generated-artwork-visual",
+    "original-copy"
+  ],
+  "measuredInstances": 5
+}

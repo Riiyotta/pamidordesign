@@ -1,0 +1,244 @@
+{
+  "pageSpecVersion": "1.0.0",
+  "mode": "generated",
+  "template": "product-detail",
+  "route": "/shop/gull-study",
+  "meta": {
+    "title": "Gull Study - Larkspur Atelier (sample)"
+  },
+  "nodes": [
+    {
+      "section": "shell.skip-link",
+      "content": {
+        "label": "Go to content"
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      },
+      "retrievalEligible": false
+    },
+    {
+      "section": "shell.primary-nav",
+      "variant": "sticky-bar",
+      "content": {
+        "wordmark": {
+          "assetRole": "placeholder-brand-mark",
+          "alt": "Larkspur Atelier"
+        },
+        "menuLabel": "Menu"
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      }
+    },
+    {
+      "section": "overlay.menu-panel",
+      "content": {
+        "items": [
+          {
+            "label": "Index",
+            "href": "/"
+          },
+          {
+            "label": "About",
+            "href": "/about"
+          },
+          {
+            "label": "Projects",
+            "href": "/#work"
+          },
+          {
+            "label": "Sketchbook",
+            "href": "/sketchbook"
+          }
+        ],
+        "contact": {
+          "assetRole": "placeholder-url",
+          "label": "hello@larkspur.example",
+          "href": "mailto:hello@larkspur.example"
+        }
+      },
+      "motion": {
+        "pattern": "menu-slide",
+        "reducedMotionFallback": "instant-toggle"
+      },
+      "retrievalEligible": false
+    },
+    {
+      "section": "hero.product-detail",
+      "content": {
+        "backLink": {
+          "label": "All prints",
+          "href": "/shop"
+        },
+        "images": [
+          {
+            "assetRole": "generated-artwork-visual",
+            "alt": "Gull Study, two-colour risograph",
+            "src": "https://media.larkspur.example/gull-study.webp"
+          }
+        ],
+        "editionChip": "RISOGRAPH · RUN OF 30",
+        "title": "Gull Study",
+        "price": "€40",
+        "shippingNote": "Posted flat within a week",
+        "description": "A two-colour risograph of a gull on a harbour post, drawn on site and printed in a run of thirty.",
+        "specs": [
+          {
+            "label": "SIZE",
+            "value": "A3"
+          },
+          {
+            "label": "PAPER",
+            "value": "Recycled 120g"
+          }
+        ],
+        "buyLabel": "Add to basket",
+        "askLabel": "Ask about it",
+        "trustNote": "Sample checkout, nothing is charged",
+        "soldOut": false
+      },
+      "motion": {
+        "pattern": "page-enter",
+        "reducedMotionFallback": "static-final-state"
+      }
+    },
+    {
+      "section": "commerce.more-from-shop",
+      "content": {
+        "title": "Other prints",
+        "viewAll": {
+          "label": "See all",
+          "href": "/shop"
+        },
+        "products": [
+          {
+            "category": "PRINT",
+            "title": "Bench No. 4",
+            "price": "€40",
+            "edition": "Risograph · run of 30",
+            "image": {
+              "assetRole": "generated-artwork-visual",
+              "alt": "Bench No. 4",
+              "src": "https://media.larkspur.example/bench-4.webp"
+            },
+            "href": {
+              "label": "Bench No. 4",
+              "href": "/shop/bench-4"
+            }
+          },
+          {
+            "category": "POSTER",
+            "title": "Night Ferry",
+            "price": "€55",
+            "edition": "Risograph · run of 30",
+            "image": {
+              "assetRole": "generated-artwork-visual",
+              "alt": "Night Ferry",
+              "src": "https://media.larkspur.example/night-ferry.webp"
+            },
+            "href": {
+              "label": "Night Ferry",
+              "href": "/shop/night-ferry"
+            }
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "reveal-rise",
+        "reducedMotionFallback": "static-final-state"
+      }
+    },
+    {
+      "section": "shell.footer",
+      "content": {
+        "wordmark": {
+          "assetRole": "placeholder-brand-mark",
+          "alt": "Larkspur Atelier"
+        },
+        "motto": "Careful systems, loose sketches.",
+        "contact": {
+          "assetRole": "placeholder-url",
+          "label": "hello@larkspur.example",
+          "href": "mailto:hello@larkspur.example"
+        },
+        "legalLinks": [
+          {
+            "label": "Privacy",
+            "href": "/privacy"
+          },
+          {
+            "label": "Terms",
+            "href": "/terms"
+          }
+        ],
+        "socials": [
+          {
+            "label": "Journal",
+            "href": "https://journal.larkspur.example/"
+          }
+        ],
+        "copyright": "© 2031 Larkspur Atelier (fictional).",
+        "credit": "Sample page composed from a design system."
+      },
+      "motion": {
+        "pattern": "clip-reveal",
+        "reducedMotionFallback": "static-final-state"
+      }
+    },
+    {
+      "section": "overlay.cookie-notice",
+      "content": {
+        "body": "This sample page stores one preference and runs no trackers.",
+        "policyLink": {
+          "label": "Read more",
+          "href": "/privacy"
+        },
+        "accept": "Okay",
+        "decline": "No"
+      },
+      "motion": {
+        "pattern": "delayed-slide-in",
+        "reducedMotionFallback": "instant-show"
+      },
+      "retrievalEligible": false
+    },
+    {
+      "section": "overlay.cart-drawer",
+      "content": {
+        "title": "Basket",
+        "closeLabel": "Close"
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      },
+      "retrievalEligible": false
+    },
+    {
+      "section": "overlay.route-curtain",
+      "content": {},
+      "motion": {
+        "pattern": "route-curtain",
+        "reducedMotionFallback": "instant-swap"
+      },
+      "retrievalEligible": false
+    },
+    {
+      "section": "shell.custom-cursor",
+      "content": {
+        "cursor": {
+          "assetRole": "ui-icon-glyph",
+          "alt": ""
+        }
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      },
+      "retrievalEligible": false
+    }
+  ]
+}

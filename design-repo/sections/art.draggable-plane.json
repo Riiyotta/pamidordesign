@@ -1,0 +1,96 @@
+{
+  "id": "art.draggable-plane",
+  "title": "Art Lab draggable plane",
+  "contractVersion": "1.0.0",
+  "source": {
+    "id": "src.art-draggable-plane",
+    "file": "src/pages/ArtLab.jsx",
+    "tag": "<main",
+    "lines": "7-46",
+    "citation": "cite.artlab.main"
+  },
+  "semantic": {
+    "id": "art.draggable-plane",
+    "category": "ART",
+    "purpose": "Full-viewport infinite plane of artworks in colour-ordered justified rows: drag with inertia, wheel and arrow-key panning, and a cursor lens that scales and tilts nearby tiles. Visually hidden title and description."
+  },
+  "retrievalEligible": true,
+  "templates": [
+    "art-lab"
+  ],
+  "content": {
+    "fields": {
+      "srTitle": {
+        "type": "text",
+        "required": true,
+        "maxWords": 3,
+        "evidence": "measured:fieldProfiles.art.draggable-plane.h1.maxWords"
+      },
+      "srDescription": {
+        "type": "text",
+        "required": true,
+        "maxWords": 40,
+        "evidence": "cite.artlab.main"
+      },
+      "artworks": {
+        "type": "list",
+        "required": true,
+        "minItems": 12,
+        "items": {
+          "type": "media",
+          "required": true,
+          "maxWords": 8,
+          "evidence": "cite.case.chapter",
+          "assetRoles": {
+            "reference": [
+              "owner-artwork"
+            ],
+            "generated": [
+              "generated-artwork-visual"
+            ]
+          }
+        },
+        "maxItems": 200,
+        "evidence": "cite.artlab.main"
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true
+  },
+  "layout": {
+    "position": "fixed",
+    "surfaceTokens": [
+      "surface.page"
+    ],
+    "height": "100dvh fixed (900px at 1440)"
+  },
+  "responsive": {
+    "breakpoints": [
+      "breakpoint.sm"
+    ],
+    "changes": [
+      {
+        "at": "breakpoint.sm",
+        "property": "row height",
+        "below": "1.4 * max(0.55, vw/1440) * --px scaled",
+        "atOrAbove": "same formula",
+        "evidence": "cite.artlab.plane"
+      }
+    ]
+  },
+  "motion": {
+    "allowedPatterns": [
+      "plane-inertia"
+    ],
+    "default": "plane-inertia"
+  },
+  "assetRoles": [
+    "owner-artwork"
+  ],
+  "generatedAssetRoles": [
+    "generated-artwork-visual",
+    "original-copy"
+  ],
+  "measuredInstances": 1
+}

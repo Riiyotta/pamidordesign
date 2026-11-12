@@ -1,0 +1,88 @@
+{
+  "id": "overlay.intro-loader",
+  "title": "Intro loader",
+  "contractVersion": "1.0.0",
+  "source": {
+    "id": "src.overlay-intro-loader",
+    "file": "src/sections/home/HomeTop4.jsx",
+    "tag": "export default",
+    "lines": "40-40",
+    "citation": "cite.overlay.loader"
+  },
+  "semantic": {
+    "id": "overlay.intro-loader",
+    "category": "OVERLAY",
+    "purpose": "Full-screen canvas loader spelling the studio name letter by letter with a centre image chip cycling artworks; short on repeat visits."
+  },
+  "retrievalEligible": false,
+  "retrievalIneligibleReason": "Preloader overlay shown only during the first seconds of the home route; transient runtime UI.",
+  "templates": [
+    "home"
+  ],
+  "content": {
+    "fields": {
+      "letters": {
+        "type": "text",
+        "required": true,
+        "maxWords": 1,
+        "evidence": "cite.overlay.loader"
+      },
+      "images": {
+        "type": "list",
+        "required": true,
+        "minItems": 1,
+        "items": {
+          "type": "media",
+          "required": true,
+          "maxWords": 1,
+          "evidence": "cite.case.chapter",
+          "assetRoles": {
+            "reference": [
+              "owner-artwork"
+            ],
+            "generated": [
+              "generated-artwork-visual"
+            ]
+          }
+        },
+        "maxItems": 9,
+        "evidence": "cite.overlay.loader-cycle"
+      }
+    }
+  },
+  "constraints": {},
+  "layout": {
+    "position": "fixed",
+    "surfaceTokens": [
+      "surface.page"
+    ],
+    "height": "100vh fixed overlay"
+  },
+  "responsive": {
+    "breakpoints": [
+      "breakpoint.sm"
+    ],
+    "changes": [
+      {
+        "at": "breakpoint.sm",
+        "property": "layout",
+        "below": "centred letters + chip",
+        "atOrAbove": "same, scaled by --px",
+        "evidence": "cite.overlay.loader"
+      }
+    ]
+  },
+  "motion": {
+    "allowedPatterns": [
+      "intro-sequence"
+    ],
+    "default": "intro-sequence"
+  },
+  "assetRoles": [
+    "owner-artwork"
+  ],
+  "generatedAssetRoles": [
+    "generated-artwork-visual",
+    "original-copy"
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "id": "legal.clause",
+  "title": "Legal clause",
+  "contractVersion": "1.0.0",
+  "source": {
+    "id": "src.legal-clause",
+    "file": "src/pages/Privacy.jsx",
+    "tag": "<section",
+    "lines": "115-135",
+    "citation": "cite.legal.clause"
+  },
+  "semantic": {
+    "id": "legal.clause",
+    "category": "LEGAL",
+    "purpose": "One heading-bounded policy clause: parenthesised uppercase label and its paragraphs (optionally a small table or a reset button)."
+  },
+  "retrievalEligible": true,
+  "templates": [
+    "legal"
+  ],
+  "content": {
+    "fields": {
+      "label": {
+        "type": "text",
+        "required": true,
+        "maxWords": 4,
+        "evidence": "measured:fieldProfiles.legal.clause.h2.maxWords"
+      },
+      "paragraphs": {
+        "type": "list",
+        "required": true,
+        "minItems": 1,
+        "items": {
+          "type": "text",
+          "required": true,
+          "maxWords": 111,
+          "evidence": "measured:fieldProfiles.legal.clause.p.maxWords"
+        },
+        "maxItems": 4,
+        "evidence": "measured:fieldProfiles.legal.clause.p.maxCount"
+      },
+      "action": {
+        "type": "text",
+        "required": false,
+        "maxWords": 3,
+        "evidence": "cite.legal.clause"
+      }
+    }
+  },
+  "constraints": {},
+  "layout": {
+    "position": "in-flow",
+    "surfaceTokens": [
+      "surface.page"
+    ],
+    "height": "114-571px at 1440 (measured, 16 clauses)"
+  },
+  "responsive": {
+    "breakpoints": [
+      "breakpoint.lg"
+    ],
+    "changes": [
+      {
+        "at": "breakpoint.lg",
+        "property": "layout",
+        "below": "label above body",
+        "atOrAbove": "5-col grid: label 2 cols, body 3 cols",
+        "evidence": "cite.rwd.legal-cols"
+      }
+    ]
+  },
+  "motion": {
+    "allowedPatterns": [
+      "none"
+    ],
+    "default": "none"
+  },
+  "assetRoles": [],
+  "generatedAssetRoles": [
+    "original-copy"
+  ],
+  "instances": [
+    "cite.legal.clause-terms"
+  ],
+  "measuredInstances": 16
+}

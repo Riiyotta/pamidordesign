@@ -1,0 +1,355 @@
+{
+  "pageSpecVersion": "1.0.0",
+  "mode": "generated",
+  "template": "case-study",
+  "route": "/work/tidewell",
+  "meta": {
+    "title": "Tidewell - sample project (fictional)"
+  },
+  "nodes": [
+    {
+      "section": "shell.skip-link",
+      "content": {
+        "label": "Go to content"
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      },
+      "retrievalEligible": false
+    },
+    {
+      "section": "shell.primary-nav",
+      "variant": "sticky-bar",
+      "content": {
+        "wordmark": {
+          "assetRole": "placeholder-brand-mark",
+          "alt": "Larkspur Atelier"
+        },
+        "menuLabel": "Menu"
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      }
+    },
+    {
+      "section": "overlay.menu-panel",
+      "content": {
+        "items": [
+          {
+            "label": "Index",
+            "href": "/"
+          },
+          {
+            "label": "About",
+            "href": "/about"
+          },
+          {
+            "label": "Projects",
+            "href": "/#work"
+          },
+          {
+            "label": "Sketchbook",
+            "href": "/sketchbook"
+          }
+        ],
+        "contact": {
+          "assetRole": "placeholder-url",
+          "label": "hello@larkspur.example",
+          "href": "mailto:hello@larkspur.example"
+        }
+      },
+      "motion": {
+        "pattern": "menu-slide",
+        "reducedMotionFallback": "instant-toggle"
+      },
+      "retrievalEligible": false
+    },
+    {
+      "section": "hero.case-header",
+      "content": {
+        "eyebrow": "(PROJECT · 01)",
+        "title": "TIDEWELL",
+        "disciplines": [
+          "Interfaces",
+          "Identity"
+        ],
+        "summary": "Tidewell is a fictional freight dispatcher used for this sample. Its operators juggled radio calls and spreadsheets; the project gave them one screen that shows every truck, every delay and who owns it.",
+        "leadMedia": {
+          "assetRole": "generated-project-media",
+          "alt": "Sample dispatcher dashboard",
+          "src": "https://media.larkspur.example/tidewell-lead.webp"
+        },
+        "meta": [
+          {
+            "label": "SCOPE",
+            "value": "App and identity"
+          },
+          {
+            "label": "LENGTH",
+            "value": "Five months"
+          },
+          {
+            "label": "YEAR",
+            "value": "2031"
+          },
+          {
+            "label": "CREW",
+            "value": "Embedded"
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "page-enter",
+        "reducedMotionFallback": "static-final-state"
+      }
+    },
+    {
+      "section": "work.case-role",
+      "content": {
+        "eyebrow": "(OUR PART)",
+        "points": [
+          "Mapped the dispatch desk with the night shift.",
+          "Designed the board, the alerts and the handover view."
+        ]
+      },
+      "motion": {
+        "pattern": "reveal-rise",
+        "reducedMotionFallback": "static-final-state"
+      }
+    },
+    {
+      "section": "work.case-process",
+      "content": {
+        "title": "Method",
+        "steps": [
+          {
+            "index": "01",
+            "title": "Shadowing",
+            "body": "Two nights at the desk, notes on every interruption."
+          },
+          {
+            "index": "02",
+            "title": "Paper board",
+            "body": "A wall of cards tested before any screen existed."
+          },
+          {
+            "index": "03",
+            "title": "Pilot",
+            "body": "One depot, four weeks, daily fixes."
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "reveal-rise",
+        "reducedMotionFallback": "static-final-state"
+      }
+    },
+    {
+      "section": "work.case-chapter",
+      "variant": "part-opener",
+      "content": {
+        "partLabel": "(PART 01)",
+        "partTitle": "The board",
+        "partIntro": "Everything starts from one wall of moving cards.",
+        "eyebrow": "(VIEW 01)",
+        "title": "Live board",
+        "intro": "Each truck is a card; colour only marks a problem, never decoration.",
+        "stats": [
+          {
+            "value": "38",
+            "caption": "trucks on one screen"
+          },
+          {
+            "value": "4",
+            "caption": "alert levels"
+          }
+        ],
+        "media": [
+          {
+            "kind": "image",
+            "asset": {
+              "assetRole": "generated-project-media",
+              "alt": "Sample board view",
+              "src": "https://media.larkspur.example/board.webp"
+            }
+          }
+        ],
+        "demo": "dashboard-finder"
+      },
+      "motion": {
+        "pattern": "count-up",
+        "reducedMotionFallback": "final-value"
+      }
+    },
+    {
+      "section": "work.case-chapter",
+      "variant": "chapter",
+      "content": {
+        "title": "Handover",
+        "intro": "Shift change became a single printed page instead of a phone call.",
+        "media": [
+          {
+            "kind": "image",
+            "asset": {
+              "assetRole": "generated-project-media",
+              "alt": "Sample handover sheet",
+              "src": "https://media.larkspur.example/handover.webp"
+            }
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "reveal-rise",
+        "reducedMotionFallback": "static-final-state"
+      }
+    },
+    {
+      "section": "work.case-chapter",
+      "variant": "chapter",
+      "content": {
+        "title": "Identity",
+        "intro": "A plain wordmark and a tide-line motif that survives fax and phone screens alike.",
+        "media": [
+          {
+            "kind": "board-gallery",
+            "asset": {
+              "assetRole": "generated-project-media",
+              "alt": "Sample identity board",
+              "src": "https://media.larkspur.example/identity.webp"
+            }
+          },
+          {
+            "kind": "video",
+            "asset": {
+              "assetRole": "generated-project-media",
+              "alt": "Sample motion study",
+              "src": "https://media.larkspur.example/motion.webp"
+            }
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "inview-video",
+        "reducedMotionFallback": "poster-frame"
+      }
+    },
+    {
+      "section": "work.next-project",
+      "content": {
+        "eyebrow": "Up next",
+        "project": {
+          "label": "HOLLOW PINE",
+          "href": "/work/hollow-pine"
+        }
+      },
+      "motion": {
+        "pattern": "char-sweep",
+        "reducedMotionFallback": "static-label"
+      }
+    },
+    {
+      "section": "shell.footer",
+      "content": {
+        "wordmark": {
+          "assetRole": "placeholder-brand-mark",
+          "alt": "Larkspur Atelier"
+        },
+        "motto": "Careful systems, loose sketches.",
+        "contact": {
+          "assetRole": "placeholder-url",
+          "label": "hello@larkspur.example",
+          "href": "mailto:hello@larkspur.example"
+        },
+        "legalLinks": [
+          {
+            "label": "Privacy",
+            "href": "/privacy"
+          },
+          {
+            "label": "Terms",
+            "href": "/terms"
+          }
+        ],
+        "socials": [
+          {
+            "label": "Journal",
+            "href": "https://journal.larkspur.example/"
+          }
+        ],
+        "copyright": "© 2031 Larkspur Atelier (fictional).",
+        "credit": "Sample page composed from a design system."
+      },
+      "motion": {
+        "pattern": "clip-reveal",
+        "reducedMotionFallback": "static-final-state"
+      }
+    },
+    {
+      "section": "overlay.cookie-notice",
+      "content": {
+        "body": "This sample page stores one preference and runs no trackers.",
+        "policyLink": {
+          "label": "Read more",
+          "href": "/privacy"
+        },
+        "accept": "Okay",
+        "decline": "No"
+      },
+      "motion": {
+        "pattern": "delayed-slide-in",
+        "reducedMotionFallback": "instant-show"
+      },
+      "retrievalEligible": false
+    },
+    {
+      "section": "overlay.cart-drawer",
+      "content": {
+        "title": "Basket",
+        "closeLabel": "Close"
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      },
+      "retrievalEligible": false
+    },
+    {
+      "section": "overlay.board-lightbox",
+      "content": {
+        "closeLabel": "Close",
+        "prevLabel": "Back",
+        "nextLabel": "Forward"
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      },
+      "retrievalEligible": false
+    },
+    {
+      "section": "overlay.route-curtain",
+      "content": {},
+      "motion": {
+        "pattern": "route-curtain",
+        "reducedMotionFallback": "instant-swap"
+      },
+      "retrievalEligible": false
+    },
+    {
+      "section": "shell.custom-cursor",
+      "content": {
+        "cursor": {
+          "assetRole": "ui-icon-glyph",
+          "alt": ""
+        }
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      },
+      "retrievalEligible": false
+    }
+  ]
+}

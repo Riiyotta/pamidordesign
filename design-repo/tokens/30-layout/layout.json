@@ -1,0 +1,22 @@
+{
+  "layout": {
+    "canvas-max": {
+      "$type": "dimension",
+      "$value": "calc(1440 * var(--px))",
+      "evidence": "cite.css.max-canvas",
+      "note": "max-w-canvas"
+    },
+    "columns": {
+      "$type": "number",
+      "$value": "5",
+      "evidence": "cite.rwd.grid5",
+      "note": "editorial grid at breakpoint.lg (label 2 / body 3)"
+    },
+    "nav-height": {
+      "$type": "dimension",
+      "$value": "72px",
+      "evidence": "cite.rwd.nav-pad",
+      "note": "measured sticky bar height at 1440"
+    }
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "id": "conversion.drops-signup",
+  "title": "Drops signup",
+  "contractVersion": "1.0.0",
+  "source": {
+    "id": "src.conversion-drops-signup",
+    "file": "src/components/shop/DropsForm.jsx",
+    "tag": "<section",
+    "lines": "33-80",
+    "citation": "cite.shop.drops"
+  },
+  "semantic": {
+    "id": "conversion.drops-signup",
+    "category": "CONVERSION",
+    "purpose": "Centred e-mail signup for new shop drops: eyebrow, headline, one-line promise, email field + submit, privacy note; idle / invalid / sending / done / failed states."
+  },
+  "retrievalEligible": true,
+  "templates": [
+    "shop-index"
+  ],
+  "content": {
+    "fields": {
+      "eyebrow": {
+        "type": "text",
+        "required": true,
+        "maxWords": 13,
+        "evidence": "measured:fieldProfiles.conversion.drops-signup.eyebrow.maxWords"
+      },
+      "title": {
+        "type": "text",
+        "required": true,
+        "maxWords": 7,
+        "evidence": "measured:fieldProfiles.conversion.drops-signup.h2.maxWords"
+      },
+      "promise": {
+        "type": "text",
+        "required": true,
+        "maxWords": 8,
+        "evidence": "cite.shop.drops"
+      },
+      "placeholder": {
+        "type": "text",
+        "required": true,
+        "maxWords": 1,
+        "evidence": "cite.shop.drops"
+      },
+      "submitLabel": {
+        "type": "text",
+        "required": true,
+        "maxWords": 2,
+        "evidence": "cite.shop.drops"
+      },
+      "privacyNote": {
+        "type": "text",
+        "required": true,
+        "maxWords": 13,
+        "evidence": "measured:fieldProfiles.conversion.drops-signup.p.maxWords"
+      },
+      "endpoint": {
+        "type": "endpoint",
+        "required": true,
+        "evidence": "cite.forms.endpoints"
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true,
+    "mustBeLastContent": true
+  },
+  "layout": {
+    "position": "in-flow",
+    "surfaceTokens": [
+      "surface.page"
+    ],
+    "height": "min 100svh; 900px at 1440 (measured)"
+  },
+  "responsive": {
+    "breakpoints": [
+      "breakpoint.sm"
+    ],
+    "changes": [
+      {
+        "at": "breakpoint.sm",
+        "property": "field row",
+        "below": "stacked",
+        "atOrAbove": "inline field + button",
+        "evidence": "cite.rwd.drops-row"
+      }
+    ]
+  },
+  "motion": {
+    "allowedPatterns": [
+      "char-sweep",
+      "none"
+    ],
+    "default": "char-sweep"
+  },
+  "assetRoles": [
+    "source-endpoint"
+  ],
+  "generatedAssetRoles": [
+    "original-copy",
+    "placeholder-endpoint"
+  ],
+  "measuredInstances": 1
+}

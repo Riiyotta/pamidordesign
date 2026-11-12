@@ -1,0 +1,111 @@
+{
+  "id": "art.lab-teaser",
+  "title": "Art Lab teaser",
+  "contractVersion": "1.0.0",
+  "source": {
+    "id": "src.art-lab-teaser",
+    "file": "src/sections/home/HomeMain4ArtLab.jsx",
+    "tag": "<section",
+    "lines": "3-83",
+    "citation": "cite.home.artlab"
+  },
+  "semantic": {
+    "id": "art.lab-teaser",
+    "category": "ART",
+    "purpose": "Ruled band introducing the personal art practice: title, two image + paragraph cards and two link buttons (into the lab and the shop)."
+  },
+  "retrievalEligible": true,
+  "templates": [
+    "home"
+  ],
+  "content": {
+    "fields": {
+      "title": {
+        "type": "text",
+        "required": true,
+        "maxWords": 3,
+        "evidence": "measured:fieldProfiles.art.lab-teaser.h2.maxWords"
+      },
+      "cards": {
+        "type": "list",
+        "required": true,
+        "minItems": 2,
+        "items": {
+          "image": {
+            "type": "media",
+            "required": true,
+            "maxWords": 7,
+            "evidence": "cite.case.chapter",
+            "assetRoles": {
+              "reference": [
+                "owner-artwork"
+              ],
+              "generated": [
+                "generated-artwork-visual"
+              ]
+            }
+          },
+          "body": {
+            "type": "text",
+            "required": true,
+            "maxWords": 52,
+            "evidence": "measured:fieldProfiles.art.lab-teaser.p.maxWords"
+          }
+        },
+        "maxItems": 2,
+        "evidence": "cite.rwd.artlab-cols"
+      },
+      "actions": {
+        "type": "list",
+        "required": true,
+        "minItems": 1,
+        "items": {
+          "type": "link",
+          "required": true,
+          "maxWords": 3,
+          "evidence": "cite.home.artlab"
+        },
+        "maxItems": 2,
+        "evidence": "cite.home.artlab"
+      }
+    }
+  },
+  "constraints": {},
+  "layout": {
+    "position": "in-flow",
+    "surfaceTokens": [
+      "surface.page"
+    ],
+    "height": "min 100svh; 1216px at 1440 (measured)"
+  },
+  "responsive": {
+    "breakpoints": [
+      "breakpoint.sm"
+    ],
+    "changes": [
+      {
+        "at": "breakpoint.sm",
+        "property": "cards",
+        "below": "1 column",
+        "atOrAbove": "2 columns",
+        "evidence": "cite.rwd.artlab-cols"
+      }
+    ]
+  },
+  "motion": {
+    "allowedPatterns": [
+      "reveal-rise",
+      "char-sweep",
+      "none"
+    ],
+    "default": "reveal-rise"
+  },
+  "assetRoles": [
+    "owner-artwork"
+  ],
+  "generatedAssetRoles": [
+    "generated-artwork-visual",
+    "original-copy"
+  ],
+  "measuredInstances": 1
+}

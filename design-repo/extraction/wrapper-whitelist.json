@@ -1,0 +1,1 @@
+{"whitelistVersion": "1.0.0", "note": "No section currently needs a whitelist entry (see wrapper_gate.py output). Entries need reviewedBy, a >= 30-char justification and a maxHeightPx above the measured height; an agent reviewer must write \"agent attestation, not a human sign-off\".", "entries": []}

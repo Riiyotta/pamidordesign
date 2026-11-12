@@ -1,0 +1,8 @@
+{
+  "id": "primitive.menu-toggle",
+  "description": "Two-line hamburger toggle that rotates into an X.",
+  "evidence": "cite.shell.nav",
+  "overridableProps": [
+    "label"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "primitive.media-frame",
+  "description": "Image or in-view video frame on canvas, square corners.",
+  "evidence": "cite.case.chapter",
+  "overridableProps": [
+    "assetRole",
+    "alt",
+    "aspect"
+  ]
+}

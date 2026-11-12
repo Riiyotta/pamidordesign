@@ -1,0 +1,121 @@
+{
+  "id": "commerce.product-grid",
+  "title": "Product grid",
+  "contractVersion": "1.0.0",
+  "source": {
+    "id": "src.commerce-product-grid",
+    "file": "src/components/shop/ShopListing.jsx",
+    "tag": "<div",
+    "lines": "27-27",
+    "citation": "cite.shop.grid"
+  },
+  "semantic": {
+    "id": "commerce.product-grid",
+    "category": "COMMERCE",
+    "purpose": "Grid of product cards: image, type and availability flags, title, price and edition line."
+  },
+  "retrievalEligible": true,
+  "templates": [
+    "shop-index"
+  ],
+  "content": {
+    "fields": {
+      "products": {
+        "type": "list",
+        "required": true,
+        "minItems": 1,
+        "items": {
+          "category": {
+            "type": "text",
+            "required": true,
+            "maxWords": 1,
+            "evidence": "cite.shop.card"
+          },
+          "flag": {
+            "type": "text",
+            "required": false,
+            "maxWords": 2,
+            "evidence": "cite.shop.products"
+          },
+          "title": {
+            "type": "text",
+            "required": true,
+            "maxWords": 3,
+            "evidence": "measured:fieldProfiles.commerce.product-grid.h2.maxWords"
+          },
+          "price": {
+            "type": "text",
+            "required": true,
+            "maxWords": 1,
+            "evidence": "cite.shop.card"
+          },
+          "edition": {
+            "type": "text",
+            "required": true,
+            "maxWords": 6,
+            "evidence": "cite.shop.card"
+          },
+          "image": {
+            "type": "media",
+            "required": true,
+            "maxWords": 6,
+            "evidence": "cite.case.chapter",
+            "assetRoles": {
+              "reference": [
+                "owner-artwork"
+              ],
+              "generated": [
+                "generated-artwork-visual"
+              ]
+            }
+          },
+          "href": {
+            "type": "link",
+            "required": true,
+            "maxWords": 3,
+            "evidence": "cite.shop.card"
+          }
+        },
+        "maxItems": 12,
+        "evidence": "cite.shop.grid"
+      }
+    }
+  },
+  "constraints": {},
+  "layout": {
+    "position": "in-flow",
+    "surfaceTokens": [
+      "surface.page"
+    ],
+    "height": "1304px at 1440 with 5 cards (measured)"
+  },
+  "responsive": {
+    "breakpoints": [
+      "breakpoint.sm"
+    ],
+    "changes": [
+      {
+        "at": "breakpoint.sm",
+        "property": "columns",
+        "below": "1",
+        "atOrAbove": "2, then 3 at lg",
+        "evidence": "cite.rwd.shop-grid"
+      }
+    ]
+  },
+  "motion": {
+    "allowedPatterns": [
+      "reveal-rise",
+      "none"
+    ],
+    "default": "reveal-rise"
+  },
+  "assetRoles": [
+    "owner-artwork"
+  ],
+  "generatedAssetRoles": [
+    "generated-artwork-visual",
+    "original-copy"
+  ],
+  "measuredInstances": 1
+}

@@ -1,0 +1,74 @@
+{
+  "id": "work.next-project",
+  "title": "Next project link",
+  "contractVersion": "1.0.0",
+  "source": {
+    "id": "src.work-next-project",
+    "file": "src/pages/WorkFigcoms.jsx",
+    "tag": "<section",
+    "lines": "483-502",
+    "citation": "cite.case.next"
+  },
+  "semantic": {
+    "id": "work.next-project",
+    "category": "WORK",
+    "purpose": "Closing ruled link to the following case study (eyebrow + large project name)."
+  },
+  "retrievalEligible": true,
+  "templates": [
+    "case-study"
+  ],
+  "content": {
+    "fields": {
+      "eyebrow": {
+        "type": "text",
+        "required": true,
+        "maxWords": 2,
+        "evidence": "cite.case.next"
+      },
+      "project": {
+        "type": "link",
+        "required": true,
+        "maxWords": 3,
+        "evidence": "cite.case.next"
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true,
+    "mustBeLastContent": true
+  },
+  "layout": {
+    "position": "in-flow",
+    "surfaceTokens": [
+      "surface.page"
+    ],
+    "height": "438px at 1440 (measured)"
+  },
+  "responsive": {
+    "breakpoints": [
+      "breakpoint.lg"
+    ],
+    "changes": [
+      {
+        "at": "breakpoint.lg",
+        "property": "padding",
+        "below": "4rem / 4rem",
+        "atOrAbove": "104px / 120px",
+        "evidence": "cite.case.next"
+      }
+    ]
+  },
+  "motion": {
+    "allowedPatterns": [
+      "char-sweep",
+      "none"
+    ],
+    "default": "char-sweep"
+  },
+  "assetRoles": [],
+  "generatedAssetRoles": [
+    "original-copy"
+  ],
+  "measuredInstances": 4
+}

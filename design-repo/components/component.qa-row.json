@@ -1,0 +1,9 @@
+{
+  "id": "component.qa-row",
+  "description": "Ruled question/answer row on the 5-col grid (label 2 cols, body 3 cols).",
+  "evidence": "cite.rwd.grid5",
+  "overridableProps": [
+    "question",
+    "answer"
+  ]
+}

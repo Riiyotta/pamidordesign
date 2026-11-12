@@ -1,0 +1,87 @@
+{
+  "id": "hero.shop-header",
+  "title": "Shop header",
+  "contractVersion": "1.0.0",
+  "source": {
+    "id": "src.hero-shop-header",
+    "file": "src/pages/Shop.jsx",
+    "tag": "<div",
+    "lines": "103-123",
+    "citation": "cite.shop.header"
+  },
+  "semantic": {
+    "id": "hero.shop-header",
+    "category": "HERO",
+    "purpose": "Shop opener: dot + eyebrow, two-line uppercase title and a short paragraph on signed, numbered pieces, closed by a hairline."
+  },
+  "retrievalEligible": true,
+  "templates": [
+    "shop-index"
+  ],
+  "content": {
+    "fields": {
+      "eyebrow": {
+        "type": "text",
+        "required": true,
+        "maxWords": 2,
+        "evidence": "measured:fieldProfiles.hero.shop-header.eyebrow.maxWords"
+      },
+      "titleLines": {
+        "type": "list",
+        "required": true,
+        "minItems": 1,
+        "items": {
+          "type": "text",
+          "required": true,
+          "maxWords": 2,
+          "evidence": "cite.shop.header"
+        },
+        "maxItems": 2,
+        "evidence": "cite.shop.header"
+      },
+      "intro": {
+        "type": "text",
+        "required": true,
+        "maxWords": 21,
+        "evidence": "measured:fieldProfiles.hero.shop-header.p.maxWords"
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true,
+    "mustBeFirstContent": true
+  },
+  "layout": {
+    "position": "in-flow",
+    "surfaceTokens": [
+      "surface.page"
+    ],
+    "height": "396px at 1440 (measured)"
+  },
+  "responsive": {
+    "breakpoints": [
+      "breakpoint.lg"
+    ],
+    "changes": [
+      {
+        "at": "breakpoint.lg",
+        "property": "title / intro",
+        "below": "stacked",
+        "atOrAbove": "5-col grid: title 3 cols, intro 2 cols",
+        "evidence": "cite.shop.header"
+      }
+    ]
+  },
+  "motion": {
+    "allowedPatterns": [
+      "page-enter",
+      "none"
+    ],
+    "default": "page-enter"
+  },
+  "assetRoles": [],
+  "generatedAssetRoles": [
+    "original-copy"
+  ],
+  "measuredInstances": 1
+}

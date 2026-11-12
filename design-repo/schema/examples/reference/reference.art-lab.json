@@ -1,0 +1,191 @@
+{
+  "pageSpecVersion": "1.0.0",
+  "mode": "reference",
+  "template": "art-lab",
+  "route": "/art-lab",
+  "meta": {
+    "title": "The Art Lab - Pamidor Studio"
+  },
+  "nodes": [
+    {
+      "section": "shell.skip-link",
+      "content": {
+        "label": "Skip to content"
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      },
+      "retrievalEligible": false
+    },
+    {
+      "section": "art.lab-header",
+      "content": {
+        "wordmark": {
+          "assetRole": "source-wordmark",
+          "alt": "PAMIDOR® STUDIO",
+          "src": "/images/wordmark-pamidor-studio.svg"
+        },
+        "cornerLink": {
+          "label": "Figcoms",
+          "href": "/work/figcoms"
+        }
+      },
+      "motion": {
+        "pattern": "char-sweep",
+        "reducedMotionFallback": "static-label"
+      }
+    },
+    {
+      "section": "art.draggable-plane",
+      "content": {
+        "srTitle": "The Art Lab",
+        "srDescription": "164 pieces of personal work by Dor Sharaby - posters, apparel graphics, editorial spreads, 3D studies, packaging and type - arranged by color on one plane you can drag in any direction. Use the arrow keys to move the field.",
+        "artworks": [
+          {
+            "assetRole": "owner-artwork",
+            "alt": "Art Lab artwork",
+            "src": "/art-lab/opt/n-14.webp"
+          },
+          {
+            "assetRole": "owner-artwork",
+            "alt": "Art Lab artwork",
+            "src": "/art-lab/opt/card2.webp"
+          },
+          {
+            "assetRole": "owner-artwork",
+            "alt": "Art Lab artwork",
+            "src": "/art-lab/opt/tee-burst.webp"
+          },
+          {
+            "assetRole": "owner-artwork",
+            "alt": "Art Lab artwork",
+            "src": "/art-lab/opt/q-black-tees.webp"
+          },
+          {
+            "assetRole": "owner-artwork",
+            "alt": "Art Lab artwork",
+            "src": "/art-lab/opt/im26.webp"
+          },
+          {
+            "assetRole": "owner-artwork",
+            "alt": "Art Lab artwork",
+            "src": "/art-lab/opt/card1.webp"
+          },
+          {
+            "assetRole": "owner-artwork",
+            "alt": "Art Lab artwork",
+            "src": "/art-lab/opt/tee-arches.webp"
+          },
+          {
+            "assetRole": "owner-artwork",
+            "alt": "Art Lab artwork",
+            "src": "/art-lab/opt/im04.webp"
+          },
+          {
+            "assetRole": "owner-artwork",
+            "alt": "Art Lab artwork",
+            "src": "/art-lab/opt/tote-plant.webp"
+          },
+          {
+            "assetRole": "owner-artwork",
+            "alt": "Art Lab artwork",
+            "src": "/art-lab/opt/shelf-bw.webp"
+          },
+          {
+            "assetRole": "owner-artwork",
+            "alt": "Art Lab artwork",
+            "src": "/art-lab/opt/im10.webp"
+          },
+          {
+            "assetRole": "owner-artwork",
+            "alt": "Art Lab artwork",
+            "src": "/art-lab/opt/im12.webp"
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "plane-inertia",
+        "reducedMotionFallback": "no-inertia"
+      }
+    },
+    {
+      "section": "overlay.drag-cue",
+      "content": {
+        "label": "(DRAG ANYWHERE)"
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      },
+      "retrievalEligible": false
+    },
+    {
+      "section": "shell.awwwards-badge",
+      "content": {
+        "badge": {
+          "assetRole": "award-badge",
+          "alt": "Nominee on Awwwards"
+        }
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      },
+      "retrievalEligible": false
+    },
+    {
+      "section": "overlay.cookie-notice",
+      "content": {
+        "body": "Analytics only - a count of visits and which work gets read. No ads, nothing sold.",
+        "policyLink": {
+          "label": "Cookie policy",
+          "href": "/privacy#cookies"
+        },
+        "accept": "Accept",
+        "decline": "Decline"
+      },
+      "motion": {
+        "pattern": "delayed-slide-in",
+        "reducedMotionFallback": "instant-show"
+      },
+      "retrievalEligible": false
+    },
+    {
+      "section": "overlay.cart-drawer",
+      "content": {
+        "title": "Cart",
+        "closeLabel": "Close cart"
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      },
+      "retrievalEligible": false
+    },
+    {
+      "section": "overlay.route-curtain",
+      "content": {},
+      "motion": {
+        "pattern": "route-curtain",
+        "reducedMotionFallback": "instant-swap"
+      },
+      "retrievalEligible": false
+    },
+    {
+      "section": "shell.custom-cursor",
+      "content": {
+        "cursor": {
+          "assetRole": "custom-cursor-image",
+          "alt": "",
+          "src": "/icons/cursor-28.png"
+        }
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      },
+      "retrievalEligible": false
+    }
+  ]
+}

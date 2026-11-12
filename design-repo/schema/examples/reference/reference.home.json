@@ -1,0 +1,628 @@
+{
+  "pageSpecVersion": "1.0.0",
+  "mode": "reference",
+  "template": "home",
+  "route": "/",
+  "meta": {
+    "title": "Dor Sharaby | Brand & Product Designer | Pamidor Studio"
+  },
+  "nodes": [
+    {
+      "section": "shell.skip-link",
+      "content": {
+        "label": "Skip to content"
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      },
+      "retrievalEligible": false
+    },
+    {
+      "section": "overlay.intro-loader",
+      "content": {
+        "letters": "PAMIDOR",
+        "images": [
+          {
+            "assetRole": "owner-artwork",
+            "alt": "",
+            "src": "/images/intro/intro-1.png"
+          },
+          {
+            "assetRole": "owner-artwork",
+            "alt": "",
+            "src": "/images/intro/intro-2.png"
+          },
+          {
+            "assetRole": "owner-artwork",
+            "alt": "",
+            "src": "/images/intro/intro-3.png"
+          },
+          {
+            "assetRole": "owner-artwork",
+            "alt": "",
+            "src": "/images/intro/intro-4.png"
+          },
+          {
+            "assetRole": "owner-artwork",
+            "alt": "",
+            "src": "/images/intro/intro-5.png"
+          },
+          {
+            "assetRole": "owner-artwork",
+            "alt": "",
+            "src": "/images/intro/intro-6.png"
+          },
+          {
+            "assetRole": "owner-artwork",
+            "alt": "",
+            "src": "/images/intro/intro-7.png"
+          },
+          {
+            "assetRole": "owner-artwork",
+            "alt": "",
+            "src": "/images/intro/intro-8.png"
+          },
+          {
+            "assetRole": "owner-artwork",
+            "alt": "",
+            "src": "/images/intro/intro-9.png"
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "intro-sequence",
+        "reducedMotionFallback": "skip-intro"
+      },
+      "retrievalEligible": false
+    },
+    {
+      "section": "shell.primary-nav",
+      "variant": "in-hero",
+      "content": {
+        "wordmark": {
+          "assetRole": "source-wordmark",
+          "alt": "PAMIDOR® STUDIO",
+          "src": "/images/wordmark-pamidor-studio-ink.svg"
+        },
+        "menuLabel": "Open menu"
+      },
+      "motion": {
+        "pattern": "hero-3d-entrance",
+        "reducedMotionFallback": "static-final-state"
+      }
+    },
+    {
+      "section": "overlay.menu-panel",
+      "content": {
+        "items": [
+          {
+            "label": "Home",
+            "href": "/"
+          },
+          {
+            "label": "Studio",
+            "href": "/studio"
+          },
+          {
+            "label": "Work",
+            "href": "/#projects"
+          },
+          {
+            "label": "Art Lab",
+            "href": "/art-lab"
+          }
+        ],
+        "contact": {
+          "assetRole": "owner-contact-link",
+          "label": "DOR@PAMIDORDESIGN.CO",
+          "href": "mailto:dor@pamidordesign.co"
+        }
+      },
+      "motion": {
+        "pattern": "menu-slide",
+        "reducedMotionFallback": "instant-toggle"
+      },
+      "retrievalEligible": false
+    },
+    {
+      "section": "hero.home-intro",
+      "content": {
+        "name": "Dor Sharaby",
+        "taglines": [
+          "Brands, products & the art in between.",
+          "I take the fun seriously."
+        ],
+        "disciplines": [
+          "Brand Design",
+          "Product Design",
+          "UX | UI",
+          "Art Direction",
+          "Motion & 3D"
+        ],
+        "portrait": {
+          "assetRole": "owner-portrait-photo",
+          "alt": "Dor Sharaby"
+        },
+        "trail": [
+          {
+            "assetRole": "owner-artwork",
+            "alt": "",
+            "src": "/images/hero-trail/trail-1.webp"
+          },
+          {
+            "assetRole": "owner-artwork",
+            "alt": "",
+            "src": "/images/hero-trail/trail-2.webp"
+          },
+          {
+            "assetRole": "owner-artwork",
+            "alt": "",
+            "src": "/images/hero-trail/trail-3.webp"
+          },
+          {
+            "assetRole": "owner-artwork",
+            "alt": "",
+            "src": "/images/hero-trail/trail-4.webp"
+          },
+          {
+            "assetRole": "owner-artwork",
+            "alt": "",
+            "src": "/images/hero-trail/trail-5.webp"
+          },
+          {
+            "assetRole": "owner-artwork",
+            "alt": "",
+            "src": "/images/hero-trail/trail-6.webp"
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "hero-3d-entrance",
+        "reducedMotionFallback": "static-final-state"
+      },
+      "style": {
+        "surface": "surface.page",
+        "text": "text.primary",
+        "displayFont": "font.display"
+      }
+    },
+    {
+      "section": "narrative.studio-teaser",
+      "content": {
+        "statement": "Hi, I'm Dor - a brand & product designer with a name that sounds like an entrance. I build brands that people remember and products they don't have to think about. Identities, design systems and the interfaces they run on - and when the work needs art direction, motion or 3D, that gets made here too.",
+        "showreel": {
+          "assetRole": "studio-showreel",
+          "alt": "Studio showreel",
+          "src": "/images/studio-showreel-poster.webp"
+        },
+        "clientsLabel": "(CLIENTS & COLLABORATIONS)",
+        "clientLogos": [
+          {
+            "assetRole": "client-logo",
+            "alt": "Rise",
+            "src": "/logos/c1-02.svg"
+          },
+          {
+            "assetRole": "client-logo",
+            "alt": "Gloog",
+            "src": "/logos/c1-03.png"
+          },
+          {
+            "assetRole": "client-logo",
+            "alt": "Kornit Digital",
+            "src": "/logos/c1-05.png"
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "scroll-char-wave",
+        "reducedMotionFallback": "fully-lit-static"
+      }
+    },
+    {
+      "section": "work.projects-list",
+      "content": {
+        "title": "Selected Projects",
+        "projects": [
+          {
+            "name": "Rise",
+            "category": "Product · Client",
+            "href": {
+              "label": "Jump To Project",
+              "href": "/work/rise"
+            },
+            "meta": [
+              {
+                "label": "ROLE",
+                "value": "Brand · Product · Marketing · Motion & 3D"
+              },
+              {
+                "label": "TIMELINE",
+                "value": "17 Months"
+              },
+              {
+                "label": "YEAR",
+                "value": "2025-2026"
+              },
+              {
+                "label": "TEAM",
+                "value": "In-House Studio"
+              }
+            ],
+            "cover": {
+              "assetRole": "client-case-media",
+              "alt": "Rise - Product · Client",
+              "src": "/images/project-rise.png"
+            }
+          },
+          {
+            "name": "Figcoms",
+            "category": "Product · Venture",
+            "href": {
+              "label": "Jump To Project",
+              "href": "/work/figcoms"
+            },
+            "meta": [
+              {
+                "label": "ROLE",
+                "value": "Brand & Product Design"
+              },
+              {
+                "label": "TIMELINE",
+                "value": "4 Months"
+              },
+              {
+                "label": "YEAR",
+                "value": "2025"
+              },
+              {
+                "label": "TEAM",
+                "value": "Co-Founder"
+              }
+            ],
+            "cover": {
+              "assetRole": "client-case-media",
+              "alt": "Figcoms - Product · Venture",
+              "src": "/images/project-figcoms.png"
+            }
+          },
+          {
+            "name": "iMotion",
+            "category": "Brand · Device launch",
+            "href": {
+              "label": "Jump To Project",
+              "href": "/work/imotion"
+            },
+            "meta": [
+              {
+                "label": "ROLE",
+                "value": "Brand & Product Designer"
+              },
+              {
+                "label": "TIMELINE",
+                "value": "3 Months"
+              },
+              {
+                "label": "YEAR",
+                "value": "2025 / 2026"
+              },
+              {
+                "label": "TEAM",
+                "value": "Co-founded studio"
+              }
+            ],
+            "cover": {
+              "assetRole": "client-case-media",
+              "alt": "iMotion - Brand · Device launch",
+              "src": "/images/project-imotion.png"
+            }
+          },
+          {
+            "name": "Israel Police",
+            "category": "Brand · Client",
+            "href": {
+              "label": "Jump To Project",
+              "href": "/work/israel-police"
+            },
+            "meta": [
+              {
+                "label": "ROLE",
+                "value": "Brand Design"
+              },
+              {
+                "label": "TIMELINE",
+                "value": "Ongoing"
+              },
+              {
+                "label": "YEAR",
+                "value": "2026"
+              },
+              {
+                "label": "TEAM",
+                "value": "Israel Police (external)"
+              }
+            ],
+            "cover": {
+              "assetRole": "client-case-media",
+              "alt": "Israel Police - Brand · Client",
+              "src": "/projects/israel-police/border-police/cover.webp"
+            }
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "reveal-rise",
+        "reducedMotionFallback": "static-final-state"
+      }
+    },
+    {
+      "section": "art.lab-teaser",
+      "content": {
+        "title": "The Art Lab",
+        "cards": [
+          {
+            "image": {
+              "assetRole": "owner-artwork",
+              "alt": "Art Lab - personal illustration work"
+            },
+            "body": "Let’s get one thing straight, I don't always play nicely within the lines. Welcome to my creative playground, This space is my unapologetic tribute to pure, unfiltered art. It’s where I completely ditch the grid, smash conventional aesthetics, and let my weirdest, most colorful thoughts run wildly out of control."
+          },
+          {
+            "image": {
+              "assetRole": "owner-artwork",
+              "alt": "Art Lab - paintings and visual experiments"
+            },
+            "body": "Think of this section as a beautiful, chaotic dump of my personal illustrations, bold paintings, and non-stop visual experiments. It’s loud, it’s a little bit rebellious, and it’s driven entirely by raw creative instinct. No logic, no constraints, just pure art making a mess. Care to take a peek inside the madness?"
+          }
+        ],
+        "actions": [
+          {
+            "label": "Enter The Lab",
+            "href": "/art-lab"
+          },
+          {
+            "label": "Art Shop",
+            "href": "/shop"
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "reveal-rise",
+        "reducedMotionFallback": "static-final-state"
+      }
+    },
+    {
+      "section": "services.skillset",
+      "content": {
+        "title": "Skillset",
+        "items": [
+          {
+            "index": "01",
+            "name": "Product Design",
+            "body": "From “we have an idea” to flows, prototypes and systems ready to grow.",
+            "preview": {
+              "assetRole": "client-case-media",
+              "alt": "The iMotion device, controller and companion app",
+              "src": "/projects/imotion/hero.png"
+            }
+          },
+          {
+            "index": "02",
+            "name": "Brand & Art Direction",
+            "body": "Identities with a point of view, built to be recognized, remembered and used.",
+            "preview": {
+              "assetRole": "client-case-media",
+              "alt": "The Rise brand system - palette, logo, shapes and imagery",
+              "src": "/projects/rise/brand-system-preview.jpg"
+            }
+          },
+          {
+            "index": "03",
+            "name": "UX | UI",
+            "body": "Clear interfaces for real behavior, weird edge cases and every screen in between.",
+            "preview": {
+              "assetRole": "client-case-media",
+              "alt": "The Figcoms review board on desktop",
+              "src": "/projects/figcoms/ui-screens.png"
+            }
+          },
+          {
+            "index": "04",
+            "name": "Motion & 3D",
+            "body": "Motion and 3D that explain, elevate and occasionally steal the show.",
+            "preview": {
+              "assetRole": "client-case-media",
+              "alt": "Rise - glass forms from the 3D system",
+              "src": "/projects/rise/motion-3d-preview.jpg"
+            }
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "reveal-rise",
+        "reducedMotionFallback": "static-final-state"
+      },
+      "style": {
+        "surface": "surface.night",
+        "text": "text.on-night",
+        "paddingBlock": "space.section-lg"
+      }
+    },
+    {
+      "section": "conversion.lead-form",
+      "content": {
+        "eyebrow": "(LEAVE YOUR DETAILS)",
+        "title": "OPEN THE DOOR",
+        "directLabel": "Or just write:",
+        "contact": {
+          "assetRole": "owner-contact-link",
+          "label": "dor@pamidordesign.co",
+          "href": "mailto:dor@pamidordesign.co"
+        },
+        "fields": [
+          {
+            "label": "NAME",
+            "placeholder": "Your full name"
+          },
+          {
+            "label": "EMAIL",
+            "placeholder": "name@company.com"
+          },
+          {
+            "label": "PHONE",
+            "placeholder": "+972"
+          },
+          {
+            "label": "REASON"
+          },
+          {
+            "label": "MESSAGE",
+            "placeholder": "A few words"
+          }
+        ],
+        "reasons": [
+          "Freelance project",
+          "Role / Opportunity",
+          "Just saying hi"
+        ],
+        "submitLabel": "Send Details",
+        "privacyNote": "Sent details land in my inbox and nowhere else - privacy policy",
+        "endpoint": {
+          "assetRole": "source-endpoint",
+          "href": "/api/lead"
+        },
+        "backdrop": {
+          "assetRole": "ambient-backdrop-video",
+          "alt": "",
+          "src": "/images/form-sky.webp"
+        }
+      },
+      "motion": {
+        "pattern": "inview-video",
+        "reducedMotionFallback": "poster-frame"
+      }
+    },
+    {
+      "section": "shell.footer",
+      "content": {
+        "wordmark": {
+          "assetRole": "source-wordmark",
+          "alt": "Pamidor.Studio®",
+          "src": "/images/wordmark-pamidor-studio.svg"
+        },
+        "motto": "Somewhere between structure and instinct.",
+        "contact": {
+          "assetRole": "owner-contact-link",
+          "label": "DOR@PAMIDORDESIGN.CO",
+          "href": "mailto:dor@pamidordesign.co"
+        },
+        "legalLinks": [
+          {
+            "label": "PRIVACY",
+            "href": "/privacy"
+          },
+          {
+            "label": "TERMS",
+            "href": "/terms"
+          }
+        ],
+        "socials": [
+          {
+            "label": "Instagram",
+            "href": "https://www.instagram.com/pamidor_design/"
+          },
+          {
+            "label": "LinkedIn",
+            "href": "https://www.linkedin.com/in/dor-sharaby/"
+          },
+          {
+            "label": "Dribbble",
+            "href": "https://dribbble.com/pamidordesign69"
+          },
+          {
+            "label": "Pinterest",
+            "href": "https://www.pinterest.com/PamidorDesign/"
+          },
+          {
+            "label": "TikTok",
+            "href": "https://www.tiktok.com/@dorsharaby"
+          }
+        ],
+        "copyright": "© 2026 Pamidor Studio. All rights reserved.",
+        "credit": "Designed and built at Pamidor Studio by Dor Sharaby."
+      },
+      "motion": {
+        "pattern": "clip-reveal",
+        "reducedMotionFallback": "static-final-state"
+      }
+    },
+    {
+      "section": "shell.awwwards-badge",
+      "content": {
+        "badge": {
+          "assetRole": "award-badge",
+          "alt": "Nominee on Awwwards"
+        }
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      },
+      "retrievalEligible": false
+    },
+    {
+      "section": "overlay.cookie-notice",
+      "content": {
+        "body": "Analytics only - a count of visits and which work gets read. No ads, nothing sold.",
+        "policyLink": {
+          "label": "Cookie policy",
+          "href": "/privacy#cookies"
+        },
+        "accept": "Accept",
+        "decline": "Decline"
+      },
+      "motion": {
+        "pattern": "delayed-slide-in",
+        "reducedMotionFallback": "instant-show"
+      },
+      "retrievalEligible": false
+    },
+    {
+      "section": "overlay.cart-drawer",
+      "content": {
+        "title": "Cart",
+        "closeLabel": "Close cart"
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      },
+      "retrievalEligible": false
+    },
+    {
+      "section": "overlay.route-curtain",
+      "content": {},
+      "motion": {
+        "pattern": "route-curtain",
+        "reducedMotionFallback": "instant-swap"
+      },
+      "retrievalEligible": false
+    },
+    {
+      "section": "shell.custom-cursor",
+      "content": {
+        "cursor": {
+          "assetRole": "custom-cursor-image",
+          "alt": "",
+          "src": "/icons/cursor-28.png"
+        }
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      },
+      "retrievalEligible": false
+    }
+  ]
+}

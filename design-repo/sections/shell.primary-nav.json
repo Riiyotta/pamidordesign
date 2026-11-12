@@ -1,0 +1,107 @@
+{
+  "id": "shell.primary-nav",
+  "title": "Primary navigation bar",
+  "contractVersion": "1.0.0",
+  "source": {
+    "id": "src.shell-primary-nav",
+    "file": "src/pages/Studio.jsx",
+    "tag": "<nav",
+    "lines": "36-44",
+    "citation": "cite.shell.nav"
+  },
+  "semantic": {
+    "id": "shell.primary-nav",
+    "category": "SHELL",
+    "purpose": "Top bar with the wordmark linking home and a two-line menu toggle; sticky on interior routes, part of the hero composition on home."
+  },
+  "retrievalEligible": true,
+  "templates": [
+    "home",
+    "studio",
+    "case-study",
+    "shop-index",
+    "product-detail",
+    "legal"
+  ],
+  "variants": [
+    {
+      "id": "sticky-bar",
+      "description": "Interior routes: sticky 72px canvas bar.",
+      "evidence": "cite.shell.nav"
+    },
+    {
+      "id": "in-hero",
+      "description": "Home: rendered inside the hero, fades in after the intro.",
+      "evidence": "cite.shell.nav-home"
+    }
+  ],
+  "content": {
+    "fields": {
+      "wordmark": {
+        "type": "media",
+        "required": true,
+        "maxWords": 3,
+        "evidence": "cite.case.chapter",
+        "assetRoles": {
+          "reference": [
+            "source-wordmark"
+          ],
+          "generated": [
+            "placeholder-brand-mark"
+          ]
+        }
+      },
+      "menuLabel": {
+        "type": "text",
+        "required": true,
+        "maxWords": 2,
+        "evidence": "cite.shell.nav"
+      }
+    }
+  },
+  "constraints": {},
+  "layout": {
+    "position": "sticky",
+    "surfaceTokens": [
+      "surface.page"
+    ],
+    "height": "72px sticky bar at 1440 (measured)"
+  },
+  "responsive": {
+    "breakpoints": [
+      "breakpoint.lg",
+      "breakpoint.sm"
+    ],
+    "changes": [
+      {
+        "at": "breakpoint.lg",
+        "property": "bar padding",
+        "below": "py-4 (16px)",
+        "atOrAbove": "22*--px",
+        "evidence": "cite.rwd.nav-pad"
+      },
+      {
+        "at": "breakpoint.sm",
+        "property": "side gutters",
+        "below": "1.5rem",
+        "atOrAbove": "2.5rem, 4rem at lg",
+        "evidence": "cite.rwd.gutters"
+      }
+    ]
+  },
+  "motion": {
+    "allowedPatterns": [
+      "hero-3d-entrance",
+      "none"
+    ],
+    "default": "none"
+  },
+  "assetRoles": [
+    "source-wordmark"
+  ],
+  "generatedAssetRoles": [
+    "original-copy",
+    "placeholder-brand-mark"
+  ],
+  "measuredInstances": 14
+}

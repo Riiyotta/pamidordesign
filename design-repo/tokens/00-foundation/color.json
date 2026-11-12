@@ -1,0 +1,82 @@
+{
+  "color": {
+    "canvas": {
+      "$type": "color",
+      "$value": "#efeeeb",
+      "evidence": "cite.css.color-canvas",
+      "note": "page surface; bg-canvas 160 class uses"
+    },
+    "ink": {
+      "$type": "color",
+      "$value": "#0a0a0a",
+      "evidence": "cite.css.color-ink",
+      "note": "primary text; text-ink 323 uses"
+    },
+    "night": {
+      "$type": "color",
+      "$value": "#0d0d0b",
+      "evidence": "cite.css.color-night",
+      "note": "dark bands (skillset, lead form, footer, curtain)"
+    },
+    "accent": {
+      "$type": "color",
+      "$value": "#d12424",
+      "evidence": "cite.css.color-accent",
+      "note": "hover/accent red; hover:text-accent 171 uses; = --wave-flash"
+    },
+    "rule": {
+      "$type": "color",
+      "$value": "#ccc9c4",
+      "evidence": "cite.css.color-rule",
+      "note": "1.5px section rules; bg-rule 89 uses"
+    },
+    "chip": {
+      "$type": "color",
+      "$value": "#b8b5b0",
+      "evidence": "cite.css.color-chip",
+      "note": "chip borders; border-chip 19 uses"
+    },
+    "muted": {
+      "$type": "color",
+      "$value": "#6b6862",
+      "evidence": "cite.css.color-muted",
+      "note": "secondary text; text-muted 367 uses"
+    },
+    "night-body": {
+      "$type": "color",
+      "$value": "#bfbab2",
+      "evidence": "cite.css.color-night-body",
+      "note": "body text on night"
+    },
+    "night-muted": {
+      "$type": "color",
+      "$value": "#9e9991",
+      "evidence": "cite.css.color-night-muted",
+      "note": "muted text on night"
+    },
+    "white": {
+      "$type": "color",
+      "$value": "#ffffff",
+      "evidence": "cite.css.color-white",
+      "note": "text on night/photo; text-white 152 uses"
+    },
+    "night-hr": {
+      "$type": "color",
+      "$value": "#918e89",
+      "evidence": "cite.css.root-vars",
+      "note": "--night-hr"
+    },
+    "night-chip": {
+      "$type": "color",
+      "$value": "#6666661a",
+      "evidence": "cite.css.root-vars",
+      "note": "--night-chip"
+    },
+    "wave-dim": {
+      "$type": "color",
+      "$value": "#0a0a0a33",
+      "evidence": "cite.css.root-vars",
+      "note": "--wave-dim (unlit scroll-statement characters)"
+    }
+  }
+}

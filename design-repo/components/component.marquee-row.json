@@ -1,0 +1,8 @@
+{
+  "id": "component.marquee-row",
+  "description": "Duplicated looping row (sectors, logos, materials).",
+  "evidence": "cite.css.marquee",
+  "overridableProps": [
+    "items"
+  ]
+}

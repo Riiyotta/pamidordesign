@@ -1,0 +1,8 @@
+{
+  "id": "primitive.eyebrow",
+  "description": "Small uppercase label, usually parenthesised.",
+  "evidence": "cite.css.type-label",
+  "overridableProps": [
+    "text"
+  ]
+}

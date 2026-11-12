@@ -1,0 +1,9 @@
+{
+  "id": "primitive.stat",
+  "description": "Count-up stat value with caption.",
+  "evidence": "cite.case.countup",
+  "overridableProps": [
+    "value",
+    "caption"
+  ]
+}

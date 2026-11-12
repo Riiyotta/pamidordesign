@@ -1,0 +1,12 @@
+{
+  "id": "component.project-row",
+  "description": "Project index row: title, jump link, meta definitions, cover media.",
+  "evidence": "cite.home.project-row",
+  "overridableProps": [
+    "name",
+    "category",
+    "href",
+    "meta",
+    "cover"
+  ]
+}

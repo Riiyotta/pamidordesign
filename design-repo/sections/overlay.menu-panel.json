@@ -1,0 +1,86 @@
+{
+  "id": "overlay.menu-panel",
+  "title": "Full-screen menu panel",
+  "contractVersion": "1.0.0",
+  "source": {
+    "id": "src.overlay-menu-panel",
+    "file": "src/pages/Studio.jsx",
+    "tag": "<div",
+    "lines": "49-49",
+    "citation": "cite.shell.menu"
+  },
+  "semantic": {
+    "id": "overlay.menu-panel",
+    "category": "OVERLAY",
+    "purpose": "Navigation panel opened by the menu toggle: staggered route links and the contact e-mail over a scrim, with focus trap and scroll lock."
+  },
+  "retrievalEligible": false,
+  "retrievalIneligibleReason": "Modal navigation overlay (menu drawer and scrim) that only exists while open; runtime UI, not content.",
+  "templates": [
+    "home",
+    "studio",
+    "case-study",
+    "shop-index",
+    "product-detail",
+    "legal"
+  ],
+  "content": {
+    "fields": {
+      "items": {
+        "type": "list",
+        "required": true,
+        "minItems": 3,
+        "items": {
+          "type": "link",
+          "required": true,
+          "maxWords": 2,
+          "evidence": "cite.shell.menu"
+        },
+        "maxItems": 6,
+        "evidence": "cite.shell.menu"
+      },
+      "contact": {
+        "type": "contact",
+        "required": true,
+        "maxWords": 2,
+        "evidence": "cite.shell.footer"
+      }
+    }
+  },
+  "constraints": {},
+  "layout": {
+    "position": "fixed",
+    "surfaceTokens": [
+      "surface.page"
+    ],
+    "height": "100vh fixed overlay"
+  },
+  "responsive": {
+    "breakpoints": [
+      "breakpoint.sm"
+    ],
+    "changes": [
+      {
+        "at": "breakpoint.sm",
+        "property": "padding",
+        "below": "px-6",
+        "atOrAbove": "sm:px-10, lg margin",
+        "evidence": "cite.shell.menu"
+      }
+    ]
+  },
+  "motion": {
+    "allowedPatterns": [
+      "menu-slide"
+    ],
+    "default": "menu-slide"
+  },
+  "assetRoles": [
+    "owner-contact-link"
+  ],
+  "generatedAssetRoles": [
+    "original-copy",
+    "placeholder-url"
+  ],
+  "measuredInstances": 14
+}

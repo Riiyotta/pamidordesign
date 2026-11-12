@@ -1,0 +1,220 @@
+{
+  "id": "work.case-chapter",
+  "title": "Case-study chapter",
+  "contractVersion": "1.0.0",
+  "source": {
+    "id": "src.work-case-chapter",
+    "file": "src/pages/WorkFigcoms.jsx",
+    "tag": "<section",
+    "lines": "319-338",
+    "citation": "cite.case.chapter"
+  },
+  "semantic": {
+    "id": "work.case-chapter",
+    "category": "WORK",
+    "purpose": "One heading-bounded chapter of a case study: optional part opener, eyebrow, title and intro, labelled notes, animated stats, numbered sub-steps, its media (images, in-view videos, board galleries, marquees) and at most one interactive product demo."
+  },
+  "retrievalEligible": true,
+  "templates": [
+    "case-study"
+  ],
+  "variants": [
+    {
+      "id": "chapter",
+      "description": "Plain chapter.",
+      "evidence": "cite.case.chapter"
+    },
+    {
+      "id": "part-opener",
+      "description": "Chapter preceded by a '(PART nn)' opener with a large title and intro.",
+      "evidence": "cite.case.part-opener"
+    }
+  ],
+  "content": {
+    "fields": {
+      "partLabel": {
+        "type": "text",
+        "required": false,
+        "maxWords": 12,
+        "evidence": "measured:fieldProfiles.work.case-chapter.eyebrow.maxWords"
+      },
+      "partTitle": {
+        "type": "text",
+        "required": false,
+        "maxWords": 4,
+        "evidence": "cite.case.part-opener"
+      },
+      "partIntro": {
+        "type": "text",
+        "required": false,
+        "maxWords": 51,
+        "evidence": "measured:fieldProfiles.work.case-chapter.p.maxWords"
+      },
+      "eyebrow": {
+        "type": "text",
+        "required": false,
+        "maxWords": 12,
+        "evidence": "measured:fieldProfiles.work.case-chapter.eyebrow.maxWords"
+      },
+      "title": {
+        "type": "text",
+        "required": true,
+        "maxWords": 4,
+        "evidence": "measured:fieldProfiles.work.case-chapter.h2.maxWords"
+      },
+      "intro": {
+        "type": "text",
+        "required": false,
+        "maxWords": 51,
+        "evidence": "measured:fieldProfiles.work.case-chapter.p.maxWords"
+      },
+      "notes": {
+        "type": "list",
+        "required": false,
+        "minItems": 0,
+        "items": {
+          "label": {
+            "type": "text",
+            "required": true,
+            "maxWords": 12,
+            "evidence": "measured:fieldProfiles.work.case-chapter.eyebrow.maxWords"
+          },
+          "body": {
+            "type": "text",
+            "required": true,
+            "maxWords": 51,
+            "evidence": "measured:fieldProfiles.work.case-chapter.p.maxWords"
+          }
+        },
+        "maxItems": 6,
+        "evidence": "cite.case.finder"
+      },
+      "stats": {
+        "type": "list",
+        "required": false,
+        "minItems": 0,
+        "items": {
+          "value": {
+            "type": "text",
+            "required": true,
+            "maxWords": 1,
+            "evidence": "cite.case.countup-re"
+          },
+          "caption": {
+            "type": "text",
+            "required": true,
+            "maxWords": 6,
+            "evidence": "cite.case.countup"
+          }
+        },
+        "maxItems": 4,
+        "evidence": "cite.case.countup"
+      },
+      "steps": {
+        "type": "list",
+        "required": false,
+        "minItems": 0,
+        "items": {
+          "type": "text",
+          "required": true,
+          "maxWords": 4,
+          "evidence": "cite.case.chapter"
+        },
+        "maxItems": 6,
+        "evidence": "cite.case.chapter"
+      },
+      "media": {
+        "type": "list",
+        "required": true,
+        "minItems": 1,
+        "items": {
+          "kind": {
+            "type": "enum",
+            "required": true,
+            "enum": [
+              "image",
+              "video",
+              "board-gallery",
+              "marquee",
+              "image-pair"
+            ],
+            "evidence": "cite.case.chapter"
+          },
+          "asset": {
+            "type": "media",
+            "required": true,
+            "maxWords": 12,
+            "evidence": "cite.case.chapter",
+            "assetRoles": {
+              "reference": [
+                "client-case-media"
+              ],
+              "generated": [
+                "generated-project-media"
+              ]
+            }
+          }
+        },
+        "maxItems": 40,
+        "evidence": "cite.case.chapter"
+      },
+      "demo": {
+        "type": "enum",
+        "required": false,
+        "enum": [
+          "dashboard-finder",
+          "customer-dashboard"
+        ],
+        "evidence": "cite.case.finder"
+      }
+    }
+  },
+  "constraints": {},
+  "layout": {
+    "position": "in-flow",
+    "surfaceTokens": [
+      "surface.page"
+    ],
+    "height": "482-6532px at 1440 (measured, 24 chapters)"
+  },
+  "responsive": {
+    "breakpoints": [
+      "breakpoint.lg"
+    ],
+    "changes": [
+      {
+        "at": "breakpoint.lg",
+        "property": "top padding",
+        "below": "pt-24 (6rem)",
+        "atOrAbove": "152px",
+        "evidence": "cite.rwd.case-chapter-pad"
+      },
+      {
+        "at": "breakpoint.lg",
+        "property": "title / intro",
+        "below": "stacked",
+        "atOrAbove": "5-col grid 2 / 3",
+        "evidence": "cite.rwd.grid5"
+      }
+    ]
+  },
+  "motion": {
+    "allowedPatterns": [
+      "reveal-rise",
+      "inview-video",
+      "count-up",
+      "marquee-loop",
+      "none"
+    ],
+    "default": "reveal-rise"
+  },
+  "assetRoles": [
+    "client-case-media"
+  ],
+  "generatedAssetRoles": [
+    "generated-project-media",
+    "original-copy"
+  ],
+  "notes": "IA lists the two Rise prototypes (dashboard finder, customer dashboard) as sections; in the source they are rendered INSIDE a chapter section (last child), so they are modelled as the chapter's `demo` field backed by components.",
+  "measuredInstances": 24
+}

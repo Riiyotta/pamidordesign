@@ -1,0 +1,8 @@
+{
+  "id": "primitive.chip",
+  "description": "Bordered tag chip (discipline / edition).",
+  "evidence": "cite.css.radius-px2",
+  "overridableProps": [
+    "text"
+  ]
+}

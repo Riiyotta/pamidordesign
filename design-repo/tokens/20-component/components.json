@@ -1,0 +1,26 @@
+{
+  "component": {
+    "button-pad-x": {
+      "$type": "dimension",
+      "$value": "calc(15*var(--px))",
+      "evidence": "cite.studio.cta",
+      "note": "outline button (hw label)"
+    },
+    "chip-radius": {
+      "$type": "dimension",
+      "$value": "{radius.chip}",
+      "evidence": "cite.css.radius-px2"
+    },
+    "rule-height": {
+      "$type": "dimension",
+      "$value": "{space.rule}",
+      "evidence": "cite.css.rule"
+    },
+    "footer-clip-start": {
+      "$type": "string",
+      "$value": "inset(5% 7% 0 7%)",
+      "evidence": "cite.shell.footer-clip",
+      "note": "eases to inset(0) over 60% of the viewport"
+    }
+  }
+}

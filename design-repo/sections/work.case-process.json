@@ -1,0 +1,92 @@
+{
+  "id": "work.case-process",
+  "title": "Case-study process",
+  "contractVersion": "1.0.0",
+  "source": {
+    "id": "src.work-case-process",
+    "file": "src/pages/WorkFigcoms.jsx",
+    "tag": "<section",
+    "lines": "246-318",
+    "citation": "cite.case.process"
+  },
+  "semantic": {
+    "id": "work.case-process",
+    "category": "WORK",
+    "purpose": "Process / approach heading with a ruled, numbered list of steps (title + one-sentence description)."
+  },
+  "retrievalEligible": true,
+  "templates": [
+    "case-study"
+  ],
+  "content": {
+    "fields": {
+      "title": {
+        "type": "text",
+        "required": true,
+        "maxWords": 1,
+        "evidence": "measured:fieldProfiles.work.case-process.h2.maxWords"
+      },
+      "steps": {
+        "type": "list",
+        "required": true,
+        "minItems": 3,
+        "items": {
+          "index": {
+            "type": "text",
+            "required": true,
+            "maxWords": 1,
+            "evidence": "cite.case.process"
+          },
+          "title": {
+            "type": "text",
+            "required": true,
+            "maxWords": 3,
+            "evidence": "measured:fieldProfiles.work.case-process.h3.maxWords"
+          },
+          "body": {
+            "type": "text",
+            "required": true,
+            "maxWords": 26,
+            "evidence": "measured:fieldProfiles.work.case-process.p.maxWords"
+          }
+        },
+        "maxItems": 4,
+        "evidence": "measured:fieldProfiles.work.case-process.h3.maxCount"
+      }
+    }
+  },
+  "constraints": {},
+  "layout": {
+    "position": "in-flow",
+    "surfaceTokens": [
+      "surface.page"
+    ],
+    "height": "623-730px at 1440 (measured)"
+  },
+  "responsive": {
+    "breakpoints": [
+      "breakpoint.lg"
+    ],
+    "changes": [
+      {
+        "at": "breakpoint.lg",
+        "property": "step row",
+        "below": "stacked",
+        "atOrAbove": "5-col grid",
+        "evidence": "cite.case.process"
+      }
+    ]
+  },
+  "motion": {
+    "allowedPatterns": [
+      "reveal-rise",
+      "none"
+    ],
+    "default": "reveal-rise"
+  },
+  "assetRoles": [],
+  "generatedAssetRoles": [
+    "original-copy"
+  ],
+  "measuredInstances": 4
+}

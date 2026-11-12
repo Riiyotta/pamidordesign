@@ -1,0 +1,10 @@
+{
+  "id": "primitive.outline-button",
+  "description": "Outlined button with per-character hover sweep label and rotating arrow glyph.",
+  "evidence": "cite.studio.cta",
+  "overridableProps": [
+    "label",
+    "href",
+    "tone"
+  ]
+}

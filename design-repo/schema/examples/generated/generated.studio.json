@@ -1,0 +1,280 @@
+{
+  "pageSpecVersion": "1.0.0",
+  "mode": "generated",
+  "template": "studio",
+  "route": "/studio",
+  "meta": {
+    "title": "About - Larkspur Atelier (sample)"
+  },
+  "nodes": [
+    {
+      "section": "shell.skip-link",
+      "content": {
+        "label": "Go to content"
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      },
+      "retrievalEligible": false
+    },
+    {
+      "section": "shell.primary-nav",
+      "variant": "sticky-bar",
+      "content": {
+        "wordmark": {
+          "assetRole": "placeholder-brand-mark",
+          "alt": "Larkspur Atelier"
+        },
+        "menuLabel": "Menu"
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      }
+    },
+    {
+      "section": "overlay.menu-panel",
+      "content": {
+        "items": [
+          {
+            "label": "Index",
+            "href": "/"
+          },
+          {
+            "label": "About",
+            "href": "/about"
+          },
+          {
+            "label": "Projects",
+            "href": "/#work"
+          },
+          {
+            "label": "Sketchbook",
+            "href": "/sketchbook"
+          }
+        ],
+        "contact": {
+          "assetRole": "placeholder-url",
+          "label": "hello@larkspur.example",
+          "href": "mailto:hello@larkspur.example"
+        }
+      },
+      "motion": {
+        "pattern": "menu-slide",
+        "reducedMotionFallback": "instant-toggle"
+      },
+      "retrievalEligible": false
+    },
+    {
+      "section": "hero.studio-intro",
+      "content": {
+        "eyebrow": "(ABOUT THE ATELIER)",
+        "title": "About",
+        "facts": [
+          {
+            "label": "Drawing since",
+            "value": "2019"
+          },
+          {
+            "label": "Desks",
+            "value": "Two"
+          }
+        ],
+        "question": "Who runs Larkspur?",
+        "answer": "Noa Venn, a fictional designer used for this sample page, who splits time between identity systems and product screens."
+      },
+      "motion": {
+        "pattern": "reveal-rise",
+        "reducedMotionFallback": "static-final-state"
+      }
+    },
+    {
+      "section": "narrative.approach-statement",
+      "content": {
+        "statement": "We keep the first draft ugly on purpose, so nobody falls in love with it too early.",
+        "question": "How do you work?",
+        "answer": "Short loops, printed proofs on the wall, and a written decision log the client keeps."
+      },
+      "motion": {
+        "pattern": "scroll-char-wave",
+        "reducedMotionFallback": "fully-lit-static"
+      }
+    },
+    {
+      "section": "narrative.industries",
+      "content": {
+        "sectors": [
+          "Hospitality",
+          "Logistics",
+          "Publishing"
+        ],
+        "question": "Who do you work with?",
+        "answer": "Mostly cafes, small publishers and operations teams that need tools to read clearly."
+      },
+      "motion": {
+        "pattern": "marquee-loop",
+        "reducedMotionFallback": "static-row"
+      }
+    },
+    {
+      "section": "narrative.process-steps",
+      "content": {
+        "title": "What a project looks like",
+        "intro": "Three phases, each closed by a short written review.",
+        "steps": [
+          {
+            "index": "01",
+            "title": "Listen",
+            "body": "Interviews and a walk through the current materials."
+          },
+          {
+            "index": "02",
+            "title": "Draft",
+            "body": "Rough options pinned up side by side."
+          },
+          {
+            "index": "03",
+            "title": "Hand over",
+            "body": "A kit, a guide and a call a month later."
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "reveal-rise",
+        "reducedMotionFallback": "static-final-state"
+      }
+    },
+    {
+      "section": "narrative.faq",
+      "content": {
+        "eyebrow": "(FAQ)",
+        "items": [
+          {
+            "question": "Do you take small jobs?",
+            "answer": "Yes, if the scope fits in a few weeks."
+          },
+          {
+            "question": "Can you work remotely?",
+            "answer": "Always; reviews happen on calls and shared boards."
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "accordion-height",
+        "reducedMotionFallback": "instant-toggle"
+      }
+    },
+    {
+      "section": "conversion.studio-cta",
+      "content": {
+        "headlineLines": [
+          "New brief?",
+          "Say hello"
+        ],
+        "button": {
+          "label": "Write us",
+          "href": "/contact"
+        },
+        "contact": {
+          "assetRole": "placeholder-url",
+          "label": "hello@larkspur.example",
+          "href": "mailto:hello@larkspur.example"
+        }
+      },
+      "motion": {
+        "pattern": "reveal-rise",
+        "reducedMotionFallback": "static-final-state"
+      }
+    },
+    {
+      "section": "shell.footer",
+      "content": {
+        "wordmark": {
+          "assetRole": "placeholder-brand-mark",
+          "alt": "Larkspur Atelier"
+        },
+        "motto": "Careful systems, loose sketches.",
+        "contact": {
+          "assetRole": "placeholder-url",
+          "label": "hello@larkspur.example",
+          "href": "mailto:hello@larkspur.example"
+        },
+        "legalLinks": [
+          {
+            "label": "Privacy",
+            "href": "/privacy"
+          },
+          {
+            "label": "Terms",
+            "href": "/terms"
+          }
+        ],
+        "socials": [
+          {
+            "label": "Journal",
+            "href": "https://journal.larkspur.example/"
+          }
+        ],
+        "copyright": "© 2031 Larkspur Atelier (fictional).",
+        "credit": "Sample page composed from a design system."
+      },
+      "motion": {
+        "pattern": "clip-reveal",
+        "reducedMotionFallback": "static-final-state"
+      }
+    },
+    {
+      "section": "overlay.cookie-notice",
+      "content": {
+        "body": "This sample page stores one preference and runs no trackers.",
+        "policyLink": {
+          "label": "Read more",
+          "href": "/privacy"
+        },
+        "accept": "Okay",
+        "decline": "No"
+      },
+      "motion": {
+        "pattern": "delayed-slide-in",
+        "reducedMotionFallback": "instant-show"
+      },
+      "retrievalEligible": false
+    },
+    {
+      "section": "overlay.cart-drawer",
+      "content": {
+        "title": "Basket",
+        "closeLabel": "Close"
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      },
+      "retrievalEligible": false
+    },
+    {
+      "section": "overlay.route-curtain",
+      "content": {},
+      "motion": {
+        "pattern": "route-curtain",
+        "reducedMotionFallback": "instant-swap"
+      },
+      "retrievalEligible": false
+    },
+    {
+      "section": "shell.custom-cursor",
+      "content": {
+        "cursor": {
+          "assetRole": "ui-icon-glyph",
+          "alt": ""
+        }
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      },
+      "retrievalEligible": false
+    }
+  ]
+}

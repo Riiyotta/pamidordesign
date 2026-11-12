@@ -1,0 +1,313 @@
+{
+  "pageSpecVersion": "1.0.0",
+  "mode": "reference",
+  "template": "product-detail",
+  "route": "/shop/red-series-01",
+  "meta": {
+    "title": "Red Series 01 - Pamidor Studio Shop"
+  },
+  "nodes": [
+    {
+      "section": "shell.skip-link",
+      "content": {
+        "label": "Skip to content"
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      },
+      "retrievalEligible": false
+    },
+    {
+      "section": "shell.primary-nav",
+      "variant": "sticky-bar",
+      "content": {
+        "wordmark": {
+          "assetRole": "source-wordmark",
+          "alt": "PAMIDOR® STUDIO",
+          "src": "/images/wordmark-pamidor-studio-ink.svg"
+        },
+        "menuLabel": "Open menu"
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      }
+    },
+    {
+      "section": "overlay.menu-panel",
+      "content": {
+        "items": [
+          {
+            "label": "Home",
+            "href": "/"
+          },
+          {
+            "label": "Studio",
+            "href": "/studio"
+          },
+          {
+            "label": "Work",
+            "href": "/#projects"
+          },
+          {
+            "label": "Art Lab",
+            "href": "/art-lab"
+          }
+        ],
+        "contact": {
+          "assetRole": "owner-contact-link",
+          "label": "DOR@PAMIDORDESIGN.CO",
+          "href": "mailto:dor@pamidordesign.co"
+        }
+      },
+      "motion": {
+        "pattern": "menu-slide",
+        "reducedMotionFallback": "instant-toggle"
+      },
+      "retrievalEligible": false
+    },
+    {
+      "section": "hero.product-detail",
+      "content": {
+        "backLink": {
+          "label": "Back to shop",
+          "href": "/shop"
+        },
+        "images": [
+          {
+            "assetRole": "owner-artwork",
+            "alt": "Red Series 01 - red ink illustration from the Pamidor series",
+            "src": "/shop/red-series-01.webp"
+          },
+          {
+            "assetRole": "owner-artwork",
+            "alt": "Red Series 01 - the original pencil sketch",
+            "src": "/shop/red-series-01-sketch.webp"
+          }
+        ],
+        "editionChip": "PRINT · EDITION OF 10",
+        "title": "Red Series 01",
+        "price": "$140",
+        "shippingNote": "Ships rolled or framed, worldwide",
+        "description": "Red ink illustration from the Pamidor series, printed as a giclée on archival cotton paper. Each print is signed and numbered. The original pencil sketch is shown in the gallery.",
+        "specs": [
+          {
+            "label": "SIZE",
+            "value": "50 × 70 cm"
+          },
+          {
+            "label": "MEDIUM",
+            "value": "Giclée on archival paper"
+          },
+          {
+            "label": "EDITION",
+            "value": "Edition of 10, signed"
+          },
+          {
+            "label": "SHIPPING",
+            "value": "Worldwide, 5 to 7 days"
+          },
+          {
+            "label": "RETURNS",
+            "value": "14 days, no questions"
+          }
+        ],
+        "editionNote": "Every piece is an edition of 10, signed and numbered by hand. Once all ten are gone the piece leaves the shop for good - a numbered edition is never reprinted.",
+        "buyLabel": "SOLD OUT",
+        "askLabel": "Ask a Question",
+        "trustNote": "Secure checkout · Ships from Tel Aviv",
+        "soldOut": true
+      },
+      "motion": {
+        "pattern": "page-enter",
+        "reducedMotionFallback": "static-final-state"
+      }
+    },
+    {
+      "section": "commerce.more-from-shop",
+      "content": {
+        "title": "More From The Shop",
+        "viewAll": {
+          "label": "VIEW ALL",
+          "href": "/shop"
+        },
+        "products": [
+          {
+            "category": "PRINT",
+            "flag": "SOLD OUT",
+            "title": "Red Series 02",
+            "price": "$140",
+            "edition": "Giclée print · Edition of 10",
+            "image": {
+              "assetRole": "owner-artwork",
+              "alt": "Red Series 02",
+              "src": "/shop/red-series-02.webp"
+            },
+            "href": {
+              "label": "Red Series 02",
+              "href": "/shop/red-series-02"
+            }
+          },
+          {
+            "category": "PRINT",
+            "flag": "SOLD OUT",
+            "title": "Red Series 03",
+            "price": "$140",
+            "edition": "Giclée print · Edition of 10",
+            "image": {
+              "assetRole": "owner-artwork",
+              "alt": "Red Series 03",
+              "src": "/shop/red-series-03.webp"
+            },
+            "href": {
+              "label": "Red Series 03",
+              "href": "/shop/red-series-03"
+            }
+          },
+          {
+            "category": "FRAMED",
+            "flag": "SOLD OUT",
+            "title": "Inked Frame",
+            "price": "$132",
+            "edition": "Framed print · Edition of 10",
+            "image": {
+              "assetRole": "owner-artwork",
+              "alt": "Inked Frame",
+              "src": "/shop/inked-frame.webp"
+            },
+            "href": {
+              "label": "Inked Frame",
+              "href": "/shop/inked-frame"
+            }
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "reveal-rise",
+        "reducedMotionFallback": "static-final-state"
+      }
+    },
+    {
+      "section": "shell.footer",
+      "content": {
+        "wordmark": {
+          "assetRole": "source-wordmark",
+          "alt": "Pamidor.Studio®",
+          "src": "/images/wordmark-pamidor-studio.svg"
+        },
+        "motto": "Somewhere between structure and instinct.",
+        "contact": {
+          "assetRole": "owner-contact-link",
+          "label": "DOR@PAMIDORDESIGN.CO",
+          "href": "mailto:dor@pamidordesign.co"
+        },
+        "legalLinks": [
+          {
+            "label": "PRIVACY",
+            "href": "/privacy"
+          },
+          {
+            "label": "TERMS",
+            "href": "/terms"
+          }
+        ],
+        "socials": [
+          {
+            "label": "Instagram",
+            "href": "https://www.instagram.com/pamidor_design/"
+          },
+          {
+            "label": "LinkedIn",
+            "href": "https://www.linkedin.com/in/dor-sharaby/"
+          },
+          {
+            "label": "Dribbble",
+            "href": "https://dribbble.com/pamidordesign69"
+          },
+          {
+            "label": "Pinterest",
+            "href": "https://www.pinterest.com/PamidorDesign/"
+          },
+          {
+            "label": "TikTok",
+            "href": "https://www.tiktok.com/@dorsharaby"
+          }
+        ],
+        "copyright": "© 2026 Pamidor Studio. All rights reserved.",
+        "credit": "Designed and built at Pamidor Studio by Dor Sharaby."
+      },
+      "motion": {
+        "pattern": "clip-reveal",
+        "reducedMotionFallback": "static-final-state"
+      }
+    },
+    {
+      "section": "shell.awwwards-badge",
+      "content": {
+        "badge": {
+          "assetRole": "award-badge",
+          "alt": "Nominee on Awwwards"
+        }
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      },
+      "retrievalEligible": false
+    },
+    {
+      "section": "overlay.cookie-notice",
+      "content": {
+        "body": "Analytics only - a count of visits and which work gets read. No ads, nothing sold.",
+        "policyLink": {
+          "label": "Cookie policy",
+          "href": "/privacy#cookies"
+        },
+        "accept": "Accept",
+        "decline": "Decline"
+      },
+      "motion": {
+        "pattern": "delayed-slide-in",
+        "reducedMotionFallback": "instant-show"
+      },
+      "retrievalEligible": false
+    },
+    {
+      "section": "overlay.cart-drawer",
+      "content": {
+        "title": "Cart",
+        "closeLabel": "Close cart"
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      },
+      "retrievalEligible": false
+    },
+    {
+      "section": "overlay.route-curtain",
+      "content": {},
+      "motion": {
+        "pattern": "route-curtain",
+        "reducedMotionFallback": "instant-swap"
+      },
+      "retrievalEligible": false
+    },
+    {
+      "section": "shell.custom-cursor",
+      "content": {
+        "cursor": {
+          "assetRole": "custom-cursor-image",
+          "alt": "",
+          "src": "/icons/cursor-28.png"
+        }
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      },
+      "retrievalEligible": false
+    }
+  ]
+}

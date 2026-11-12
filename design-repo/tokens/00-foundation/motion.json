@@ -1,0 +1,126 @@
+{
+  "duration": {
+    "char-sweep": {
+      "$type": "duration",
+      "$value": "400ms",
+      "evidence": "cite.css.hw-sweep",
+      "note": "hw-sweep per character"
+    },
+    "char-stagger": {
+      "$type": "duration",
+      "$value": "16ms",
+      "evidence": "cite.css.hw-sweep",
+      "note": "per --hwi index"
+    },
+    "reveal": {
+      "$type": "duration",
+      "$value": "700ms",
+      "evidence": "cite.css.reveal",
+      "note": "reveal-rise transform"
+    },
+    "page-enter": {
+      "$type": "duration",
+      "$value": "520ms",
+      "evidence": "cite.css.page-enter"
+    },
+    "menu-open": {
+      "$type": "duration",
+      "$value": "620ms",
+      "evidence": "cite.css.menu-open"
+    },
+    "menu-close": {
+      "$type": "duration",
+      "$value": "420ms",
+      "evidence": "cite.css.menu-close"
+    },
+    "curtain-cover": {
+      "$type": "duration",
+      "$value": "667ms",
+      "evidence": "cite.overlay.curtain-cover",
+      "note": "measured on the live site too"
+    },
+    "curtain-reveal": {
+      "$type": "duration",
+      "$value": "754ms",
+      "evidence": "cite.overlay.curtain-reveal"
+    },
+    "count-up": {
+      "$type": "duration",
+      "$value": "900ms",
+      "evidence": "cite.case.countup"
+    },
+    "accordion": {
+      "$type": "duration",
+      "$value": "500ms",
+      "evidence": "cite.studio.faq-anim"
+    },
+    "loader-swap": {
+      "$type": "duration",
+      "$value": "230ms",
+      "evidence": "cite.overlay.loader-cycle"
+    },
+    "trail": {
+      "$type": "duration",
+      "$value": "840ms",
+      "evidence": "cite.home.trail"
+    },
+    "hero-3d": {
+      "$type": "duration",
+      "$value": "950ms",
+      "evidence": "cite.css.hero3d"
+    },
+    "cookie-delay": {
+      "$type": "duration",
+      "$value": "1400ms",
+      "evidence": "cite.overlay.cookie-delay"
+    },
+    "marquee": {
+      "$type": "duration",
+      "$value": "28s",
+      "evidence": "cite.css.marquee",
+      "note": "default loop; per-instance overrides 56-106s"
+    }
+  },
+  "easing": {
+    "out-soft": {
+      "$type": "cubicBezier",
+      "$value": "cubic-bezier(.22,1,.36,1)",
+      "evidence": "cite.css.ease-out-soft"
+    },
+    "reveal": {
+      "$type": "cubicBezier",
+      "$value": "cubic-bezier(.16,1,.3,1)",
+      "evidence": "cite.css.reveal"
+    },
+    "menu-close": {
+      "$type": "cubicBezier",
+      "$value": "cubic-bezier(.65,0,.35,1)",
+      "evidence": "cite.css.menu-close"
+    },
+    "linear": {
+      "$type": "cubicBezier",
+      "$value": "linear",
+      "evidence": "cite.css.marquee"
+    }
+  },
+  "motion": {
+    "scroll-lerp": {
+      "$type": "number",
+      "$value": "0.12",
+      "evidence": "cite.js.lenis",
+      "note": "smooth-scroll interpolation"
+    },
+    "plane-friction": {
+      "$type": "number",
+      "$value": "0.95",
+      "evidence": "cite.artlab.plane",
+      "note": "art-lab inertia decay per frame"
+    },
+    "plane-lens-radius": {
+      "$type": "dimension",
+      "$value": "620px",
+      "evidence": "cite.artlab.plane",
+      "note": "lens falloff radius"
+    }
+  }
+}

@@ -1,0 +1,5762 @@
+{
+  "sectionHeights": {
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "method": "extraction/measure_sections.mjs + classify_blocks.mjs on the local clone; getBoundingClientRect per classified block; intro marked seen",
+    "routes": {
+      "/": {
+        "docHeight": 7767,
+        "sections": [
+          {
+            "section": "shell.skip-link",
+            "variant": null,
+            "top": -1,
+            "heightPx": 1,
+            "position": "absolute",
+            "inFlow": false
+          },
+          {
+            "section": "shell.awwwards-badge",
+            "variant": null,
+            "top": 364,
+            "heightPx": 171,
+            "position": "fixed",
+            "inFlow": false
+          },
+          {
+            "section": "overlay.cookie-notice",
+            "variant": null,
+            "top": 675,
+            "heightPx": 201,
+            "position": "fixed",
+            "inFlow": false
+          },
+          {
+            "section": "overlay.route-curtain",
+            "variant": null,
+            "top": 900,
+            "heightPx": 900,
+            "position": "fixed",
+            "inFlow": false
+          },
+          {
+            "section": "overlay.menu-panel",
+            "variant": null,
+            "top": 0,
+            "heightPx": 900,
+            "position": "absolute",
+            "inFlow": false
+          },
+          {
+            "section": "shell.footer",
+            "variant": null,
+            "top": 7270,
+            "heightPx": 497,
+            "position": "in-flow",
+            "inFlow": true
+          },
+          {
+            "section": "shell.primary-nav",
+            "variant": "in-hero",
+            "top": 24,
+            "heightPx": 26,
+            "position": "in-flow",
+            "inFlow": false
+          },
+          {
+            "section": "hero.home-intro",
+            "variant": null,
+            "top": 0,
+            "heightPx": 900,
+            "position": "in-flow",
+            "inFlow": true
+          },
+          {
+            "section": "narrative.studio-teaser",
+            "variant": null,
+            "top": 900,
+            "heightPx": 2115,
+            "position": "in-flow",
+            "inFlow": true
+          },
+          {
+            "section": "work.projects-list",
+            "variant": null,
+            "top": 3015,
+            "heightPx": 1072,
+            "position": "in-flow",
+            "inFlow": true
+          },
+          {
+            "section": "art.lab-teaser",
+            "variant": null,
+            "top": 4087,
+            "heightPx": 1216,
+            "position": "in-flow",
+            "inFlow": true
+          },
+          {
+            "section": "services.skillset",
+            "variant": null,
+            "top": 5303,
+            "heightPx": 1067,
+            "position": "in-flow",
+            "inFlow": true
+          },
+          {
+            "section": "conversion.lead-form",
+            "variant": null,
+            "top": 6370,
+            "heightPx": 900,
+            "position": "in-flow",
+            "inFlow": true
+          }
+        ]
+      },
+      "/studio": {
+        "docHeight": 6649,
+        "sections": [
+          {
+            "section": "shell.skip-link",
+            "variant": null,
+            "top": -1,
+            "heightPx": 1,
+            "position": "absolute",
+            "inFlow": false
+          },
+          {
+            "section": "shell.awwwards-badge",
+            "variant": null,
+            "top": 364,
+            "heightPx": 171,
+            "position": "fixed",
+            "inFlow": false
+          },
+          {
+            "section": "overlay.cookie-notice",
+            "variant": null,
+            "top": 675,
+            "heightPx": 201,
+            "position": "fixed",
+            "inFlow": false
+          },
+          {
+            "section": "overlay.route-curtain",
+            "variant": null,
+            "top": 900,
+            "heightPx": 900,
+            "position": "fixed",
+            "inFlow": false
+          },
+          {
+            "section": "overlay.menu-panel",
+            "variant": null,
+            "top": 0,
+            "heightPx": 6649,
+            "position": "absolute",
+            "inFlow": false
+          },
+          {
+            "section": "shell.footer",
+            "variant": null,
+            "top": 6152,
+            "heightPx": 497,
+            "position": "in-flow",
+            "inFlow": true
+          },
+          {
+            "section": "shell.primary-nav",
+            "variant": "sticky-bar",
+            "top": 0,
+            "heightPx": 72,
+            "position": "sticky",
+            "inFlow": true
+          },
+          {
+            "section": "hero.studio-intro",
+            "variant": null,
+            "top": 72,
+            "heightPx": 828,
+            "position": "in-flow",
+            "inFlow": true
+          },
+          {
+            "section": "narrative.approach-statement",
+            "variant": null,
+            "top": 900,
+            "heightPx": 2115,
+            "position": "in-flow",
+            "inFlow": true
+          },
+          {
+            "section": "narrative.industries",
+            "variant": null,
+            "top": 3015,
+            "heightPx": 595,
+            "position": "in-flow",
+            "inFlow": true
+          },
+          {
+            "section": "narrative.process-steps",
+            "variant": null,
+            "top": 3610,
+            "heightPx": 898,
+            "position": "in-flow",
+            "inFlow": true
+          },
+          {
+            "section": "narrative.faq",
+            "variant": null,
+            "top": 4508,
+            "heightPx": 1132,
+            "position": "in-flow",
+            "inFlow": true
+          },
+          {
+            "section": "conversion.studio-cta",
+            "variant": null,
+            "top": 5640,
+            "heightPx": 512,
+            "position": "in-flow",
+            "inFlow": true
+          }
+        ]
+      },
+      "/art-lab": {
+        "docHeight": 900,
+        "sections": [
+          {
+            "section": "shell.skip-link",
+            "variant": null,
+            "top": -1,
+            "heightPx": 1,
+            "position": "absolute",
+            "inFlow": false
+          },
+          {
+            "section": "shell.awwwards-badge",
+            "variant": null,
+            "top": 364,
+            "heightPx": 171,
+            "position": "fixed",
+            "inFlow": false
+          },
+          {
+            "section": "overlay.cookie-notice",
+            "variant": null,
+            "top": 675,
+            "heightPx": 201,
+            "position": "fixed",
+            "inFlow": false
+          },
+          {
+            "section": "overlay.route-curtain",
+            "variant": null,
+            "top": 900,
+            "heightPx": 900,
+            "position": "fixed",
+            "inFlow": false
+          },
+          {
+            "section": "art.draggable-plane",
+            "variant": null,
+            "top": 0,
+            "heightPx": 900,
+            "position": "fixed",
+            "inFlow": false
+          },
+          {
+            "section": "art.lab-header",
+            "variant": null,
+            "top": 0,
+            "heightPx": 84,
+            "position": "absolute",
+            "inFlow": false
+          },
+          {
+            "section": "overlay.drag-cue",
+            "variant": null,
+            "top": 843,
+            "heightPx": 17,
+            "position": "absolute",
+            "inFlow": false
+          }
+        ]
+      },
+      "/shop": {
+        "docHeight": 3240,
+        "sections": [
+          {
+            "section": "shell.skip-link",
+            "variant": null,
+            "top": -1,
+            "heightPx": 1,
+            "position": "absolute",
+            "inFlow": false
+          },
+          {
+            "section": "shell.awwwards-badge",
+            "variant": null,
+            "top": 364,
+            "heightPx": 171,
+            "position": "fixed",
+            "inFlow": false
+          },
+          {
+            "section": "overlay.cookie-notice",
+            "variant": null,
+            "top": 675,
+            "heightPx": 201,
+            "position": "fixed",
+            "inFlow": false
+          },
+          {
+            "section": "overlay.route-curtain",
+            "variant": null,
+            "top": 900,
+            "heightPx": 900,
+            "position": "fixed",
+            "inFlow": false
+          },
+          {
+            "section": "overlay.menu-panel",
+            "variant": null,
+            "top": 0,
+            "heightPx": 3240,
+            "position": "absolute",
+            "inFlow": false
+          },
+          {
+            "section": "shell.footer",
+            "variant": null,
+            "top": 2743,
+            "heightPx": 497,
+            "position": "in-flow",
+            "inFlow": true
+          },
+          {
+            "section": "shell.primary-nav",
+            "variant": "sticky-bar",
+            "top": 0,
+            "heightPx": 72,
+            "position": "sticky",
+            "inFlow": true
+          },
+          {
+            "section": "hero.shop-header",
+            "variant": null,
+            "top": 72,
+            "heightPx": 396,
+            "position": "in-flow",
+            "inFlow": true
+          },
+          {
+            "section": "commerce.shop-filters",
+            "variant": null,
+            "top": 468,
+            "heightPx": 72,
+            "position": "in-flow",
+            "inFlow": true
+          },
+          {
+            "section": "commerce.product-grid",
+            "variant": null,
+            "top": 539,
+            "heightPx": 1304,
+            "position": "in-flow",
+            "inFlow": true
+          },
+          {
+            "section": "conversion.drops-signup",
+            "variant": null,
+            "top": 1843,
+            "heightPx": 900,
+            "position": "in-flow",
+            "inFlow": true
+          }
+        ]
+      },
+      "/shop/red-series-01": {
+        "docHeight": 2621,
+        "sections": [
+          {
+            "section": "shell.skip-link",
+            "variant": null,
+            "top": -1,
+            "heightPx": 1,
+            "position": "absolute",
+            "inFlow": false
+          },
+          {
+            "section": "shell.awwwards-badge",
+            "variant": null,
+            "top": 364,
+            "heightPx": 171,
+            "position": "fixed",
+            "inFlow": false
+          },
+          {
+            "section": "overlay.cookie-notice",
+            "variant": null,
+            "top": 675,
+            "heightPx": 201,
+            "position": "fixed",
+            "inFlow": false
+          },
+          {
+            "section": "overlay.route-curtain",
+            "variant": null,
+            "top": 900,
+            "heightPx": 900,
+            "position": "fixed",
+            "inFlow": false
+          },
+          {
+            "section": "overlay.menu-panel",
+            "variant": null,
+            "top": 0,
+            "heightPx": 2621,
+            "position": "absolute",
+            "inFlow": false
+          },
+          {
+            "section": "shell.footer",
+            "variant": null,
+            "top": 2124,
+            "heightPx": 497,
+            "position": "in-flow",
+            "inFlow": true
+          },
+          {
+            "section": "shell.primary-nav",
+            "variant": "sticky-bar",
+            "top": 0,
+            "heightPx": 72,
+            "position": "sticky",
+            "inFlow": true
+          },
+          {
+            "section": "hero.product-detail",
+            "variant": null,
+            "top": 72,
+            "heightPx": 1152,
+            "position": "in-flow",
+            "inFlow": true
+          },
+          {
+            "section": "commerce.more-from-shop",
+            "variant": null,
+            "top": 1224,
+            "heightPx": 900,
+            "position": "in-flow",
+            "inFlow": true
+          }
+        ]
+      },
+      "/shop/red-series-02": {
+        "docHeight": 2493,
+        "sections": [
+          {
+            "section": "shell.skip-link",
+            "variant": null,
+            "top": -1,
+            "heightPx": 1,
+            "position": "absolute",
+            "inFlow": false
+          },
+          {
+            "section": "shell.awwwards-badge",
+            "variant": null,
+            "top": 364,
+            "heightPx": 171,
+            "position": "fixed",
+            "inFlow": false
+          },
+          {
+            "section": "overlay.cookie-notice",
+            "variant": null,
+            "top": 675,
+            "heightPx": 201,
+            "position": "fixed",
+            "inFlow": false
+          },
+          {
+            "section": "overlay.route-curtain",
+            "variant": null,
+            "top": 900,
+            "heightPx": 900,
+            "position": "fixed",
+            "inFlow": false
+          },
+          {
+            "section": "overlay.menu-panel",
+            "variant": null,
+            "top": 0,
+            "heightPx": 2493,
+            "position": "absolute",
+            "inFlow": false
+          },
+          {
+            "section": "shell.footer",
+            "variant": null,
+            "top": 1996,
+            "heightPx": 497,
+            "position": "in-flow",
+            "inFlow": true
+          },
+          {
+            "section": "shell.primary-nav",
+            "variant": "sticky-bar",
+            "top": 0,
+            "heightPx": 72,
+            "position": "sticky",
+            "inFlow": true
+          },
+          {
+            "section": "hero.product-detail",
+            "variant": null,
+            "top": 72,
+            "heightPx": 1024,
+            "position": "in-flow",
+            "inFlow": true
+          },
+          {
+            "section": "commerce.more-from-shop",
+            "variant": null,
+            "top": 1096,
+            "heightPx": 900,
+            "position": "in-flow",
+            "inFlow": true
+          }
+        ]
+      },
+      "/shop/red-series-03": {
+        "docHeight": 2493,
+        "sections": [
+          {
+            "section": "shell.skip-link",
+            "variant": null,
+            "top": -1,
+            "heightPx": 1,
+            "position": "absolute",
+            "inFlow": false
+          },
+          {
+            "section": "shell.awwwards-badge",
+            "variant": null,
+            "top": 364,
+            "heightPx": 171,
+            "position": "fixed",
+            "inFlow": false
+          },
+          {
+            "section": "overlay.cookie-notice",
+            "variant": null,
+            "top": 675,
+            "heightPx": 201,
+            "position": "fixed",
+            "inFlow": false
+          },
+          {
+            "section": "overlay.route-curtain",
+            "variant": null,
+            "top": 900,
+            "heightPx": 900,
+            "position": "fixed",
+            "inFlow": false
+          },
+          {
+            "section": "overlay.menu-panel",
+            "variant": null,
+            "top": 0,
+            "heightPx": 2493,
+            "position": "absolute",
+            "inFlow": false
+          },
+          {
+            "section": "shell.footer",
+            "variant": null,
+            "top": 1996,
+            "heightPx": 497,
+            "position": "in-flow",
+            "inFlow": true
+          },
+          {
+            "section": "shell.primary-nav",
+            "variant": "sticky-bar",
+            "top": 0,
+            "heightPx": 72,
+            "position": "sticky",
+            "inFlow": true
+          },
+          {
+            "section": "hero.product-detail",
+            "variant": null,
+            "top": 72,
+            "heightPx": 1024,
+            "position": "in-flow",
+            "inFlow": true
+          },
+          {
+            "section": "commerce.more-from-shop",
+            "variant": null,
+            "top": 1096,
+            "heightPx": 900,
+            "position": "in-flow",
+            "inFlow": true
+          }
+        ]
+      },
+      "/shop/inked-frame": {
+        "docHeight": 2493,
+        "sections": [
+          {
+            "section": "shell.skip-link",
+            "variant": null,
+            "top": -1,
+            "heightPx": 1,
+            "position": "absolute",
+            "inFlow": false
+          },
+          {
+            "section": "shell.awwwards-badge",
+            "variant": null,
+            "top": 364,
+            "heightPx": 171,
+            "position": "fixed",
+            "inFlow": false
+          },
+          {
+            "section": "overlay.cookie-notice",
+            "variant": null,
+            "top": 675,
+            "heightPx": 201,
+            "position": "fixed",
+            "inFlow": false
+          },
+          {
+            "section": "overlay.route-curtain",
+            "variant": null,
+            "top": 900,
+            "heightPx": 900,
+            "position": "fixed",
+            "inFlow": false
+          },
+          {
+            "section": "overlay.menu-panel",
+            "variant": null,
+            "top": 0,
+            "heightPx": 2493,
+            "position": "absolute",
+            "inFlow": false
+          },
+          {
+            "section": "shell.footer",
+            "variant": null,
+            "top": 1996,
+            "heightPx": 497,
+            "position": "in-flow",
+            "inFlow": true
+          },
+          {
+            "section": "shell.primary-nav",
+            "variant": "sticky-bar",
+            "top": 0,
+            "heightPx": 72,
+            "position": "sticky",
+            "inFlow": true
+          },
+          {
+            "section": "hero.product-detail",
+            "variant": null,
+            "top": 72,
+            "heightPx": 1024,
+            "position": "in-flow",
+            "inFlow": true
+          },
+          {
+            "section": "commerce.more-from-shop",
+            "variant": null,
+            "top": 1096,
+            "heightPx": 900,
+            "position": "in-flow",
+            "inFlow": true
+          }
+        ]
+      },
+      "/shop/pink-portrait": {
+        "docHeight": 2493,
+        "sections": [
+          {
+            "section": "shell.skip-link",
+            "variant": null,
+            "top": -1,
+            "heightPx": 1,
+            "position": "absolute",
+            "inFlow": false
+          },
+          {
+            "section": "shell.awwwards-badge",
+            "variant": null,
+            "top": 364,
+            "heightPx": 171,
+            "position": "fixed",
+            "inFlow": false
+          },
+          {
+            "section": "overlay.cookie-notice",
+            "variant": null,
+            "top": 675,
+            "heightPx": 201,
+            "position": "fixed",
+            "inFlow": false
+          },
+          {
+            "section": "overlay.route-curtain",
+            "variant": null,
+            "top": 900,
+            "heightPx": 900,
+            "position": "fixed",
+            "inFlow": false
+          },
+          {
+            "section": "overlay.menu-panel",
+            "variant": null,
+            "top": 0,
+            "heightPx": 2493,
+            "position": "absolute",
+            "inFlow": false
+          },
+          {
+            "section": "shell.footer",
+            "variant": null,
+            "top": 1996,
+            "heightPx": 497,
+            "position": "in-flow",
+            "inFlow": true
+          },
+          {
+            "section": "shell.primary-nav",
+            "variant": "sticky-bar",
+            "top": 0,
+            "heightPx": 72,
+            "position": "sticky",
+            "inFlow": true
+          },
+          {
+            "section": "hero.product-detail",
+            "variant": null,
+            "top": 72,
+            "heightPx": 1024,
+            "position": "in-flow",
+            "inFlow": true
+          },
+          {
+            "section": "commerce.more-from-shop",
+            "variant": null,
+            "top": 1096,
+            "heightPx": 900,
+            "position": "in-flow",
+            "inFlow": true
+          }
+        ]
+      },
+      "/privacy": {
+        "docHeight": 3605,
+        "sections": [
+          {
+            "section": "shell.skip-link",
+            "variant": null,
+            "top": -1,
+            "heightPx": 1,
+            "position": "absolute",
+            "inFlow": false
+          },
+          {
+            "section": "shell.awwwards-badge",
+            "variant": null,
+            "top": 364,
+            "heightPx": 171,
+            "position": "fixed",
+            "inFlow": false
+          },
+          {
+            "section": "overlay.cookie-notice",
+            "variant": null,
+            "top": 675,
+            "heightPx": 201,
+            "position": "fixed",
+            "inFlow": false
+          },
+          {
+            "section": "overlay.route-curtain",
+            "variant": null,
+            "top": 900,
+            "heightPx": 900,
+            "position": "fixed",
+            "inFlow": false
+          },
+          {
+            "section": "overlay.menu-panel",
+            "variant": null,
+            "top": 0,
+            "heightPx": 3605,
+            "position": "absolute",
+            "inFlow": false
+          },
+          {
+            "section": "shell.footer",
+            "variant": null,
+            "top": 3109,
+            "heightPx": 497,
+            "position": "in-flow",
+            "inFlow": true
+          },
+          {
+            "section": "shell.primary-nav",
+            "variant": "sticky-bar",
+            "top": 0,
+            "heightPx": 72,
+            "position": "sticky",
+            "inFlow": true
+          },
+          {
+            "section": "hero.legal-header",
+            "variant": null,
+            "top": 72,
+            "heightPx": 293,
+            "position": "in-flow",
+            "inFlow": true
+          },
+          {
+            "section": "legal.clause",
+            "variant": null,
+            "top": 429,
+            "heightPx": 180,
+            "position": "in-flow",
+            "inFlow": true
+          },
+          {
+            "section": "legal.clause",
+            "variant": null,
+            "top": 609,
+            "heightPx": 254,
+            "position": "in-flow",
+            "inFlow": true
+          },
+          {
+            "section": "legal.clause",
+            "variant": null,
+            "top": 863,
+            "heightPx": 254,
+            "position": "in-flow",
+            "inFlow": true
+          },
+          {
+            "section": "legal.clause",
+            "variant": null,
+            "top": 1117,
+            "heightPx": 304,
+            "position": "in-flow",
+            "inFlow": true
+          },
+          {
+            "section": "legal.clause",
+            "variant": null,
+            "top": 1421,
+            "heightPx": 485,
+            "position": "in-flow",
+            "inFlow": true
+          },
+          {
+            "section": "legal.clause",
+            "variant": null,
+            "top": 1906,
+            "heightPx": 571,
+            "position": "in-flow",
+            "inFlow": true
+          },
+          {
+            "section": "legal.clause",
+            "variant": null,
+            "top": 2477,
+            "heightPx": 164,
+            "position": "in-flow",
+            "inFlow": true
+          },
+          {
+            "section": "legal.clause",
+            "variant": null,
+            "top": 2641,
+            "heightPx": 189,
+            "position": "in-flow",
+            "inFlow": true
+          },
+          {
+            "section": "legal.clause",
+            "variant": null,
+            "top": 2829,
+            "heightPx": 139,
+            "position": "in-flow",
+            "inFlow": true
+          }
+        ]
+      },
+      "/terms": {
+        "docHeight": 2319,
+        "sections": [
+          {
+            "section": "shell.skip-link",
+            "variant": null,
+            "top": -1,
+            "heightPx": 1,
+            "position": "absolute",
+            "inFlow": false
+          },
+          {
+            "section": "shell.awwwards-badge",
+            "variant": null,
+            "top": 364,
+            "heightPx": 171,
+            "position": "fixed",
+            "inFlow": false
+          },
+          {
+            "section": "overlay.cookie-notice",
+            "variant": null,
+            "top": 675,
+            "heightPx": 201,
+            "position": "fixed",
+            "inFlow": false
+          },
+          {
+            "section": "overlay.route-curtain",
+            "variant": null,
+            "top": 900,
+            "heightPx": 900,
+            "position": "fixed",
+            "inFlow": false
+          },
+          {
+            "section": "overlay.menu-panel",
+            "variant": null,
+            "top": 0,
+            "heightPx": 2319,
+            "position": "absolute",
+            "inFlow": false
+          },
+          {
+            "section": "shell.footer",
+            "variant": null,
+            "top": 1822,
+            "heightPx": 497,
+            "position": "in-flow",
+            "inFlow": true
+          },
+          {
+            "section": "shell.primary-nav",
+            "variant": "sticky-bar",
+            "top": 0,
+            "heightPx": 72,
+            "position": "sticky",
+            "inFlow": true
+          },
+          {
+            "section": "hero.legal-header",
+            "variant": null,
+            "top": 72,
+            "heightPx": 293,
+            "position": "in-flow",
+            "inFlow": true
+          },
+          {
+            "section": "legal.clause",
+            "variant": null,
+            "top": 429,
+            "heightPx": 164,
+            "position": "in-flow",
+            "inFlow": true
+          },
+          {
+            "section": "legal.clause",
+            "variant": null,
+            "top": 593,
+            "heightPx": 229,
+            "position": "in-flow",
+            "inFlow": true
+          },
+          {
+            "section": "legal.clause",
+            "variant": null,
+            "top": 822,
+            "heightPx": 164,
+            "position": "in-flow",
+            "inFlow": true
+          },
+          {
+            "section": "legal.clause",
+            "variant": null,
+            "top": 986,
+            "heightPx": 279,
+            "position": "in-flow",
+            "inFlow": true
+          },
+          {
+            "section": "legal.clause",
+            "variant": null,
+            "top": 1265,
+            "heightPx": 164,
+            "position": "in-flow",
+            "inFlow": true
+          },
+          {
+            "section": "legal.clause",
+            "variant": null,
+            "top": 1429,
+            "heightPx": 139,
+            "position": "in-flow",
+            "inFlow": true
+          },
+          {
+            "section": "legal.clause",
+            "variant": null,
+            "top": 1568,
+            "heightPx": 114,
+            "position": "in-flow",
+            "inFlow": true
+          }
+        ]
+      },
+      "/work/figcoms": {
+        "docHeight": 14674,
+        "sections": [
+          {
+            "section": "shell.skip-link",
+            "variant": null,
+            "top": -1,
+            "heightPx": 1,
+            "position": "absolute",
+            "inFlow": false
+          },
+          {
+            "section": "shell.awwwards-badge",
+            "variant": null,
+            "top": 364,
+            "heightPx": 171,
+            "position": "fixed",
+            "inFlow": false
+          },
+          {
+            "section": "overlay.cookie-notice",
+            "variant": null,
+            "top": 675,
+            "heightPx": 201,
+            "position": "fixed",
+            "inFlow": false
+          },
+          {
+            "section": "overlay.route-curtain",
+            "variant": null,
+            "top": 900,
+            "heightPx": 900,
+            "position": "fixed",
+            "inFlow": false
+          },
+          {
+            "section": "overlay.menu-panel",
+            "variant": null,
+            "top": 0,
+            "heightPx": 14674,
+            "position": "absolute",
+            "inFlow": false
+          },
+          {
+            "section": "shell.footer",
+            "variant": null,
+            "top": 14177,
+            "heightPx": 497,
+            "position": "in-flow",
+            "inFlow": true
+          },
+          {
+            "section": "shell.primary-nav",
+            "variant": "sticky-bar",
+            "top": 0,
+            "heightPx": 72,
+            "position": "sticky",
+            "inFlow": true
+          },
+          {
+            "section": "hero.case-header",
+            "variant": null,
+            "top": 72,
+            "heightPx": 1447,
+            "position": "in-flow",
+            "inFlow": true
+          },
+          {
+            "section": "work.case-role",
+            "variant": null,
+            "top": 1519,
+            "heightPx": 251,
+            "position": "in-flow",
+            "inFlow": true
+          },
+          {
+            "section": "work.case-context",
+            "variant": null,
+            "top": 1770,
+            "heightPx": 291,
+            "position": "in-flow",
+            "inFlow": true
+          },
+          {
+            "section": "work.case-process",
+            "variant": null,
+            "top": 2061,
+            "heightPx": 705,
+            "position": "in-flow",
+            "inFlow": true
+          },
+          {
+            "section": "work.case-chapter",
+            "variant": "chapter",
+            "top": 2766,
+            "heightPx": 1224,
+            "position": "in-flow",
+            "inFlow": true
+          },
+          {
+            "section": "work.case-chapter",
+            "variant": "chapter",
+            "top": 3990,
+            "heightPx": 1878,
+            "position": "in-flow",
+            "inFlow": true
+          },
+          {
+            "section": "work.case-chapter",
+            "variant": "chapter",
+            "top": 5868,
+            "heightPx": 901,
+            "position": "in-flow",
+            "inFlow": true
+          },
+          {
+            "section": "work.case-chapter",
+            "variant": "chapter",
+            "top": 6769,
+            "heightPx": 5123,
+            "position": "in-flow",
+            "inFlow": true
+          },
+          {
+            "section": "work.case-chapter",
+            "variant": "chapter",
+            "top": 11892,
+            "heightPx": 1847,
+            "position": "in-flow",
+            "inFlow": true
+          },
+          {
+            "section": "work.next-project",
+            "variant": null,
+            "top": 13739,
+            "heightPx": 438,
+            "position": "in-flow",
+            "inFlow": true
+          }
+        ]
+      },
+      "/work/rise": {
+        "docHeight": 15507,
+        "sections": [
+          {
+            "section": "shell.skip-link",
+            "variant": null,
+            "top": -1,
+            "heightPx": 1,
+            "position": "absolute",
+            "inFlow": false
+          },
+          {
+            "section": "shell.awwwards-badge",
+            "variant": null,
+            "top": 364,
+            "heightPx": 171,
+            "position": "fixed",
+            "inFlow": false
+          },
+          {
+            "section": "overlay.cookie-notice",
+            "variant": null,
+            "top": 675,
+            "heightPx": 201,
+            "position": "fixed",
+            "inFlow": false
+          },
+          {
+            "section": "overlay.route-curtain",
+            "variant": null,
+            "top": 900,
+            "heightPx": 900,
+            "position": "fixed",
+            "inFlow": false
+          },
+          {
+            "section": "overlay.menu-panel",
+            "variant": null,
+            "top": 0,
+            "heightPx": 15507,
+            "position": "absolute",
+            "inFlow": false
+          },
+          {
+            "section": "shell.footer",
+            "variant": null,
+            "top": 15010,
+            "heightPx": 497,
+            "position": "in-flow",
+            "inFlow": true
+          },
+          {
+            "section": "shell.primary-nav",
+            "variant": "sticky-bar",
+            "top": 0,
+            "heightPx": 72,
+            "position": "sticky",
+            "inFlow": true
+          },
+          {
+            "section": "hero.case-header",
+            "variant": null,
+            "top": 72,
+            "heightPx": 1436,
+            "position": "in-flow",
+            "inFlow": true
+          },
+          {
+            "section": "work.case-role",
+            "variant": null,
+            "top": 1508,
+            "heightPx": 235,
+            "position": "in-flow",
+            "inFlow": true
+          },
+          {
+            "section": "work.case-process",
+            "variant": null,
+            "top": 1742,
+            "heightPx": 730,
+            "position": "in-flow",
+            "inFlow": true
+          },
+          {
+            "section": "work.case-chapter",
+            "variant": "part-opener",
+            "top": 2472,
+            "heightPx": 2922,
+            "position": "in-flow",
+            "inFlow": true
+          },
+          {
+            "section": "work.case-chapter",
+            "variant": "chapter",
+            "top": 5394,
+            "heightPx": 2529,
+            "position": "in-flow",
+            "inFlow": true
+          },
+          {
+            "section": "work.case-chapter",
+            "variant": "part-opener",
+            "top": 7923,
+            "heightPx": 1790,
+            "position": "in-flow",
+            "inFlow": true
+          },
+          {
+            "section": "work.case-chapter",
+            "variant": "chapter",
+            "top": 9713,
+            "heightPx": 1016,
+            "position": "in-flow",
+            "inFlow": true
+          },
+          {
+            "section": "work.case-chapter",
+            "variant": "chapter",
+            "top": 10728,
+            "heightPx": 1095,
+            "position": "in-flow",
+            "inFlow": true
+          },
+          {
+            "section": "work.case-chapter",
+            "variant": "chapter",
+            "top": 11824,
+            "heightPx": 2748,
+            "position": "in-flow",
+            "inFlow": true
+          },
+          {
+            "section": "work.next-project",
+            "variant": null,
+            "top": 14572,
+            "heightPx": 438,
+            "position": "in-flow",
+            "inFlow": true
+          }
+        ]
+      },
+      "/work/imotion": {
+        "docHeight": 15506,
+        "sections": [
+          {
+            "section": "shell.skip-link",
+            "variant": null,
+            "top": -1,
+            "heightPx": 1,
+            "position": "absolute",
+            "inFlow": false
+          },
+          {
+            "section": "shell.awwwards-badge",
+            "variant": null,
+            "top": 364,
+            "heightPx": 171,
+            "position": "fixed",
+            "inFlow": false
+          },
+          {
+            "section": "overlay.cookie-notice",
+            "variant": null,
+            "top": 675,
+            "heightPx": 201,
+            "position": "fixed",
+            "inFlow": false
+          },
+          {
+            "section": "overlay.route-curtain",
+            "variant": null,
+            "top": 900,
+            "heightPx": 900,
+            "position": "fixed",
+            "inFlow": false
+          },
+          {
+            "section": "overlay.menu-panel",
+            "variant": null,
+            "top": 0,
+            "heightPx": 15506,
+            "position": "absolute",
+            "inFlow": false
+          },
+          {
+            "section": "shell.footer",
+            "variant": null,
+            "top": 15009,
+            "heightPx": 497,
+            "position": "in-flow",
+            "inFlow": true
+          },
+          {
+            "section": "shell.primary-nav",
+            "variant": "sticky-bar",
+            "top": 0,
+            "heightPx": 72,
+            "position": "sticky",
+            "inFlow": true
+          },
+          {
+            "section": "hero.case-header",
+            "variant": null,
+            "top": 72,
+            "heightPx": 1461,
+            "position": "in-flow",
+            "inFlow": true
+          },
+          {
+            "section": "work.case-role",
+            "variant": null,
+            "top": 1533,
+            "heightPx": 227,
+            "position": "in-flow",
+            "inFlow": true
+          },
+          {
+            "section": "work.case-context",
+            "variant": null,
+            "top": 1760,
+            "heightPx": 415,
+            "position": "in-flow",
+            "inFlow": true
+          },
+          {
+            "section": "work.case-process",
+            "variant": null,
+            "top": 2174,
+            "heightPx": 671,
+            "position": "in-flow",
+            "inFlow": true
+          },
+          {
+            "section": "work.case-chapter",
+            "variant": "chapter",
+            "top": 2845,
+            "heightPx": 2442,
+            "position": "in-flow",
+            "inFlow": true
+          },
+          {
+            "section": "work.case-chapter",
+            "variant": "chapter",
+            "top": 5287,
+            "heightPx": 2751,
+            "position": "in-flow",
+            "inFlow": true
+          },
+          {
+            "section": "work.case-chapter",
+            "variant": "chapter",
+            "top": 8039,
+            "heightPx": 6532,
+            "position": "in-flow",
+            "inFlow": true
+          },
+          {
+            "section": "work.next-project",
+            "variant": null,
+            "top": 14571,
+            "heightPx": 438,
+            "position": "in-flow",
+            "inFlow": true
+          }
+        ]
+      },
+      "/work/israel-police": {
+        "docHeight": 20134,
+        "sections": [
+          {
+            "section": "shell.skip-link",
+            "variant": null,
+            "top": -1,
+            "heightPx": 1,
+            "position": "absolute",
+            "inFlow": false
+          },
+          {
+            "section": "shell.awwwards-badge",
+            "variant": null,
+            "top": 364,
+            "heightPx": 171,
+            "position": "fixed",
+            "inFlow": false
+          },
+          {
+            "section": "overlay.cookie-notice",
+            "variant": null,
+            "top": 675,
+            "heightPx": 201,
+            "position": "fixed",
+            "inFlow": false
+          },
+          {
+            "section": "overlay.route-curtain",
+            "variant": null,
+            "top": 900,
+            "heightPx": 900,
+            "position": "fixed",
+            "inFlow": false
+          },
+          {
+            "section": "overlay.menu-panel",
+            "variant": null,
+            "top": 0,
+            "heightPx": 20134,
+            "position": "absolute",
+            "inFlow": false
+          },
+          {
+            "section": "shell.footer",
+            "variant": null,
+            "top": 19638,
+            "heightPx": 497,
+            "position": "in-flow",
+            "inFlow": true
+          },
+          {
+            "section": "shell.primary-nav",
+            "variant": "sticky-bar",
+            "top": 0,
+            "heightPx": 72,
+            "position": "sticky",
+            "inFlow": true
+          },
+          {
+            "section": "hero.case-header",
+            "variant": null,
+            "top": 72,
+            "heightPx": 1420,
+            "position": "in-flow",
+            "inFlow": true
+          },
+          {
+            "section": "work.case-role",
+            "variant": null,
+            "top": 1492,
+            "heightPx": 227,
+            "position": "in-flow",
+            "inFlow": true
+          },
+          {
+            "section": "work.case-context",
+            "variant": null,
+            "top": 1718,
+            "heightPx": 390,
+            "position": "in-flow",
+            "inFlow": true
+          },
+          {
+            "section": "work.case-process",
+            "variant": null,
+            "top": 2108,
+            "heightPx": 623,
+            "position": "in-flow",
+            "inFlow": true
+          },
+          {
+            "section": "work.case-chapter",
+            "variant": "part-opener",
+            "top": 2731,
+            "heightPx": 2132,
+            "position": "in-flow",
+            "inFlow": true
+          },
+          {
+            "section": "work.case-chapter",
+            "variant": "chapter",
+            "top": 4863,
+            "heightPx": 867,
+            "position": "in-flow",
+            "inFlow": true
+          },
+          {
+            "section": "work.case-chapter",
+            "variant": "chapter",
+            "top": 5730,
+            "heightPx": 1541,
+            "position": "in-flow",
+            "inFlow": true
+          },
+          {
+            "section": "work.case-chapter",
+            "variant": "chapter",
+            "top": 7271,
+            "heightPx": 1699,
+            "position": "in-flow",
+            "inFlow": true
+          },
+          {
+            "section": "work.case-chapter",
+            "variant": "chapter",
+            "top": 8971,
+            "heightPx": 3432,
+            "position": "in-flow",
+            "inFlow": true
+          },
+          {
+            "section": "work.case-chapter",
+            "variant": "part-opener",
+            "top": 12402,
+            "heightPx": 2081,
+            "position": "in-flow",
+            "inFlow": true
+          },
+          {
+            "section": "work.case-chapter",
+            "variant": "chapter",
+            "top": 14484,
+            "heightPx": 992,
+            "position": "in-flow",
+            "inFlow": true
+          },
+          {
+            "section": "work.case-chapter",
+            "variant": "chapter",
+            "top": 15476,
+            "heightPx": 1549,
+            "position": "in-flow",
+            "inFlow": true
+          },
+          {
+            "section": "work.case-chapter",
+            "variant": "chapter",
+            "top": 17024,
+            "heightPx": 1693,
+            "position": "in-flow",
+            "inFlow": true
+          },
+          {
+            "section": "work.case-chapter",
+            "variant": "chapter",
+            "top": 18718,
+            "heightPx": 482,
+            "position": "in-flow",
+            "inFlow": true
+          },
+          {
+            "section": "work.next-project",
+            "variant": null,
+            "top": 19199,
+            "heightPx": 438,
+            "position": "in-flow",
+            "inFlow": true
+          }
+        ]
+      }
+    }
+  },
+  "responsiveHeights": {
+    "768x1024": {
+      "/": {
+        "docHeight": 9818,
+        "sections": [
+          [
+            "shell.footer",
+            416
+          ],
+          [
+            "hero.home-intro",
+            1132
+          ],
+          [
+            "narrative.studio-teaser",
+            2534
+          ],
+          [
+            "work.projects-list",
+            2663
+          ],
+          [
+            "art.lab-teaser",
+            1024
+          ],
+          [
+            "services.skillset",
+            1024
+          ],
+          [
+            "conversion.lead-form",
+            1024
+          ]
+        ]
+      },
+      "/studio": {
+        "docHeight": 6551,
+        "sections": [
+          [
+            "shell.footer",
+            416
+          ],
+          [
+            "shell.primary-nav",
+            60
+          ],
+          [
+            "hero.studio-intro",
+            952
+          ],
+          [
+            "narrative.approach-statement",
+            2470
+          ],
+          [
+            "narrative.industries",
+            496
+          ],
+          [
+            "narrative.process-steps",
+            874
+          ],
+          [
+            "narrative.faq",
+            865
+          ],
+          [
+            "conversion.studio-cta",
+            417
+          ]
+        ]
+      },
+      "/art-lab": {
+        "docHeight": 1024,
+        "sections": []
+      },
+      "/shop": {
+        "docHeight": 3540,
+        "sections": [
+          [
+            "shell.footer",
+            416
+          ],
+          [
+            "shell.primary-nav",
+            60
+          ],
+          [
+            "hero.shop-header",
+            333
+          ],
+          [
+            "commerce.shop-filters",
+            72
+          ],
+          [
+            "commerce.product-grid",
+            1635
+          ],
+          [
+            "conversion.drops-signup",
+            1024
+          ]
+        ]
+      },
+      "/shop/red-series-01": {
+        "docHeight": 3686,
+        "sections": [
+          [
+            "shell.footer",
+            416
+          ],
+          [
+            "shell.primary-nav",
+            60
+          ],
+          [
+            "hero.product-detail",
+            1921
+          ],
+          [
+            "commerce.more-from-shop",
+            1289
+          ]
+        ]
+      },
+      "/shop/red-series-02": {
+        "docHeight": 3535,
+        "sections": [
+          [
+            "shell.footer",
+            416
+          ],
+          [
+            "shell.primary-nav",
+            60
+          ],
+          [
+            "hero.product-detail",
+            1770
+          ],
+          [
+            "commerce.more-from-shop",
+            1289
+          ]
+        ]
+      },
+      "/shop/red-series-03": {
+        "docHeight": 3535,
+        "sections": [
+          [
+            "shell.footer",
+            416
+          ],
+          [
+            "shell.primary-nav",
+            60
+          ],
+          [
+            "hero.product-detail",
+            1770
+          ],
+          [
+            "commerce.more-from-shop",
+            1289
+          ]
+        ]
+      },
+      "/shop/inked-frame": {
+        "docHeight": 3478,
+        "sections": [
+          [
+            "shell.footer",
+            416
+          ],
+          [
+            "shell.primary-nav",
+            60
+          ],
+          [
+            "hero.product-detail",
+            1712
+          ],
+          [
+            "commerce.more-from-shop",
+            1289
+          ]
+        ]
+      },
+      "/shop/pink-portrait": {
+        "docHeight": 3478,
+        "sections": [
+          [
+            "shell.footer",
+            416
+          ],
+          [
+            "shell.primary-nav",
+            60
+          ],
+          [
+            "hero.product-detail",
+            1712
+          ],
+          [
+            "commerce.more-from-shop",
+            1289
+          ]
+        ]
+      },
+      "/privacy": {
+        "docHeight": 3282,
+        "sections": [
+          [
+            "shell.footer",
+            416
+          ],
+          [
+            "shell.primary-nav",
+            60
+          ],
+          [
+            "hero.legal-header",
+            147
+          ],
+          [
+            "legal.clause",
+            183
+          ],
+          [
+            "legal.clause",
+            252
+          ],
+          [
+            "legal.clause",
+            252
+          ],
+          [
+            "legal.clause",
+            299
+          ],
+          [
+            "legal.clause",
+            470
+          ],
+          [
+            "legal.clause",
+            559
+          ],
+          [
+            "legal.clause",
+            167
+          ],
+          [
+            "legal.clause",
+            190
+          ],
+          [
+            "legal.clause",
+            143
+          ]
+        ]
+      },
+      "/terms": {
+        "docHeight": 2058,
+        "sections": [
+          [
+            "shell.footer",
+            416
+          ],
+          [
+            "shell.primary-nav",
+            60
+          ],
+          [
+            "hero.legal-header",
+            147
+          ],
+          [
+            "legal.clause",
+            167
+          ],
+          [
+            "legal.clause",
+            252
+          ],
+          [
+            "legal.clause",
+            167
+          ],
+          [
+            "legal.clause",
+            276
+          ],
+          [
+            "legal.clause",
+            167
+          ],
+          [
+            "legal.clause",
+            143
+          ],
+          [
+            "legal.clause",
+            120
+          ]
+        ]
+      },
+      "/work/figcoms": {
+        "docHeight": 10778,
+        "sections": [
+          [
+            "shell.footer",
+            416
+          ],
+          [
+            "shell.primary-nav",
+            60
+          ],
+          [
+            "hero.case-header",
+            890
+          ],
+          [
+            "work.case-role",
+            245
+          ],
+          [
+            "work.case-context",
+            325
+          ],
+          [
+            "work.case-process",
+            691
+          ],
+          [
+            "work.case-chapter",
+            779
+          ],
+          [
+            "work.case-chapter",
+            1470
+          ],
+          [
+            "work.case-chapter",
+            575
+          ],
+          [
+            "work.case-chapter",
+            3875
+          ],
+          [
+            "work.case-chapter",
+            1200
+          ],
+          [
+            "work.next-project",
+            252
+          ]
+        ]
+      },
+      "/work/rise": {
+        "docHeight": 12680,
+        "sections": [
+          [
+            "shell.footer",
+            416
+          ],
+          [
+            "shell.primary-nav",
+            60
+          ],
+          [
+            "hero.case-header",
+            908
+          ],
+          [
+            "work.case-role",
+            230
+          ],
+          [
+            "work.case-process",
+            691
+          ],
+          [
+            "work.case-chapter",
+            2725
+          ],
+          [
+            "work.case-chapter",
+            2147
+          ],
+          [
+            "work.case-chapter",
+            1407
+          ],
+          [
+            "work.case-chapter",
+            617
+          ],
+          [
+            "work.case-chapter",
+            659
+          ],
+          [
+            "work.case-chapter",
+            2567
+          ],
+          [
+            "work.next-project",
+            252
+          ]
+        ]
+      },
+      "/work/imotion": {
+        "docHeight": 10400,
+        "sections": [
+          [
+            "shell.footer",
+            416
+          ],
+          [
+            "shell.primary-nav",
+            60
+          ],
+          [
+            "hero.case-header",
+            883
+          ],
+          [
+            "work.case-role",
+            222
+          ],
+          [
+            "work.case-context",
+            441
+          ],
+          [
+            "work.case-process",
+            621
+          ],
+          [
+            "work.case-chapter",
+            1394
+          ],
+          [
+            "work.case-chapter",
+            2347
+          ],
+          [
+            "work.case-chapter",
+            3764
+          ],
+          [
+            "work.next-project",
+            252
+          ]
+        ]
+      },
+      "/work/israel-police": {
+        "docHeight": 16300,
+        "sections": [
+          [
+            "shell.footer",
+            416
+          ],
+          [
+            "shell.primary-nav",
+            60
+          ],
+          [
+            "hero.case-header",
+            842
+          ],
+          [
+            "work.case-role",
+            222
+          ],
+          [
+            "work.case-context",
+            418
+          ],
+          [
+            "work.case-process",
+            598
+          ],
+          [
+            "work.case-chapter",
+            1741
+          ],
+          [
+            "work.case-chapter",
+            607
+          ],
+          [
+            "work.case-chapter",
+            1629
+          ],
+          [
+            "work.case-chapter",
+            1077
+          ],
+          [
+            "work.case-chapter",
+            2645
+          ],
+          [
+            "work.case-chapter",
+            1430
+          ],
+          [
+            "work.case-chapter",
+            635
+          ],
+          [
+            "work.case-chapter",
+            1526
+          ],
+          [
+            "work.case-chapter",
+            1838
+          ],
+          [
+            "work.case-chapter",
+            367
+          ],
+          [
+            "work.next-project",
+            252
+          ]
+        ]
+      }
+    },
+    "390x844": {
+      "/": {
+        "docHeight": 7852,
+        "sections": [
+          [
+            "shell.footer",
+            540
+          ],
+          [
+            "hero.home-intro",
+            895
+          ],
+          [
+            "narrative.studio-teaser",
+            2111
+          ],
+          [
+            "work.projects-list",
+            1750
+          ],
+          [
+            "art.lab-teaser",
+            844
+          ],
+          [
+            "services.skillset",
+            868
+          ],
+          [
+            "conversion.lead-form",
+            844
+          ]
+        ]
+      },
+      "/studio": {
+        "docHeight": 6940,
+        "sections": [
+          [
+            "shell.footer",
+            540
+          ],
+          [
+            "shell.primary-nav",
+            60
+          ],
+          [
+            "hero.studio-intro",
+            1005
+          ],
+          [
+            "narrative.approach-statement",
+            2047
+          ],
+          [
+            "narrative.industries",
+            683
+          ],
+          [
+            "narrative.process-steps",
+            1062
+          ],
+          [
+            "narrative.faq",
+            1173
+          ],
+          [
+            "conversion.studio-cta",
+            370
+          ]
+        ]
+      },
+      "/art-lab": {
+        "docHeight": 844,
+        "sections": []
+      },
+      "/shop": {
+        "docHeight": 4683,
+        "sections": [
+          [
+            "shell.footer",
+            540
+          ],
+          [
+            "shell.primary-nav",
+            60
+          ],
+          [
+            "hero.shop-header",
+            309
+          ],
+          [
+            "commerce.shop-filters",
+            106
+          ],
+          [
+            "commerce.product-grid",
+            2825
+          ],
+          [
+            "conversion.drops-signup",
+            844
+          ]
+        ]
+      },
+      "/shop/red-series-01": {
+        "docHeight": 4027,
+        "sections": [
+          [
+            "shell.footer",
+            540
+          ],
+          [
+            "shell.primary-nav",
+            60
+          ],
+          [
+            "hero.product-detail",
+            1535
+          ],
+          [
+            "commerce.more-from-shop",
+            1893
+          ]
+        ]
+      },
+      "/shop/red-series-02": {
+        "docHeight": 3876,
+        "sections": [
+          [
+            "shell.footer",
+            540
+          ],
+          [
+            "shell.primary-nav",
+            60
+          ],
+          [
+            "hero.product-detail",
+            1384
+          ],
+          [
+            "commerce.more-from-shop",
+            1893
+          ]
+        ]
+      },
+      "/shop/red-series-03": {
+        "docHeight": 3876,
+        "sections": [
+          [
+            "shell.footer",
+            540
+          ],
+          [
+            "shell.primary-nav",
+            60
+          ],
+          [
+            "hero.product-detail",
+            1384
+          ],
+          [
+            "commerce.more-from-shop",
+            1893
+          ]
+        ]
+      },
+      "/shop/inked-frame": {
+        "docHeight": 3795,
+        "sections": [
+          [
+            "shell.footer",
+            540
+          ],
+          [
+            "shell.primary-nav",
+            60
+          ],
+          [
+            "hero.product-detail",
+            1303
+          ],
+          [
+            "commerce.more-from-shop",
+            1893
+          ]
+        ]
+      },
+      "/shop/pink-portrait": {
+        "docHeight": 3795,
+        "sections": [
+          [
+            "shell.footer",
+            540
+          ],
+          [
+            "shell.primary-nav",
+            60
+          ],
+          [
+            "hero.product-detail",
+            1303
+          ],
+          [
+            "commerce.more-from-shop",
+            1893
+          ]
+        ]
+      },
+      "/privacy": {
+        "docHeight": 4886,
+        "sections": [
+          [
+            "shell.footer",
+            540
+          ],
+          [
+            "shell.primary-nav",
+            60
+          ],
+          [
+            "hero.legal-header",
+            115
+          ],
+          [
+            "legal.clause",
+            276
+          ],
+          [
+            "legal.clause",
+            392
+          ],
+          [
+            "legal.clause",
+            369
+          ],
+          [
+            "legal.clause",
+            462
+          ],
+          [
+            "legal.clause",
+            773
+          ],
+          [
+            "legal.clause",
+            1047
+          ],
+          [
+            "legal.clause",
+            236
+          ],
+          [
+            "legal.clause",
+            283
+          ],
+          [
+            "legal.clause",
+            190
+          ]
+        ]
+      },
+      "/terms": {
+        "docHeight": 2639,
+        "sections": [
+          [
+            "shell.footer",
+            540
+          ],
+          [
+            "shell.primary-nav",
+            60
+          ],
+          [
+            "hero.legal-header",
+            115
+          ],
+          [
+            "legal.clause",
+            236
+          ],
+          [
+            "legal.clause",
+            369
+          ],
+          [
+            "legal.clause",
+            213
+          ],
+          [
+            "legal.clause",
+            438
+          ],
+          [
+            "legal.clause",
+            213
+          ],
+          [
+            "legal.clause",
+            167
+          ],
+          [
+            "legal.clause",
+            143
+          ]
+        ]
+      },
+      "/work/figcoms": {
+        "docHeight": 12274,
+        "sections": [
+          [
+            "shell.footer",
+            540
+          ],
+          [
+            "shell.primary-nav",
+            60
+          ],
+          [
+            "hero.case-header",
+            863
+          ],
+          [
+            "work.case-role",
+            315
+          ],
+          [
+            "work.case-context",
+            441
+          ],
+          [
+            "work.case-process",
+            830
+          ],
+          [
+            "work.case-chapter",
+            1113
+          ],
+          [
+            "work.case-chapter",
+            1508
+          ],
+          [
+            "work.case-chapter",
+            957
+          ],
+          [
+            "work.case-chapter",
+            4420
+          ],
+          [
+            "work.case-chapter",
+            997
+          ],
+          [
+            "work.next-project",
+            229
+          ]
+        ]
+      },
+      "/work/rise": {
+        "docHeight": 13926,
+        "sections": [
+          [
+            "shell.footer",
+            540
+          ],
+          [
+            "shell.primary-nav",
+            60
+          ],
+          [
+            "hero.case-header",
+            909
+          ],
+          [
+            "work.case-role",
+            300
+          ],
+          [
+            "work.case-process",
+            876
+          ],
+          [
+            "work.case-chapter",
+            3967
+          ],
+          [
+            "work.case-chapter",
+            3194
+          ],
+          [
+            "work.case-chapter",
+            1154
+          ],
+          [
+            "work.case-chapter",
+            438
+          ],
+          [
+            "work.case-chapter",
+            458
+          ],
+          [
+            "work.case-chapter",
+            1802
+          ],
+          [
+            "work.next-project",
+            229
+          ]
+        ]
+      },
+      "/work/imotion": {
+        "docHeight": 7913,
+        "sections": [
+          [
+            "shell.footer",
+            540
+          ],
+          [
+            "shell.primary-nav",
+            60
+          ],
+          [
+            "hero.case-header",
+            845
+          ],
+          [
+            "work.case-role",
+            292
+          ],
+          [
+            "work.case-context",
+            604
+          ],
+          [
+            "work.case-process",
+            760
+          ],
+          [
+            "work.case-chapter",
+            909
+          ],
+          [
+            "work.case-chapter",
+            1582
+          ],
+          [
+            "work.case-chapter",
+            2092
+          ],
+          [
+            "work.next-project",
+            229
+          ]
+        ]
+      },
+      "/work/israel-police": {
+        "docHeight": 18370,
+        "sections": [
+          [
+            "shell.footer",
+            540
+          ],
+          [
+            "shell.primary-nav",
+            60
+          ],
+          [
+            "hero.case-header",
+            741
+          ],
+          [
+            "work.case-role",
+            315
+          ],
+          [
+            "work.case-context",
+            580
+          ],
+          [
+            "work.case-process",
+            690
+          ],
+          [
+            "work.case-chapter",
+            2901
+          ],
+          [
+            "work.case-chapter",
+            629
+          ],
+          [
+            "work.case-chapter",
+            1788
+          ],
+          [
+            "work.case-chapter",
+            856
+          ],
+          [
+            "work.case-chapter",
+            2361
+          ],
+          [
+            "work.case-chapter",
+            2317
+          ],
+          [
+            "work.case-chapter",
+            680
+          ],
+          [
+            "work.case-chapter",
+            1538
+          ],
+          [
+            "work.case-chapter",
+            1779
+          ],
+          [
+            "work.case-chapter",
+            367
+          ],
+          [
+            "work.next-project",
+            229
+          ]
+        ]
+      }
+    }
+  },
+  "fieldProfiles": {
+    "note": "max words / max element count per element kind across every measured instance (1440x900); numbers only",
+    "sections": {
+      "shell.skip-link": {
+        "instances": 15,
+        "kinds": {
+          "a": {
+            "maxWords": 3,
+            "maxCount": 1
+          }
+        }
+      },
+      "shell.awwwards-badge": {
+        "instances": 15,
+        "kinds": {
+          "a": {
+            "maxWords": 0,
+            "maxCount": 1
+          }
+        }
+      },
+      "overlay.cookie-notice": {
+        "instances": 15,
+        "kinds": {
+          "p": {
+            "maxWords": 18,
+            "maxCount": 2
+          },
+          "a": {
+            "maxWords": 2,
+            "maxCount": 1
+          },
+          "button": {
+            "maxWords": 1,
+            "maxCount": 2
+          },
+          "eyebrow": {
+            "maxWords": 1,
+            "maxCount": 1
+          }
+        }
+      },
+      "overlay.route-curtain": {
+        "instances": 15,
+        "kinds": {}
+      },
+      "overlay.menu-panel": {
+        "instances": 14,
+        "kinds": {
+          "li": {
+            "maxWords": 2,
+            "maxCount": 4
+          },
+          "a": {
+            "maxWords": 2,
+            "maxCount": 5
+          },
+          "ul": {
+            "maxWords": 2,
+            "maxCount": 1
+          }
+        }
+      },
+      "shell.footer": {
+        "instances": 14,
+        "kinds": {
+          "p": {
+            "maxWords": 9,
+            "maxCount": 3
+          },
+          "li": {
+            "maxWords": 0,
+            "maxCount": 5
+          },
+          "a": {
+            "maxWords": 1,
+            "maxCount": 8
+          },
+          "ul": {
+            "maxWords": 0,
+            "maxCount": 1
+          }
+        }
+      },
+      "shell.primary-nav": {
+        "instances": 14,
+        "kinds": {
+          "a": {
+            "maxWords": 0,
+            "maxCount": 1
+          },
+          "button": {
+            "maxWords": 0,
+            "maxCount": 1
+          }
+        }
+      },
+      "hero.home-intro": {
+        "instances": 1,
+        "kinds": {
+          "h1": {
+            "maxWords": 2,
+            "maxCount": 1
+          },
+          "p": {
+            "maxWords": 11,
+            "maxCount": 1
+          },
+          "li": {
+            "maxWords": 3,
+            "maxCount": 9
+          },
+          "a": {
+            "maxWords": 2,
+            "maxCount": 6
+          },
+          "button": {
+            "maxWords": 0,
+            "maxCount": 1
+          },
+          "ul": {
+            "maxWords": 8,
+            "maxCount": 2
+          },
+          "eyebrow": {
+            "maxWords": 3,
+            "maxCount": 5
+          }
+        }
+      },
+      "narrative.studio-teaser": {
+        "instances": 1,
+        "kinds": {
+          "p": {
+            "maxWords": 56,
+            "maxCount": 2
+          },
+          "eyebrow": {
+            "maxWords": 3,
+            "maxCount": 1
+          }
+        }
+      },
+      "work.projects-list": {
+        "instances": 1,
+        "kinds": {
+          "h2": {
+            "maxWords": 2,
+            "maxCount": 1
+          },
+          "h3": {
+            "maxWords": 2,
+            "maxCount": 4
+          },
+          "li": {
+            "maxWords": 25,
+            "maxCount": 4
+          },
+          "dt": {
+            "maxWords": 1,
+            "maxCount": 16
+          },
+          "dd": {
+            "maxWords": 9,
+            "maxCount": 16
+          },
+          "a": {
+            "maxWords": 25,
+            "maxCount": 4
+          },
+          "ul": {
+            "maxWords": 70,
+            "maxCount": 1
+          },
+          "eyebrow": {
+            "maxWords": 9,
+            "maxCount": 24
+          }
+        }
+      },
+      "art.lab-teaser": {
+        "instances": 1,
+        "kinds": {
+          "h2": {
+            "maxWords": 3,
+            "maxCount": 1
+          },
+          "p": {
+            "maxWords": 52,
+            "maxCount": 2
+          },
+          "a": {
+            "maxWords": 3,
+            "maxCount": 2
+          }
+        }
+      },
+      "services.skillset": {
+        "instances": 1,
+        "kinds": {
+          "h2": {
+            "maxWords": 1,
+            "maxCount": 1
+          },
+          "li": {
+            "maxWords": 16,
+            "maxCount": 4
+          },
+          "ul": {
+            "maxWords": 55,
+            "maxCount": 1
+          },
+          "eyebrow": {
+            "maxWords": 1,
+            "maxCount": 4
+          }
+        }
+      },
+      "conversion.lead-form": {
+        "instances": 1,
+        "kinds": {
+          "h2": {
+            "maxWords": 3,
+            "maxCount": 1
+          },
+          "p": {
+            "maxWords": 12,
+            "maxCount": 2
+          },
+          "a": {
+            "maxWords": 2,
+            "maxCount": 2
+          },
+          "button": {
+            "maxWords": 2,
+            "maxCount": 1
+          },
+          "label": {
+            "maxWords": 1,
+            "maxCount": 5
+          },
+          "input": {
+            "maxWords": 0,
+            "maxCount": 5
+          },
+          "select": {
+            "maxWords": 6,
+            "maxCount": 1
+          },
+          "eyebrow": {
+            "maxWords": 12,
+            "maxCount": 8
+          }
+        }
+      },
+      "hero.studio-intro": {
+        "instances": 1,
+        "kinds": {
+          "h1": {
+            "maxWords": 1,
+            "maxCount": 1
+          },
+          "h2": {
+            "maxWords": 4,
+            "maxCount": 1
+          },
+          "p": {
+            "maxWords": 149,
+            "maxCount": 2
+          },
+          "dt": {
+            "maxWords": 2,
+            "maxCount": 4
+          },
+          "dd": {
+            "maxWords": 3,
+            "maxCount": 4
+          },
+          "eyebrow": {
+            "maxWords": 5,
+            "maxCount": 6
+          }
+        }
+      },
+      "narrative.approach-statement": {
+        "instances": 1,
+        "kinds": {
+          "h2": {
+            "maxWords": 5,
+            "maxCount": 1
+          },
+          "p": {
+            "maxWords": 69,
+            "maxCount": 2
+          },
+          "eyebrow": {
+            "maxWords": 5,
+            "maxCount": 1
+          }
+        }
+      },
+      "narrative.industries": {
+        "instances": 1,
+        "kinds": {
+          "h2": {
+            "maxWords": 6,
+            "maxCount": 1
+          },
+          "p": {
+            "maxWords": 146,
+            "maxCount": 1
+          },
+          "li": {
+            "maxWords": 3,
+            "maxCount": 14
+          },
+          "ul": {
+            "maxWords": 6,
+            "maxCount": 2
+          }
+        }
+      },
+      "narrative.process-steps": {
+        "instances": 1,
+        "kinds": {
+          "h2": {
+            "maxWords": 7,
+            "maxCount": 1
+          },
+          "h3": {
+            "maxWords": 3,
+            "maxCount": 5
+          },
+          "p": {
+            "maxWords": 46,
+            "maxCount": 6
+          },
+          "li": {
+            "maxWords": 13,
+            "maxCount": 5
+          },
+          "ol": {
+            "maxWords": 52,
+            "maxCount": 1
+          }
+        }
+      },
+      "narrative.faq": {
+        "instances": 1,
+        "kinds": {
+          "h2": {
+            "maxWords": 8,
+            "maxCount": 6
+          },
+          "p": {
+            "maxWords": 153,
+            "maxCount": 7
+          },
+          "li": {
+            "maxWords": 160,
+            "maxCount": 6
+          },
+          "button": {
+            "maxWords": 8,
+            "maxCount": 6
+          },
+          "ol": {
+            "maxWords": 905,
+            "maxCount": 1
+          },
+          "eyebrow": {
+            "maxWords": 1,
+            "maxCount": 1
+          }
+        }
+      },
+      "conversion.studio-cta": {
+        "instances": 1,
+        "kinds": {
+          "p": {
+            "maxWords": 2,
+            "maxCount": 1
+          },
+          "a": {
+            "maxWords": 2,
+            "maxCount": 2
+          }
+        }
+      },
+      "art.draggable-plane": {
+        "instances": 1,
+        "kinds": {
+          "h1": {
+            "maxWords": 3,
+            "maxCount": 1
+          },
+          "p": {
+            "maxWords": 40,
+            "maxCount": 2
+          },
+          "a": {
+            "maxWords": 1,
+            "maxCount": 2
+          },
+          "eyebrow": {
+            "maxWords": 2,
+            "maxCount": 1
+          }
+        }
+      },
+      "art.lab-header": {
+        "instances": 1,
+        "kinds": {
+          "a": {
+            "maxWords": 1,
+            "maxCount": 2
+          }
+        }
+      },
+      "overlay.drag-cue": {
+        "instances": 1,
+        "kinds": {
+          "p": {
+            "maxWords": 2,
+            "maxCount": 1
+          },
+          "eyebrow": {
+            "maxWords": 2,
+            "maxCount": 1
+          }
+        }
+      },
+      "hero.shop-header": {
+        "instances": 1,
+        "kinds": {
+          "eyebrow": {
+            "maxWords": 2,
+            "maxCount": 1
+          },
+          "h1": {
+            "maxWords": 2,
+            "maxCount": 1
+          },
+          "p": {
+            "maxWords": 21,
+            "maxCount": 1
+          }
+        }
+      },
+      "commerce.shop-filters": {
+        "instances": 1,
+        "kinds": {
+          "p": {
+            "maxWords": 2,
+            "maxCount": 1
+          },
+          "button": {
+            "maxWords": 1,
+            "maxCount": 4
+          }
+        }
+      },
+      "commerce.product-grid": {
+        "instances": 1,
+        "kinds": {
+          "h2": {
+            "maxWords": 3,
+            "maxCount": 5
+          },
+          "p": {
+            "maxWords": 6,
+            "maxCount": 10
+          },
+          "a": {
+            "maxWords": 9,
+            "maxCount": 5
+          }
+        }
+      },
+      "conversion.drops-signup": {
+        "instances": 1,
+        "kinds": {
+          "h2": {
+            "maxWords": 7,
+            "maxCount": 1
+          },
+          "p": {
+            "maxWords": 13,
+            "maxCount": 3
+          },
+          "a": {
+            "maxWords": 2,
+            "maxCount": 1
+          },
+          "button": {
+            "maxWords": 2,
+            "maxCount": 1
+          },
+          "label": {
+            "maxWords": 1,
+            "maxCount": 1
+          },
+          "input": {
+            "maxWords": 0,
+            "maxCount": 2
+          },
+          "eyebrow": {
+            "maxWords": 13,
+            "maxCount": 1
+          }
+        }
+      },
+      "hero.product-detail": {
+        "instances": 5,
+        "kinds": {
+          "p": {
+            "maxWords": 31,
+            "maxCount": 5
+          },
+          "a": {
+            "maxWords": 3,
+            "maxCount": 2
+          },
+          "h1": {
+            "maxWords": 3,
+            "maxCount": 1
+          },
+          "dt": {
+            "maxWords": 1,
+            "maxCount": 5
+          },
+          "dd": {
+            "maxWords": 5,
+            "maxCount": 5
+          },
+          "button": {
+            "maxWords": 2,
+            "maxCount": 3
+          }
+        }
+      },
+      "commerce.more-from-shop": {
+        "instances": 5,
+        "kinds": {
+          "h2": {
+            "maxWords": 4,
+            "maxCount": 1
+          },
+          "h3": {
+            "maxWords": 3,
+            "maxCount": 3
+          },
+          "p": {
+            "maxWords": 6,
+            "maxCount": 6
+          },
+          "a": {
+            "maxWords": 9,
+            "maxCount": 4
+          }
+        }
+      },
+      "hero.legal-header": {
+        "instances": 2,
+        "kinds": {
+          "p": {
+            "maxWords": 5,
+            "maxCount": 1
+          },
+          "eyebrow": {
+            "maxWords": 5,
+            "maxCount": 1
+          },
+          "h1": {
+            "maxWords": 1,
+            "maxCount": 1
+          }
+        }
+      },
+      "legal.clause": {
+        "instances": 16,
+        "kinds": {
+          "h2": {
+            "maxWords": 4,
+            "maxCount": 1
+          },
+          "p": {
+            "maxWords": 111,
+            "maxCount": 4
+          },
+          "a": {
+            "maxWords": 4,
+            "maxCount": 2
+          },
+          "eyebrow": {
+            "maxWords": 4,
+            "maxCount": 2
+          },
+          "button": {
+            "maxWords": 3,
+            "maxCount": 1
+          }
+        }
+      },
+      "hero.case-header": {
+        "instances": 4,
+        "kinds": {
+          "h1": {
+            "maxWords": 2,
+            "maxCount": 1
+          },
+          "p": {
+            "maxWords": 47,
+            "maxCount": 2
+          },
+          "li": {
+            "maxWords": 3,
+            "maxCount": 5
+          },
+          "dt": {
+            "maxWords": 1,
+            "maxCount": 4
+          },
+          "dd": {
+            "maxWords": 9,
+            "maxCount": 4
+          },
+          "ul": {
+            "maxWords": 8,
+            "maxCount": 1
+          },
+          "figure": {
+            "maxWords": 0,
+            "maxCount": 1
+          },
+          "eyebrow": {
+            "maxWords": 4,
+            "maxCount": 10
+          }
+        }
+      },
+      "work.case-role": {
+        "instances": 4,
+        "kinds": {
+          "p": {
+            "maxWords": 2,
+            "maxCount": 1
+          },
+          "li": {
+            "maxWords": 26,
+            "maxCount": 4
+          },
+          "ul": {
+            "maxWords": 57,
+            "maxCount": 1
+          },
+          "eyebrow": {
+            "maxWords": 2,
+            "maxCount": 1
+          }
+        }
+      },
+      "work.case-context": {
+        "instances": 3,
+        "kinds": {
+          "dt": {
+            "maxWords": 6,
+            "maxCount": 3
+          },
+          "dd": {
+            "maxWords": 45,
+            "maxCount": 3
+          },
+          "eyebrow": {
+            "maxWords": 6,
+            "maxCount": 3
+          }
+        }
+      },
+      "work.case-process": {
+        "instances": 4,
+        "kinds": {
+          "h2": {
+            "maxWords": 1,
+            "maxCount": 1
+          },
+          "h3": {
+            "maxWords": 3,
+            "maxCount": 4
+          },
+          "p": {
+            "maxWords": 26,
+            "maxCount": 4
+          },
+          "li": {
+            "maxWords": 28,
+            "maxCount": 4
+          },
+          "ol": {
+            "maxWords": 102,
+            "maxCount": 1
+          }
+        }
+      },
+      "work.case-chapter": {
+        "instances": 24,
+        "kinds": {
+          "h2": {
+            "maxWords": 4,
+            "maxCount": 2
+          },
+          "p": {
+            "maxWords": 51,
+            "maxCount": 27
+          },
+          "li": {
+            "maxWords": 4,
+            "maxCount": 3
+          },
+          "button": {
+            "maxWords": 4,
+            "maxCount": 36
+          },
+          "ul": {
+            "maxWords": 10,
+            "maxCount": 1
+          },
+          "eyebrow": {
+            "maxWords": 12,
+            "maxCount": 31
+          },
+          "figure": {
+            "maxWords": 4,
+            "maxCount": 26
+          },
+          "dt": {
+            "maxWords": 7,
+            "maxCount": 7
+          },
+          "dd": {
+            "maxWords": 30,
+            "maxCount": 12
+          },
+          "label": {
+            "maxWords": 3,
+            "maxCount": 12
+          },
+          "input": {
+            "maxWords": 0,
+            "maxCount": 14
+          },
+          "figcaption": {
+            "maxWords": 4,
+            "maxCount": 26
+          }
+        }
+      },
+      "work.next-project": {
+        "instances": 4,
+        "kinds": {
+          "p": {
+            "maxWords": 2,
+            "maxCount": 2
+          },
+          "a": {
+            "maxWords": 3,
+            "maxCount": 1
+          },
+          "eyebrow": {
+            "maxWords": 2,
+            "maxCount": 1
+          }
+        }
+      }
+    }
+  },
+  "citations": {
+    "cite.routes": {
+      "path": "../src/App.jsx",
+      "lines": "23-39",
+      "quote": "'/work/israel-police'",
+      "tag": "const ROUTES"
+    },
+    "cite.home.order": {
+      "path": "../src/pages/Home.jsx",
+      "lines": "9-15",
+      "quote": "<Hero /><StudioSection /><Projects /><ArtLabSection /><HomeMain5 /><HomeMain6 />",
+      "tag": "export default"
+    },
+    "cite.intro.boot": {
+      "path": "../index.html",
+      "lines": "10-15",
+      "quote": "pamidor-intro"
+    },
+    "cite.shell.skip": {
+      "path": "../src/App.jsx",
+      "lines": "49-49",
+      "quote": "Skip to content",
+      "tag": "<a"
+    },
+    "cite.shell.nav": {
+      "path": "../src/pages/Studio.jsx",
+      "lines": "36-44",
+      "quote": "aria-controls=\"site-menu\"",
+      "tag": "<nav"
+    },
+    "cite.shell.nav-home": {
+      "path": "../src/sections/home/HomeMain1Top.jsx",
+      "lines": "31-39",
+      "quote": "wordmark-pamidor-studio-ink.svg",
+      "tag": "<nav"
+    },
+    "cite.shell.menu": {
+      "path": "../src/pages/Studio.jsx",
+      "lines": "49-49",
+      "quote": "data-menu=\"closed\"",
+      "tag": "<div"
+    },
+    "cite.shell.menu-ctl": {
+      "path": "../src/components/global/MenuController.jsx",
+      "lines": "4-4",
+      "quote": "[data-menu-item]"
+    },
+    "cite.shell.footer": {
+      "path": "../src/sections/home/HomeTop6.jsx",
+      "lines": "31-149",
+      "quote": "aria-label=\"Profiles\"",
+      "tag": "<footer"
+    },
+    "cite.shell.footer-clip": {
+      "path": "../src/sections/home/HomeTop6.jsx",
+      "lines": "4-4",
+      "quote": "60% of the viewport height"
+    },
+    "cite.shell.badge": {
+      "path": "../src/components/Awwwards.jsx",
+      "lines": "3-12",
+      "quote": "<div id=\"awwwards\"",
+      "tag": "<div"
+    },
+    "cite.shell.cursor": {
+      "path": "../src/components/global/CursorState.jsx",
+      "lines": "4-21",
+      "quote": "data-cursor",
+      "tag": "export default"
+    },
+    "cite.css.cursor": {
+      "path": "../src/original.css",
+      "lines": "5-5",
+      "quote": "[data-cursor-invert],[data-cursor-invert] *{cursor:url(/icons/cursor-light-28.png)"
+    },
+    "cite.overlay.loader": {
+      "path": "../src/sections/home/HomeTop4.jsx",
+      "lines": "40-40",
+      "quote": "export default function HomeTop4()",
+      "tag": "export default"
+    },
+    "cite.overlay.loader-cycle": {
+      "path": "../src/sections/home/HomeTop4.jsx",
+      "lines": "68-68",
+      "quote": "interval = window.setInterval(() => setTick(t => t + 1), 230);"
+    },
+    "cite.overlay.curtain": {
+      "path": "../src/components/global/RouteCurtain.jsx",
+      "lines": "49-49",
+      "quote": "bg-night"
+    },
+    "cite.overlay.curtain-cover": {
+      "path": "../src/components/global/RouteCurtain.jsx",
+      "lines": "36-36",
+      "quote": "}, 667);"
+    },
+    "cite.overlay.curtain-reveal": {
+      "path": "../src/components/global/RouteCurtain.jsx",
+      "lines": "45-45",
+      "quote": "setState('idle'), 754);"
+    },
+    "cite.overlay.cookie": {
+      "path": "../src/components/global/CookieBanner.jsx",
+      "lines": "46-53",
+      "quote": "<aside aria-label=\"Cookie notice\"",
+      "tag": "<aside"
+    },
+    "cite.overlay.cookie-delay": {
+      "path": "../src/components/global/CookieBanner.jsx",
+      "lines": "17-17",
+      "quote": "setShown(true)"
+    },
+    "cite.overlay.cart": {
+      "path": "../src/components/global/CartDrawer.jsx",
+      "lines": "59-59",
+      "quote": "role=\"dialog\" aria-modal=\"true\" aria-label=\"Cart\""
+    },
+    "cite.overlay.lightbox": {
+      "path": "../src/components/work/BoardGallery.jsx",
+      "lines": "104-104",
+      "quote": "role=\"dialog\""
+    },
+    "cite.overlay.dragcue": {
+      "path": "../src/components/artlab/DragCue.jsx",
+      "lines": "26-26",
+      "quote": "<p aria-hidden=\"true\" data-gone",
+      "tag": "<p"
+    },
+    "cite.overlay.dragcue-timer": {
+      "path": "../src/components/artlab/DragCue.jsx",
+      "lines": "13-13",
+      "quote": "window.setTimeout(hide, 5200);"
+    },
+    "cite.home.hero": {
+      "path": "../src/sections/home/HomeMain1Top.jsx",
+      "lines": "10-169",
+      "quote": "data-hero-3d-lines",
+      "tag": "<section"
+    },
+    "cite.home.trail": {
+      "path": "../src/sections/home/HeroTrail.jsx",
+      "lines": "10-10",
+      "quote": "const DURATION = 840;"
+    },
+    "cite.home.trail-max": {
+      "path": "../src/sections/home/HeroTrail.jsx",
+      "lines": "65-65",
+      "quote": "if (live.length >= 4) drain(live.shift());"
+    },
+    "cite.home.studio": {
+      "path": "../src/sections/home/HomeMain2Studio.jsx",
+      "lines": "13-1118",
+      "quote": "(CLIENTS & COLLABORATIONS)",
+      "tag": "<section"
+    },
+    "cite.home.showreel": {
+      "path": "../src/sections/home/HomeMain2Studio.jsx",
+      "lines": "934-934",
+      "quote": "poster=\"/images/studio-showreel-poster.webp\""
+    },
+    "cite.home.projects": {
+      "path": "../src/sections/home/HomeMain3Projects.jsx",
+      "lines": "93-110",
+      "quote": "<section id=\"projects\"",
+      "tag": "<section"
+    },
+    "cite.home.project-row": {
+      "path": "../src/sections/home/HomeMain3Projects.jsx",
+      "lines": "19-19",
+      "quote": "/work/${slug}",
+      "tag": "<a"
+    },
+    "cite.home.artlab": {
+      "path": "../src/sections/home/HomeMain4ArtLab.jsx",
+      "lines": "3-83",
+      "quote": "<section id=\"art-lab\"",
+      "tag": "<section"
+    },
+    "cite.home.skillset": {
+      "path": "../src/sections/home/HomeMain5.jsx",
+      "lines": "95-153",
+      "quote": "bg-night",
+      "tag": "<section"
+    },
+    "cite.home.lead": {
+      "path": "../src/sections/home/HomeMain6.jsx",
+      "lines": "124-177",
+      "quote": "<section className=\"relative flex min-h-[100svh] w-full flex-col justify-center overflow-hidden",
+      "tag": "<section"
+    },
+    "cite.home.lead-data": {
+      "path": "../src/lib/home/data.js",
+      "lines": "44-56",
+      "quote": "reasons:",
+      "tag": "export const LEAD"
+    },
+    "cite.forms.endpoints": {
+      "path": "../src/lib/newsletter.js",
+      "lines": "2-3",
+      "quote": "// Original: POST /api/subscribe"
+    },
+    "cite.studio.hero": {
+      "path": "../src/pages/Studio.jsx",
+      "lines": "129-183",
+      "quote": "<dl",
+      "tag": "<section"
+    },
+    "cite.studio.approach": {
+      "path": "../src/pages/Studio.jsx",
+      "lines": "184-768",
+      "quote": "--travel",
+      "tag": "<section"
+    },
+    "cite.studio.industries": {
+      "path": "../src/pages/Studio.jsx",
+      "lines": "769-845",
+      "quote": "marquee-track",
+      "tag": "<section"
+    },
+    "cite.studio.process": {
+      "path": "../src/pages/Studio.jsx",
+      "lines": "847-940",
+      "quote": "<ol",
+      "tag": "<section"
+    },
+    "cite.studio.faq": {
+      "path": "../src/pages/Studio.jsx",
+      "lines": "942-950",
+      "quote": "<FaqAccordion items={FAQ} />",
+      "tag": "<section"
+    },
+    "cite.studio.faq-anim": {
+      "path": "../src/components/studio/FaqAccordion.jsx",
+      "lines": "11-11",
+      "quote": "duration-500 ease-out-soft motion-reduce:transition-none"
+    },
+    "cite.studio.cta": {
+      "path": "../src/pages/Studio.jsx",
+      "lines": "951-998",
+      "quote": "mailto:",
+      "tag": "<section"
+    },
+    "cite.case.hero": {
+      "path": "../src/pages/WorkFigcoms.jsx",
+      "lines": "127-193",
+      "quote": "<dl",
+      "tag": "<header"
+    },
+    "cite.case.role": {
+      "path": "../src/pages/WorkFigcoms.jsx",
+      "lines": "194-214",
+      "quote": "(MY ROLE)",
+      "tag": "<section"
+    },
+    "cite.case.context": {
+      "path": "../src/pages/WorkFigcoms.jsx",
+      "lines": "215-245",
+      "quote": "(WHY IT EXISTS)",
+      "tag": "<section"
+    },
+    "cite.case.context-imotion": {
+      "path": "../src/pages/WorkImotion.jsx",
+      "lines": "191-191",
+      "quote": "(THE PROBLEM)"
+    },
+    "cite.case.context-police": {
+      "path": "../src/pages/WorkIsraelPolice.jsx",
+      "lines": "190-190",
+      "quote": "(OVERVIEW)"
+    },
+    "cite.case.process": {
+      "path": "../src/pages/WorkFigcoms.jsx",
+      "lines": "246-318",
+      "quote": "<ol",
+      "tag": "<section"
+    },
+    "cite.case.chapter": {
+      "path": "../src/pages/WorkFigcoms.jsx",
+      "lines": "319-338",
+      "quote": "<BoardGallery items={BOARDS_0} />",
+      "tag": "<section"
+    },
+    "cite.case.part-opener": {
+      "path": "../src/pages/WorkRise.jsx",
+      "lines": "318-412",
+      "quote": "(PART 01)",
+      "tag": "<section"
+    },
+    "cite.case.finder": {
+      "path": "../src/pages/WorkRise.jsx",
+      "lines": "411-411",
+      "quote": "<DashboardFinder />"
+    },
+    "cite.case.customer-dash": {
+      "path": "../src/pages/WorkRise.jsx",
+      "lines": "490-490",
+      "quote": "<CustomerDashboard />"
+    },
+    "cite.case.next": {
+      "path": "../src/pages/WorkFigcoms.jsx",
+      "lines": "483-502",
+      "quote": "NEXT PROJECT",
+      "tag": "<section"
+    },
+    "cite.case.video": {
+      "path": "../src/components/work/WorkVideo.jsx",
+      "lines": "4-4",
+      "quote": "// prefers-reduced-motion it never autoplays"
+    },
+    "cite.case.countup": {
+      "path": "../src/lib/text/countUp.js",
+      "lines": "28-28",
+      "quote": "const k = Math.min(1, (now - t0) / 900);"
+    },
+    "cite.case.countup-re": {
+      "path": "../src/lib/text/countUp.js",
+      "lines": "9-9",
+      "quote": "const RE = /^(\\D*?)(\\d+(?:[.,]\\d+)?)([\\s\\S]*)$/;"
+    },
+    "cite.case.clip": {
+      "path": "../src/components/work/ClipReveal.jsx",
+      "lines": "10-10",
+      "quote": "(prefers-reduced-motion: reduce)"
+    },
+    "cite.shop.header": {
+      "path": "../src/pages/Shop.jsx",
+      "lines": "103-123",
+      "quote": "<h1",
+      "tag": "<div"
+    },
+    "cite.shop.filters": {
+      "path": "../src/components/shop/ShopListing.jsx",
+      "lines": "12-12",
+      "quote": "<div className=\"flex flex-wrap items-center justify-between gap-y-4 pt-8\">",
+      "tag": "<div"
+    },
+    "cite.shop.filter-button": {
+      "path": "../src/components/shop/ShopListing.jsx",
+      "lines": "17-17",
+      "quote": "aria-pressed={on}"
+    },
+    "cite.shop.grid": {
+      "path": "../src/components/shop/ShopListing.jsx",
+      "lines": "27-27",
+      "quote": "lg:grid-cols-3",
+      "tag": "<div"
+    },
+    "cite.shop.card": {
+      "path": "../src/components/shop/ProductCard.jsx",
+      "lines": "7-7",
+      "quote": "return ("
+    },
+    "cite.shop.drops": {
+      "path": "../src/components/shop/DropsForm.jsx",
+      "lines": "33-80",
+      "quote": "<section className=\"flex min-h-[100svh] flex-col justify-center py-16 text-center\">",
+      "tag": "<section"
+    },
+    "cite.shop.products": {
+      "path": "../src/lib/shop/products.js",
+      "lines": "255-257",
+      "quote": "\"addToCart\": \"Add to Cart\","
+    },
+    "cite.shop.detail": {
+      "path": "../src/pages/ShopRedSeries01.jsx",
+      "lines": "116-116",
+      "quote": "<div className=\"gap-y-10 pt-6 lg:flex lg:justify-between",
+      "tag": "<div"
+    },
+    "cite.shop.gallery": {
+      "path": "../src/components/shop/ProductGallery.jsx",
+      "lines": "17-17",
+      "quote": "aria-pressed={i === idx}"
+    },
+    "cite.shop.buybox": {
+      "path": "../src/components/shop/BuyBox.jsx",
+      "lines": "6-6",
+      "quote": "export default function BuyBox",
+      "tag": "export default"
+    },
+    "cite.shop.more": {
+      "path": "../src/pages/ShopRedSeries01.jsx",
+      "lines": "188-272",
+      "quote": "<section className=\"flex min-h-[100svh] flex-col justify-center py-16\">",
+      "tag": "<section"
+    },
+    "cite.legal.header": {
+      "path": "../src/pages/Privacy.jsx",
+      "lines": "108-108",
+      "quote": "<p className=\"pt-12 text-label text-muted lg:pt-[calc(126*var(--px))]\">",
+      "tag": "<p"
+    },
+    "cite.legal.clause": {
+      "path": "../src/pages/Privacy.jsx",
+      "lines": "115-135",
+      "quote": "<h2",
+      "tag": "<section"
+    },
+    "cite.legal.clause-terms": {
+      "path": "../src/pages/Terms.jsx",
+      "lines": "108-120",
+      "quote": "<h2",
+      "tag": "<section"
+    },
+    "cite.artlab.main": {
+      "path": "../src/pages/ArtLab.jsx",
+      "lines": "7-46",
+      "quote": "<ArtPlane />",
+      "tag": "<main"
+    },
+    "cite.artlab.header": {
+      "path": "../src/pages/ArtLab.jsx",
+      "lines": "16-44",
+      "quote": "<header className=\"pointer-events-none absolute",
+      "tag": "<header"
+    },
+    "cite.artlab.plane": {
+      "path": "../src/lib/artlab/usePlane.js",
+      "lines": "6-10",
+      "quote": "const FOCUS_R = 620;"
+    },
+    "cite.artlab.lens": {
+      "path": "../src/lib/artlab/usePlane.js",
+      "lines": "64-64",
+      "quote": "const sc = 1.1 + (0.92 - 1.1) * k;"
+    },
+    "cite.artlab.rot": {
+      "path": "../src/lib/artlab/usePlane.js",
+      "lines": "65-65",
+      "quote": "const rot = 4 * Math.max(-1, Math.min(1, dx / FOCUS_R)) * k;"
+    },
+    "cite.js.lenis": {
+      "path": "../src/components/global/SmoothScroll.jsx",
+      "lines": "9-9",
+      "quote": "new Lenis({ lerp: 0.12"
+    },
+    "cite.js.reveal": {
+      "path": "../src/lib/text/reveal.js",
+      "lines": "23-23",
+      "quote": "{ rootMargin: '0px 0px -12% 0px', threshold: 0.05 },"
+    },
+    "cite.js.wave": {
+      "path": "../src/lib/text/wave.js",
+      "lines": "50-50",
+      "quote": "if (!p || reducedMotion()) return null;"
+    },
+    "cite.js.wave-doc": {
+      "path": "../src/lib/text/wave.js",
+      "lines": "1-1",
+      "quote": "// Scroll-driven character"
+    },
+    "cite.js.autoplay": {
+      "path": "../src/lib/home/useAutoplayVideo.js",
+      "lines": "10-10",
+      "quote": "(prefers-reduced-motion: reduce)"
+    },
+    "cite.js.loader-reduce": {
+      "path": "../src/sections/home/HomeTop4.jsx",
+      "lines": "60-60",
+      "quote": "if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) { finish(); return undefined; }"
+    },
+    "cite.js.curtain-reduce": {
+      "path": "../src/components/global/RouteCurtain.jsx",
+      "lines": "16-16",
+      "quote": "if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;"
+    },
+    "cite.js.plane-reduce": {
+      "path": "../src/lib/artlab/usePlane.js",
+      "lines": "24-24",
+      "quote": "const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;"
+    },
+    "cite.js.footer-reduce": {
+      "path": "../src/sections/home/HomeTop6.jsx",
+      "lines": "9-9",
+      "quote": "if (!el || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return undefined;"
+    },
+    "cite.js.scroll-reduce": {
+      "path": "../src/components/global/SmoothScroll.jsx",
+      "lines": "8-8",
+      "quote": "(prefers-reduced-motion: reduce)"
+    },
+    "cite.css.color-canvas": {
+      "path": "../src/original.css",
+      "lines": "5-5",
+      "quote": ".bg-canvas{--tw-bg-opacity:1;background-color:rgb(239 238 235"
+    },
+    "cite.css.color-ink": {
+      "path": "../src/original.css",
+      "lines": "5-5",
+      "quote": ".text-ink{--tw-text-opacity:1;color:rgb(10 10 10"
+    },
+    "cite.css.color-night": {
+      "path": "../src/original.css",
+      "lines": "5-5",
+      "quote": ".bg-night{--tw-bg-opacity:1;background-color:rgb(13 13 11"
+    },
+    "cite.css.color-accent": {
+      "path": "../src/original.css",
+      "lines": "5-5",
+      "quote": ".text-accent{--tw-text-opacity:1;color:rgb(209 36 36"
+    },
+    "cite.css.color-rule": {
+      "path": "../src/original.css",
+      "lines": "5-5",
+      "quote": ".bg-rule{--tw-bg-opacity:1;background-color:rgb(204 201 196"
+    },
+    "cite.css.color-chip": {
+      "path": "../src/original.css",
+      "lines": "5-5",
+      "quote": ".border-chip{--tw-border-opacity:1;border-color:rgb(184 181 176"
+    },
+    "cite.css.color-muted": {
+      "path": "../src/original.css",
+      "lines": "5-5",
+      "quote": ".text-muted{--tw-text-opacity:1;color:rgb(107 104 98"
+    },
+    "cite.css.color-night-body": {
+      "path": "../src/original.css",
+      "lines": "5-5",
+      "quote": ".text-night-body{--tw-text-opacity:1;color:rgb(191 186 178"
+    },
+    "cite.css.color-night-muted": {
+      "path": "../src/original.css",
+      "lines": "5-5",
+      "quote": ".text-night-muted{--tw-text-opacity:1;color:rgb(158 153 145"
+    },
+    "cite.css.color-white": {
+      "path": "../src/original.css",
+      "lines": "5-5",
+      "quote": ".text-white{--tw-text-opacity:1;color:rgb(255 255 255"
+    },
+    "cite.css.root-vars": {
+      "path": "../src/original.css",
+      "lines": "5-5",
+      "quote": ":root{--night-chip:#6666661a;--night-hr:#918e89;--wave-dim:#0a0a0a33;--wave-flash:#d12424;--wave-lit:#0a0a0a}"
+    },
+    "cite.css.px": {
+      "path": "../src/original.css",
+      "lines": "5-5",
+      "quote": ":root{--px:clamp(1px, min(100vw / 1728, 100vh / 680), 1.6px)}"
+    },
+    "cite.css.px-home": {
+      "path": "../src/original.css",
+      "lines": "5-5",
+      "quote": ":root:has([data-canvas=home]){--px:clamp(1px, .825 * min(100vw / 1728, 100vh / 680), 1.32px)}"
+    },
+    "cite.css.font-funnel": {
+      "path": "../src/original.css",
+      "lines": "1-1",
+      "quote": "font-weight:300 800"
+    },
+    "cite.css.font-archivo": {
+      "path": "../src/original.css",
+      "lines": "2-2",
+      "quote": "--font-archivo:\"Archivo\", \"Archivo Fallback\""
+    },
+    "cite.css.font-space": {
+      "path": "../src/original.css",
+      "lines": "3-3",
+      "quote": "--font-space:\"Space Grotesk\", \"Space Grotesk Fallback\""
+    },
+    "cite.css.font-sans": {
+      "path": "../src/original.css",
+      "lines": "5-5",
+      "quote": ".font-sans{font-family:var(--font-funnel), var(--font-archivo), Helvetica Neue, Arial, sans-serif}"
+    },
+    "cite.css.type-body": {
+      "path": "../src/original.css",
+      "lines": "5-5",
+      "quote": ".text-body{letter-spacing:-.01em;font-size:clamp(.9375rem,1.111vw,1rem);line-height:1.55}"
+    },
+    "cite.css.type-body-lg": {
+      "path": "../src/original.css",
+      "lines": "5-5",
+      "quote": ".text-body-lg{letter-spacing:-.01em;font-size:clamp(1.0625rem,1.25vw,1.125rem);line-height:1.5}"
+    },
+    "cite.css.type-label": {
+      "path": "../src/original.css",
+      "lines": "5-5",
+      "quote": ".text-label{letter-spacing:.06em;font-size:clamp(.6875rem,.833vw,.75rem);line-height:1.4}"
+    },
+    "cite.css.type-lead": {
+      "path": "../src/original.css",
+      "lines": "5-5",
+      "quote": ".text-lead{letter-spacing:-.015em;font-size:clamp(1.3125rem,2.778vw,2.5rem);line-height:1.2}"
+    },
+    "cite.css.type-subhead": {
+      "path": "../src/original.css",
+      "lines": "5-5",
+      "quote": ".text-subhead,.text-subhead-sm{letter-spacing:-.015em;font-size:clamp(1.3125rem,2.778vw,2.5rem);line-height:1.2}"
+    },
+    "cite.css.type-project": {
+      "path": "../src/original.css",
+      "lines": "5-5",
+      "quote": ".text-project{letter-spacing:-.015em;font-size:clamp(1.625rem,4.167vw,3.75rem);line-height:1.05}"
+    },
+    "cite.css.type-section": {
+      "path": "../src/original.css",
+      "lines": "5-5",
+      "quote": ".text-section,.text-stat{letter-spacing:-.02em;font-size:clamp(2rem,7.222vw,6.5rem);line-height:1}"
+    },
+    "cite.css.type-display": {
+      "path": "../src/original.css",
+      "lines": "5-5",
+      "quote": ".text-display{letter-spacing:-.03em;font-size:clamp(2.25rem,6.944vw,6.25rem);line-height:.88}"
+    },
+    "cite.css.type-case-title": {
+      "path": "../src/original.css",
+      "lines": "5-5",
+      "quote": ".text-case-title{letter-spacing:-.03em;font-size:clamp(2.5rem,9.722vw,8.75rem);line-height:.9}"
+    },
+    "cite.css.weight-medium": {
+      "path": "../src/original.css",
+      "lines": "5-5",
+      "quote": ".font-medium{font-weight:500}"
+    },
+    "cite.css.weight-semibold": {
+      "path": "../src/original.css",
+      "lines": "5-5",
+      "quote": ".font-semibold{font-weight:600}"
+    },
+    "cite.css.radius-full": {
+      "path": "../src/original.css",
+      "lines": "5-5",
+      "quote": ".rounded-full{border-radius:9999px}"
+    },
+    "cite.css.radius-px2": {
+      "path": "../src/original.css",
+      "lines": "5-5",
+      "quote": "rounded-\\[calc\\(2\\*var\\(--px\\)\\)\\]"
+    },
+    "cite.css.radius-px3": {
+      "path": "../src/original.css",
+      "lines": "5-5",
+      "quote": "rounded-\\[calc\\(3\\*var\\(--px\\)\\)\\]"
+    },
+    "cite.css.radius-8": {
+      "path": "../src/original.css",
+      "lines": "5-5",
+      "quote": ".rounded-\\[8px\\]{border-radius:8px}"
+    },
+    "cite.css.radius-12": {
+      "path": "../src/original.css",
+      "lines": "5-5",
+      "quote": ".rounded-\\[12px\\]{border-radius:12px}"
+    },
+    "cite.css.max-canvas": {
+      "path": "../src/original.css",
+      "lines": "5-5",
+      "quote": ".max-w-canvas{max-width:calc(1440 * var(--px))}"
+    },
+    "cite.css.margin": {
+      "path": "../src/original.css",
+      "lines": "5-5",
+      "quote": ".lg\\:px-margin{padding-left:4rem;padding-right:4rem}"
+    },
+    "cite.css.gutter-sm": {
+      "path": "../src/original.css",
+      "lines": "5-5",
+      "quote": ".sm\\:px-10{padding-left:2.5rem;padding-right:2.5rem}"
+    },
+    "cite.css.gutter": {
+      "path": "../src/original.css",
+      "lines": "5-5",
+      "quote": ".px-6{padding-left:1.5rem;padding-right:1.5rem}"
+    },
+    "cite.css.pt-152": {
+      "path": "../src/original.css",
+      "lines": "5-5",
+      "quote": ".lg\\:pt-\\[152px\\]{padding-top:152px}"
+    },
+    "cite.css.pt-96": {
+      "path": "../src/original.css",
+      "lines": "5-5",
+      "quote": ".lg\\:pt-\\[96px\\]{padding-top:96px}"
+    },
+    "cite.css.pt-88": {
+      "path": "../src/original.css",
+      "lines": "5-5",
+      "quote": ".lg\\:pt-\\[88px\\]{padding-top:88px}"
+    },
+    "cite.css.pt-104": {
+      "path": "../src/original.css",
+      "lines": "5-5",
+      "quote": ".lg\\:pt-\\[104px\\]{padding-top:104px}"
+    },
+    "cite.css.pb-120": {
+      "path": "../src/original.css",
+      "lines": "5-5",
+      "quote": ".lg\\:pb-\\[120px\\]{padding-bottom:120px}"
+    },
+    "cite.css.py-52": {
+      "path": "../src/original.css",
+      "lines": "5-5",
+      "quote": ".lg\\:py-52{padding-top:13rem;padding-bottom:13rem}"
+    },
+    "cite.css.pt-24": {
+      "path": "../src/original.css",
+      "lines": "5-5",
+      "quote": ".pt-24{padding-top:6rem}"
+    },
+    "cite.css.pt-16": {
+      "path": "../src/original.css",
+      "lines": "5-5",
+      "quote": ".pt-16{padding-top:4rem}"
+    },
+    "cite.css.py-16": {
+      "path": "../src/original.css",
+      "lines": "5-5",
+      "quote": ".py-16{padding-top:4rem;padding-bottom:4rem}"
+    },
+    "cite.css.gap-48": {
+      "path": "../src/original.css",
+      "lines": "5-5",
+      "quote": ".gap-\\[48px\\]{gap:48px}"
+    },
+    "cite.css.gap-8": {
+      "path": "../src/original.css",
+      "lines": "5-5",
+      "quote": ".gap-\\[8px\\]{gap:8px}"
+    },
+    "cite.css.rule": {
+      "path": "../src/original.css",
+      "lines": "5-5",
+      "quote": ".h-\\[1\\.5px\\]{height:1.5px}"
+    },
+    "cite.css.shadow": {
+      "path": "../src/original.css",
+      "lines": "5-5",
+      "quote": ".shadow{--tw-shadow:0 1px 3px 0 #0000001a, 0 1px 2px -1px #0000001a"
+    },
+    "cite.css.ease-out-soft": {
+      "path": "../src/original.css",
+      "lines": "5-5",
+      "quote": ".ease-out-soft{transition-timing-function:cubic-bezier(.22,1,.36,1)}"
+    },
+    "cite.css.reveal": {
+      "path": "../src/original.css",
+      "lines": "5-5",
+      "quote": ".reveal{transition:transform .7s cubic-bezier(.16,1,.3,1)}"
+    },
+    "cite.css.reveal-waiting": {
+      "path": "../src/original.css",
+      "lines": "5-5",
+      "quote": ".reveal[data-reveal=waiting]{transform:translate3d(0, calc(13 * var(--px)), 0)"
+    },
+    "cite.css.page-enter": {
+      "path": "../src/original.css",
+      "lines": "5-5",
+      "quote": ".page-enter{animation:.52s cubic-bezier(.22,1,.36,1) both page-enter}"
+    },
+    "cite.css.marquee": {
+      "path": "../src/original.css",
+      "lines": "5-5",
+      "quote": "animation:28s linear infinite marquee"
+    },
+    "cite.css.hw-sweep": {
+      "path": "../src/original.css",
+      "lines": "5-5",
+      "quote": "[data-hw]:is(:hover,[data-hw-on]) [data-hw-char]{animation:.4s both hw-sweep;animation-delay:calc(var(--hwi) * 16ms)}"
+    },
+    "cite.css.char-wave": {
+      "path": "../src/original.css",
+      "lines": "5-5",
+      "quote": "[data-wave] [data-char][data-lit]{animation:.4s both char-wave}"
+    },
+    "cite.css.menu-open": {
+      "path": "../src/original.css",
+      "lines": "5-5",
+      "quote": "[data-menu=open]{transition:transform .62s cubic-bezier(.22,1,.36,1),visibility;transform:translate(0,0)}"
+    },
+    "cite.css.menu-close": {
+      "path": "../src/original.css",
+      "lines": "5-5",
+      "quote": "[data-menu]{transition:transform .42s cubic-bezier(.65,0,.35,1),visibility 0s linear .42s}"
+    },
+    "cite.css.hero3d": {
+      "path": "../src/original.css",
+      "lines": "5-5",
+      "quote": "transition:transform .95s cubic-bezier(.16, 1, .3, 1)"
+    },
+    "cite.css.reduce-core": {
+      "path": "../src/original.css",
+      "lines": "5-5",
+      "quote": ".marquee-track{animation:none}.reveal,.reveal[data-reveal=waiting]{transition:none;transform:none}.page-enter{animation:none}"
+    },
+    "cite.css.reduce-menu": {
+      "path": "../src/original.css",
+      "lines": "5-5",
+      "quote": "[data-menu],[data-menu-scrim],[data-menu-item]>*{transition:none}"
+    },
+    "cite.css.reduce-curtain": {
+      "path": "../src/original.css",
+      "lines": "5-5",
+      "quote": "[data-route-curtain]{display:none}"
+    },
+    "cite.css.reduce-nav": {
+      "path": "../src/original.css",
+      "lines": "5-5",
+      "quote": "[data-loading] [data-nav-intro]{opacity:1;transform:none}"
+    },
+    "cite.css.bp-sm": {
+      "path": "../src/original.css",
+      "lines": "5-5",
+      "quote": "@media (min-width:640px)"
+    },
+    "cite.css.bp-md": {
+      "path": "../src/original.css",
+      "lines": "5-5",
+      "quote": "@media (min-width:768px)"
+    },
+    "cite.css.bp-lg": {
+      "path": "../src/original.css",
+      "lines": "5-5",
+      "quote": "@media (min-width:1024px)"
+    },
+    "cite.css.bp-xl": {
+      "path": "../src/original.css",
+      "lines": "5-5",
+      "quote": "@media (min-width:1280px)"
+    },
+    "cite.css.bp-wide": {
+      "path": "../src/original.css",
+      "lines": "5-5",
+      "quote": "@media (min-width:1440px)"
+    },
+    "cite.css.bp-2xl": {
+      "path": "../src/original.css",
+      "lines": "5-5",
+      "quote": "@media (min-width:1536px)"
+    },
+    "cite.css.bp-max": {
+      "path": "../src/original.css",
+      "lines": "5-5",
+      "quote": "@media (min-width:1729px)"
+    },
+    "cite.rwd.grid5": {
+      "path": "../src/pages/Studio.jsx",
+      "lines": "138-138",
+      "quote": "className=\"grid grid-cols-1 gap-y-12 pt-8 lg:grid-cols-5"
+    },
+    "cite.rwd.gutters": {
+      "path": "../src/pages/Studio.jsx",
+      "lines": "35-35",
+      "quote": "<div className=\"relative mx-auto w-full max-w-canvas px-6 sm:px-10 lg:px-margin \">"
+    },
+    "cite.rwd.hero-portrait": {
+      "path": "../src/sections/home/HomeMain1Top.jsx",
+      "lines": "11-11",
+      "quote": "<div className=\"absolute inset-0 hidden overflow-hidden min-[1440px]:block\">"
+    },
+    "cite.rwd.hero-height": {
+      "path": "../src/sections/home/HomeMain1Top.jsx",
+      "lines": "20-20",
+      "quote": "lg:h-[100dvh] lg:min-h-[calc(680*var(--px))]"
+    },
+    "cite.rwd.studio-travel": {
+      "path": "../src/pages/Studio.jsx",
+      "lines": "186-186",
+      "quote": "lg:[height:calc(100vh+var(--travel))]"
+    },
+    "cite.rwd.projects-cols": {
+      "path": "../src/sections/home/HomeMain3Projects.jsx",
+      "lines": "20-20",
+      "quote": "lg:grid-cols-[1fr_calc(330*var(--px))]"
+    },
+    "cite.rwd.artlab-cols": {
+      "path": "../src/sections/home/HomeMain4ArtLab.jsx",
+      "lines": "11-11",
+      "quote": "sm:grid-cols-2"
+    },
+    "cite.rwd.case-meta": {
+      "path": "../src/pages/WorkFigcoms.jsx",
+      "lines": "158-158",
+      "quote": "<dl className=\"grid grid-cols-2 gap-x-0 gap-y-8 pt-6 sm:grid-cols-4"
+    },
+    "cite.rwd.case-chapter-pad": {
+      "path": "../src/pages/WorkFigcoms.jsx",
+      "lines": "319-319",
+      "quote": "pt-24 lg:pt-[152px]"
+    },
+    "cite.rwd.shop-grid": {
+      "path": "../src/components/shop/ShopListing.jsx",
+      "lines": "27-27",
+      "quote": "sm:grid-cols-2 lg:grid-cols-3"
+    },
+    "cite.rwd.product-cols": {
+      "path": "../src/pages/ShopRedSeries01.jsx",
+      "lines": "117-117",
+      "quote": "lg:w-[56.098%]"
+    },
+    "cite.rwd.legal-cols": {
+      "path": "../src/pages/Privacy.jsx",
+      "lines": "118-118",
+      "quote": "className=\"text-label text-muted lg:col-span-2\""
+    },
+    "cite.rwd.footer-row": {
+      "path": "../src/sections/home/HomeTop6.jsx",
+      "lines": "37-37",
+      "quote": "lg:flex-row"
+    },
+    "cite.rwd.nav-pad": {
+      "path": "../src/pages/Studio.jsx",
+      "lines": "36-36",
+      "quote": "className=\"flex items-center justify-between py-4 lg:py-[calc(22*var(--px))]\""
+    },
+    "cite.rwd.lead-pad": {
+      "path": "../src/sections/home/HomeMain6.jsx",
+      "lines": "124-124",
+      "quote": "py-4 sm:py-16 lg:py-[7svh]"
+    },
+    "cite.rwd.skill-pad": {
+      "path": "../src/sections/home/HomeMain5.jsx",
+      "lines": "95-95",
+      "quote": "py-16 lg:py-52"
+    },
+    "cite.rwd.artlab-header": {
+      "path": "../src/pages/ArtLab.jsx",
+      "lines": "16-16",
+      "quote": "px-6 py-5 sm:px-10 lg:px-margin"
+    },
+    "cite.rwd.studio-cta": {
+      "path": "../src/pages/Studio.jsx",
+      "lines": "953-953",
+      "quote": "lg:flex-row lg:items-end lg:justify-between"
+    },
+    "cite.rwd.faq-row": {
+      "path": "../src/components/studio/FaqAccordion.jsx",
+      "lines": "41-41",
+      "quote": "grid-cols-[auto_1fr_auto]"
+    },
+    "cite.rwd.drops-row": {
+      "path": "../src/components/shop/DropsForm.jsx",
+      "lines": "50-50",
+      "quote": "sm:flex-row sm:items-end sm:gap-6"
+    },
+    "cite.rwd.cookie-width": {
+      "path": "../src/components/global/CookieBanner.jsx",
+      "lines": "46-46",
+      "quote": "w-[min(21rem,calc(100vw-2rem))]"
+    }
+  },
+  "evidenceNote": "Citation paths are relative to design-repo/ and point into the tracked clone source (../src, ../index.html). In a standalone copy of design-repo/ they degrade to WARNINGS in verify_all (shape-checked only).",
+  "parity": {
+    "measuredOn": "2026-11-12",
+    "tool": "extraction/parity_harness.mjs (clone dev server vs live site), merged by extraction/parity_summary.py",
+    "capture": {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "deviceScaleFactor": 1,
+      "reducedMotion": "reduce",
+      "tolerance": "per-pixel max channel delta <= 24",
+      "windowsPerSectionMax": 8,
+      "hidden": "cookie notice (CSS display:none on both sides, never clicked)",
+      "videos": "paused at the first frame on both sides"
+    },
+    "gate": {
+      "perSection": 80.0,
+      "runsMustAgreeWithin": 1.0
+    },
+    "summary": {
+      "sections": 102,
+      "routes": 15,
+      "run1": {
+        "average": 99.91,
+        "min": 97.75,
+        "belowGate": 0
+      },
+      "run2": {
+        "average": 99.91,
+        "min": 97.75,
+        "belowGate": 0
+      },
+      "maxRunToRunDifference": 0,
+      "docHeightsEqual": 15
+    },
+    "belowGate": [],
+    "notMeasured": [],
+    "exceptions": [],
+    "perRoute": {
+      "/": {
+        "cloneDoc": 7767,
+        "liveDoc": 7767,
+        "sections": [
+          {
+            "index": 0,
+            "section": "hero.home-intro",
+            "variant": null,
+            "cloneH": 900,
+            "liveH": 900,
+            "windows": 1,
+            "run1": 100,
+            "run2": 100,
+            "minWindowRun1": 100,
+            "minWindowRun2": 100
+          },
+          {
+            "index": 1,
+            "section": "narrative.studio-teaser",
+            "variant": null,
+            "cloneH": 2115,
+            "liveH": 2115,
+            "windows": 3,
+            "run1": 100,
+            "run2": 100,
+            "minWindowRun1": 100,
+            "minWindowRun2": 100
+          },
+          {
+            "index": 2,
+            "section": "work.projects-list",
+            "variant": null,
+            "cloneH": 1072,
+            "liveH": 1072,
+            "windows": 2,
+            "run1": 100,
+            "run2": 100,
+            "minWindowRun1": 100,
+            "minWindowRun2": 100
+          },
+          {
+            "index": 3,
+            "section": "art.lab-teaser",
+            "variant": null,
+            "cloneH": 1216,
+            "liveH": 1216,
+            "windows": 2,
+            "run1": 100,
+            "run2": 100,
+            "minWindowRun1": 100,
+            "minWindowRun2": 100
+          },
+          {
+            "index": 4,
+            "section": "services.skillset",
+            "variant": null,
+            "cloneH": 1067,
+            "liveH": 1067,
+            "windows": 2,
+            "run1": 100,
+            "run2": 100,
+            "minWindowRun1": 100,
+            "minWindowRun2": 100
+          },
+          {
+            "index": 5,
+            "section": "conversion.lead-form",
+            "variant": null,
+            "cloneH": 900,
+            "liveH": 900,
+            "windows": 1,
+            "run1": 100,
+            "run2": 100,
+            "minWindowRun1": 100,
+            "minWindowRun2": 100
+          },
+          {
+            "index": 6,
+            "section": "shell.footer",
+            "variant": null,
+            "cloneH": 497,
+            "liveH": 497,
+            "windows": 1,
+            "run1": 100,
+            "run2": 100,
+            "minWindowRun1": 100,
+            "minWindowRun2": 100
+          }
+        ]
+      },
+      "/art-lab": {
+        "cloneDoc": 900,
+        "liveDoc": 900,
+        "sections": [
+          {
+            "index": 0,
+            "section": "art.draggable-plane",
+            "variant": null,
+            "cloneH": 900,
+            "liveH": 900,
+            "windows": 1,
+            "run1": 98.61,
+            "run2": 98.61,
+            "minWindowRun1": 98.61,
+            "minWindowRun2": 98.61
+          }
+        ]
+      },
+      "/privacy": {
+        "cloneDoc": 3605,
+        "liveDoc": 3605,
+        "sections": [
+          {
+            "index": 0,
+            "section": "hero.legal-header",
+            "variant": null,
+            "cloneH": 293,
+            "liveH": 293,
+            "windows": 1,
+            "run1": 100,
+            "run2": 100,
+            "minWindowRun1": 100,
+            "minWindowRun2": 100
+          },
+          {
+            "index": 1,
+            "section": "legal.clause",
+            "variant": null,
+            "cloneH": 180,
+            "liveH": 180,
+            "windows": 1,
+            "run1": 100,
+            "run2": 100,
+            "minWindowRun1": 100,
+            "minWindowRun2": 100
+          },
+          {
+            "index": 2,
+            "section": "legal.clause",
+            "variant": null,
+            "cloneH": 254,
+            "liveH": 254,
+            "windows": 1,
+            "run1": 100,
+            "run2": 100,
+            "minWindowRun1": 100,
+            "minWindowRun2": 100
+          },
+          {
+            "index": 3,
+            "section": "legal.clause",
+            "variant": null,
+            "cloneH": 254,
+            "liveH": 254,
+            "windows": 1,
+            "run1": 100,
+            "run2": 100,
+            "minWindowRun1": 100,
+            "minWindowRun2": 100
+          },
+          {
+            "index": 4,
+            "section": "legal.clause",
+            "variant": null,
+            "cloneH": 304,
+            "liveH": 304,
+            "windows": 1,
+            "run1": 100,
+            "run2": 100,
+            "minWindowRun1": 100,
+            "minWindowRun2": 100
+          },
+          {
+            "index": 5,
+            "section": "legal.clause",
+            "variant": null,
+            "cloneH": 485,
+            "liveH": 485,
+            "windows": 1,
+            "run1": 100,
+            "run2": 100,
+            "minWindowRun1": 100,
+            "minWindowRun2": 100
+          },
+          {
+            "index": 6,
+            "section": "legal.clause",
+            "variant": null,
+            "cloneH": 571,
+            "liveH": 571,
+            "windows": 1,
+            "run1": 100,
+            "run2": 100,
+            "minWindowRun1": 100,
+            "minWindowRun2": 100
+          },
+          {
+            "index": 7,
+            "section": "legal.clause",
+            "variant": null,
+            "cloneH": 164,
+            "liveH": 164,
+            "windows": 1,
+            "run1": 100,
+            "run2": 100,
+            "minWindowRun1": 100,
+            "minWindowRun2": 100
+          },
+          {
+            "index": 8,
+            "section": "legal.clause",
+            "variant": null,
+            "cloneH": 189,
+            "liveH": 189,
+            "windows": 1,
+            "run1": 99.99,
+            "run2": 99.99,
+            "minWindowRun1": 99.99,
+            "minWindowRun2": 99.99
+          },
+          {
+            "index": 9,
+            "section": "legal.clause",
+            "variant": null,
+            "cloneH": 139,
+            "liveH": 139,
+            "windows": 1,
+            "run1": 100,
+            "run2": 100,
+            "minWindowRun1": 100,
+            "minWindowRun2": 100
+          },
+          {
+            "index": 10,
+            "section": "shell.footer",
+            "variant": null,
+            "cloneH": 497,
+            "liveH": 497,
+            "windows": 1,
+            "run1": 100,
+            "run2": 100,
+            "minWindowRun1": 100,
+            "minWindowRun2": 100
+          }
+        ]
+      },
+      "/shop": {
+        "cloneDoc": 3240,
+        "liveDoc": 3240,
+        "sections": [
+          {
+            "index": 0,
+            "section": "hero.shop-header",
+            "variant": null,
+            "cloneH": 396,
+            "liveH": 396,
+            "windows": 1,
+            "run1": 100,
+            "run2": 100,
+            "minWindowRun1": 100,
+            "minWindowRun2": 100
+          },
+          {
+            "index": 1,
+            "section": "commerce.shop-filters",
+            "variant": null,
+            "cloneH": 72,
+            "liveH": 72,
+            "windows": 1,
+            "run1": 100,
+            "run2": 100,
+            "minWindowRun1": 100,
+            "minWindowRun2": 100
+          },
+          {
+            "index": 2,
+            "section": "commerce.product-grid",
+            "variant": null,
+            "cloneH": 1304,
+            "liveH": 1304,
+            "windows": 2,
+            "run1": 100,
+            "run2": 100,
+            "minWindowRun1": 100,
+            "minWindowRun2": 100
+          },
+          {
+            "index": 3,
+            "section": "conversion.drops-signup",
+            "variant": null,
+            "cloneH": 900,
+            "liveH": 900,
+            "windows": 1,
+            "run1": 100,
+            "run2": 100,
+            "minWindowRun1": 100,
+            "minWindowRun2": 100
+          },
+          {
+            "index": 4,
+            "section": "shell.footer",
+            "variant": null,
+            "cloneH": 497,
+            "liveH": 497,
+            "windows": 1,
+            "run1": 100,
+            "run2": 100,
+            "minWindowRun1": 100,
+            "minWindowRun2": 100
+          }
+        ]
+      },
+      "/shop/inked-frame": {
+        "cloneDoc": 2493,
+        "liveDoc": 2493,
+        "sections": [
+          {
+            "index": 0,
+            "section": "hero.product-detail",
+            "variant": null,
+            "cloneH": 1024,
+            "liveH": 1024,
+            "windows": 2,
+            "run1": 100,
+            "run2": 100,
+            "minWindowRun1": 100,
+            "minWindowRun2": 100
+          },
+          {
+            "index": 1,
+            "section": "commerce.more-from-shop",
+            "variant": null,
+            "cloneH": 900,
+            "liveH": 900,
+            "windows": 1,
+            "run1": 97.75,
+            "run2": 97.75,
+            "minWindowRun1": 97.75,
+            "minWindowRun2": 97.75
+          },
+          {
+            "index": 2,
+            "section": "shell.footer",
+            "variant": null,
+            "cloneH": 497,
+            "liveH": 497,
+            "windows": 1,
+            "run1": 100,
+            "run2": 100,
+            "minWindowRun1": 100,
+            "minWindowRun2": 100
+          }
+        ]
+      },
+      "/shop/pink-portrait": {
+        "cloneDoc": 2493,
+        "liveDoc": 2493,
+        "sections": [
+          {
+            "index": 0,
+            "section": "hero.product-detail",
+            "variant": null,
+            "cloneH": 1024,
+            "liveH": 1024,
+            "windows": 2,
+            "run1": 100,
+            "run2": 100,
+            "minWindowRun1": 100,
+            "minWindowRun2": 100
+          },
+          {
+            "index": 1,
+            "section": "commerce.more-from-shop",
+            "variant": null,
+            "cloneH": 900,
+            "liveH": 900,
+            "windows": 1,
+            "run1": 97.75,
+            "run2": 97.75,
+            "minWindowRun1": 97.75,
+            "minWindowRun2": 97.75
+          },
+          {
+            "index": 2,
+            "section": "shell.footer",
+            "variant": null,
+            "cloneH": 497,
+            "liveH": 497,
+            "windows": 1,
+            "run1": 100,
+            "run2": 100,
+            "minWindowRun1": 100,
+            "minWindowRun2": 100
+          }
+        ]
+      },
+      "/shop/red-series-01": {
+        "cloneDoc": 2621,
+        "liveDoc": 2621,
+        "sections": [
+          {
+            "index": 0,
+            "section": "hero.product-detail",
+            "variant": null,
+            "cloneH": 1152,
+            "liveH": 1152,
+            "windows": 2,
+            "run1": 99.78,
+            "run2": 99.78,
+            "minWindowRun1": 99.57,
+            "minWindowRun2": 99.57
+          },
+          {
+            "index": 1,
+            "section": "commerce.more-from-shop",
+            "variant": null,
+            "cloneH": 900,
+            "liveH": 900,
+            "windows": 1,
+            "run1": 100,
+            "run2": 100,
+            "minWindowRun1": 100,
+            "minWindowRun2": 100
+          },
+          {
+            "index": 2,
+            "section": "shell.footer",
+            "variant": null,
+            "cloneH": 497,
+            "liveH": 497,
+            "windows": 1,
+            "run1": 100,
+            "run2": 100,
+            "minWindowRun1": 100,
+            "minWindowRun2": 100
+          }
+        ]
+      },
+      "/shop/red-series-02": {
+        "cloneDoc": 2493,
+        "liveDoc": 2493,
+        "sections": [
+          {
+            "index": 0,
+            "section": "hero.product-detail",
+            "variant": null,
+            "cloneH": 1024,
+            "liveH": 1024,
+            "windows": 2,
+            "run1": 100,
+            "run2": 100,
+            "minWindowRun1": 100,
+            "minWindowRun2": 100
+          },
+          {
+            "index": 1,
+            "section": "commerce.more-from-shop",
+            "variant": null,
+            "cloneH": 900,
+            "liveH": 900,
+            "windows": 1,
+            "run1": 99.03,
+            "run2": 99.03,
+            "minWindowRun1": 99.03,
+            "minWindowRun2": 99.03
+          },
+          {
+            "index": 2,
+            "section": "shell.footer",
+            "variant": null,
+            "cloneH": 497,
+            "liveH": 497,
+            "windows": 1,
+            "run1": 100,
+            "run2": 100,
+            "minWindowRun1": 100,
+            "minWindowRun2": 100
+          }
+        ]
+      },
+      "/shop/red-series-03": {
+        "cloneDoc": 2493,
+        "liveDoc": 2493,
+        "sections": [
+          {
+            "index": 0,
+            "section": "hero.product-detail",
+            "variant": null,
+            "cloneH": 1024,
+            "liveH": 1024,
+            "windows": 2,
+            "run1": 100,
+            "run2": 100,
+            "minWindowRun1": 100,
+            "minWindowRun2": 100
+          },
+          {
+            "index": 1,
+            "section": "commerce.more-from-shop",
+            "variant": null,
+            "cloneH": 900,
+            "liveH": 900,
+            "windows": 1,
+            "run1": 98.35,
+            "run2": 98.35,
+            "minWindowRun1": 98.35,
+            "minWindowRun2": 98.35
+          },
+          {
+            "index": 2,
+            "section": "shell.footer",
+            "variant": null,
+            "cloneH": 497,
+            "liveH": 497,
+            "windows": 1,
+            "run1": 100,
+            "run2": 100,
+            "minWindowRun1": 100,
+            "minWindowRun2": 100
+          }
+        ]
+      },
+      "/studio": {
+        "cloneDoc": 6649,
+        "liveDoc": 6649,
+        "sections": [
+          {
+            "index": 0,
+            "section": "hero.studio-intro",
+            "variant": null,
+            "cloneH": 828,
+            "liveH": 828,
+            "windows": 1,
+            "run1": 100,
+            "run2": 100,
+            "minWindowRun1": 100,
+            "minWindowRun2": 100
+          },
+          {
+            "index": 1,
+            "section": "narrative.approach-statement",
+            "variant": null,
+            "cloneH": 2115,
+            "liveH": 2115,
+            "windows": 3,
+            "run1": 100,
+            "run2": 100,
+            "minWindowRun1": 100,
+            "minWindowRun2": 100
+          },
+          {
+            "index": 2,
+            "section": "narrative.industries",
+            "variant": null,
+            "cloneH": 595,
+            "liveH": 595,
+            "windows": 1,
+            "run1": 100,
+            "run2": 100,
+            "minWindowRun1": 100,
+            "minWindowRun2": 100
+          },
+          {
+            "index": 3,
+            "section": "narrative.process-steps",
+            "variant": null,
+            "cloneH": 898,
+            "liveH": 898,
+            "windows": 1,
+            "run1": 100,
+            "run2": 100,
+            "minWindowRun1": 100,
+            "minWindowRun2": 100
+          },
+          {
+            "index": 4,
+            "section": "narrative.faq",
+            "variant": null,
+            "cloneH": 1132,
+            "liveH": 1132,
+            "windows": 2,
+            "run1": 100,
+            "run2": 100,
+            "minWindowRun1": 100,
+            "minWindowRun2": 100
+          },
+          {
+            "index": 5,
+            "section": "conversion.studio-cta",
+            "variant": null,
+            "cloneH": 512,
+            "liveH": 512,
+            "windows": 1,
+            "run1": 100,
+            "run2": 100,
+            "minWindowRun1": 100,
+            "minWindowRun2": 100
+          },
+          {
+            "index": 6,
+            "section": "shell.footer",
+            "variant": null,
+            "cloneH": 497,
+            "liveH": 497,
+            "windows": 1,
+            "run1": 100,
+            "run2": 100,
+            "minWindowRun1": 100,
+            "minWindowRun2": 100
+          }
+        ]
+      },
+      "/terms": {
+        "cloneDoc": 2319,
+        "liveDoc": 2319,
+        "sections": [
+          {
+            "index": 0,
+            "section": "hero.legal-header",
+            "variant": null,
+            "cloneH": 293,
+            "liveH": 293,
+            "windows": 1,
+            "run1": 100,
+            "run2": 100,
+            "minWindowRun1": 100,
+            "minWindowRun2": 100
+          },
+          {
+            "index": 1,
+            "section": "legal.clause",
+            "variant": null,
+            "cloneH": 164,
+            "liveH": 164,
+            "windows": 1,
+            "run1": 100,
+            "run2": 100,
+            "minWindowRun1": 100,
+            "minWindowRun2": 100
+          },
+          {
+            "index": 2,
+            "section": "legal.clause",
+            "variant": null,
+            "cloneH": 229,
+            "liveH": 229,
+            "windows": 1,
+            "run1": 100,
+            "run2": 100,
+            "minWindowRun1": 100,
+            "minWindowRun2": 100
+          },
+          {
+            "index": 3,
+            "section": "legal.clause",
+            "variant": null,
+            "cloneH": 164,
+            "liveH": 164,
+            "windows": 1,
+            "run1": 100,
+            "run2": 100,
+            "minWindowRun1": 100,
+            "minWindowRun2": 100
+          },
+          {
+            "index": 4,
+            "section": "legal.clause",
+            "variant": null,
+            "cloneH": 279,
+            "liveH": 279,
+            "windows": 1,
+            "run1": 100,
+            "run2": 100,
+            "minWindowRun1": 100,
+            "minWindowRun2": 100
+          },
+          {
+            "index": 5,
+            "section": "legal.clause",
+            "variant": null,
+            "cloneH": 164,
+            "liveH": 164,
+            "windows": 1,
+            "run1": 100,
+            "run2": 100,
+            "minWindowRun1": 100,
+            "minWindowRun2": 100
+          },
+          {
+            "index": 6,
+            "section": "legal.clause",
+            "variant": null,
+            "cloneH": 139,
+            "liveH": 139,
+            "windows": 1,
+            "run1": 100,
+            "run2": 100,
+            "minWindowRun1": 100,
+            "minWindowRun2": 100
+          },
+          {
+            "index": 7,
+            "section": "legal.clause",
+            "variant": null,
+            "cloneH": 114,
+            "liveH": 114,
+            "windows": 1,
+            "run1": 100,
+            "run2": 100,
+            "minWindowRun1": 100,
+            "minWindowRun2": 100
+          },
+          {
+            "index": 8,
+            "section": "shell.footer",
+            "variant": null,
+            "cloneH": 497,
+            "liveH": 497,
+            "windows": 1,
+            "run1": 100,
+            "run2": 100,
+            "minWindowRun1": 100,
+            "minWindowRun2": 100
+          }
+        ]
+      },
+      "/work/figcoms": {
+        "cloneDoc": 14674,
+        "liveDoc": 14674,
+        "sections": [
+          {
+            "index": 0,
+            "section": "hero.case-header",
+            "variant": null,
+            "cloneH": 1447,
+            "liveH": 1447,
+            "windows": 2,
+            "run1": 100,
+            "run2": 100,
+            "minWindowRun1": 100,
+            "minWindowRun2": 100
+          },
+          {
+            "index": 1,
+            "section": "work.case-role",
+            "variant": null,
+            "cloneH": 251,
+            "liveH": 251,
+            "windows": 1,
+            "run1": 100,
+            "run2": 100,
+            "minWindowRun1": 100,
+            "minWindowRun2": 100
+          },
+          {
+            "index": 2,
+            "section": "work.case-context",
+            "variant": null,
+            "cloneH": 291,
+            "liveH": 291,
+            "windows": 1,
+            "run1": 100,
+            "run2": 100,
+            "minWindowRun1": 100,
+            "minWindowRun2": 100
+          },
+          {
+            "index": 3,
+            "section": "work.case-process",
+            "variant": null,
+            "cloneH": 705,
+            "liveH": 705,
+            "windows": 1,
+            "run1": 100,
+            "run2": 100,
+            "minWindowRun1": 100,
+            "minWindowRun2": 100
+          },
+          {
+            "index": 4,
+            "section": "work.case-chapter",
+            "variant": "chapter",
+            "cloneH": 1224,
+            "liveH": 1224,
+            "windows": 2,
+            "run1": 100,
+            "run2": 100,
+            "minWindowRun1": 100,
+            "minWindowRun2": 100
+          },
+          {
+            "index": 5,
+            "section": "work.case-chapter",
+            "variant": "chapter",
+            "cloneH": 1878,
+            "liveH": 1878,
+            "windows": 3,
+            "run1": 100,
+            "run2": 100,
+            "minWindowRun1": 100,
+            "minWindowRun2": 100
+          },
+          {
+            "index": 6,
+            "section": "work.case-chapter",
+            "variant": "chapter",
+            "cloneH": 901,
+            "liveH": 901,
+            "windows": 1,
+            "run1": 100,
+            "run2": 100,
+            "minWindowRun1": 100,
+            "minWindowRun2": 100
+          },
+          {
+            "index": 7,
+            "section": "work.case-chapter",
+            "variant": "chapter",
+            "cloneH": 5123,
+            "liveH": 5123,
+            "windows": 6,
+            "run1": 100,
+            "run2": 100,
+            "minWindowRun1": 100,
+            "minWindowRun2": 100
+          },
+          {
+            "index": 8,
+            "section": "work.case-chapter",
+            "variant": "chapter",
+            "cloneH": 1847,
+            "liveH": 1847,
+            "windows": 3,
+            "run1": 100,
+            "run2": 100,
+            "minWindowRun1": 100,
+            "minWindowRun2": 100
+          },
+          {
+            "index": 9,
+            "section": "work.next-project",
+            "variant": null,
+            "cloneH": 438,
+            "liveH": 438,
+            "windows": 1,
+            "run1": 100,
+            "run2": 100,
+            "minWindowRun1": 100,
+            "minWindowRun2": 100
+          },
+          {
+            "index": 10,
+            "section": "shell.footer",
+            "variant": null,
+            "cloneH": 497,
+            "liveH": 497,
+            "windows": 1,
+            "run1": 100,
+            "run2": 100,
+            "minWindowRun1": 100,
+            "minWindowRun2": 100
+          }
+        ]
+      },
+      "/work/imotion": {
+        "cloneDoc": 13317,
+        "liveDoc": 13317,
+        "sections": [
+          {
+            "index": 0,
+            "section": "hero.case-header",
+            "variant": null,
+            "cloneH": 1461,
+            "liveH": 1461,
+            "windows": 2,
+            "run1": 100,
+            "run2": 100,
+            "minWindowRun1": 100,
+            "minWindowRun2": 100
+          },
+          {
+            "index": 1,
+            "section": "work.case-role",
+            "variant": null,
+            "cloneH": 227,
+            "liveH": 227,
+            "windows": 1,
+            "run1": 100,
+            "run2": 100,
+            "minWindowRun1": 100,
+            "minWindowRun2": 100
+          },
+          {
+            "index": 2,
+            "section": "work.case-context",
+            "variant": null,
+            "cloneH": 415,
+            "liveH": 415,
+            "windows": 1,
+            "run1": 100,
+            "run2": 100,
+            "minWindowRun1": 100,
+            "minWindowRun2": 100
+          },
+          {
+            "index": 3,
+            "section": "work.case-process",
+            "variant": null,
+            "cloneH": 671,
+            "liveH": 671,
+            "windows": 1,
+            "run1": 100,
+            "run2": 100,
+            "minWindowRun1": 100,
+            "minWindowRun2": 100
+          },
+          {
+            "index": 4,
+            "section": "work.case-chapter",
+            "variant": "chapter",
+            "cloneH": 2442,
+            "liveH": 2442,
+            "windows": 3,
+            "run1": 100,
+            "run2": 100,
+            "minWindowRun1": 100,
+            "minWindowRun2": 100
+          },
+          {
+            "index": 5,
+            "section": "work.case-chapter",
+            "variant": "chapter",
+            "cloneH": 2751,
+            "liveH": 2751,
+            "windows": 4,
+            "run1": 100,
+            "run2": 100,
+            "minWindowRun1": 100,
+            "minWindowRun2": 100
+          },
+          {
+            "index": 6,
+            "section": "work.case-chapter",
+            "variant": "chapter",
+            "cloneH": 4343,
+            "liveH": 4343,
+            "windows": 5,
+            "run1": 100,
+            "run2": 100,
+            "minWindowRun1": 100,
+            "minWindowRun2": 100
+          },
+          {
+            "index": 7,
+            "section": "work.next-project",
+            "variant": null,
+            "cloneH": 438,
+            "liveH": 438,
+            "windows": 1,
+            "run1": 100,
+            "run2": 100,
+            "minWindowRun1": 100,
+            "minWindowRun2": 100
+          },
+          {
+            "index": 8,
+            "section": "shell.footer",
+            "variant": null,
+            "cloneH": 497,
+            "liveH": 497,
+            "windows": 1,
+            "run1": 100,
+            "run2": 100,
+            "minWindowRun1": 100,
+            "minWindowRun2": 100
+          }
+        ]
+      },
+      "/work/israel-police": {
+        "cloneDoc": 20134,
+        "liveDoc": 20134,
+        "sections": [
+          {
+            "index": 0,
+            "section": "hero.case-header",
+            "variant": null,
+            "cloneH": 1420,
+            "liveH": 1420,
+            "windows": 2,
+            "run1": 100,
+            "run2": 100,
+            "minWindowRun1": 100,
+            "minWindowRun2": 100
+          },
+          {
+            "index": 1,
+            "section": "work.case-role",
+            "variant": null,
+            "cloneH": 227,
+            "liveH": 227,
+            "windows": 1,
+            "run1": 100,
+            "run2": 100,
+            "minWindowRun1": 100,
+            "minWindowRun2": 100
+          },
+          {
+            "index": 2,
+            "section": "work.case-context",
+            "variant": null,
+            "cloneH": 390,
+            "liveH": 390,
+            "windows": 1,
+            "run1": 100,
+            "run2": 100,
+            "minWindowRun1": 100,
+            "minWindowRun2": 100
+          },
+          {
+            "index": 3,
+            "section": "work.case-process",
+            "variant": null,
+            "cloneH": 623,
+            "liveH": 623,
+            "windows": 1,
+            "run1": 100,
+            "run2": 100,
+            "minWindowRun1": 100,
+            "minWindowRun2": 100
+          },
+          {
+            "index": 4,
+            "section": "work.case-chapter",
+            "variant": "part-opener",
+            "cloneH": 2132,
+            "liveH": 2132,
+            "windows": 3,
+            "run1": 100,
+            "run2": 100,
+            "minWindowRun1": 100,
+            "minWindowRun2": 100
+          },
+          {
+            "index": 5,
+            "section": "work.case-chapter",
+            "variant": "chapter",
+            "cloneH": 867,
+            "liveH": 867,
+            "windows": 1,
+            "run1": 100,
+            "run2": 100,
+            "minWindowRun1": 100,
+            "minWindowRun2": 100
+          },
+          {
+            "index": 6,
+            "section": "work.case-chapter",
+            "variant": "chapter",
+            "cloneH": 1541,
+            "liveH": 1541,
+            "windows": 2,
+            "run1": 100,
+            "run2": 100,
+            "minWindowRun1": 100,
+            "minWindowRun2": 100
+          },
+          {
+            "index": 7,
+            "section": "work.case-chapter",
+            "variant": "chapter",
+            "cloneH": 1699,
+            "liveH": 1699,
+            "windows": 2,
+            "run1": 100,
+            "run2": 100,
+            "minWindowRun1": 100,
+            "minWindowRun2": 100
+          },
+          {
+            "index": 8,
+            "section": "work.case-chapter",
+            "variant": "chapter",
+            "cloneH": 3432,
+            "liveH": 3432,
+            "windows": 4,
+            "run1": 100,
+            "run2": 100,
+            "minWindowRun1": 100,
+            "minWindowRun2": 100
+          },
+          {
+            "index": 9,
+            "section": "work.case-chapter",
+            "variant": "part-opener",
+            "cloneH": 2081,
+            "liveH": 2081,
+            "windows": 3,
+            "run1": 100,
+            "run2": 100,
+            "minWindowRun1": 100,
+            "minWindowRun2": 100
+          },
+          {
+            "index": 10,
+            "section": "work.case-chapter",
+            "variant": "chapter",
+            "cloneH": 992,
+            "liveH": 992,
+            "windows": 2,
+            "run1": 100,
+            "run2": 100,
+            "minWindowRun1": 100,
+            "minWindowRun2": 100
+          },
+          {
+            "index": 11,
+            "section": "work.case-chapter",
+            "variant": "chapter",
+            "cloneH": 1549,
+            "liveH": 1549,
+            "windows": 2,
+            "run1": 100,
+            "run2": 100,
+            "minWindowRun1": 100,
+            "minWindowRun2": 100
+          },
+          {
+            "index": 12,
+            "section": "work.case-chapter",
+            "variant": "chapter",
+            "cloneH": 1693,
+            "liveH": 1693,
+            "windows": 2,
+            "run1": 100,
+            "run2": 100,
+            "minWindowRun1": 100,
+            "minWindowRun2": 100
+          },
+          {
+            "index": 13,
+            "section": "work.case-chapter",
+            "variant": "chapter",
+            "cloneH": 482,
+            "liveH": 482,
+            "windows": 1,
+            "run1": 100,
+            "run2": 100,
+            "minWindowRun1": 100,
+            "minWindowRun2": 100
+          },
+          {
+            "index": 14,
+            "section": "work.next-project",
+            "variant": null,
+            "cloneH": 438,
+            "liveH": 438,
+            "windows": 1,
+            "run1": 100,
+            "run2": 100,
+            "minWindowRun1": 100,
+            "minWindowRun2": 100
+          },
+          {
+            "index": 15,
+            "section": "shell.footer",
+            "variant": null,
+            "cloneH": 497,
+            "liveH": 497,
+            "windows": 1,
+            "run1": 100,
+            "run2": 100,
+            "minWindowRun1": 100,
+            "minWindowRun2": 100
+          }
+        ]
+      },
+      "/work/rise": {
+        "cloneDoc": 15507,
+        "liveDoc": 15507,
+        "sections": [
+          {
+            "index": 0,
+            "section": "hero.case-header",
+            "variant": null,
+            "cloneH": 1436,
+            "liveH": 1436,
+            "windows": 2,
+            "run1": 100,
+            "run2": 100,
+            "minWindowRun1": 100,
+            "minWindowRun2": 100
+          },
+          {
+            "index": 1,
+            "section": "work.case-role",
+            "variant": null,
+            "cloneH": 235,
+            "liveH": 235,
+            "windows": 1,
+            "run1": 100,
+            "run2": 100,
+            "minWindowRun1": 100,
+            "minWindowRun2": 100
+          },
+          {
+            "index": 2,
+            "section": "work.case-process",
+            "variant": null,
+            "cloneH": 730,
+            "liveH": 730,
+            "windows": 1,
+            "run1": 100,
+            "run2": 100,
+            "minWindowRun1": 100,
+            "minWindowRun2": 100
+          },
+          {
+            "index": 3,
+            "section": "work.case-chapter",
+            "variant": "part-opener",
+            "cloneH": 2922,
+            "liveH": 2922,
+            "windows": 4,
+            "run1": 100,
+            "run2": 100,
+            "minWindowRun1": 100,
+            "minWindowRun2": 100
+          },
+          {
+            "index": 4,
+            "section": "work.case-chapter",
+            "variant": "chapter",
+            "cloneH": 2529,
+            "liveH": 2529,
+            "windows": 3,
+            "run1": 100,
+            "run2": 100,
+            "minWindowRun1": 100,
+            "minWindowRun2": 100
+          },
+          {
+            "index": 5,
+            "section": "work.case-chapter",
+            "variant": "part-opener",
+            "cloneH": 1790,
+            "liveH": 1790,
+            "windows": 2,
+            "run1": 100,
+            "run2": 100,
+            "minWindowRun1": 100,
+            "minWindowRun2": 100
+          },
+          {
+            "index": 6,
+            "section": "work.case-chapter",
+            "variant": "chapter",
+            "cloneH": 1016,
+            "liveH": 1016,
+            "windows": 2,
+            "run1": 100,
+            "run2": 100,
+            "minWindowRun1": 100,
+            "minWindowRun2": 100
+          },
+          {
+            "index": 7,
+            "section": "work.case-chapter",
+            "variant": "chapter",
+            "cloneH": 1095,
+            "liveH": 1095,
+            "windows": 2,
+            "run1": 100,
+            "run2": 100,
+            "minWindowRun1": 100,
+            "minWindowRun2": 100
+          },
+          {
+            "index": 8,
+            "section": "work.case-chapter",
+            "variant": "chapter",
+            "cloneH": 2748,
+            "liveH": 2748,
+            "windows": 4,
+            "run1": 100,
+            "run2": 100,
+            "minWindowRun1": 99.99,
+            "minWindowRun2": 99.99
+          },
+          {
+            "index": 9,
+            "section": "work.next-project",
+            "variant": null,
+            "cloneH": 438,
+            "liveH": 438,
+            "windows": 1,
+            "run1": 100,
+            "run2": 100,
+            "minWindowRun1": 100,
+            "minWindowRun2": 100
+          },
+          {
+            "index": 10,
+            "section": "shell.footer",
+            "variant": null,
+            "cloneH": 497,
+            "liveH": 497,
+            "windows": 1,
+            "run1": 100,
+            "run2": 100,
+            "minWindowRun1": 100,
+            "minWindowRun2": 100
+          }
+        ]
+      }
+    }
+  }
+}

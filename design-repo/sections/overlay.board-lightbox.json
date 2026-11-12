@@ -1,0 +1,76 @@
+{
+  "id": "overlay.board-lightbox",
+  "title": "Board lightbox",
+  "contractVersion": "1.0.0",
+  "source": {
+    "id": "src.overlay-board-lightbox",
+    "file": "src/components/work/BoardGallery.jsx",
+    "tag": "",
+    "lines": "104-104",
+    "citation": "cite.overlay.lightbox"
+  },
+  "semantic": {
+    "id": "overlay.board-lightbox",
+    "category": "OVERLAY",
+    "purpose": "Modal image viewer opened from a case-study board gallery, with close / prev / next and keyboard control."
+  },
+  "retrievalEligible": false,
+  "retrievalIneligibleReason": "Modal lightbox dialog for enlarging gallery images; runtime overlay opened on demand.",
+  "templates": [
+    "case-study"
+  ],
+  "content": {
+    "fields": {
+      "closeLabel": {
+        "type": "text",
+        "required": true,
+        "maxWords": 1,
+        "evidence": "cite.overlay.lightbox"
+      },
+      "prevLabel": {
+        "type": "text",
+        "required": true,
+        "maxWords": 1,
+        "evidence": "cite.overlay.lightbox"
+      },
+      "nextLabel": {
+        "type": "text",
+        "required": true,
+        "maxWords": 1,
+        "evidence": "cite.overlay.lightbox"
+      }
+    }
+  },
+  "constraints": {},
+  "layout": {
+    "position": "fixed",
+    "surfaceTokens": [
+      "surface.night"
+    ],
+    "height": "100vh modal dialog"
+  },
+  "responsive": {
+    "breakpoints": [
+      "breakpoint.sm"
+    ],
+    "changes": [
+      {
+        "at": "breakpoint.sm",
+        "property": "image fit",
+        "below": "contain in viewport",
+        "atOrAbove": "contain in viewport",
+        "evidence": "cite.overlay.lightbox"
+      }
+    ]
+  },
+  "motion": {
+    "allowedPatterns": [
+      "none"
+    ],
+    "default": "none"
+  },
+  "assetRoles": [],
+  "generatedAssetRoles": [
+    "original-copy"
+  ]
+}

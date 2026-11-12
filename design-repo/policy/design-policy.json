@@ -1,0 +1,63 @@
+{
+  "policyId": "n0-design-constraints-common",
+  "policyVersion": "0.1.0",
+  "commonIrVersion": "0.5",
+  "enforcementMode": "hard-and-soft",
+  "domain": "personal-design-portfolio",
+  "classification": {
+    "category": "portfolio",
+    "evidence": [
+      "One named owner: page titles are '<name> | Brand & Product Designer' and every case-study title carries the owner's name (src/App.jsx ROUTES).",
+      "Content is a project index (work.projects-list) and four client case studies (/work/*), an about page (/studio) and a personal art practice (/art-lab).",
+      "Conversion is a personal enquiry form and a direct e-mail (conversion.lead-form, conversion.studio-cta), not a sign-up, trial or pricing table.",
+      "The shop is a small personal art shop of five editions, all sold out (src/lib/shop/products.js soldOut: true on every product); it is a sideline of the portfolio, not a commerce product.",
+      "No pricing tiers, accounts, dashboards for visitors, integrations or B2B buyer flows exist on any of the 15 routes. The dashboards inside one case study are recreations of a client's internal tools shown as portfolio work."
+    ],
+    "decidedBy": "agent classification from evidence (pending architecture review)"
+  },
+  "localExtension": {
+    "id": "portfolio-pamidor-local",
+    "version": "1.0.0",
+    "rules": [
+      "Generated pages never reproduce the owner's identity, likeness, wordmark, clients, client work, artworks, award badge, URLs or copy (GENERATED_MODE_* in schema/semantic_validate.py).",
+      "The award ribbon (shell.awwwards-badge) is optional in every template and forbidden in generated mode (GENERATED_MODE_RATING).",
+      "Asset availability is pinned in code (PINNED_AVAILABILITY in the validator and verify_all), not only in assets/asset-roles.json.",
+      "Runtime/utility UI is retrievalEligible:false and pinned (RETRIEVAL_INELIGIBLE).",
+      "Style overrides are catalog tokens only (tokens/llm/token-policy.json); raw colours, raw lengths and other fonts are rejected.",
+      "Case studies are decomposed into header / role / context / process / 3-10 heading-bounded chapters / next-project; legal pages into a header and one clause per heading."
+    ]
+  },
+  "generationRules": {
+    "modes": [
+      "reference",
+      "generated"
+    ],
+    "generatedMustUse": [
+      "generation-safe asset roles",
+      "reserved domains (*.example, *.invalid)",
+      "original copy",
+      "fictional people"
+    ],
+    "generatedMustNotUse": [
+      "source brand / person / client names",
+      "source URLs, e-mails, endpoints",
+      "source copy (6-word shingles, distinctive phrases)",
+      "source CTA strings",
+      "award or ranking claims",
+      "reference-only or blocked asset roles"
+    ]
+  },
+  "enforcedBy": [
+    "tokens/llm/token-policy.json",
+    "compatibility/graph.json",
+    "schema/pagespec.schema.json",
+    "schema/semantic_validate.py"
+  ],
+  "approval": {
+    "status": "defined-pending-architecture-review",
+    "architectureDecisionRecorded": false,
+    "decidedBy": null,
+    "note": "Category and binding were chosen by an agent from the evidence above. Only the human owner can ratify them; record who, when and what verbatim here when that happens."
+  },
+  "contentHash": "sha256:d7dec36eac3675b46eaa082abe7d1371fc2c7591877db7f851a94c0a9ce6a6c8"
+}

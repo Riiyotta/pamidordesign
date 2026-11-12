@@ -1,0 +1,143 @@
+{
+  "id": "hero.home-intro",
+  "title": "Home hero",
+  "contractVersion": "1.0.0",
+  "source": {
+    "id": "src.hero-home-intro",
+    "file": "src/sections/home/HomeMain1Top.jsx",
+    "tag": "<section",
+    "lines": "10-169",
+    "citation": "cite.home.hero"
+  },
+  "semantic": {
+    "id": "hero.home-intro",
+    "category": "HERO",
+    "purpose": "Home opener: oversized owner name, two-line tagline, discipline chips, a large back-lit portrait and a pointer image trail."
+  },
+  "retrievalEligible": true,
+  "templates": [
+    "home"
+  ],
+  "content": {
+    "fields": {
+      "name": {
+        "type": "text",
+        "required": true,
+        "maxWords": 2,
+        "evidence": "measured:fieldProfiles.hero.home-intro.h1.maxWords"
+      },
+      "taglines": {
+        "type": "list",
+        "required": true,
+        "minItems": 1,
+        "items": {
+          "type": "text",
+          "required": true,
+          "maxWords": 11,
+          "evidence": "measured:fieldProfiles.hero.home-intro.p.maxWords"
+        },
+        "maxItems": 2,
+        "evidence": "cite.home.hero"
+      },
+      "disciplines": {
+        "type": "list",
+        "required": true,
+        "minItems": 1,
+        "items": {
+          "type": "text",
+          "required": true,
+          "maxWords": 3,
+          "evidence": "cite.home.hero"
+        },
+        "maxItems": 5,
+        "evidence": "cite.home.hero"
+      },
+      "portrait": {
+        "type": "media",
+        "required": true,
+        "maxWords": 3,
+        "evidence": "cite.case.chapter",
+        "assetRoles": {
+          "reference": [
+            "owner-portrait-photo"
+          ],
+          "generated": [
+            "fictional-person-portrait"
+          ]
+        }
+      },
+      "trail": {
+        "type": "list",
+        "required": false,
+        "minItems": 0,
+        "items": {
+          "type": "media",
+          "required": true,
+          "maxWords": 1,
+          "evidence": "cite.case.chapter",
+          "assetRoles": {
+            "reference": [
+              "owner-artwork"
+            ],
+            "generated": [
+              "generated-artwork-visual"
+            ]
+          }
+        },
+        "maxItems": 6,
+        "evidence": "cite.home.trail"
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true,
+    "mustBeFirstContent": true
+  },
+  "layout": {
+    "position": "in-flow",
+    "surfaceTokens": [
+      "surface.page"
+    ],
+    "height": "100dvh (min 680*--px) at lg; 900px at 1440 (measured)"
+  },
+  "responsive": {
+    "breakpoints": [
+      "breakpoint.lg",
+      "breakpoint.wide"
+    ],
+    "changes": [
+      {
+        "at": "breakpoint.lg",
+        "property": "height",
+        "below": "content height",
+        "atOrAbove": "100dvh, min 680*--px",
+        "evidence": "cite.rwd.hero-height"
+      },
+      {
+        "at": "breakpoint.wide",
+        "property": "portrait",
+        "below": "framed portrait column",
+        "atOrAbove": "full-bleed backdrop photo",
+        "evidence": "cite.rwd.hero-portrait"
+      }
+    ]
+  },
+  "motion": {
+    "allowedPatterns": [
+      "hero-3d-entrance",
+      "image-trail",
+      "none"
+    ],
+    "default": "hero-3d-entrance"
+  },
+  "assetRoles": [
+    "owner-artwork",
+    "owner-portrait-photo"
+  ],
+  "generatedAssetRoles": [
+    "fictional-person-portrait",
+    "generated-artwork-visual",
+    "original-copy"
+  ],
+  "measuredInstances": 1
+}

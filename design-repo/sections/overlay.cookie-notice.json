@@ -1,0 +1,89 @@
+{
+  "id": "overlay.cookie-notice",
+  "title": "Cookie consent notice",
+  "contractVersion": "1.0.0",
+  "source": {
+    "id": "src.overlay-cookie-notice",
+    "file": "src/components/global/CookieBanner.jsx",
+    "tag": "<aside",
+    "lines": "46-53",
+    "citation": "cite.overlay.cookie"
+  },
+  "semantic": {
+    "id": "overlay.cookie-notice",
+    "category": "OVERLAY",
+    "purpose": "Bottom-left consent card (analytics-only explanation, policy link, accept / decline) that remembers the choice."
+  },
+  "retrievalEligible": false,
+  "retrievalIneligibleReason": "Cookie consent banner: a legal/runtime utility overlay that is not page content.",
+  "templates": [
+    "home",
+    "studio",
+    "case-study",
+    "shop-index",
+    "product-detail",
+    "legal",
+    "art-lab"
+  ],
+  "content": {
+    "fields": {
+      "body": {
+        "type": "text",
+        "required": true,
+        "maxWords": 18,
+        "evidence": "measured:fieldProfiles.overlay.cookie-notice.p.maxWords"
+      },
+      "policyLink": {
+        "type": "link",
+        "required": true,
+        "maxWords": 2,
+        "evidence": "cite.overlay.cookie"
+      },
+      "accept": {
+        "type": "text",
+        "required": true,
+        "maxWords": 1,
+        "evidence": "cite.overlay.cookie"
+      },
+      "decline": {
+        "type": "text",
+        "required": true,
+        "maxWords": 1,
+        "evidence": "cite.overlay.cookie"
+      }
+    }
+  },
+  "constraints": {},
+  "layout": {
+    "position": "fixed",
+    "surfaceTokens": [
+      "surface.page"
+    ],
+    "height": "201px fixed card at 1440 (measured)"
+  },
+  "responsive": {
+    "breakpoints": [
+      "breakpoint.sm"
+    ],
+    "changes": [
+      {
+        "at": "breakpoint.sm",
+        "property": "width",
+        "below": "100vw - 2rem",
+        "atOrAbove": "21rem",
+        "evidence": "cite.rwd.cookie-width"
+      }
+    ]
+  },
+  "motion": {
+    "allowedPatterns": [
+      "delayed-slide-in"
+    ],
+    "default": "delayed-slide-in"
+  },
+  "assetRoles": [],
+  "generatedAssetRoles": [
+    "original-copy"
+  ],
+  "measuredInstances": 15
+}

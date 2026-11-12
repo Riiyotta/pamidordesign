@@ -1,0 +1,9 @@
+node_modules/
+dist/
+_recon/
+design-repo.zip
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
+.playwright-mcp/

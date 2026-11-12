@@ -1,0 +1,82 @@
+{
+  "id": "art.lab-header",
+  "title": "Art Lab header",
+  "contractVersion": "1.0.0",
+  "source": {
+    "id": "src.art-lab-header",
+    "file": "src/pages/ArtLab.jsx",
+    "tag": "<header",
+    "lines": "16-44",
+    "citation": "cite.artlab.header"
+  },
+  "semantic": {
+    "id": "art.lab-header",
+    "category": "ART",
+    "purpose": "Reduced overlay header on the art-lab canvas: wordmark button home and a corner link to a case study; replaces the primary nav."
+  },
+  "retrievalEligible": true,
+  "templates": [
+    "art-lab"
+  ],
+  "content": {
+    "fields": {
+      "wordmark": {
+        "type": "media",
+        "required": true,
+        "maxWords": 3,
+        "evidence": "cite.case.chapter",
+        "assetRoles": {
+          "reference": [
+            "source-wordmark"
+          ],
+          "generated": [
+            "placeholder-brand-mark"
+          ]
+        }
+      },
+      "cornerLink": {
+        "type": "link",
+        "required": true,
+        "maxWords": 2,
+        "evidence": "cite.artlab.header"
+      }
+    }
+  },
+  "constraints": {},
+  "layout": {
+    "position": "fixed",
+    "surfaceTokens": [
+      "surface.page"
+    ],
+    "height": "84px overlay at 1440 (measured)"
+  },
+  "responsive": {
+    "breakpoints": [
+      "breakpoint.sm"
+    ],
+    "changes": [
+      {
+        "at": "breakpoint.sm",
+        "property": "padding",
+        "below": "px-6 py-5",
+        "atOrAbove": "sm:px-10, lg margin",
+        "evidence": "cite.rwd.artlab-header"
+      }
+    ]
+  },
+  "motion": {
+    "allowedPatterns": [
+      "char-sweep",
+      "none"
+    ],
+    "default": "char-sweep"
+  },
+  "assetRoles": [
+    "source-wordmark"
+  ],
+  "generatedAssetRoles": [
+    "original-copy",
+    "placeholder-brand-mark"
+  ],
+  "measuredInstances": 1
+}

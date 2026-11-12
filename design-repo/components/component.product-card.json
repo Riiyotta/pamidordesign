@@ -1,0 +1,14 @@
+{
+  "id": "component.product-card",
+  "description": "Shop card: image, flags, title, price, edition.",
+  "evidence": "cite.shop.card",
+  "overridableProps": [
+    "category",
+    "flag",
+    "title",
+    "price",
+    "edition",
+    "image",
+    "href"
+  ]
+}

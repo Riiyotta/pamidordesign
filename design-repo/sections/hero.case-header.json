@@ -1,0 +1,132 @@
+{
+  "id": "hero.case-header",
+  "title": "Case-study header",
+  "contractVersion": "1.0.0",
+  "source": {
+    "id": "src.hero-case-header",
+    "file": "src/pages/WorkFigcoms.jsx",
+    "tag": "<header",
+    "lines": "127-193",
+    "citation": "cite.case.hero"
+  },
+  "semantic": {
+    "id": "hero.case-header",
+    "category": "HERO",
+    "purpose": "Case-study opener: index eyebrow, uppercase project title, discipline chips, summary paragraph, lead video or image and a four-item meta row (role, timeline, year, team)."
+  },
+  "retrievalEligible": true,
+  "templates": [
+    "case-study"
+  ],
+  "content": {
+    "fields": {
+      "eyebrow": {
+        "type": "text",
+        "required": true,
+        "maxWords": 4,
+        "evidence": "measured:fieldProfiles.hero.case-header.eyebrow.maxWords"
+      },
+      "title": {
+        "type": "text",
+        "required": true,
+        "maxWords": 2,
+        "evidence": "measured:fieldProfiles.hero.case-header.h1.maxWords"
+      },
+      "disciplines": {
+        "type": "list",
+        "required": true,
+        "minItems": 1,
+        "items": {
+          "type": "text",
+          "required": true,
+          "maxWords": 3,
+          "evidence": "cite.case.hero"
+        },
+        "maxItems": 5,
+        "evidence": "cite.case.hero"
+      },
+      "summary": {
+        "type": "text",
+        "required": true,
+        "maxWords": 47,
+        "evidence": "measured:fieldProfiles.hero.case-header.p.maxWords"
+      },
+      "leadMedia": {
+        "type": "media",
+        "required": true,
+        "maxWords": 12,
+        "evidence": "cite.case.chapter",
+        "assetRoles": {
+          "reference": [
+            "client-case-media"
+          ],
+          "generated": [
+            "generated-project-media"
+          ]
+        }
+      },
+      "meta": {
+        "type": "list",
+        "required": true,
+        "minItems": 4,
+        "items": {
+          "label": {
+            "type": "text",
+            "required": true,
+            "maxWords": 1,
+            "evidence": "measured:fieldProfiles.hero.case-header.dt.maxWords"
+          },
+          "value": {
+            "type": "text",
+            "required": true,
+            "maxWords": 9,
+            "evidence": "measured:fieldProfiles.hero.case-header.dd.maxWords"
+          }
+        },
+        "maxItems": 4,
+        "evidence": "cite.rwd.case-meta"
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true,
+    "mustBeFirstContent": true
+  },
+  "layout": {
+    "position": "in-flow",
+    "surfaceTokens": [
+      "surface.page"
+    ],
+    "height": "1420-1461px at 1440 (measured, 4 routes)"
+  },
+  "responsive": {
+    "breakpoints": [
+      "breakpoint.sm"
+    ],
+    "changes": [
+      {
+        "at": "breakpoint.sm",
+        "property": "meta row",
+        "below": "2 columns",
+        "atOrAbove": "4 columns",
+        "evidence": "cite.rwd.case-meta"
+      }
+    ]
+  },
+  "motion": {
+    "allowedPatterns": [
+      "page-enter",
+      "inview-video",
+      "none"
+    ],
+    "default": "page-enter"
+  },
+  "assetRoles": [
+    "client-case-media"
+  ],
+  "generatedAssetRoles": [
+    "generated-project-media",
+    "original-copy"
+  ],
+  "measuredInstances": 4
+}

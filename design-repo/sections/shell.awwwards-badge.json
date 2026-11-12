@@ -1,0 +1,79 @@
+{
+  "id": "shell.awwwards-badge",
+  "title": "Award badge (fixed ribbon)",
+  "contractVersion": "1.0.0",
+  "source": {
+    "id": "src.shell-awwwards-badge",
+    "file": "src/components/Awwwards.jsx",
+    "tag": "<div",
+    "lines": "3-12",
+    "citation": "cite.shell.badge"
+  },
+  "semantic": {
+    "id": "shell.awwwards-badge",
+    "category": "SHELL",
+    "purpose": "Fixed third-party award ribbon at mid-height on the right edge, linking to the award listing."
+  },
+  "retrievalEligible": false,
+  "retrievalIneligibleReason": "Fixed third-party award badge overlaying every route; an external recognition widget, not page content.",
+  "templates": [
+    "home",
+    "studio",
+    "case-study",
+    "shop-index",
+    "product-detail",
+    "legal",
+    "art-lab"
+  ],
+  "content": {
+    "fields": {
+      "badge": {
+        "type": "media",
+        "required": true,
+        "maxWords": 4,
+        "evidence": "cite.case.chapter",
+        "assetRoles": {
+          "reference": [
+            "award-badge"
+          ],
+          "generated": []
+        }
+      }
+    }
+  },
+  "constraints": {},
+  "layout": {
+    "position": "fixed",
+    "surfaceTokens": [
+      "surface.ink"
+    ],
+    "height": "171px fixed ribbon (measured)"
+  },
+  "responsive": {
+    "breakpoints": [
+      "breakpoint.sm"
+    ],
+    "changes": [
+      {
+        "at": "breakpoint.sm",
+        "property": "placement",
+        "below": "fixed right edge, vertically centred",
+        "atOrAbove": "same",
+        "evidence": "cite.shell.badge"
+      }
+    ]
+  },
+  "motion": {
+    "allowedPatterns": [
+      "none"
+    ],
+    "default": "none"
+  },
+  "assetRoles": [
+    "award-badge"
+  ],
+  "generatedAssetRoles": [
+    "original-copy"
+  ],
+  "measuredInstances": 15
+}

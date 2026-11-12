@@ -1,0 +1,22 @@
+{
+  "routesVersion": "1.0.0",
+  "citation": "cite.routes",
+  "note": "Every route the clone serves (src/App.jsx ROUTES), each mapped to exactly one template.",
+  "routes": {
+    "/": "home",
+    "/studio": "studio",
+    "/art-lab": "art-lab",
+    "/shop": "shop-index",
+    "/shop/red-series-01": "product-detail",
+    "/shop/red-series-02": "product-detail",
+    "/shop/red-series-03": "product-detail",
+    "/shop/inked-frame": "product-detail",
+    "/shop/pink-portrait": "product-detail",
+    "/privacy": "legal",
+    "/terms": "legal",
+    "/work/figcoms": "case-study",
+    "/work/rise": "case-study",
+    "/work/imotion": "case-study",
+    "/work/israel-police": "case-study"
+  }
+}

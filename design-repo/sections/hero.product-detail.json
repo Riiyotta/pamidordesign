@@ -1,0 +1,173 @@
+{
+  "id": "hero.product-detail",
+  "title": "Product detail (gallery + buy box)",
+  "contractVersion": "1.0.0",
+  "source": {
+    "id": "src.hero-product-detail",
+    "file": "src/pages/ShopRedSeries01.jsx",
+    "tag": "<div",
+    "lines": "116-116",
+    "citation": "cite.shop.detail"
+  },
+  "semantic": {
+    "id": "hero.product-detail",
+    "category": "HERO",
+    "purpose": "Product opener: back link, main artwork with thumbnail strip beside the purchase column (edition chip, title, price, description, specs, edition note and the buy / ask actions)."
+  },
+  "retrievalEligible": true,
+  "templates": [
+    "product-detail"
+  ],
+  "content": {
+    "fields": {
+      "backLink": {
+        "type": "link",
+        "required": true,
+        "maxWords": 3,
+        "evidence": "measured:fieldProfiles.hero.product-detail.a.maxWords"
+      },
+      "images": {
+        "type": "list",
+        "required": true,
+        "minItems": 1,
+        "items": {
+          "type": "media",
+          "required": true,
+          "maxWords": 11,
+          "evidence": "cite.case.chapter",
+          "assetRoles": {
+            "reference": [
+              "owner-artwork"
+            ],
+            "generated": [
+              "generated-artwork-visual"
+            ]
+          }
+        },
+        "maxItems": 4,
+        "evidence": "cite.shop.gallery"
+      },
+      "editionChip": {
+        "type": "text",
+        "required": true,
+        "maxWords": 6,
+        "evidence": "cite.shop.detail"
+      },
+      "title": {
+        "type": "text",
+        "required": true,
+        "maxWords": 3,
+        "evidence": "measured:fieldProfiles.hero.product-detail.h1.maxWords"
+      },
+      "price": {
+        "type": "text",
+        "required": true,
+        "maxWords": 1,
+        "evidence": "cite.shop.detail"
+      },
+      "shippingNote": {
+        "type": "text",
+        "required": true,
+        "maxWords": 6,
+        "evidence": "cite.shop.detail"
+      },
+      "description": {
+        "type": "text",
+        "required": true,
+        "maxWords": 31,
+        "evidence": "measured:fieldProfiles.hero.product-detail.p.maxWords"
+      },
+      "specs": {
+        "type": "list",
+        "required": true,
+        "minItems": 1,
+        "items": {
+          "label": {
+            "type": "text",
+            "required": true,
+            "maxWords": 1,
+            "evidence": "measured:fieldProfiles.hero.product-detail.dt.maxWords"
+          },
+          "value": {
+            "type": "text",
+            "required": true,
+            "maxWords": 5,
+            "evidence": "measured:fieldProfiles.hero.product-detail.dd.maxWords"
+          }
+        },
+        "maxItems": 5,
+        "evidence": "measured:fieldProfiles.hero.product-detail.dt.maxCount"
+      },
+      "editionNote": {
+        "type": "text",
+        "required": false,
+        "maxWords": 31,
+        "evidence": "measured:fieldProfiles.hero.product-detail.p.maxWords"
+      },
+      "buyLabel": {
+        "type": "text",
+        "required": true,
+        "maxWords": 3,
+        "evidence": "cite.shop.products"
+      },
+      "askLabel": {
+        "type": "text",
+        "required": true,
+        "maxWords": 3,
+        "evidence": "cite.shop.products"
+      },
+      "trustNote": {
+        "type": "text",
+        "required": true,
+        "maxWords": 7,
+        "evidence": "cite.shop.products"
+      },
+      "soldOut": {
+        "type": "bool",
+        "required": true,
+        "evidence": "cite.shop.buybox"
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true,
+    "mustBeFirstContent": true
+  },
+  "layout": {
+    "position": "in-flow",
+    "surfaceTokens": [
+      "surface.page"
+    ],
+    "height": "1024-1152px at 1440 (measured, 5 routes)"
+  },
+  "responsive": {
+    "breakpoints": [
+      "breakpoint.lg"
+    ],
+    "changes": [
+      {
+        "at": "breakpoint.lg",
+        "property": "columns",
+        "below": "gallery above, buy box below",
+        "atOrAbove": "gallery 56.1% | buy box 40%",
+        "evidence": "cite.rwd.product-cols"
+      }
+    ]
+  },
+  "motion": {
+    "allowedPatterns": [
+      "page-enter",
+      "none"
+    ],
+    "default": "page-enter"
+  },
+  "assetRoles": [
+    "owner-artwork"
+  ],
+  "generatedAssetRoles": [
+    "generated-artwork-visual",
+    "original-copy"
+  ],
+  "notes": "IA lists the gallery and the buy box as two sections; they are the two columns of one row and the h1 sits in the buy-box column, so together they are the page-opening composition (one HERO). Their parts are components (component.product-gallery, component.buy-box).",
+  "measuredInstances": 5
+}

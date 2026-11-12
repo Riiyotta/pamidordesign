@@ -1,0 +1,409 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "section-contract.schema.json",
+  "title": "Section contract",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "title",
+    "contractVersion",
+    "source",
+    "semantic",
+    "retrievalEligible",
+    "templates",
+    "content",
+    "constraints",
+    "layout",
+    "responsive",
+    "motion",
+    "assetRoles",
+    "generatedAssetRoles"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z]+\\.[a-z0-9-]+$"
+    },
+    "title": {
+      "type": "string"
+    },
+    "contractVersion": {
+      "type": "string"
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "file",
+        "tag",
+        "lines",
+        "citation"
+      ],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "file": {
+          "type": "string"
+        },
+        "tag": {
+          "type": "string"
+        },
+        "lines": {
+          "type": "string",
+          "pattern": "^[0-9]+-[0-9]+$"
+        },
+        "citation": {
+          "type": "string",
+          "pattern": "^cite\\."
+        }
+      }
+    },
+    "semantic": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "category",
+        "purpose"
+      ],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "category": {
+          "enum": [
+            "SHELL",
+            "OVERLAY",
+            "HERO",
+            "NARRATIVE",
+            "WORK",
+            "SERVICES",
+            "ART",
+            "COMMERCE",
+            "CONVERSION",
+            "LEGAL"
+          ]
+        },
+        "purpose": {
+          "type": "string",
+          "minLength": 20
+        }
+      }
+    },
+    "retrievalEligible": {
+      "type": "boolean"
+    },
+    "retrievalIneligibleReason": {
+      "type": "string",
+      "minLength": 30
+    },
+    "templates": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "enum": [
+          "home",
+          "studio",
+          "case-study",
+          "shop-index",
+          "product-detail",
+          "legal",
+          "art-lab"
+        ]
+      }
+    },
+    "variants": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "description",
+          "evidence"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "evidence": {
+            "type": "string",
+            "pattern": "^cite\\."
+          }
+        }
+      }
+    },
+    "content": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "fields"
+      ],
+      "properties": {
+        "fields": {
+          "type": "object"
+        }
+      }
+    },
+    "constraints": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "onePerPage": {
+          "type": "boolean"
+        },
+        "mustBeFirstContent": {
+          "type": "boolean"
+        },
+        "mustBeLastContent": {
+          "type": "boolean"
+        }
+      }
+    },
+    "layout": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "position",
+        "surfaceTokens",
+        "height"
+      ],
+      "properties": {
+        "position": {
+          "enum": [
+            "in-flow",
+            "sticky",
+            "fixed"
+          ]
+        },
+        "surfaceTokens": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          }
+        },
+        "height": {
+          "type": "string"
+        }
+      }
+    },
+    "responsive": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "breakpoints",
+        "changes"
+      ],
+      "properties": {
+        "breakpoints": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "breakpoint.2xl",
+              "breakpoint.lg",
+              "breakpoint.max",
+              "breakpoint.md",
+              "breakpoint.sm",
+              "breakpoint.wide",
+              "breakpoint.xl"
+            ]
+          }
+        },
+        "changes": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "at",
+              "property",
+              "below",
+              "atOrAbove",
+              "evidence"
+            ],
+            "properties": {
+              "at": {
+                "enum": [
+                  "breakpoint.2xl",
+                  "breakpoint.lg",
+                  "breakpoint.max",
+                  "breakpoint.md",
+                  "breakpoint.sm",
+                  "breakpoint.wide",
+                  "breakpoint.xl"
+                ]
+              },
+              "property": {
+                "type": "string"
+              },
+              "below": {
+                "type": "string"
+              },
+              "atOrAbove": {
+                "type": "string"
+              },
+              "evidence": {
+                "type": "string",
+                "pattern": "^cite\\."
+              }
+            }
+          }
+        }
+      }
+    },
+    "motion": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "allowedPatterns",
+        "default"
+      ],
+      "properties": {
+        "allowedPatterns": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "enum": [
+              "page-enter",
+              "reveal-rise",
+              "char-sweep",
+              "scroll-char-wave",
+              "marquee-loop",
+              "count-up",
+              "hero-3d-entrance",
+              "image-trail",
+              "clip-reveal",
+              "accordion-height",
+              "menu-slide",
+              "route-curtain",
+              "intro-sequence",
+              "plane-inertia",
+              "inview-video",
+              "delayed-slide-in",
+              "none"
+            ]
+          }
+        },
+        "default": {
+          "enum": [
+            "page-enter",
+            "reveal-rise",
+            "char-sweep",
+            "scroll-char-wave",
+            "marquee-loop",
+            "count-up",
+            "hero-3d-entrance",
+            "image-trail",
+            "clip-reveal",
+            "accordion-height",
+            "menu-slide",
+            "route-curtain",
+            "intro-sequence",
+            "plane-inertia",
+            "inview-video",
+            "delayed-slide-in",
+            "none"
+          ]
+        }
+      }
+    },
+    "assetRoles": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "owner-portrait-photo",
+          "source-wordmark",
+          "client-logo",
+          "award-badge",
+          "owner-contact-link",
+          "source-endpoint",
+          "client-case-media",
+          "client-product-ui",
+          "owner-artwork",
+          "studio-showreel",
+          "ambient-backdrop-video",
+          "custom-cursor-image",
+          "placeholder-brand-mark",
+          "fictional-person-portrait",
+          "generated-artwork-visual",
+          "generated-project-media",
+          "generated-product-ui-mock",
+          "generated-backdrop-video",
+          "ui-icon-glyph",
+          "placeholder-url",
+          "placeholder-endpoint",
+          "placeholder-rating",
+          "original-copy"
+        ]
+      }
+    },
+    "generatedAssetRoles": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "owner-portrait-photo",
+          "source-wordmark",
+          "client-logo",
+          "award-badge",
+          "owner-contact-link",
+          "source-endpoint",
+          "client-case-media",
+          "client-product-ui",
+          "owner-artwork",
+          "studio-showreel",
+          "ambient-backdrop-video",
+          "custom-cursor-image",
+          "placeholder-brand-mark",
+          "fictional-person-portrait",
+          "generated-artwork-visual",
+          "generated-project-media",
+          "generated-product-ui-mock",
+          "generated-backdrop-video",
+          "ui-icon-glyph",
+          "placeholder-url",
+          "placeholder-endpoint",
+          "placeholder-rating",
+          "original-copy"
+        ]
+      }
+    },
+    "instances": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^cite\\."
+      }
+    },
+    "notes": {
+      "type": "string"
+    },
+    "measuredInstances": {
+      "type": "integer",
+      "minimum": 1
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "retrievalEligible": {
+            "const": false
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "retrievalIneligibleReason"
+        ]
+      }
+    }
+  ]
+}

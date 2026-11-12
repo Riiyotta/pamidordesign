@@ -1,0 +1,862 @@
+{
+  "version": "1.0.0",
+  "note": "Closed list of what a generator may instantiate and set. verify_all checks parity with contracts, schema and files both ways.",
+  "sections": {
+    "art.draggable-plane": {
+      "settableContent": [
+        "srTitle",
+        "srDescription",
+        "artworks"
+      ],
+      "variants": [],
+      "retrievalEligible": true,
+      "motionPatterns": [
+        "plane-inertia"
+      ],
+      "generatedAssetRoles": [
+        "generated-artwork-visual",
+        "original-copy"
+      ]
+    },
+    "art.lab-header": {
+      "settableContent": [
+        "wordmark",
+        "cornerLink"
+      ],
+      "variants": [],
+      "retrievalEligible": true,
+      "motionPatterns": [
+        "char-sweep",
+        "none"
+      ],
+      "generatedAssetRoles": [
+        "original-copy",
+        "placeholder-brand-mark"
+      ]
+    },
+    "art.lab-teaser": {
+      "settableContent": [
+        "title",
+        "cards",
+        "actions"
+      ],
+      "variants": [],
+      "retrievalEligible": true,
+      "motionPatterns": [
+        "reveal-rise",
+        "char-sweep",
+        "none"
+      ],
+      "generatedAssetRoles": [
+        "generated-artwork-visual",
+        "original-copy"
+      ]
+    },
+    "commerce.more-from-shop": {
+      "settableContent": [
+        "title",
+        "viewAll",
+        "products"
+      ],
+      "variants": [],
+      "retrievalEligible": true,
+      "motionPatterns": [
+        "reveal-rise",
+        "none"
+      ],
+      "generatedAssetRoles": [
+        "generated-artwork-visual",
+        "original-copy"
+      ]
+    },
+    "commerce.product-grid": {
+      "settableContent": [
+        "products"
+      ],
+      "variants": [],
+      "retrievalEligible": true,
+      "motionPatterns": [
+        "reveal-rise",
+        "none"
+      ],
+      "generatedAssetRoles": [
+        "generated-artwork-visual",
+        "original-copy"
+      ]
+    },
+    "commerce.shop-filters": {
+      "settableContent": [
+        "filters",
+        "sortLabel"
+      ],
+      "variants": [],
+      "retrievalEligible": true,
+      "motionPatterns": [
+        "none"
+      ],
+      "generatedAssetRoles": [
+        "original-copy"
+      ]
+    },
+    "conversion.drops-signup": {
+      "settableContent": [
+        "eyebrow",
+        "title",
+        "promise",
+        "placeholder",
+        "submitLabel",
+        "privacyNote",
+        "endpoint"
+      ],
+      "variants": [],
+      "retrievalEligible": true,
+      "motionPatterns": [
+        "char-sweep",
+        "none"
+      ],
+      "generatedAssetRoles": [
+        "original-copy",
+        "placeholder-endpoint"
+      ]
+    },
+    "conversion.lead-form": {
+      "settableContent": [
+        "eyebrow",
+        "title",
+        "directLabel",
+        "contact",
+        "fields",
+        "reasons",
+        "submitLabel",
+        "privacyNote",
+        "endpoint",
+        "backdrop"
+      ],
+      "variants": [],
+      "retrievalEligible": true,
+      "motionPatterns": [
+        "inview-video",
+        "char-sweep",
+        "none"
+      ],
+      "generatedAssetRoles": [
+        "generated-backdrop-video",
+        "original-copy",
+        "placeholder-endpoint",
+        "placeholder-url"
+      ]
+    },
+    "conversion.studio-cta": {
+      "settableContent": [
+        "headlineLines",
+        "button",
+        "contact"
+      ],
+      "variants": [],
+      "retrievalEligible": true,
+      "motionPatterns": [
+        "reveal-rise",
+        "char-sweep",
+        "none"
+      ],
+      "generatedAssetRoles": [
+        "original-copy",
+        "placeholder-url"
+      ]
+    },
+    "hero.case-header": {
+      "settableContent": [
+        "eyebrow",
+        "title",
+        "disciplines",
+        "summary",
+        "leadMedia",
+        "meta"
+      ],
+      "variants": [],
+      "retrievalEligible": true,
+      "motionPatterns": [
+        "page-enter",
+        "inview-video",
+        "none"
+      ],
+      "generatedAssetRoles": [
+        "generated-project-media",
+        "original-copy"
+      ]
+    },
+    "hero.home-intro": {
+      "settableContent": [
+        "name",
+        "taglines",
+        "disciplines",
+        "portrait",
+        "trail"
+      ],
+      "variants": [],
+      "retrievalEligible": true,
+      "motionPatterns": [
+        "hero-3d-entrance",
+        "image-trail",
+        "none"
+      ],
+      "generatedAssetRoles": [
+        "fictional-person-portrait",
+        "generated-artwork-visual",
+        "original-copy"
+      ]
+    },
+    "hero.legal-header": {
+      "settableContent": [
+        "eyebrow",
+        "title"
+      ],
+      "variants": [],
+      "retrievalEligible": true,
+      "motionPatterns": [
+        "page-enter",
+        "none"
+      ],
+      "generatedAssetRoles": [
+        "original-copy"
+      ]
+    },
+    "hero.product-detail": {
+      "settableContent": [
+        "backLink",
+        "images",
+        "editionChip",
+        "title",
+        "price",
+        "shippingNote",
+        "description",
+        "specs",
+        "editionNote",
+        "buyLabel",
+        "askLabel",
+        "trustNote",
+        "soldOut"
+      ],
+      "variants": [],
+      "retrievalEligible": true,
+      "motionPatterns": [
+        "page-enter",
+        "none"
+      ],
+      "generatedAssetRoles": [
+        "generated-artwork-visual",
+        "original-copy"
+      ]
+    },
+    "hero.shop-header": {
+      "settableContent": [
+        "eyebrow",
+        "titleLines",
+        "intro"
+      ],
+      "variants": [],
+      "retrievalEligible": true,
+      "motionPatterns": [
+        "page-enter",
+        "none"
+      ],
+      "generatedAssetRoles": [
+        "original-copy"
+      ]
+    },
+    "hero.studio-intro": {
+      "settableContent": [
+        "eyebrow",
+        "title",
+        "facts",
+        "question",
+        "answer"
+      ],
+      "variants": [],
+      "retrievalEligible": true,
+      "motionPatterns": [
+        "reveal-rise",
+        "page-enter",
+        "none"
+      ],
+      "generatedAssetRoles": [
+        "original-copy"
+      ]
+    },
+    "legal.clause": {
+      "settableContent": [
+        "label",
+        "paragraphs",
+        "action"
+      ],
+      "variants": [],
+      "retrievalEligible": true,
+      "motionPatterns": [
+        "none"
+      ],
+      "generatedAssetRoles": [
+        "original-copy"
+      ]
+    },
+    "narrative.approach-statement": {
+      "settableContent": [
+        "statement",
+        "question",
+        "answer"
+      ],
+      "variants": [],
+      "retrievalEligible": true,
+      "motionPatterns": [
+        "scroll-char-wave",
+        "none"
+      ],
+      "generatedAssetRoles": [
+        "original-copy"
+      ]
+    },
+    "narrative.faq": {
+      "settableContent": [
+        "eyebrow",
+        "items"
+      ],
+      "variants": [],
+      "retrievalEligible": true,
+      "motionPatterns": [
+        "accordion-height",
+        "char-sweep",
+        "none"
+      ],
+      "generatedAssetRoles": [
+        "original-copy"
+      ]
+    },
+    "narrative.industries": {
+      "settableContent": [
+        "sectors",
+        "question",
+        "answer"
+      ],
+      "variants": [],
+      "retrievalEligible": true,
+      "motionPatterns": [
+        "marquee-loop",
+        "reveal-rise",
+        "none"
+      ],
+      "generatedAssetRoles": [
+        "original-copy"
+      ]
+    },
+    "narrative.process-steps": {
+      "settableContent": [
+        "title",
+        "intro",
+        "steps"
+      ],
+      "variants": [],
+      "retrievalEligible": true,
+      "motionPatterns": [
+        "reveal-rise",
+        "none"
+      ],
+      "generatedAssetRoles": [
+        "original-copy"
+      ]
+    },
+    "narrative.studio-teaser": {
+      "settableContent": [
+        "statement",
+        "showreel",
+        "clientsLabel",
+        "clientLogos"
+      ],
+      "variants": [],
+      "retrievalEligible": true,
+      "motionPatterns": [
+        "scroll-char-wave",
+        "marquee-loop",
+        "inview-video",
+        "none"
+      ],
+      "generatedAssetRoles": [
+        "generated-project-media",
+        "original-copy",
+        "placeholder-brand-mark"
+      ]
+    },
+    "overlay.board-lightbox": {
+      "settableContent": [
+        "closeLabel",
+        "prevLabel",
+        "nextLabel"
+      ],
+      "variants": [],
+      "retrievalEligible": false,
+      "motionPatterns": [
+        "none"
+      ],
+      "generatedAssetRoles": [
+        "original-copy"
+      ]
+    },
+    "overlay.cart-drawer": {
+      "settableContent": [
+        "title",
+        "closeLabel"
+      ],
+      "variants": [],
+      "retrievalEligible": false,
+      "motionPatterns": [
+        "menu-slide",
+        "none"
+      ],
+      "generatedAssetRoles": [
+        "original-copy"
+      ]
+    },
+    "overlay.cookie-notice": {
+      "settableContent": [
+        "body",
+        "policyLink",
+        "accept",
+        "decline"
+      ],
+      "variants": [],
+      "retrievalEligible": false,
+      "motionPatterns": [
+        "delayed-slide-in"
+      ],
+      "generatedAssetRoles": [
+        "original-copy"
+      ]
+    },
+    "overlay.drag-cue": {
+      "settableContent": [
+        "label"
+      ],
+      "variants": [],
+      "retrievalEligible": false,
+      "motionPatterns": [
+        "none"
+      ],
+      "generatedAssetRoles": [
+        "original-copy"
+      ]
+    },
+    "overlay.intro-loader": {
+      "settableContent": [
+        "letters",
+        "images"
+      ],
+      "variants": [],
+      "retrievalEligible": false,
+      "motionPatterns": [
+        "intro-sequence"
+      ],
+      "generatedAssetRoles": [
+        "generated-artwork-visual",
+        "original-copy"
+      ]
+    },
+    "overlay.menu-panel": {
+      "settableContent": [
+        "items",
+        "contact"
+      ],
+      "variants": [],
+      "retrievalEligible": false,
+      "motionPatterns": [
+        "menu-slide"
+      ],
+      "generatedAssetRoles": [
+        "original-copy",
+        "placeholder-url"
+      ]
+    },
+    "overlay.route-curtain": {
+      "settableContent": [],
+      "variants": [],
+      "retrievalEligible": false,
+      "motionPatterns": [
+        "route-curtain"
+      ],
+      "generatedAssetRoles": [
+        "original-copy"
+      ]
+    },
+    "services.skillset": {
+      "settableContent": [
+        "title",
+        "items"
+      ],
+      "variants": [],
+      "retrievalEligible": true,
+      "motionPatterns": [
+        "reveal-rise",
+        "none"
+      ],
+      "generatedAssetRoles": [
+        "generated-artwork-visual",
+        "generated-project-media",
+        "original-copy"
+      ]
+    },
+    "shell.awwwards-badge": {
+      "settableContent": [
+        "badge"
+      ],
+      "variants": [],
+      "retrievalEligible": false,
+      "motionPatterns": [
+        "none"
+      ],
+      "generatedAssetRoles": [
+        "original-copy"
+      ]
+    },
+    "shell.custom-cursor": {
+      "settableContent": [
+        "cursor"
+      ],
+      "variants": [],
+      "retrievalEligible": false,
+      "motionPatterns": [
+        "none"
+      ],
+      "generatedAssetRoles": [
+        "original-copy",
+        "ui-icon-glyph"
+      ]
+    },
+    "shell.footer": {
+      "settableContent": [
+        "wordmark",
+        "motto",
+        "contact",
+        "legalLinks",
+        "socials",
+        "copyright",
+        "credit"
+      ],
+      "variants": [],
+      "retrievalEligible": true,
+      "motionPatterns": [
+        "clip-reveal",
+        "none"
+      ],
+      "generatedAssetRoles": [
+        "original-copy",
+        "placeholder-brand-mark",
+        "placeholder-url"
+      ]
+    },
+    "shell.primary-nav": {
+      "settableContent": [
+        "wordmark",
+        "menuLabel"
+      ],
+      "variants": [
+        "sticky-bar",
+        "in-hero"
+      ],
+      "retrievalEligible": true,
+      "motionPatterns": [
+        "hero-3d-entrance",
+        "none"
+      ],
+      "generatedAssetRoles": [
+        "original-copy",
+        "placeholder-brand-mark"
+      ]
+    },
+    "shell.skip-link": {
+      "settableContent": [
+        "label"
+      ],
+      "variants": [],
+      "retrievalEligible": false,
+      "motionPatterns": [
+        "none"
+      ],
+      "generatedAssetRoles": [
+        "original-copy"
+      ]
+    },
+    "work.case-chapter": {
+      "settableContent": [
+        "partLabel",
+        "partTitle",
+        "partIntro",
+        "eyebrow",
+        "title",
+        "intro",
+        "notes",
+        "stats",
+        "steps",
+        "media",
+        "demo"
+      ],
+      "variants": [
+        "chapter",
+        "part-opener"
+      ],
+      "retrievalEligible": true,
+      "motionPatterns": [
+        "reveal-rise",
+        "inview-video",
+        "count-up",
+        "marquee-loop",
+        "none"
+      ],
+      "generatedAssetRoles": [
+        "generated-project-media",
+        "original-copy"
+      ]
+    },
+    "work.case-context": {
+      "settableContent": [
+        "items"
+      ],
+      "variants": [],
+      "retrievalEligible": true,
+      "motionPatterns": [
+        "reveal-rise",
+        "none"
+      ],
+      "generatedAssetRoles": [
+        "original-copy"
+      ]
+    },
+    "work.case-process": {
+      "settableContent": [
+        "title",
+        "steps"
+      ],
+      "variants": [],
+      "retrievalEligible": true,
+      "motionPatterns": [
+        "reveal-rise",
+        "none"
+      ],
+      "generatedAssetRoles": [
+        "original-copy"
+      ]
+    },
+    "work.case-role": {
+      "settableContent": [
+        "eyebrow",
+        "points"
+      ],
+      "variants": [],
+      "retrievalEligible": true,
+      "motionPatterns": [
+        "reveal-rise",
+        "none"
+      ],
+      "generatedAssetRoles": [
+        "original-copy"
+      ]
+    },
+    "work.next-project": {
+      "settableContent": [
+        "eyebrow",
+        "project"
+      ],
+      "variants": [],
+      "retrievalEligible": true,
+      "motionPatterns": [
+        "char-sweep",
+        "none"
+      ],
+      "generatedAssetRoles": [
+        "original-copy"
+      ]
+    },
+    "work.projects-list": {
+      "settableContent": [
+        "title",
+        "projects"
+      ],
+      "variants": [],
+      "retrievalEligible": true,
+      "motionPatterns": [
+        "reveal-rise",
+        "char-sweep",
+        "none"
+      ],
+      "generatedAssetRoles": [
+        "generated-project-media",
+        "original-copy"
+      ]
+    }
+  },
+  "primitives": {
+    "primitive.outline-button": {
+      "overridableProps": [
+        "label",
+        "href",
+        "tone"
+      ]
+    },
+    "primitive.eyebrow": {
+      "overridableProps": [
+        "text"
+      ]
+    },
+    "primitive.rule": {
+      "overridableProps": []
+    },
+    "primitive.chip": {
+      "overridableProps": [
+        "text"
+      ]
+    },
+    "primitive.text-link": {
+      "overridableProps": [
+        "label",
+        "href"
+      ]
+    },
+    "primitive.media-frame": {
+      "overridableProps": [
+        "assetRole",
+        "alt",
+        "aspect"
+      ]
+    },
+    "primitive.menu-toggle": {
+      "overridableProps": [
+        "label"
+      ]
+    },
+    "primitive.stat": {
+      "overridableProps": [
+        "value",
+        "caption"
+      ]
+    }
+  },
+  "components": {
+    "component.qa-row": {
+      "overridableProps": [
+        "question",
+        "answer"
+      ]
+    },
+    "component.numbered-step": {
+      "overridableProps": [
+        "index",
+        "title",
+        "body"
+      ]
+    },
+    "component.project-row": {
+      "overridableProps": [
+        "name",
+        "category",
+        "href",
+        "meta",
+        "cover"
+      ]
+    },
+    "component.product-card": {
+      "overridableProps": [
+        "category",
+        "flag",
+        "title",
+        "price",
+        "edition",
+        "image",
+        "href"
+      ]
+    },
+    "component.product-gallery": {
+      "overridableProps": [
+        "images"
+      ]
+    },
+    "component.buy-box": {
+      "overridableProps": [
+        "buyLabel",
+        "askLabel",
+        "trustNote",
+        "soldOut"
+      ]
+    },
+    "component.board-gallery": {
+      "overridableProps": [
+        "items"
+      ]
+    },
+    "component.dashboard-finder": {
+      "overridableProps": []
+    },
+    "component.customer-dashboard": {
+      "overridableProps": []
+    },
+    "component.marquee-row": {
+      "overridableProps": [
+        "items"
+      ]
+    }
+  },
+  "assetRoles": [
+    "owner-portrait-photo",
+    "source-wordmark",
+    "client-logo",
+    "award-badge",
+    "owner-contact-link",
+    "source-endpoint",
+    "client-case-media",
+    "client-product-ui",
+    "owner-artwork",
+    "studio-showreel",
+    "ambient-backdrop-video",
+    "custom-cursor-image",
+    "placeholder-brand-mark",
+    "fictional-person-portrait",
+    "generated-artwork-visual",
+    "generated-project-media",
+    "generated-product-ui-mock",
+    "generated-backdrop-video",
+    "ui-icon-glyph",
+    "placeholder-url",
+    "placeholder-endpoint",
+    "placeholder-rating",
+    "original-copy"
+  ],
+  "motionPatterns": [
+    "page-enter",
+    "reveal-rise",
+    "char-sweep",
+    "scroll-char-wave",
+    "marquee-loop",
+    "count-up",
+    "hero-3d-entrance",
+    "image-trail",
+    "clip-reveal",
+    "accordion-height",
+    "menu-slide",
+    "route-curtain",
+    "intro-sequence",
+    "plane-inertia",
+    "inview-video",
+    "delayed-slide-in",
+    "none"
+  ],
+  "nodeProps": [
+    "section",
+    "variant",
+    "retrievalEligible",
+    "content",
+    "motion",
+    "style"
+  ],
+  "styleProps": [
+    "surface",
+    "text",
+    "accent",
+    "paddingBlock",
+    "displayFont"
+  ]
+}

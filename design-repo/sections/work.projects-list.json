@@ -1,0 +1,131 @@
+{
+  "id": "work.projects-list",
+  "title": "Selected projects index",
+  "contractVersion": "1.0.0",
+  "source": {
+    "id": "src.work-projects-list",
+    "file": "src/sections/home/HomeMain3Projects.jsx",
+    "tag": "<section",
+    "lines": "93-110",
+    "citation": "cite.home.projects"
+  },
+  "semantic": {
+    "id": "work.projects-list",
+    "category": "WORK",
+    "purpose": "Index of client projects: one row per project with title, jump link, role / timeline / year / team definitions and cover media; hovered row expands."
+  },
+  "retrievalEligible": true,
+  "templates": [
+    "home"
+  ],
+  "content": {
+    "fields": {
+      "title": {
+        "type": "text",
+        "required": true,
+        "maxWords": 2,
+        "evidence": "measured:fieldProfiles.work.projects-list.h2.maxWords"
+      },
+      "projects": {
+        "type": "list",
+        "required": true,
+        "minItems": 1,
+        "items": {
+          "name": {
+            "type": "text",
+            "required": true,
+            "maxWords": 2,
+            "evidence": "cite.home.project-row"
+          },
+          "category": {
+            "type": "text",
+            "required": true,
+            "maxWords": 4,
+            "evidence": "cite.home.project-row"
+          },
+          "href": {
+            "type": "link",
+            "required": true,
+            "maxWords": 3,
+            "evidence": "cite.home.project-row"
+          },
+          "meta": {
+            "type": "list",
+            "required": true,
+            "minItems": 4,
+            "items": {
+              "label": {
+                "type": "text",
+                "required": true,
+                "maxWords": 1,
+                "evidence": "cite.home.project-row"
+              },
+              "value": {
+                "type": "text",
+                "required": true,
+                "maxWords": 9,
+                "evidence": "measured:fieldProfiles.work.projects-list.dd.maxWords"
+              }
+            },
+            "maxItems": 4,
+            "evidence": "cite.home.project-row"
+          },
+          "cover": {
+            "type": "media",
+            "required": true,
+            "maxWords": 10,
+            "evidence": "cite.case.chapter",
+            "assetRoles": {
+              "reference": [
+                "client-case-media"
+              ],
+              "generated": [
+                "generated-project-media"
+              ]
+            }
+          }
+        },
+        "maxItems": 6,
+        "evidence": "cite.home.projects"
+      }
+    }
+  },
+  "constraints": {},
+  "layout": {
+    "position": "in-flow",
+    "surfaceTokens": [
+      "surface.page"
+    ],
+    "height": "min 100svh; 1072px at 1440 (measured)"
+  },
+  "responsive": {
+    "breakpoints": [
+      "breakpoint.lg"
+    ],
+    "changes": [
+      {
+        "at": "breakpoint.lg",
+        "property": "row",
+        "below": "stacked, centred row expands",
+        "atOrAbove": "text column | 330*--px media column, hovered row expands",
+        "evidence": "cite.rwd.projects-cols"
+      }
+    ]
+  },
+  "motion": {
+    "allowedPatterns": [
+      "reveal-rise",
+      "char-sweep",
+      "none"
+    ],
+    "default": "reveal-rise"
+  },
+  "assetRoles": [
+    "client-case-media"
+  ],
+  "generatedAssetRoles": [
+    "generated-project-media",
+    "original-copy"
+  ],
+  "measuredInstances": 1
+}

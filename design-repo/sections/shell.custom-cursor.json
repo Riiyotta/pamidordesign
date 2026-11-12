@@ -1,0 +1,81 @@
+{
+  "id": "shell.custom-cursor",
+  "title": "Custom cursor",
+  "contractVersion": "1.0.0",
+  "source": {
+    "id": "src.shell-custom-cursor",
+    "file": "src/components/global/CursorState.jsx",
+    "tag": "export default",
+    "lines": "4-21",
+    "citation": "cite.shell.cursor"
+  },
+  "semantic": {
+    "id": "shell.custom-cursor",
+    "category": "SHELL",
+    "purpose": "Image cursor that swaps to a pressed state on pointer down and inverts over dark regions; fine pointers only."
+  },
+  "retrievalEligible": false,
+  "retrievalIneligibleReason": "Pointer cursor styling applied site-wide by CSS; a runtime utility with no content or layout box.",
+  "templates": [
+    "home",
+    "studio",
+    "case-study",
+    "shop-index",
+    "product-detail",
+    "legal",
+    "art-lab"
+  ],
+  "content": {
+    "fields": {
+      "cursor": {
+        "type": "media",
+        "required": true,
+        "maxWords": 2,
+        "evidence": "cite.case.chapter",
+        "assetRoles": {
+          "reference": [
+            "custom-cursor-image"
+          ],
+          "generated": [
+            "ui-icon-glyph"
+          ]
+        }
+      }
+    }
+  },
+  "constraints": {},
+  "layout": {
+    "position": "fixed",
+    "surfaceTokens": [
+      "surface.page"
+    ],
+    "height": "no box (CSS cursor)"
+  },
+  "responsive": {
+    "breakpoints": [
+      "breakpoint.sm"
+    ],
+    "changes": [
+      {
+        "at": "breakpoint.sm",
+        "property": "activation",
+        "below": "off for coarse pointers",
+        "atOrAbove": "on for hover + fine pointers",
+        "evidence": "cite.css.cursor"
+      }
+    ]
+  },
+  "motion": {
+    "allowedPatterns": [
+      "none"
+    ],
+    "default": "none"
+  },
+  "assetRoles": [
+    "custom-cursor-image"
+  ],
+  "generatedAssetRoles": [
+    "original-copy",
+    "ui-icon-glyph"
+  ]
+}

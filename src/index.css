@@ -1,0 +1,4 @@
+@import './original.css';
+/* Tailwind v3 only scans src/tw/** so it never regenerates the original's
+   class names with its default theme (which would override original.css). */
+@tailwind utilities;

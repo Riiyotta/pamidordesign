@@ -1,0 +1,65 @@
+{
+  "id": "overlay.drag-cue",
+  "title": "Drag cue",
+  "contractVersion": "1.0.0",
+  "source": {
+    "id": "src.overlay-drag-cue",
+    "file": "src/components/artlab/DragCue.jsx",
+    "tag": "<p",
+    "lines": "26-26",
+    "citation": "cite.overlay.dragcue"
+  },
+  "semantic": {
+    "id": "overlay.drag-cue",
+    "category": "OVERLAY",
+    "purpose": "Hint label at the bottom of the art-lab canvas that disappears on the first drag, wheel or key press, or after 5.2s."
+  },
+  "retrievalEligible": false,
+  "retrievalIneligibleReason": "Transient interaction hint (cue) that removes itself after first input; utility overlay, not content.",
+  "templates": [
+    "art-lab"
+  ],
+  "content": {
+    "fields": {
+      "label": {
+        "type": "text",
+        "required": true,
+        "maxWords": 2,
+        "evidence": "cite.overlay.dragcue"
+      }
+    }
+  },
+  "constraints": {},
+  "layout": {
+    "position": "fixed",
+    "surfaceTokens": [
+      "surface.page"
+    ],
+    "height": "17px label (measured)"
+  },
+  "responsive": {
+    "breakpoints": [
+      "breakpoint.sm"
+    ],
+    "changes": [
+      {
+        "at": "breakpoint.sm",
+        "property": "position",
+        "below": "bottom 2rem, centred",
+        "atOrAbove": "same",
+        "evidence": "cite.overlay.dragcue"
+      }
+    ]
+  },
+  "motion": {
+    "allowedPatterns": [
+      "none"
+    ],
+    "default": "none"
+  },
+  "assetRoles": [],
+  "generatedAssetRoles": [
+    "original-copy"
+  ],
+  "measuredInstances": 1
+}

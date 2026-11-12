@@ -1,0 +1,6 @@
+{
+  "id": "component.dashboard-finder",
+  "description": "Interactive dashboard-finder prototype (filters, field trees, ranked matches).",
+  "evidence": "cite.case.finder",
+  "overridableProps": []
+}

@@ -1,0 +1,135 @@
+{
+  "id": "shell.footer",
+  "title": "Footer",
+  "contractVersion": "1.0.0",
+  "source": {
+    "id": "src.shell-footer",
+    "file": "src/sections/home/HomeTop6.jsx",
+    "tag": "<footer",
+    "lines": "31-149",
+    "citation": "cite.shell.footer"
+  },
+  "semantic": {
+    "id": "shell.footer",
+    "category": "SHELL",
+    "purpose": "Night footer: oversized wordmark, one-line studio motto, contact e-mail, legal links, social profiles, copyright and credit; revealed by a clip-path as it enters."
+  },
+  "retrievalEligible": true,
+  "templates": [
+    "home",
+    "studio",
+    "case-study",
+    "shop-index",
+    "product-detail",
+    "legal"
+  ],
+  "content": {
+    "fields": {
+      "wordmark": {
+        "type": "media",
+        "required": true,
+        "maxWords": 3,
+        "evidence": "cite.case.chapter",
+        "assetRoles": {
+          "reference": [
+            "source-wordmark"
+          ],
+          "generated": [
+            "placeholder-brand-mark"
+          ]
+        }
+      },
+      "motto": {
+        "type": "text",
+        "required": true,
+        "maxWords": 9,
+        "evidence": "measured:fieldProfiles.shell.footer.p.maxWords"
+      },
+      "contact": {
+        "type": "contact",
+        "required": true,
+        "maxWords": 2,
+        "evidence": "cite.shell.footer"
+      },
+      "legalLinks": {
+        "type": "list",
+        "required": true,
+        "minItems": 2,
+        "items": {
+          "type": "link",
+          "required": true,
+          "maxWords": 1,
+          "evidence": "cite.shell.footer"
+        },
+        "maxItems": 2,
+        "evidence": "cite.shell.footer"
+      },
+      "socials": {
+        "type": "list",
+        "required": true,
+        "minItems": 0,
+        "items": {
+          "type": "link",
+          "required": true,
+          "maxWords": 1,
+          "evidence": "cite.shell.footer"
+        },
+        "maxItems": 5,
+        "evidence": "cite.shell.footer"
+      },
+      "copyright": {
+        "type": "text",
+        "required": true,
+        "maxWords": 9,
+        "evidence": "measured:fieldProfiles.shell.footer.p.maxWords"
+      },
+      "credit": {
+        "type": "text",
+        "required": false,
+        "maxWords": 9,
+        "evidence": "measured:fieldProfiles.shell.footer.p.maxWords"
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true
+  },
+  "layout": {
+    "position": "in-flow",
+    "surfaceTokens": [
+      "surface.night"
+    ],
+    "height": "497px at 1440 (measured on 14 routes)"
+  },
+  "responsive": {
+    "breakpoints": [
+      "breakpoint.lg"
+    ],
+    "changes": [
+      {
+        "at": "breakpoint.lg",
+        "property": "motto / links row",
+        "below": "stacked column",
+        "atOrAbove": "two-column row aligned to the bottom",
+        "evidence": "cite.rwd.footer-row"
+      }
+    ]
+  },
+  "motion": {
+    "allowedPatterns": [
+      "clip-reveal",
+      "none"
+    ],
+    "default": "clip-reveal"
+  },
+  "assetRoles": [
+    "owner-contact-link",
+    "source-wordmark"
+  ],
+  "generatedAssetRoles": [
+    "original-copy",
+    "placeholder-brand-mark",
+    "placeholder-url"
+  ],
+  "measuredInstances": 14
+}

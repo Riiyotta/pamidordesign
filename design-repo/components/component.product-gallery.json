@@ -1,0 +1,8 @@
+{
+  "id": "component.product-gallery",
+  "description": "Main artwork with a pressed-state thumbnail strip.",
+  "evidence": "cite.shop.gallery",
+  "overridableProps": [
+    "images"
+  ]
+}

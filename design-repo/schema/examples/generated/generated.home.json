@@ -1,0 +1,461 @@
+{
+  "pageSpecVersion": "1.0.0",
+  "mode": "generated",
+  "template": "home",
+  "route": "/",
+  "meta": {
+    "title": "Larkspur Atelier - identity and interface studio (sample)"
+  },
+  "nodes": [
+    {
+      "section": "shell.skip-link",
+      "content": {
+        "label": "Go to content"
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      },
+      "retrievalEligible": false
+    },
+    {
+      "section": "overlay.intro-loader",
+      "content": {
+        "letters": "LARKSPUR",
+        "images": [
+          {
+            "assetRole": "generated-artwork-visual",
+            "alt": "",
+            "src": "https://media.larkspur.example/intro-1.webp"
+          },
+          {
+            "assetRole": "generated-artwork-visual",
+            "alt": "",
+            "src": "https://media.larkspur.example/intro-2.webp"
+          },
+          {
+            "assetRole": "generated-artwork-visual",
+            "alt": "",
+            "src": "https://media.larkspur.example/intro-3.webp"
+          },
+          {
+            "assetRole": "generated-artwork-visual",
+            "alt": "",
+            "src": "https://media.larkspur.example/intro-4.webp"
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "intro-sequence",
+        "reducedMotionFallback": "skip-intro"
+      },
+      "retrievalEligible": false
+    },
+    {
+      "section": "shell.primary-nav",
+      "variant": "in-hero",
+      "content": {
+        "wordmark": {
+          "assetRole": "placeholder-brand-mark",
+          "alt": "Larkspur Atelier"
+        },
+        "menuLabel": "Menu"
+      },
+      "motion": {
+        "pattern": "hero-3d-entrance",
+        "reducedMotionFallback": "static-final-state"
+      }
+    },
+    {
+      "section": "overlay.menu-panel",
+      "content": {
+        "items": [
+          {
+            "label": "Index",
+            "href": "/"
+          },
+          {
+            "label": "About",
+            "href": "/about"
+          },
+          {
+            "label": "Projects",
+            "href": "/#work"
+          },
+          {
+            "label": "Sketchbook",
+            "href": "/sketchbook"
+          }
+        ],
+        "contact": {
+          "assetRole": "placeholder-url",
+          "label": "hello@larkspur.example",
+          "href": "mailto:hello@larkspur.example"
+        }
+      },
+      "motion": {
+        "pattern": "menu-slide",
+        "reducedMotionFallback": "instant-toggle"
+      },
+      "retrievalEligible": false
+    },
+    {
+      "section": "hero.home-intro",
+      "content": {
+        "name": "Noa Venn",
+        "taglines": [
+          "Identity work for small, stubborn companies.",
+          "Quiet systems, loud ideas."
+        ],
+        "disciplines": [
+          "Identity",
+          "Interfaces",
+          "Editorial",
+          "Illustration",
+          "Type"
+        ],
+        "portrait": {
+          "assetRole": "fictional-person-portrait",
+          "alt": "Fictional designer portrait",
+          "src": "https://media.larkspur.example/portrait.webp"
+        },
+        "trail": [
+          {
+            "assetRole": "generated-artwork-visual",
+            "alt": "",
+            "src": "https://media.larkspur.example/trail-1.webp"
+          },
+          {
+            "assetRole": "generated-artwork-visual",
+            "alt": "",
+            "src": "https://media.larkspur.example/trail-2.webp"
+          },
+          {
+            "assetRole": "generated-artwork-visual",
+            "alt": "",
+            "src": "https://media.larkspur.example/trail-3.webp"
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "hero-3d-entrance",
+        "reducedMotionFallback": "static-final-state"
+      },
+      "style": {
+        "surface": "surface.page",
+        "text": "text.primary",
+        "displayFont": "font.display"
+      }
+    },
+    {
+      "section": "narrative.studio-teaser",
+      "content": {
+        "statement": "Larkspur is a two-desk practice that draws identities, product screens and the odd poster. Most jobs begin as a messy brief and end as a small, well-labelled kit a team can keep using without us in the room.",
+        "showreel": {
+          "assetRole": "generated-project-media",
+          "alt": "Sample reel",
+          "src": "https://media.larkspur.example/reel.webp"
+        },
+        "clientsLabel": "(SAMPLE PARTNERS)",
+        "clientLogos": [
+          {
+            "assetRole": "placeholder-brand-mark",
+            "alt": "Partner mark A"
+          },
+          {
+            "assetRole": "placeholder-brand-mark",
+            "alt": "Partner mark B"
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "scroll-char-wave",
+        "reducedMotionFallback": "fully-lit-static"
+      }
+    },
+    {
+      "section": "work.projects-list",
+      "content": {
+        "title": "Recent work",
+        "projects": [
+          {
+            "name": "Hollow Pine",
+            "category": "Identity · Cafe",
+            "href": {
+              "label": "Read the story",
+              "href": "/projects/hollow-pine"
+            },
+            "meta": [
+              {
+                "label": "SCOPE",
+                "value": "Identity and signage"
+              },
+              {
+                "label": "LENGTH",
+                "value": "Ten weeks"
+              },
+              {
+                "label": "YEAR",
+                "value": "2030"
+              },
+              {
+                "label": "CREW",
+                "value": "Two people"
+              }
+            ],
+            "cover": {
+              "assetRole": "generated-project-media",
+              "alt": "Sample cafe identity board",
+              "src": "https://media.larkspur.example/hollow-pine.webp"
+            }
+          },
+          {
+            "name": "Tidewell",
+            "category": "App · Logistics",
+            "href": {
+              "label": "Read the story",
+              "href": "/projects/tidewell"
+            },
+            "meta": [
+              {
+                "label": "SCOPE",
+                "value": "Dispatcher app"
+              },
+              {
+                "label": "LENGTH",
+                "value": "Five months"
+              },
+              {
+                "label": "YEAR",
+                "value": "2031"
+              },
+              {
+                "label": "CREW",
+                "value": "Embedded"
+              }
+            ],
+            "cover": {
+              "assetRole": "generated-project-media",
+              "alt": "Sample dispatcher app screens",
+              "src": "https://media.larkspur.example/tidewell.webp"
+            }
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "reveal-rise",
+        "reducedMotionFallback": "static-final-state"
+      }
+    },
+    {
+      "section": "art.lab-teaser",
+      "content": {
+        "title": "Sketchbook",
+        "cards": [
+          {
+            "image": {
+              "assetRole": "generated-artwork-visual",
+              "alt": "Ink studies of birds",
+              "src": "https://media.larkspur.example/sketch-1.webp"
+            },
+            "body": "Loose ink studies made between projects, mostly birds and street furniture, scanned without cleanup."
+          },
+          {
+            "image": {
+              "assetRole": "generated-artwork-visual",
+              "alt": "Collage experiments in two colours",
+              "src": "https://media.larkspur.example/sketch-2.webp"
+            },
+            "body": "Two-colour collage tests that sometimes turn into posters and usually turn into nothing at all."
+          }
+        ],
+        "actions": [
+          {
+            "label": "Open the sketchbook",
+            "href": "/sketchbook"
+          },
+          {
+            "label": "Print shop",
+            "href": "/prints"
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "reveal-rise",
+        "reducedMotionFallback": "static-final-state"
+      }
+    },
+    {
+      "section": "services.skillset",
+      "content": {
+        "title": "Services",
+        "items": [
+          {
+            "index": "01",
+            "name": "Identity",
+            "body": "Marks, type pairings and rules a small team can apply alone.",
+            "preview": {
+              "assetRole": "generated-project-media",
+              "alt": "Sample identity sheet",
+              "src": "https://media.larkspur.example/svc-1.webp"
+            }
+          },
+          {
+            "index": "02",
+            "name": "Interfaces",
+            "body": "Screens that stay legible when the data gets ugly.",
+            "preview": {
+              "assetRole": "generated-project-media",
+              "alt": "Sample interface",
+              "src": "https://media.larkspur.example/svc-2.webp"
+            }
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "reveal-rise",
+        "reducedMotionFallback": "static-final-state"
+      },
+      "style": {
+        "surface": "surface.night",
+        "text": "text.on-night",
+        "paddingBlock": "space.section-lg"
+      }
+    },
+    {
+      "section": "conversion.lead-form",
+      "content": {
+        "eyebrow": "(SAY HELLO)",
+        "title": "Start a brief",
+        "directLabel": "Prefer e-mail?",
+        "contact": {
+          "assetRole": "placeholder-url",
+          "label": "hello@larkspur.example",
+          "href": "mailto:hello@larkspur.example"
+        },
+        "fields": [
+          {
+            "label": "Name",
+            "placeholder": "Full name"
+          },
+          {
+            "label": "Email",
+            "placeholder": "you@mail.example"
+          },
+          {
+            "label": "Note",
+            "placeholder": "Two lines"
+          }
+        ],
+        "reasons": [
+          "New project",
+          "Collaboration"
+        ],
+        "submitLabel": "Send brief",
+        "privacyNote": "Briefs go to one inbox and are deleted after a year.",
+        "endpoint": {
+          "assetRole": "placeholder-endpoint",
+          "href": "https://forms.larkspur.invalid/brief"
+        },
+        "backdrop": {
+          "assetRole": "generated-backdrop-video",
+          "alt": "",
+          "src": "https://media.larkspur.example/dusk-loop.webp"
+        }
+      },
+      "motion": {
+        "pattern": "inview-video",
+        "reducedMotionFallback": "poster-frame"
+      }
+    },
+    {
+      "section": "shell.footer",
+      "content": {
+        "wordmark": {
+          "assetRole": "placeholder-brand-mark",
+          "alt": "Larkspur Atelier"
+        },
+        "motto": "Careful systems, loose sketches.",
+        "contact": {
+          "assetRole": "placeholder-url",
+          "label": "hello@larkspur.example",
+          "href": "mailto:hello@larkspur.example"
+        },
+        "legalLinks": [
+          {
+            "label": "Privacy",
+            "href": "/privacy"
+          },
+          {
+            "label": "Terms",
+            "href": "/terms"
+          }
+        ],
+        "socials": [
+          {
+            "label": "Journal",
+            "href": "https://journal.larkspur.example/"
+          }
+        ],
+        "copyright": "© 2031 Larkspur Atelier (fictional).",
+        "credit": "Sample page composed from a design system."
+      },
+      "motion": {
+        "pattern": "clip-reveal",
+        "reducedMotionFallback": "static-final-state"
+      }
+    },
+    {
+      "section": "overlay.cookie-notice",
+      "content": {
+        "body": "This sample page stores one preference and runs no trackers.",
+        "policyLink": {
+          "label": "Read more",
+          "href": "/privacy"
+        },
+        "accept": "Okay",
+        "decline": "No"
+      },
+      "motion": {
+        "pattern": "delayed-slide-in",
+        "reducedMotionFallback": "instant-show"
+      },
+      "retrievalEligible": false
+    },
+    {
+      "section": "overlay.cart-drawer",
+      "content": {
+        "title": "Basket",
+        "closeLabel": "Close"
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      },
+      "retrievalEligible": false
+    },
+    {
+      "section": "overlay.route-curtain",
+      "content": {},
+      "motion": {
+        "pattern": "route-curtain",
+        "reducedMotionFallback": "instant-swap"
+      },
+      "retrievalEligible": false
+    },
+    {
+      "section": "shell.custom-cursor",
+      "content": {
+        "cursor": {
+          "assetRole": "ui-icon-glyph",
+          "alt": ""
+        }
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      },
+      "retrievalEligible": false
+    }
+  ]
+}

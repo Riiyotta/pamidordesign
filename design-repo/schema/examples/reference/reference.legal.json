@@ -1,0 +1,322 @@
+{
+  "pageSpecVersion": "1.0.0",
+  "mode": "reference",
+  "template": "legal",
+  "route": "/privacy",
+  "meta": {
+    "title": "Privacy Policy - Pamidor Studio"
+  },
+  "nodes": [
+    {
+      "section": "shell.skip-link",
+      "content": {
+        "label": "Skip to content"
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      },
+      "retrievalEligible": false
+    },
+    {
+      "section": "shell.primary-nav",
+      "variant": "sticky-bar",
+      "content": {
+        "wordmark": {
+          "assetRole": "source-wordmark",
+          "alt": "PAMIDOR® STUDIO",
+          "src": "/images/wordmark-pamidor-studio-ink.svg"
+        },
+        "menuLabel": "Open menu"
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      }
+    },
+    {
+      "section": "overlay.menu-panel",
+      "content": {
+        "items": [
+          {
+            "label": "Home",
+            "href": "/"
+          },
+          {
+            "label": "Studio",
+            "href": "/studio"
+          },
+          {
+            "label": "Work",
+            "href": "/#projects"
+          },
+          {
+            "label": "Art Lab",
+            "href": "/art-lab"
+          }
+        ],
+        "contact": {
+          "assetRole": "owner-contact-link",
+          "label": "DOR@PAMIDORDESIGN.CO",
+          "href": "mailto:dor@pamidordesign.co"
+        }
+      },
+      "motion": {
+        "pattern": "menu-slide",
+        "reducedMotionFallback": "instant-toggle"
+      },
+      "retrievalEligible": false
+    },
+    {
+      "section": "hero.legal-header",
+      "content": {
+        "eyebrow": "(LAST UPDATED: OCTOBER 18, 2026)",
+        "title": "Privacy"
+      },
+      "motion": {
+        "pattern": "page-enter",
+        "reducedMotionFallback": "static-final-state"
+      }
+    },
+    {
+      "section": "legal.clause",
+      "content": {
+        "label": "(WHO I AM)",
+        "paragraphs": [
+          "This site, pamidordesign.co, is the portfolio of Dor Sharaby - Pamidor Studio - a designer working from Tel Aviv, Israel. For anything about your data, one address answers: dor@pamidordesign.co.",
+          "The short version: the site collects almost nothing, and nothing without telling you first."
+        ]
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      }
+    },
+    {
+      "section": "legal.clause",
+      "content": {
+        "label": "(THE CONTACT FORM)",
+        "paragraphs": [
+          "If you write to me through the form, what you type - your name, email, phone if you add one, the reason you picked and your message - is delivered straight to my inbox."
+        ]
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      }
+    },
+    {
+      "section": "legal.clause",
+      "content": {
+        "label": "(THE SHOP & PAYMENTS)",
+        "paragraphs": [
+          "Buying a piece happens on Stripe's own hosted checkout page - your card details go to Stripe, never to this site, which never sees and never stores them."
+        ]
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      }
+    },
+    {
+      "section": "legal.clause",
+      "content": {
+        "label": "(THE DROPS LIST)",
+        "paragraphs": [
+          "The shop has one field that asks for an email address, and it does exactly what it says: it tells you when new work lands."
+        ]
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      }
+    },
+    {
+      "section": "legal.clause",
+      "content": {
+        "label": "(ANALYTICS)",
+        "paragraphs": [
+          "Two things count visits here, and only one of them asks first."
+        ]
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      }
+    },
+    {
+      "section": "legal.clause",
+      "content": {
+        "label": "(COOKIES)",
+        "paragraphs": [
+          "The site itself sets no cookies. It keeps one value in your browser's local storage to remember your cookie choice, and Google Analytics sets its cookies only after you accept:"
+        ],
+        "action": "Reset cookie choice"
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      }
+    },
+    {
+      "section": "legal.clause",
+      "content": {
+        "label": "(HOSTING)",
+        "paragraphs": [
+          "The site is served by Vercel. Like any host, it processes the technical side of a request - your IP address and the page you asked for - to deliver the site and protect it from abuse."
+        ]
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      }
+    },
+    {
+      "section": "legal.clause",
+      "content": {
+        "label": "(YOUR RIGHTS)",
+        "paragraphs": [
+          "Under Israel's Privacy Protection Law - and the GDPR, if you are writing from the EU - you can ask to see, correct or delete personal information held about you."
+        ]
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      }
+    },
+    {
+      "section": "legal.clause",
+      "content": {
+        "label": "(CHANGES)",
+        "paragraphs": [
+          "If the site ever starts collecting something new, this page changes first, and the cookie notice is versioned so it will ask for consent again rather than lean on an old answer."
+        ]
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      }
+    },
+    {
+      "section": "shell.footer",
+      "content": {
+        "wordmark": {
+          "assetRole": "source-wordmark",
+          "alt": "Pamidor.Studio®",
+          "src": "/images/wordmark-pamidor-studio.svg"
+        },
+        "motto": "Somewhere between structure and instinct.",
+        "contact": {
+          "assetRole": "owner-contact-link",
+          "label": "DOR@PAMIDORDESIGN.CO",
+          "href": "mailto:dor@pamidordesign.co"
+        },
+        "legalLinks": [
+          {
+            "label": "PRIVACY",
+            "href": "/privacy"
+          },
+          {
+            "label": "TERMS",
+            "href": "/terms"
+          }
+        ],
+        "socials": [
+          {
+            "label": "Instagram",
+            "href": "https://www.instagram.com/pamidor_design/"
+          },
+          {
+            "label": "LinkedIn",
+            "href": "https://www.linkedin.com/in/dor-sharaby/"
+          },
+          {
+            "label": "Dribbble",
+            "href": "https://dribbble.com/pamidordesign69"
+          },
+          {
+            "label": "Pinterest",
+            "href": "https://www.pinterest.com/PamidorDesign/"
+          },
+          {
+            "label": "TikTok",
+            "href": "https://www.tiktok.com/@dorsharaby"
+          }
+        ],
+        "copyright": "© 2026 Pamidor Studio. All rights reserved.",
+        "credit": "Designed and built at Pamidor Studio by Dor Sharaby."
+      },
+      "motion": {
+        "pattern": "clip-reveal",
+        "reducedMotionFallback": "static-final-state"
+      }
+    },
+    {
+      "section": "shell.awwwards-badge",
+      "content": {
+        "badge": {
+          "assetRole": "award-badge",
+          "alt": "Nominee on Awwwards"
+        }
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      },
+      "retrievalEligible": false
+    },
+    {
+      "section": "overlay.cookie-notice",
+      "content": {
+        "body": "Analytics only - a count of visits and which work gets read. No ads, nothing sold.",
+        "policyLink": {
+          "label": "Cookie policy",
+          "href": "/privacy#cookies"
+        },
+        "accept": "Accept",
+        "decline": "Decline"
+      },
+      "motion": {
+        "pattern": "delayed-slide-in",
+        "reducedMotionFallback": "instant-show"
+      },
+      "retrievalEligible": false
+    },
+    {
+      "section": "overlay.cart-drawer",
+      "content": {
+        "title": "Cart",
+        "closeLabel": "Close cart"
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      },
+      "retrievalEligible": false
+    },
+    {
+      "section": "overlay.route-curtain",
+      "content": {},
+      "motion": {
+        "pattern": "route-curtain",
+        "reducedMotionFallback": "instant-swap"
+      },
+      "retrievalEligible": false
+    },
+    {
+      "section": "shell.custom-cursor",
+      "content": {
+        "cursor": {
+          "assetRole": "custom-cursor-image",
+          "alt": "",
+          "src": "/icons/cursor-28.png"
+        }
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      },
+      "retrievalEligible": false
+    }
+  ]
+}

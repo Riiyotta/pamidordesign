@@ -1,0 +1,9 @@
+{
+  "id": "primitive.text-link",
+  "description": "Underlined muted text link (e-mail, policy).",
+  "evidence": "cite.studio.cta",
+  "overridableProps": [
+    "label",
+    "href"
+  ]
+}

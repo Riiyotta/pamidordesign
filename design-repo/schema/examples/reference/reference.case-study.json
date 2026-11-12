@@ -1,0 +1,492 @@
+{
+  "pageSpecVersion": "1.0.0",
+  "mode": "reference",
+  "template": "case-study",
+  "route": "/work/figcoms",
+  "meta": {
+    "title": "Figcoms - Case Study · Dor Sharaby"
+  },
+  "nodes": [
+    {
+      "section": "shell.skip-link",
+      "content": {
+        "label": "Skip to content"
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      },
+      "retrievalEligible": false
+    },
+    {
+      "section": "shell.primary-nav",
+      "variant": "sticky-bar",
+      "content": {
+        "wordmark": {
+          "assetRole": "source-wordmark",
+          "alt": "PAMIDOR® STUDIO",
+          "src": "/images/wordmark-pamidor-studio-ink.svg"
+        },
+        "menuLabel": "Open menu"
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      }
+    },
+    {
+      "section": "overlay.menu-panel",
+      "content": {
+        "items": [
+          {
+            "label": "Home",
+            "href": "/"
+          },
+          {
+            "label": "Studio",
+            "href": "/studio"
+          },
+          {
+            "label": "Work",
+            "href": "/#projects"
+          },
+          {
+            "label": "Art Lab",
+            "href": "/art-lab"
+          }
+        ],
+        "contact": {
+          "assetRole": "owner-contact-link",
+          "label": "DOR@PAMIDORDESIGN.CO",
+          "href": "mailto:dor@pamidordesign.co"
+        }
+      },
+      "motion": {
+        "pattern": "menu-slide",
+        "reducedMotionFallback": "instant-toggle"
+      },
+      "retrievalEligible": false
+    },
+    {
+      "section": "hero.case-header",
+      "content": {
+        "eyebrow": "(CASE STUDY · 02)",
+        "title": "FIGCOMS",
+        "disciplines": [
+          "Product Design",
+          "UX | UI",
+          "Art Direction",
+          "Motion & 3D"
+        ],
+        "summary": "Figcoms is a workflow platform built on a simple idea: Figma comments are powerful, but the work around them is broken. Instead of pulling teams out of Figma, Figcoms extends it - turning scattered comments into a structured, syncable workflow that lives where the work already happens.",
+        "leadMedia": {
+          "assetRole": "client-case-media",
+          "alt": "Figcoms - the review board, walkthrough",
+          "src": "/projects/figcoms/ui-design-1.jpg"
+        },
+        "meta": [
+          {
+            "label": "ROLE",
+            "value": "Brand & Product Design"
+          },
+          {
+            "label": "TIMELINE",
+            "value": "4 Months"
+          },
+          {
+            "label": "YEAR",
+            "value": "2025"
+          },
+          {
+            "label": "TEAM",
+            "value": "Co-Founder"
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "page-enter",
+        "reducedMotionFallback": "static-final-state"
+      }
+    },
+    {
+      "section": "work.case-role",
+      "content": {
+        "eyebrow": "(MY ROLE)",
+        "points": [
+          "Co-founded Figcoms and designed the product: the board, the four states, and the flow between them.",
+          "Replaced the first control set with an emoji-based status system once it started adding complexity instead of removing it.",
+          "Built the identity, the motion language and the landing page in parallel with the app."
+        ]
+      },
+      "motion": {
+        "pattern": "reveal-rise",
+        "reducedMotionFallback": "static-final-state"
+      }
+    },
+    {
+      "section": "work.case-context",
+      "content": {
+        "items": [
+          {
+            "label": "(WHY IT EXISTS)",
+            "body": "Out of work with the design and dev teams at Elementor and Salesforce. Everyone comments inside Figma; past ten frames nobody can tell what is waiting, working, in review or done."
+          },
+          {
+            "label": "(THE FIRST VERSION DID TOO MUCH)",
+            "body": "The early controls turned every comment into a form. They were cut for four states and an emoji."
+          },
+          {
+            "label": "(AFTER LAUNCH)",
+            "body": "Two people, four months. #33 on Product Hunt the day it shipped, and used on real projects since."
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "reveal-rise",
+        "reducedMotionFallback": "static-final-state"
+      }
+    },
+    {
+      "section": "work.case-process",
+      "content": {
+        "title": "Process",
+        "steps": [
+          {
+            "index": "01",
+            "title": "Research & Context",
+            "body": "We mapped how teams actually use Figma comments today. The pain pointed to ownership, priority, and continuity - not to Figma itself."
+          },
+          {
+            "index": "02",
+            "title": "Concept & Flow",
+            "body": "The core mechanic became “one link, instant clarity.” Paste a Figma URL, get an organized workspace built around four states every team already speaks."
+          },
+          {
+            "index": "03",
+            "title": "UX/UI & Interaction",
+            "body": "Soft cards, generous whitespace, and a typographic hierarchy that lets the comment lead. Emoji-based status changes replaced heavy controls."
+          },
+          {
+            "index": "04",
+            "title": "System & Experience",
+            "body": "Identity, motion language, and landing page were built in parallel with the app so marketing and product speak one sentence."
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "reveal-rise",
+        "reducedMotionFallback": "static-final-state"
+      }
+    },
+    {
+      "section": "work.case-chapter",
+      "variant": "chapter",
+      "content": {
+        "title": "How It Works",
+        "intro": "Paste a Figma link. Every comment becomes a task with an owner and a status, and every change syncs back - what the team sees here is what they see in the file.",
+        "steps": [
+          "User Flow",
+          "Board Structure",
+          "Sync Layer"
+        ],
+        "media": [
+          {
+            "kind": "board-gallery",
+            "asset": {
+              "assetRole": "client-case-media",
+              "alt": "Figcoms user flow",
+              "src": "/projects/figcoms/userflow-diagram.png"
+            }
+          },
+          {
+            "kind": "board-gallery",
+            "asset": {
+              "assetRole": "client-case-media",
+              "alt": "Figcoms board structure",
+              "src": "/projects/figcoms/ux-diagram.png"
+            }
+          },
+          {
+            "kind": "board-gallery",
+            "asset": {
+              "assetRole": "client-case-media",
+              "alt": "Figcoms sync layer",
+              "src": "/projects/figcoms/sync-diagram.png"
+            }
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "reveal-rise",
+        "reducedMotionFallback": "static-final-state"
+      }
+    },
+    {
+      "section": "work.case-chapter",
+      "variant": "chapter",
+      "content": {
+        "title": "The Board",
+        "intro": "The interface had to look like a workflow tool without feeling like one. A Kanban-style flow across Backlog → Working → In Review → Done, stress-tested on real projects before any pixel was drawn.",
+        "media": [
+          {
+            "kind": "image",
+            "asset": {
+              "assetRole": "client-case-media",
+              "alt": "Figcoms UX board",
+              "src": "/_img/projects/figcoms/ux-board-3840.webp"
+            }
+          },
+          {
+            "kind": "image",
+            "asset": {
+              "assetRole": "client-case-media",
+              "alt": "Figcoms UI board",
+              "src": "/_img/projects/figcoms/ui-board-3840.webp"
+            }
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "reveal-rise",
+        "reducedMotionFallback": "static-final-state"
+      }
+    },
+    {
+      "section": "work.case-chapter",
+      "variant": "chapter",
+      "content": {
+        "title": "In The Detail",
+        "intro": "Soft cards, generous whitespace, and emoji-based status changes - fewer clicks, more personality, and a language teams already speak inside Figma.",
+        "media": [
+          {
+            "kind": "image-pair",
+            "asset": {
+              "assetRole": "client-case-media",
+              "alt": "Figcoms detail A",
+              "src": "/_img/projects/figcoms/ui-detail-a-3840.webp"
+            }
+          },
+          {
+            "kind": "image-pair",
+            "asset": {
+              "assetRole": "client-case-media",
+              "alt": "Figcoms detail B",
+              "src": "/_img/projects/figcoms/ui-detail-b-3840.webp"
+            }
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "reveal-rise",
+        "reducedMotionFallback": "static-final-state"
+      }
+    },
+    {
+      "section": "work.case-chapter",
+      "variant": "chapter",
+      "content": {
+        "title": "Marketing Material",
+        "intro": "Identity, motion language, and landing page were built in parallel with the app, so the product and the way it is talked about speak one sentence.",
+        "media": [
+          {
+            "kind": "image",
+            "asset": {
+              "assetRole": "client-case-media",
+              "alt": "Figcoms waitlist e-mail",
+              "src": "/_img/projects/figcoms/marketing/email-waitlist-3840.webp"
+            }
+          },
+          {
+            "kind": "image",
+            "asset": {
+              "assetRole": "client-case-media",
+              "alt": "Figcoms onboarding step 1",
+              "src": "/_img/projects/figcoms/marketing/step1-visual-3840.webp"
+            }
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "reveal-rise",
+        "reducedMotionFallback": "static-final-state"
+      }
+    },
+    {
+      "section": "work.case-chapter",
+      "variant": "chapter",
+      "content": {
+        "title": "Shipped",
+        "media": [
+          {
+            "kind": "image",
+            "asset": {
+              "assetRole": "client-case-media",
+              "alt": "Figcoms - the board on desktop",
+              "src": "/_img/projects/figcoms/ui-screens-3840.webp"
+            }
+          },
+          {
+            "kind": "video",
+            "asset": {
+              "assetRole": "client-case-media",
+              "alt": "Figcoms - status change interaction",
+              "src": "/projects/figcoms/ui-design-2.jpg"
+            }
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "inview-video",
+        "reducedMotionFallback": "poster-frame"
+      }
+    },
+    {
+      "section": "work.next-project",
+      "content": {
+        "eyebrow": "NEXT PROJECT",
+        "project": {
+          "label": "IMOTION",
+          "href": "/work/imotion"
+        }
+      },
+      "motion": {
+        "pattern": "char-sweep",
+        "reducedMotionFallback": "static-label"
+      }
+    },
+    {
+      "section": "shell.footer",
+      "content": {
+        "wordmark": {
+          "assetRole": "source-wordmark",
+          "alt": "Pamidor.Studio®",
+          "src": "/images/wordmark-pamidor-studio.svg"
+        },
+        "motto": "Somewhere between structure and instinct.",
+        "contact": {
+          "assetRole": "owner-contact-link",
+          "label": "DOR@PAMIDORDESIGN.CO",
+          "href": "mailto:dor@pamidordesign.co"
+        },
+        "legalLinks": [
+          {
+            "label": "PRIVACY",
+            "href": "/privacy"
+          },
+          {
+            "label": "TERMS",
+            "href": "/terms"
+          }
+        ],
+        "socials": [
+          {
+            "label": "Instagram",
+            "href": "https://www.instagram.com/pamidor_design/"
+          },
+          {
+            "label": "LinkedIn",
+            "href": "https://www.linkedin.com/in/dor-sharaby/"
+          },
+          {
+            "label": "Dribbble",
+            "href": "https://dribbble.com/pamidordesign69"
+          },
+          {
+            "label": "Pinterest",
+            "href": "https://www.pinterest.com/PamidorDesign/"
+          },
+          {
+            "label": "TikTok",
+            "href": "https://www.tiktok.com/@dorsharaby"
+          }
+        ],
+        "copyright": "© 2026 Pamidor Studio. All rights reserved.",
+        "credit": "Designed and built at Pamidor Studio by Dor Sharaby."
+      },
+      "motion": {
+        "pattern": "clip-reveal",
+        "reducedMotionFallback": "static-final-state"
+      }
+    },
+    {
+      "section": "shell.awwwards-badge",
+      "content": {
+        "badge": {
+          "assetRole": "award-badge",
+          "alt": "Nominee on Awwwards"
+        }
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      },
+      "retrievalEligible": false
+    },
+    {
+      "section": "overlay.cookie-notice",
+      "content": {
+        "body": "Analytics only - a count of visits and which work gets read. No ads, nothing sold.",
+        "policyLink": {
+          "label": "Cookie policy",
+          "href": "/privacy#cookies"
+        },
+        "accept": "Accept",
+        "decline": "Decline"
+      },
+      "motion": {
+        "pattern": "delayed-slide-in",
+        "reducedMotionFallback": "instant-show"
+      },
+      "retrievalEligible": false
+    },
+    {
+      "section": "overlay.cart-drawer",
+      "content": {
+        "title": "Cart",
+        "closeLabel": "Close cart"
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      },
+      "retrievalEligible": false
+    },
+    {
+      "section": "overlay.board-lightbox",
+      "content": {
+        "closeLabel": "(CLOSE)",
+        "prevLabel": "(PREV)",
+        "nextLabel": "(NEXT)"
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      },
+      "retrievalEligible": false
+    },
+    {
+      "section": "overlay.route-curtain",
+      "content": {},
+      "motion": {
+        "pattern": "route-curtain",
+        "reducedMotionFallback": "instant-swap"
+      },
+      "retrievalEligible": false
+    },
+    {
+      "section": "shell.custom-cursor",
+      "content": {
+        "cursor": {
+          "assetRole": "custom-cursor-image",
+          "alt": "",
+          "src": "/icons/cursor-28.png"
+        }
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none"
+      },
+      "retrievalEligible": false
+    }
+  ]
+}

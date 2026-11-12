@@ -1,0 +1,11 @@
+{
+  "id": "component.buy-box",
+  "description": "Buy / ask actions with trust line; disabled when sold out.",
+  "evidence": "cite.shop.buybox",
+  "overridableProps": [
+    "buyLabel",
+    "askLabel",
+    "trustNote",
+    "soldOut"
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "id": "shell.skip-link",
+  "title": "Skip-to-content link",
+  "contractVersion": "1.0.0",
+  "source": {
+    "id": "src.shell-skip-link",
+    "file": "src/App.jsx",
+    "tag": "<a",
+    "lines": "49-49",
+    "citation": "cite.shell.skip"
+  },
+  "semantic": {
+    "id": "shell.skip-link",
+    "category": "SHELL",
+    "purpose": "Visually hidden link to #main that turns into a bordered chip on keyboard focus."
+  },
+  "retrievalEligible": false,
+  "retrievalIneligibleReason": "Keyboard utility link (skip to content); it has no content of its own and is identical on every route.",
+  "templates": [
+    "home",
+    "studio",
+    "case-study",
+    "shop-index",
+    "product-detail",
+    "legal",
+    "art-lab"
+  ],
+  "content": {
+    "fields": {
+      "label": {
+        "type": "text",
+        "required": true,
+        "maxWords": 3,
+        "evidence": "cite.shell.skip"
+      }
+    }
+  },
+  "constraints": {},
+  "layout": {
+    "position": "fixed",
+    "surfaceTokens": [
+      "surface.page"
+    ],
+    "height": "1px (visually hidden) / chip on focus"
+  },
+  "responsive": {
+    "breakpoints": [
+      "breakpoint.sm"
+    ],
+    "changes": [
+      {
+        "at": "breakpoint.sm",
+        "property": "visibility",
+        "below": "visually hidden until focused",
+        "atOrAbove": "visually hidden until focused",
+        "evidence": "cite.shell.skip"
+      }
+    ]
+  },
+  "motion": {
+    "allowedPatterns": [
+      "none"
+    ],
+    "default": "none"
+  },
+  "assetRoles": [],
+  "generatedAssetRoles": [
+    "original-copy"
+  ],
+  "measuredInstances": 15
+}

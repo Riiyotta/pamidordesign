@@ -1,0 +1,79 @@
+{
+  "surface": {
+    "page": {
+      "$type": "color",
+      "$value": "{color.canvas}",
+      "evidence": "cite.css.color-canvas"
+    },
+    "night": {
+      "$type": "color",
+      "$value": "{color.night}",
+      "evidence": "cite.css.color-night",
+      "note": "skillset, lead form, footer"
+    },
+    "ink": {
+      "$type": "color",
+      "$value": "{color.ink}",
+      "evidence": "cite.css.color-ink",
+      "note": "solid buttons, chips"
+    }
+  },
+  "text": {
+    "primary": {
+      "$type": "color",
+      "$value": "{color.ink}",
+      "evidence": "cite.css.color-ink"
+    },
+    "muted": {
+      "$type": "color",
+      "$value": "{color.muted}",
+      "evidence": "cite.css.color-muted"
+    },
+    "accent": {
+      "$type": "color",
+      "$value": "{color.accent}",
+      "evidence": "cite.css.color-accent",
+      "note": "hover / emphasis only"
+    },
+    "on-night": {
+      "$type": "color",
+      "$value": "{color.white}",
+      "evidence": "cite.css.color-white"
+    },
+    "on-night-body": {
+      "$type": "color",
+      "$value": "{color.night-body}",
+      "evidence": "cite.css.color-night-body"
+    },
+    "on-night-muted": {
+      "$type": "color",
+      "$value": "{color.night-muted}",
+      "evidence": "cite.css.color-night-muted"
+    },
+    "on-page-inverse": {
+      "$type": "color",
+      "$value": "{color.canvas}",
+      "evidence": "cite.css.color-canvas",
+      "note": "canvas-coloured text on night (text-canvas 21 uses)"
+    }
+  },
+  "border": {
+    "rule": {
+      "$type": "color",
+      "$value": "{color.rule}",
+      "evidence": "cite.css.color-rule"
+    },
+    "chip": {
+      "$type": "color",
+      "$value": "{color.chip}",
+      "evidence": "cite.css.color-chip"
+    }
+  },
+  "accent": {
+    "primary": {
+      "$type": "color",
+      "$value": "{color.accent}",
+      "evidence": "cite.css.color-accent"
+    }
+  }
+}

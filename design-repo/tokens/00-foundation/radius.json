@@ -1,0 +1,40 @@
+{
+  "radius": {
+    "none": {
+      "$type": "dimension",
+      "$value": "0",
+      "evidence": "cite.css.margin",
+      "note": "default: square corners on cards, media and buttons"
+    },
+    "chip": {
+      "$type": "dimension",
+      "$value": "calc(2*var(--px))",
+      "evidence": "cite.css.radius-px2",
+      "note": "37 uses (chips, tags)"
+    },
+    "button": {
+      "$type": "dimension",
+      "$value": "calc(3*var(--px))",
+      "evidence": "cite.css.radius-px3",
+      "note": "shop buttons"
+    },
+    "ui-sm": {
+      "$type": "dimension",
+      "$value": "8px",
+      "evidence": "cite.css.radius-8",
+      "note": "product-UI mockups"
+    },
+    "ui-md": {
+      "$type": "dimension",
+      "$value": "12px",
+      "evidence": "cite.css.radius-12",
+      "note": "product-UI mockups"
+    },
+    "full": {
+      "$type": "dimension",
+      "$value": "9999px",
+      "evidence": "cite.css.radius-full",
+      "note": "pills, round icon buttons"
+    }
+  }
+}

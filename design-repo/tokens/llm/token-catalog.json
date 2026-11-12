@@ -1,0 +1,761 @@
+{
+  "catalogVersion": "1.0.0",
+  "generatedFrom": [
+    "tokens/00-foundation/color.json",
+    "tokens/00-foundation/typography.json",
+    "tokens/00-foundation/spacing.json",
+    "tokens/00-foundation/radius.json",
+    "tokens/00-foundation/breakpoint.json",
+    "tokens/00-foundation/motion.json",
+    "tokens/00-foundation/elevation.json",
+    "tokens/30-layout/layout.json",
+    "tokens/10-semantic/color.json",
+    "tokens/20-component/components.json"
+  ],
+  "note": "Flattened from the token files by extraction/build_repo.py; verify_all re-derives and diffs it.",
+  "tokens": {
+    "color.canvas": {
+      "category": "color",
+      "type": "color",
+      "value": "#efeeeb",
+      "file": "tokens/00-foundation/color.json",
+      "evidence": "cite.css.color-canvas"
+    },
+    "color.ink": {
+      "category": "color",
+      "type": "color",
+      "value": "#0a0a0a",
+      "file": "tokens/00-foundation/color.json",
+      "evidence": "cite.css.color-ink"
+    },
+    "color.night": {
+      "category": "color",
+      "type": "color",
+      "value": "#0d0d0b",
+      "file": "tokens/00-foundation/color.json",
+      "evidence": "cite.css.color-night"
+    },
+    "color.accent": {
+      "category": "color",
+      "type": "color",
+      "value": "#d12424",
+      "file": "tokens/00-foundation/color.json",
+      "evidence": "cite.css.color-accent"
+    },
+    "color.rule": {
+      "category": "color",
+      "type": "color",
+      "value": "#ccc9c4",
+      "file": "tokens/00-foundation/color.json",
+      "evidence": "cite.css.color-rule"
+    },
+    "color.chip": {
+      "category": "color",
+      "type": "color",
+      "value": "#b8b5b0",
+      "file": "tokens/00-foundation/color.json",
+      "evidence": "cite.css.color-chip"
+    },
+    "color.muted": {
+      "category": "color",
+      "type": "color",
+      "value": "#6b6862",
+      "file": "tokens/00-foundation/color.json",
+      "evidence": "cite.css.color-muted"
+    },
+    "color.night-body": {
+      "category": "color",
+      "type": "color",
+      "value": "#bfbab2",
+      "file": "tokens/00-foundation/color.json",
+      "evidence": "cite.css.color-night-body"
+    },
+    "color.night-muted": {
+      "category": "color",
+      "type": "color",
+      "value": "#9e9991",
+      "file": "tokens/00-foundation/color.json",
+      "evidence": "cite.css.color-night-muted"
+    },
+    "color.white": {
+      "category": "color",
+      "type": "color",
+      "value": "#ffffff",
+      "file": "tokens/00-foundation/color.json",
+      "evidence": "cite.css.color-white"
+    },
+    "color.night-hr": {
+      "category": "color",
+      "type": "color",
+      "value": "#918e89",
+      "file": "tokens/00-foundation/color.json",
+      "evidence": "cite.css.root-vars"
+    },
+    "color.night-chip": {
+      "category": "color",
+      "type": "color",
+      "value": "#6666661a",
+      "file": "tokens/00-foundation/color.json",
+      "evidence": "cite.css.root-vars"
+    },
+    "color.wave-dim": {
+      "category": "color",
+      "type": "color",
+      "value": "#0a0a0a33",
+      "file": "tokens/00-foundation/color.json",
+      "evidence": "cite.css.root-vars"
+    },
+    "font.display": {
+      "category": "font",
+      "type": "fontFamily",
+      "value": "funnelDisplay, Helvetica Neue, Arial, sans-serif",
+      "file": "tokens/00-foundation/typography.json",
+      "evidence": "cite.css.font-sans"
+    },
+    "font.text": {
+      "category": "font",
+      "type": "fontFamily",
+      "value": "Archivo, Helvetica Neue, Arial, sans-serif",
+      "file": "tokens/00-foundation/typography.json",
+      "evidence": "cite.css.font-archivo"
+    },
+    "font.grotesk": {
+      "category": "font",
+      "type": "fontFamily",
+      "value": "Space Grotesk, Helvetica Neue, Arial, sans-serif",
+      "file": "tokens/00-foundation/typography.json",
+      "evidence": "cite.css.font-space"
+    },
+    "type.body": {
+      "category": "type",
+      "type": "typography",
+      "value": {
+        "fontSize": "clamp(.9375rem,1.111vw,1rem)",
+        "lineHeight": "1.55",
+        "letterSpacing": "-.01em"
+      },
+      "file": "tokens/00-foundation/typography.json",
+      "evidence": "cite.css.type-body"
+    },
+    "type.body-lg": {
+      "category": "type",
+      "type": "typography",
+      "value": {
+        "fontSize": "clamp(1.0625rem,1.25vw,1.125rem)",
+        "lineHeight": "1.5",
+        "letterSpacing": "-.01em"
+      },
+      "file": "tokens/00-foundation/typography.json",
+      "evidence": "cite.css.type-body-lg"
+    },
+    "type.label": {
+      "category": "type",
+      "type": "typography",
+      "value": {
+        "fontSize": "clamp(.6875rem,.833vw,.75rem)",
+        "lineHeight": "1.4",
+        "letterSpacing": ".06em"
+      },
+      "file": "tokens/00-foundation/typography.json",
+      "evidence": "cite.css.type-label"
+    },
+    "type.lead": {
+      "category": "type",
+      "type": "typography",
+      "value": {
+        "fontSize": "clamp(1.3125rem,2.778vw,2.5rem)",
+        "lineHeight": "1.2",
+        "letterSpacing": "-.015em"
+      },
+      "file": "tokens/00-foundation/typography.json",
+      "evidence": "cite.css.type-lead"
+    },
+    "type.subhead": {
+      "category": "type",
+      "type": "typography",
+      "value": {
+        "fontSize": "clamp(1.3125rem,2.778vw,2.5rem)",
+        "lineHeight": "1.2",
+        "letterSpacing": "-.015em"
+      },
+      "file": "tokens/00-foundation/typography.json",
+      "evidence": "cite.css.type-subhead"
+    },
+    "type.project": {
+      "category": "type",
+      "type": "typography",
+      "value": {
+        "fontSize": "clamp(1.625rem,4.167vw,3.75rem)",
+        "lineHeight": "1.05",
+        "letterSpacing": "-.015em"
+      },
+      "file": "tokens/00-foundation/typography.json",
+      "evidence": "cite.css.type-project"
+    },
+    "type.section": {
+      "category": "type",
+      "type": "typography",
+      "value": {
+        "fontSize": "clamp(2rem,7.222vw,6.5rem)",
+        "lineHeight": "1",
+        "letterSpacing": "-.02em"
+      },
+      "file": "tokens/00-foundation/typography.json",
+      "evidence": "cite.css.type-section"
+    },
+    "type.display": {
+      "category": "type",
+      "type": "typography",
+      "value": {
+        "fontSize": "clamp(2.25rem,6.944vw,6.25rem)",
+        "lineHeight": ".88",
+        "letterSpacing": "-.03em"
+      },
+      "file": "tokens/00-foundation/typography.json",
+      "evidence": "cite.css.type-display"
+    },
+    "type.case-title": {
+      "category": "type",
+      "type": "typography",
+      "value": {
+        "fontSize": "clamp(2.5rem,9.722vw,8.75rem)",
+        "lineHeight": ".9",
+        "letterSpacing": "-.03em"
+      },
+      "file": "tokens/00-foundation/typography.json",
+      "evidence": "cite.css.type-case-title"
+    },
+    "weight.regular": {
+      "category": "weight",
+      "type": "fontWeight",
+      "value": "400",
+      "file": "tokens/00-foundation/typography.json",
+      "evidence": "cite.css.font-funnel"
+    },
+    "weight.medium": {
+      "category": "weight",
+      "type": "fontWeight",
+      "value": "500",
+      "file": "tokens/00-foundation/typography.json",
+      "evidence": "cite.css.weight-medium"
+    },
+    "weight.semibold": {
+      "category": "weight",
+      "type": "fontWeight",
+      "value": "600",
+      "file": "tokens/00-foundation/typography.json",
+      "evidence": "cite.css.weight-semibold"
+    },
+    "space.unit": {
+      "category": "space",
+      "type": "dimension",
+      "value": "clamp(1px, min(100vw / 1728, 100vh / 680), 1.6px)",
+      "file": "tokens/00-foundation/spacing.json",
+      "evidence": "cite.css.px"
+    },
+    "space.unit-home": {
+      "category": "space",
+      "type": "dimension",
+      "value": "clamp(1px, .825 * min(100vw / 1728, 100vh / 680), 1.32px)",
+      "file": "tokens/00-foundation/spacing.json",
+      "evidence": "cite.css.px-home"
+    },
+    "space.gutter": {
+      "category": "space",
+      "type": "dimension",
+      "value": "1.5rem",
+      "file": "tokens/00-foundation/spacing.json",
+      "evidence": "cite.css.gutter"
+    },
+    "space.gutter-sm": {
+      "category": "space",
+      "type": "dimension",
+      "value": "2.5rem",
+      "file": "tokens/00-foundation/spacing.json",
+      "evidence": "cite.css.gutter-sm"
+    },
+    "space.margin": {
+      "category": "space",
+      "type": "dimension",
+      "value": "4rem",
+      "file": "tokens/00-foundation/spacing.json",
+      "evidence": "cite.css.margin"
+    },
+    "space.section-xl": {
+      "category": "space",
+      "type": "dimension",
+      "value": "152px",
+      "file": "tokens/00-foundation/spacing.json",
+      "evidence": "cite.css.pt-152"
+    },
+    "space.section-lg": {
+      "category": "space",
+      "type": "dimension",
+      "value": "13rem",
+      "file": "tokens/00-foundation/spacing.json",
+      "evidence": "cite.css.py-52"
+    },
+    "space.section-md": {
+      "category": "space",
+      "type": "dimension",
+      "value": "104px",
+      "file": "tokens/00-foundation/spacing.json",
+      "evidence": "cite.css.pt-104"
+    },
+    "space.section-sm": {
+      "category": "space",
+      "type": "dimension",
+      "value": "96px",
+      "file": "tokens/00-foundation/spacing.json",
+      "evidence": "cite.css.pt-96"
+    },
+    "space.section-xs": {
+      "category": "space",
+      "type": "dimension",
+      "value": "88px",
+      "file": "tokens/00-foundation/spacing.json",
+      "evidence": "cite.css.pt-88"
+    },
+    "space.section-end": {
+      "category": "space",
+      "type": "dimension",
+      "value": "120px",
+      "file": "tokens/00-foundation/spacing.json",
+      "evidence": "cite.css.pb-120"
+    },
+    "space.block-mobile-lg": {
+      "category": "space",
+      "type": "dimension",
+      "value": "6rem",
+      "file": "tokens/00-foundation/spacing.json",
+      "evidence": "cite.css.pt-24"
+    },
+    "space.block-mobile": {
+      "category": "space",
+      "type": "dimension",
+      "value": "4rem",
+      "file": "tokens/00-foundation/spacing.json",
+      "evidence": "cite.css.py-16"
+    },
+    "space.gap-marquee": {
+      "category": "space",
+      "type": "dimension",
+      "value": "48px",
+      "file": "tokens/00-foundation/spacing.json",
+      "evidence": "cite.css.gap-48"
+    },
+    "space.gap-tight": {
+      "category": "space",
+      "type": "dimension",
+      "value": "8px",
+      "file": "tokens/00-foundation/spacing.json",
+      "evidence": "cite.css.gap-8"
+    },
+    "space.rule": {
+      "category": "space",
+      "type": "dimension",
+      "value": "1.5px",
+      "file": "tokens/00-foundation/spacing.json",
+      "evidence": "cite.css.rule"
+    },
+    "radius.none": {
+      "category": "radius",
+      "type": "dimension",
+      "value": "0",
+      "file": "tokens/00-foundation/radius.json",
+      "evidence": "cite.css.margin"
+    },
+    "radius.chip": {
+      "category": "radius",
+      "type": "dimension",
+      "value": "calc(2*var(--px))",
+      "file": "tokens/00-foundation/radius.json",
+      "evidence": "cite.css.radius-px2"
+    },
+    "radius.button": {
+      "category": "radius",
+      "type": "dimension",
+      "value": "calc(3*var(--px))",
+      "file": "tokens/00-foundation/radius.json",
+      "evidence": "cite.css.radius-px3"
+    },
+    "radius.ui-sm": {
+      "category": "radius",
+      "type": "dimension",
+      "value": "8px",
+      "file": "tokens/00-foundation/radius.json",
+      "evidence": "cite.css.radius-8"
+    },
+    "radius.ui-md": {
+      "category": "radius",
+      "type": "dimension",
+      "value": "12px",
+      "file": "tokens/00-foundation/radius.json",
+      "evidence": "cite.css.radius-12"
+    },
+    "radius.full": {
+      "category": "radius",
+      "type": "dimension",
+      "value": "9999px",
+      "file": "tokens/00-foundation/radius.json",
+      "evidence": "cite.css.radius-full"
+    },
+    "breakpoint.sm": {
+      "category": "breakpoint",
+      "type": "dimension",
+      "value": "640px",
+      "file": "tokens/00-foundation/breakpoint.json",
+      "evidence": "cite.css.bp-sm"
+    },
+    "breakpoint.md": {
+      "category": "breakpoint",
+      "type": "dimension",
+      "value": "768px",
+      "file": "tokens/00-foundation/breakpoint.json",
+      "evidence": "cite.css.bp-md"
+    },
+    "breakpoint.lg": {
+      "category": "breakpoint",
+      "type": "dimension",
+      "value": "1024px",
+      "file": "tokens/00-foundation/breakpoint.json",
+      "evidence": "cite.css.bp-lg"
+    },
+    "breakpoint.xl": {
+      "category": "breakpoint",
+      "type": "dimension",
+      "value": "1280px",
+      "file": "tokens/00-foundation/breakpoint.json",
+      "evidence": "cite.css.bp-xl"
+    },
+    "breakpoint.wide": {
+      "category": "breakpoint",
+      "type": "dimension",
+      "value": "1440px",
+      "file": "tokens/00-foundation/breakpoint.json",
+      "evidence": "cite.css.bp-wide"
+    },
+    "breakpoint.2xl": {
+      "category": "breakpoint",
+      "type": "dimension",
+      "value": "1536px",
+      "file": "tokens/00-foundation/breakpoint.json",
+      "evidence": "cite.css.bp-2xl"
+    },
+    "breakpoint.max": {
+      "category": "breakpoint",
+      "type": "dimension",
+      "value": "1729px",
+      "file": "tokens/00-foundation/breakpoint.json",
+      "evidence": "cite.css.bp-max"
+    },
+    "duration.char-sweep": {
+      "category": "duration",
+      "type": "duration",
+      "value": "400ms",
+      "file": "tokens/00-foundation/motion.json",
+      "evidence": "cite.css.hw-sweep"
+    },
+    "duration.char-stagger": {
+      "category": "duration",
+      "type": "duration",
+      "value": "16ms",
+      "file": "tokens/00-foundation/motion.json",
+      "evidence": "cite.css.hw-sweep"
+    },
+    "duration.reveal": {
+      "category": "duration",
+      "type": "duration",
+      "value": "700ms",
+      "file": "tokens/00-foundation/motion.json",
+      "evidence": "cite.css.reveal"
+    },
+    "duration.page-enter": {
+      "category": "duration",
+      "type": "duration",
+      "value": "520ms",
+      "file": "tokens/00-foundation/motion.json",
+      "evidence": "cite.css.page-enter"
+    },
+    "duration.menu-open": {
+      "category": "duration",
+      "type": "duration",
+      "value": "620ms",
+      "file": "tokens/00-foundation/motion.json",
+      "evidence": "cite.css.menu-open"
+    },
+    "duration.menu-close": {
+      "category": "duration",
+      "type": "duration",
+      "value": "420ms",
+      "file": "tokens/00-foundation/motion.json",
+      "evidence": "cite.css.menu-close"
+    },
+    "duration.curtain-cover": {
+      "category": "duration",
+      "type": "duration",
+      "value": "667ms",
+      "file": "tokens/00-foundation/motion.json",
+      "evidence": "cite.overlay.curtain-cover"
+    },
+    "duration.curtain-reveal": {
+      "category": "duration",
+      "type": "duration",
+      "value": "754ms",
+      "file": "tokens/00-foundation/motion.json",
+      "evidence": "cite.overlay.curtain-reveal"
+    },
+    "duration.count-up": {
+      "category": "duration",
+      "type": "duration",
+      "value": "900ms",
+      "file": "tokens/00-foundation/motion.json",
+      "evidence": "cite.case.countup"
+    },
+    "duration.accordion": {
+      "category": "duration",
+      "type": "duration",
+      "value": "500ms",
+      "file": "tokens/00-foundation/motion.json",
+      "evidence": "cite.studio.faq-anim"
+    },
+    "duration.loader-swap": {
+      "category": "duration",
+      "type": "duration",
+      "value": "230ms",
+      "file": "tokens/00-foundation/motion.json",
+      "evidence": "cite.overlay.loader-cycle"
+    },
+    "duration.trail": {
+      "category": "duration",
+      "type": "duration",
+      "value": "840ms",
+      "file": "tokens/00-foundation/motion.json",
+      "evidence": "cite.home.trail"
+    },
+    "duration.hero-3d": {
+      "category": "duration",
+      "type": "duration",
+      "value": "950ms",
+      "file": "tokens/00-foundation/motion.json",
+      "evidence": "cite.css.hero3d"
+    },
+    "duration.cookie-delay": {
+      "category": "duration",
+      "type": "duration",
+      "value": "1400ms",
+      "file": "tokens/00-foundation/motion.json",
+      "evidence": "cite.overlay.cookie-delay"
+    },
+    "duration.marquee": {
+      "category": "duration",
+      "type": "duration",
+      "value": "28s",
+      "file": "tokens/00-foundation/motion.json",
+      "evidence": "cite.css.marquee"
+    },
+    "easing.out-soft": {
+      "category": "easing",
+      "type": "cubicBezier",
+      "value": "cubic-bezier(.22,1,.36,1)",
+      "file": "tokens/00-foundation/motion.json",
+      "evidence": "cite.css.ease-out-soft"
+    },
+    "easing.reveal": {
+      "category": "easing",
+      "type": "cubicBezier",
+      "value": "cubic-bezier(.16,1,.3,1)",
+      "file": "tokens/00-foundation/motion.json",
+      "evidence": "cite.css.reveal"
+    },
+    "easing.menu-close": {
+      "category": "easing",
+      "type": "cubicBezier",
+      "value": "cubic-bezier(.65,0,.35,1)",
+      "file": "tokens/00-foundation/motion.json",
+      "evidence": "cite.css.menu-close"
+    },
+    "easing.linear": {
+      "category": "easing",
+      "type": "cubicBezier",
+      "value": "linear",
+      "file": "tokens/00-foundation/motion.json",
+      "evidence": "cite.css.marquee"
+    },
+    "motion.scroll-lerp": {
+      "category": "motion",
+      "type": "number",
+      "value": "0.12",
+      "file": "tokens/00-foundation/motion.json",
+      "evidence": "cite.js.lenis"
+    },
+    "motion.plane-friction": {
+      "category": "motion",
+      "type": "number",
+      "value": "0.95",
+      "file": "tokens/00-foundation/motion.json",
+      "evidence": "cite.artlab.plane"
+    },
+    "motion.plane-lens-radius": {
+      "category": "motion",
+      "type": "dimension",
+      "value": "620px",
+      "file": "tokens/00-foundation/motion.json",
+      "evidence": "cite.artlab.plane"
+    },
+    "elevation.flat": {
+      "category": "elevation",
+      "type": "shadow",
+      "value": "none",
+      "file": "tokens/00-foundation/elevation.json",
+      "evidence": "cite.css.margin"
+    },
+    "elevation.ui": {
+      "category": "elevation",
+      "type": "shadow",
+      "value": "0 1px 3px 0 #0000001a, 0 1px 2px -1px #0000001a",
+      "file": "tokens/00-foundation/elevation.json",
+      "evidence": "cite.css.shadow"
+    },
+    "layout.canvas-max": {
+      "category": "layout",
+      "type": "dimension",
+      "value": "calc(1440 * var(--px))",
+      "file": "tokens/30-layout/layout.json",
+      "evidence": "cite.css.max-canvas"
+    },
+    "layout.columns": {
+      "category": "layout",
+      "type": "number",
+      "value": "5",
+      "file": "tokens/30-layout/layout.json",
+      "evidence": "cite.rwd.grid5"
+    },
+    "layout.nav-height": {
+      "category": "layout",
+      "type": "dimension",
+      "value": "72px",
+      "file": "tokens/30-layout/layout.json",
+      "evidence": "cite.rwd.nav-pad"
+    },
+    "surface.page": {
+      "category": "surface",
+      "type": "color",
+      "value": "{color.canvas}",
+      "file": "tokens/10-semantic/color.json",
+      "evidence": "cite.css.color-canvas"
+    },
+    "surface.night": {
+      "category": "surface",
+      "type": "color",
+      "value": "{color.night}",
+      "file": "tokens/10-semantic/color.json",
+      "evidence": "cite.css.color-night"
+    },
+    "surface.ink": {
+      "category": "surface",
+      "type": "color",
+      "value": "{color.ink}",
+      "file": "tokens/10-semantic/color.json",
+      "evidence": "cite.css.color-ink"
+    },
+    "text.primary": {
+      "category": "text",
+      "type": "color",
+      "value": "{color.ink}",
+      "file": "tokens/10-semantic/color.json",
+      "evidence": "cite.css.color-ink"
+    },
+    "text.muted": {
+      "category": "text",
+      "type": "color",
+      "value": "{color.muted}",
+      "file": "tokens/10-semantic/color.json",
+      "evidence": "cite.css.color-muted"
+    },
+    "text.accent": {
+      "category": "text",
+      "type": "color",
+      "value": "{color.accent}",
+      "file": "tokens/10-semantic/color.json",
+      "evidence": "cite.css.color-accent"
+    },
+    "text.on-night": {
+      "category": "text",
+      "type": "color",
+      "value": "{color.white}",
+      "file": "tokens/10-semantic/color.json",
+      "evidence": "cite.css.color-white"
+    },
+    "text.on-night-body": {
+      "category": "text",
+      "type": "color",
+      "value": "{color.night-body}",
+      "file": "tokens/10-semantic/color.json",
+      "evidence": "cite.css.color-night-body"
+    },
+    "text.on-night-muted": {
+      "category": "text",
+      "type": "color",
+      "value": "{color.night-muted}",
+      "file": "tokens/10-semantic/color.json",
+      "evidence": "cite.css.color-night-muted"
+    },
+    "text.on-page-inverse": {
+      "category": "text",
+      "type": "color",
+      "value": "{color.canvas}",
+      "file": "tokens/10-semantic/color.json",
+      "evidence": "cite.css.color-canvas"
+    },
+    "border.rule": {
+      "category": "border",
+      "type": "color",
+      "value": "{color.rule}",
+      "file": "tokens/10-semantic/color.json",
+      "evidence": "cite.css.color-rule"
+    },
+    "border.chip": {
+      "category": "border",
+      "type": "color",
+      "value": "{color.chip}",
+      "file": "tokens/10-semantic/color.json",
+      "evidence": "cite.css.color-chip"
+    },
+    "accent.primary": {
+      "category": "accent",
+      "type": "color",
+      "value": "{color.accent}",
+      "file": "tokens/10-semantic/color.json",
+      "evidence": "cite.css.color-accent"
+    },
+    "component.button-pad-x": {
+      "category": "component",
+      "type": "dimension",
+      "value": "calc(15*var(--px))",
+      "file": "tokens/20-component/components.json",
+      "evidence": "cite.studio.cta"
+    },
+    "component.chip-radius": {
+      "category": "component",
+      "type": "dimension",
+      "value": "{radius.chip}",
+      "file": "tokens/20-component/components.json",
+      "evidence": "cite.css.radius-px2"
+    },
+    "component.rule-height": {
+      "category": "component",
+      "type": "dimension",
+      "value": "{space.rule}",
+      "file": "tokens/20-component/components.json",
+      "evidence": "cite.css.rule"
+    },
+    "component.footer-clip-start": {
+      "category": "component",
+      "type": "string",
+      "value": "inset(5% 7% 0 7%)",
+      "file": "tokens/20-component/components.json",
+      "evidence": "cite.shell.footer-clip"
+    }
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "font": {
+    "display": {
+      "$type": "fontFamily",
+      "$value": "funnelDisplay, Helvetica Neue, Arial, sans-serif",
+      "evidence": "cite.css.font-sans",
+      "note": "default family (font-sans)"
+    },
+    "text": {
+      "$type": "fontFamily",
+      "$value": "Archivo, Helvetica Neue, Arial, sans-serif",
+      "evidence": "cite.css.font-archivo",
+      "note": "font-archivo 195 uses (shop, labels, buttons)"
+    },
+    "grotesk": {
+      "$type": "fontFamily",
+      "$value": "Space Grotesk, Helvetica Neue, Arial, sans-serif",
+      "evidence": "cite.css.font-space",
+      "note": "font-space 11 uses (page titles)"
+    }
+  },
+  "type": {
+    "body": {
+      "$type": "typography",
+      "$value": {
+        "fontSize": "clamp(.9375rem,1.111vw,1rem)",
+        "lineHeight": "1.55",
+        "letterSpacing": "-.01em"
+      },
+      "evidence": "cite.css.type-body",
+      "note": "167 uses"
+    },
+    "body-lg": {
+      "$type": "typography",
+      "$value": {
+        "fontSize": "clamp(1.0625rem,1.25vw,1.125rem)",
+        "lineHeight": "1.5",
+        "letterSpacing": "-.01em"
+      },
+      "evidence": "cite.css.type-body-lg",
+      "note": "78 uses"
+    },
+    "label": {
+      "$type": "typography",
+      "$value": {
+        "fontSize": "clamp(.6875rem,.833vw,.75rem)",
+        "lineHeight": "1.4",
+        "letterSpacing": ".06em"
+      },
+      "evidence": "cite.css.type-label",
+      "note": "166 uses"
+    },
+    "lead": {
+      "$type": "typography",
+      "$value": {
+        "fontSize": "clamp(1.3125rem,2.778vw,2.5rem)",
+        "lineHeight": "1.2",
+        "letterSpacing": "-.015em"
+      },
+      "evidence": "cite.css.type-lead",
+      "note": "7 uses"
+    },
+    "subhead": {
+      "$type": "typography",
+      "$value": {
+        "fontSize": "clamp(1.3125rem,2.778vw,2.5rem)",
+        "lineHeight": "1.2",
+        "letterSpacing": "-.015em"
+      },
+      "evidence": "cite.css.type-subhead",
+      "note": "subhead + subhead-sm share one rule"
+    },
+    "project": {
+      "$type": "typography",
+      "$value": {
+        "fontSize": "clamp(1.625rem,4.167vw,3.75rem)",
+        "lineHeight": "1.05",
+        "letterSpacing": "-.015em"
+      },
+      "evidence": "cite.css.type-project",
+      "note": "61 uses"
+    },
+    "section": {
+      "$type": "typography",
+      "$value": {
+        "fontSize": "clamp(2rem,7.222vw,6.5rem)",
+        "lineHeight": "1",
+        "letterSpacing": "-.02em"
+      },
+      "evidence": "cite.css.type-section",
+      "note": "section titles + stats"
+    },
+    "display": {
+      "$type": "typography",
+      "$value": {
+        "fontSize": "clamp(2.25rem,6.944vw,6.25rem)",
+        "lineHeight": ".88",
+        "letterSpacing": "-.03em"
+      },
+      "evidence": "cite.css.type-display",
+      "note": "1 use"
+    },
+    "case-title": {
+      "$type": "typography",
+      "$value": {
+        "fontSize": "clamp(2.5rem,9.722vw,8.75rem)",
+        "lineHeight": ".9",
+        "letterSpacing": "-.03em"
+      },
+      "evidence": "cite.css.type-case-title",
+      "note": "page titles (case, studio, legal)"
+    }
+  },
+  "weight": {
+    "regular": {
+      "$type": "fontWeight",
+      "$value": "400",
+      "evidence": "cite.css.font-funnel",
+      "note": "funnelDisplay variable 300-800"
+    },
+    "medium": {
+      "$type": "fontWeight",
+      "$value": "500",
+      "evidence": "cite.css.weight-medium",
+      "note": "273 uses"
+    },
+    "semibold": {
+      "$type": "fontWeight",
+      "$value": "600",
+      "evidence": "cite.css.weight-semibold",
+      "note": "120 uses"
+    }
+  }
+}

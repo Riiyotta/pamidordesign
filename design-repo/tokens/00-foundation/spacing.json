@@ -1,0 +1,100 @@
+{
+  "space": {
+    "unit": {
+      "$type": "dimension",
+      "$value": "clamp(1px, min(100vw / 1728, 100vh / 680), 1.6px)",
+      "evidence": "cite.css.px",
+      "note": "--px: one artboard pixel of the 1728x680 design canvas"
+    },
+    "unit-home": {
+      "$type": "dimension",
+      "$value": "clamp(1px, .825 * min(100vw / 1728, 100vh / 680), 1.32px)",
+      "evidence": "cite.css.px-home",
+      "note": "--px on the home canvas"
+    },
+    "gutter": {
+      "$type": "dimension",
+      "$value": "1.5rem",
+      "evidence": "cite.css.gutter",
+      "note": "px-6 mobile gutter"
+    },
+    "gutter-sm": {
+      "$type": "dimension",
+      "$value": "2.5rem",
+      "evidence": "cite.css.gutter-sm",
+      "note": "sm:px-10"
+    },
+    "margin": {
+      "$type": "dimension",
+      "$value": "4rem",
+      "evidence": "cite.css.margin",
+      "note": "lg:px-margin"
+    },
+    "section-xl": {
+      "$type": "dimension",
+      "$value": "152px",
+      "evidence": "cite.css.pt-152",
+      "note": "chapter / studio block top padding (lg)"
+    },
+    "section-lg": {
+      "$type": "dimension",
+      "$value": "13rem",
+      "evidence": "cite.css.py-52",
+      "note": "home bands lg:py-52"
+    },
+    "section-md": {
+      "$type": "dimension",
+      "$value": "104px",
+      "evidence": "cite.css.pt-104",
+      "note": "next-project top padding (lg)"
+    },
+    "section-sm": {
+      "$type": "dimension",
+      "$value": "96px",
+      "evidence": "cite.css.pt-96",
+      "note": "process block top padding (lg)"
+    },
+    "section-xs": {
+      "$type": "dimension",
+      "$value": "88px",
+      "evidence": "cite.css.pt-88",
+      "note": "role/context top padding (lg)"
+    },
+    "section-end": {
+      "$type": "dimension",
+      "$value": "120px",
+      "evidence": "cite.css.pb-120",
+      "note": "next-project bottom padding (lg)"
+    },
+    "block-mobile-lg": {
+      "$type": "dimension",
+      "$value": "6rem",
+      "evidence": "cite.css.pt-24",
+      "note": "pt-24 mobile chapter padding"
+    },
+    "block-mobile": {
+      "$type": "dimension",
+      "$value": "4rem",
+      "evidence": "cite.css.py-16",
+      "note": "py-16 mobile band padding"
+    },
+    "gap-marquee": {
+      "$type": "dimension",
+      "$value": "48px",
+      "evidence": "cite.css.gap-48",
+      "note": "marquee item gap"
+    },
+    "gap-tight": {
+      "$type": "dimension",
+      "$value": "8px",
+      "evidence": "cite.css.gap-8",
+      "note": "icon/label gap"
+    },
+    "rule": {
+      "$type": "dimension",
+      "$value": "1.5px",
+      "evidence": "cite.css.rule",
+      "note": "section rule thickness"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "id": "narrative.process-steps",
+  "title": "Working process",
+  "contractVersion": "1.0.0",
+  "source": {
+    "id": "src.narrative-process-steps",
+    "file": "src/pages/Studio.jsx",
+    "tag": "<section",
+    "lines": "847-940",
+    "citation": "cite.studio.process"
+  },
+  "semantic": {
+    "id": "narrative.process-steps",
+    "category": "NARRATIVE",
+    "purpose": "Question heading, intro paragraph and a ruled, numbered list of engagement stages with one-line descriptions."
+  },
+  "retrievalEligible": true,
+  "templates": [
+    "studio"
+  ],
+  "content": {
+    "fields": {
+      "title": {
+        "type": "text",
+        "required": true,
+        "maxWords": 7,
+        "evidence": "measured:fieldProfiles.narrative.process-steps.h2.maxWords"
+      },
+      "intro": {
+        "type": "text",
+        "required": true,
+        "maxWords": 46,
+        "evidence": "measured:fieldProfiles.narrative.process-steps.p.maxWords"
+      },
+      "steps": {
+        "type": "list",
+        "required": true,
+        "minItems": 3,
+        "items": {
+          "index": {
+            "type": "text",
+            "required": true,
+            "maxWords": 1,
+            "evidence": "cite.studio.process"
+          },
+          "title": {
+            "type": "text",
+            "required": true,
+            "maxWords": 3,
+            "evidence": "measured:fieldProfiles.narrative.process-steps.h3.maxWords"
+          },
+          "body": {
+            "type": "text",
+            "required": true,
+            "maxWords": 46,
+            "evidence": "measured:fieldProfiles.narrative.process-steps.p.maxWords"
+          }
+        },
+        "maxItems": 5,
+        "evidence": "measured:fieldProfiles.narrative.process-steps.h3.maxCount"
+      }
+    }
+  },
+  "constraints": {},
+  "layout": {
+    "position": "in-flow",
+    "surfaceTokens": [
+      "surface.page"
+    ],
+    "height": "898px at 1440 (measured)"
+  },
+  "responsive": {
+    "breakpoints": [
+      "breakpoint.lg"
+    ],
+    "changes": [
+      {
+        "at": "breakpoint.lg",
+        "property": "step row",
+        "below": "number + title stacked over body",
+        "atOrAbove": "5-col grid: number, title, body in cols 4-5",
+        "evidence": "cite.studio.process"
+      }
+    ]
+  },
+  "motion": {
+    "allowedPatterns": [
+      "reveal-rise",
+      "none"
+    ],
+    "default": "reveal-rise"
+  },
+  "assetRoles": [],
+  "generatedAssetRoles": [
+    "original-copy"
+  ],
+  "measuredInstances": 1
+}

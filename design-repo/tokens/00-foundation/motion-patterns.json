@@ -1,0 +1,145 @@
+{
+  "version": "1.0.0",
+  "patterns": {
+    "page-enter": {
+      "description": "Route content fades and rises 10*--px on mount (.52s, out-soft).",
+      "reducedMotionFallback": "static-final-state",
+      "evidence": [
+        "cite.css.page-enter",
+        "cite.css.reduce-core"
+      ]
+    },
+    "reveal-rise": {
+      "description": "Block rises from 13*--px when 5% visible 12% above the fold bottom (.7s).",
+      "reducedMotionFallback": "static-final-state",
+      "evidence": [
+        "cite.css.reveal",
+        "cite.js.reveal",
+        "cite.css.reduce-core"
+      ]
+    },
+    "char-sweep": {
+      "description": "Hover/active sweep of a label's characters to accent (.4s, 16ms stagger).",
+      "reducedMotionFallback": "static-label",
+      "evidence": [
+        "cite.css.hw-sweep"
+      ]
+    },
+    "scroll-char-wave": {
+      "description": "Pinned statement whose characters light up with scroll progress (char-wave .4s).",
+      "reducedMotionFallback": "fully-lit-static",
+      "evidence": [
+        "cite.css.char-wave",
+        "cite.js.wave",
+        "cite.js.wave-doc"
+      ]
+    },
+    "marquee-loop": {
+      "description": "Continuous horizontal loop of a duplicated row (28s default, linear).",
+      "reducedMotionFallback": "static-row",
+      "evidence": [
+        "cite.css.marquee",
+        "cite.css.reduce-core"
+      ]
+    },
+    "count-up": {
+      "description": "Stat value counts 0 -> value over 900ms when 60% visible.",
+      "reducedMotionFallback": "final-value",
+      "evidence": [
+        "cite.case.countup"
+      ]
+    },
+    "hero-3d-entrance": {
+      "description": "Hero lines and portrait tilt up into place after the intro (.95s).",
+      "reducedMotionFallback": "static-final-state",
+      "evidence": [
+        "cite.css.hero3d",
+        "cite.css.reduce-nav"
+      ]
+    },
+    "image-trail": {
+      "description": "Pointer travel stamps artwork thumbnails (every 90*--px, 840ms wipe, max 4 live).",
+      "reducedMotionFallback": "disabled",
+      "evidence": [
+        "cite.home.trail",
+        "cite.home.trail-max"
+      ]
+    },
+    "clip-reveal": {
+      "description": "Block clip-path opens from inset(5% 7% 0 7%) to inset(0) over 60% of the viewport.",
+      "reducedMotionFallback": "static-final-state",
+      "evidence": [
+        "cite.shell.footer-clip",
+        "cite.js.footer-reduce",
+        "cite.case.clip"
+      ]
+    },
+    "accordion-height": {
+      "description": "Answer row animates grid rows 0fr -> 1fr with fade (500ms).",
+      "reducedMotionFallback": "instant-toggle",
+      "evidence": [
+        "cite.studio.faq-anim"
+      ]
+    },
+    "menu-slide": {
+      "description": "Panel slides in from the right (.62s) and out (.42s) over a scrim.",
+      "reducedMotionFallback": "instant-toggle",
+      "evidence": [
+        "cite.css.menu-open",
+        "cite.css.menu-close",
+        "cite.css.reduce-menu"
+      ]
+    },
+    "route-curtain": {
+      "description": "Night curtain covers (667ms), route swaps, curtain lifts (754ms).",
+      "reducedMotionFallback": "instant-swap",
+      "evidence": [
+        "cite.overlay.curtain-cover",
+        "cite.overlay.curtain-reveal",
+        "cite.css.reduce-curtain",
+        "cite.js.curtain-reduce"
+      ]
+    },
+    "intro-sequence": {
+      "description": "Letters rise, image chip cycles every 230ms, overlay fades; 6000ms first visit / 3000ms repeat safety.",
+      "reducedMotionFallback": "skip-intro",
+      "evidence": [
+        "cite.overlay.loader-cycle",
+        "cite.intro.boot",
+        "cite.js.loader-reduce"
+      ]
+    },
+    "plane-inertia": {
+      "description": "Drag/wheel/arrow panning with 0.95 friction and a 620px lens (scale 0.92-1.1, <=4deg tilt).",
+      "reducedMotionFallback": "no-inertia",
+      "evidence": [
+        "cite.artlab.plane",
+        "cite.artlab.lens",
+        "cite.artlab.rot",
+        "cite.js.plane-reduce"
+      ]
+    },
+    "inview-video": {
+      "description": "Muted video plays only while in view.",
+      "reducedMotionFallback": "poster-frame",
+      "evidence": [
+        "cite.case.video",
+        "cite.js.autoplay"
+      ]
+    },
+    "delayed-slide-in": {
+      "description": "Utility card slides in after 1400ms.",
+      "reducedMotionFallback": "instant-show",
+      "evidence": [
+        "cite.overlay.cookie-delay"
+      ]
+    },
+    "none": {
+      "description": "No motion.",
+      "reducedMotionFallback": "none",
+      "evidence": [
+        "cite.css.reduce-core"
+      ]
+    }
+  }
+}

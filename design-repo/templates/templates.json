@@ -1,0 +1,962 @@
+{
+  "templatesVersion": "1.0.0",
+  "note": "Node order = PageSpec node order. In-flow content order is the measured order on every route (observedSequences); fixed/overlay chrome is listed first (skip link, loader, nav, menu) or last (footer, badge, notices, drawer, lightbox, curtain, cursor).",
+  "templates": {
+    "home": {
+      "title": "Home",
+      "routePattern": "^/$",
+      "citation": "cite.home.order",
+      "nodes": [
+        {
+          "section": "shell.skip-link",
+          "min": 1,
+          "max": 1,
+          "required": true,
+          "repeatable": false,
+          "position": "fixed"
+        },
+        {
+          "section": "overlay.intro-loader",
+          "min": 1,
+          "max": 1,
+          "required": true,
+          "repeatable": false,
+          "position": "fixed"
+        },
+        {
+          "section": "shell.primary-nav",
+          "variant": "in-hero",
+          "min": 1,
+          "max": 1,
+          "required": true,
+          "repeatable": false,
+          "position": "sticky"
+        },
+        {
+          "section": "overlay.menu-panel",
+          "min": 1,
+          "max": 1,
+          "required": true,
+          "repeatable": false,
+          "position": "fixed"
+        },
+        {
+          "section": "hero.home-intro",
+          "min": 1,
+          "max": 1,
+          "required": true,
+          "repeatable": false,
+          "position": "in-flow"
+        },
+        {
+          "section": "narrative.studio-teaser",
+          "min": 1,
+          "max": 1,
+          "required": true,
+          "repeatable": false,
+          "position": "in-flow"
+        },
+        {
+          "section": "work.projects-list",
+          "min": 1,
+          "max": 1,
+          "required": true,
+          "repeatable": false,
+          "position": "in-flow"
+        },
+        {
+          "section": "art.lab-teaser",
+          "min": 1,
+          "max": 1,
+          "required": true,
+          "repeatable": false,
+          "position": "in-flow"
+        },
+        {
+          "section": "services.skillset",
+          "min": 1,
+          "max": 1,
+          "required": true,
+          "repeatable": false,
+          "position": "in-flow"
+        },
+        {
+          "section": "conversion.lead-form",
+          "min": 1,
+          "max": 1,
+          "required": true,
+          "repeatable": false,
+          "position": "in-flow"
+        },
+        {
+          "section": "shell.footer",
+          "min": 1,
+          "max": 1,
+          "required": true,
+          "repeatable": false,
+          "position": "in-flow"
+        },
+        {
+          "section": "shell.awwwards-badge",
+          "min": 0,
+          "max": 1,
+          "required": false,
+          "repeatable": false,
+          "position": "fixed"
+        },
+        {
+          "section": "overlay.cookie-notice",
+          "min": 1,
+          "max": 1,
+          "required": true,
+          "repeatable": false,
+          "position": "fixed"
+        },
+        {
+          "section": "overlay.cart-drawer",
+          "min": 1,
+          "max": 1,
+          "required": true,
+          "repeatable": false,
+          "position": "fixed"
+        },
+        {
+          "section": "overlay.route-curtain",
+          "min": 1,
+          "max": 1,
+          "required": true,
+          "repeatable": false,
+          "position": "fixed"
+        },
+        {
+          "section": "shell.custom-cursor",
+          "min": 1,
+          "max": 1,
+          "required": true,
+          "repeatable": false,
+          "position": "fixed"
+        }
+      ],
+      "observedSequences": [
+        {
+          "sequence": [
+            "hero.home-intro",
+            "narrative.studio-teaser",
+            "work.projects-list",
+            "art.lab-teaser",
+            "services.skillset",
+            "conversion.lead-form"
+          ],
+          "routes": [
+            "/"
+          ]
+        }
+      ]
+    },
+    "studio": {
+      "title": "Studio (about)",
+      "routePattern": "^/studio$",
+      "citation": "cite.studio.hero",
+      "nodes": [
+        {
+          "section": "shell.skip-link",
+          "min": 1,
+          "max": 1,
+          "required": true,
+          "repeatable": false,
+          "position": "fixed"
+        },
+        {
+          "section": "shell.primary-nav",
+          "variant": "sticky-bar",
+          "min": 1,
+          "max": 1,
+          "required": true,
+          "repeatable": false,
+          "position": "sticky"
+        },
+        {
+          "section": "overlay.menu-panel",
+          "min": 1,
+          "max": 1,
+          "required": true,
+          "repeatable": false,
+          "position": "fixed"
+        },
+        {
+          "section": "hero.studio-intro",
+          "min": 1,
+          "max": 1,
+          "required": true,
+          "repeatable": false,
+          "position": "in-flow"
+        },
+        {
+          "section": "narrative.approach-statement",
+          "min": 1,
+          "max": 1,
+          "required": true,
+          "repeatable": false,
+          "position": "in-flow"
+        },
+        {
+          "section": "narrative.industries",
+          "min": 1,
+          "max": 1,
+          "required": true,
+          "repeatable": false,
+          "position": "in-flow"
+        },
+        {
+          "section": "narrative.process-steps",
+          "min": 1,
+          "max": 1,
+          "required": true,
+          "repeatable": false,
+          "position": "in-flow"
+        },
+        {
+          "section": "narrative.faq",
+          "min": 1,
+          "max": 1,
+          "required": true,
+          "repeatable": false,
+          "position": "in-flow"
+        },
+        {
+          "section": "conversion.studio-cta",
+          "min": 1,
+          "max": 1,
+          "required": true,
+          "repeatable": false,
+          "position": "in-flow"
+        },
+        {
+          "section": "shell.footer",
+          "min": 1,
+          "max": 1,
+          "required": true,
+          "repeatable": false,
+          "position": "in-flow"
+        },
+        {
+          "section": "shell.awwwards-badge",
+          "min": 0,
+          "max": 1,
+          "required": false,
+          "repeatable": false,
+          "position": "fixed"
+        },
+        {
+          "section": "overlay.cookie-notice",
+          "min": 1,
+          "max": 1,
+          "required": true,
+          "repeatable": false,
+          "position": "fixed"
+        },
+        {
+          "section": "overlay.cart-drawer",
+          "min": 1,
+          "max": 1,
+          "required": true,
+          "repeatable": false,
+          "position": "fixed"
+        },
+        {
+          "section": "overlay.route-curtain",
+          "min": 1,
+          "max": 1,
+          "required": true,
+          "repeatable": false,
+          "position": "fixed"
+        },
+        {
+          "section": "shell.custom-cursor",
+          "min": 1,
+          "max": 1,
+          "required": true,
+          "repeatable": false,
+          "position": "fixed"
+        }
+      ],
+      "observedSequences": [
+        {
+          "sequence": [
+            "hero.studio-intro",
+            "narrative.approach-statement",
+            "narrative.industries",
+            "narrative.process-steps",
+            "narrative.faq",
+            "conversion.studio-cta"
+          ],
+          "routes": [
+            "/studio"
+          ]
+        }
+      ]
+    },
+    "case-study": {
+      "title": "Case study",
+      "routePattern": "^/work/[a-z0-9-]+$",
+      "citation": "cite.case.hero",
+      "nodes": [
+        {
+          "section": "shell.skip-link",
+          "min": 1,
+          "max": 1,
+          "required": true,
+          "repeatable": false,
+          "position": "fixed"
+        },
+        {
+          "section": "shell.primary-nav",
+          "variant": "sticky-bar",
+          "min": 1,
+          "max": 1,
+          "required": true,
+          "repeatable": false,
+          "position": "sticky"
+        },
+        {
+          "section": "overlay.menu-panel",
+          "min": 1,
+          "max": 1,
+          "required": true,
+          "repeatable": false,
+          "position": "fixed"
+        },
+        {
+          "section": "hero.case-header",
+          "min": 1,
+          "max": 1,
+          "required": true,
+          "repeatable": false,
+          "position": "in-flow"
+        },
+        {
+          "section": "work.case-role",
+          "min": 1,
+          "max": 1,
+          "required": true,
+          "repeatable": false,
+          "position": "in-flow"
+        },
+        {
+          "section": "work.case-context",
+          "min": 0,
+          "max": 1,
+          "required": false,
+          "repeatable": false,
+          "position": "in-flow"
+        },
+        {
+          "section": "work.case-process",
+          "min": 1,
+          "max": 1,
+          "required": true,
+          "repeatable": false,
+          "position": "in-flow"
+        },
+        {
+          "section": "work.case-chapter",
+          "min": 3,
+          "max": 10,
+          "required": true,
+          "repeatable": true,
+          "position": "in-flow"
+        },
+        {
+          "section": "work.next-project",
+          "min": 1,
+          "max": 1,
+          "required": true,
+          "repeatable": false,
+          "position": "in-flow"
+        },
+        {
+          "section": "shell.footer",
+          "min": 1,
+          "max": 1,
+          "required": true,
+          "repeatable": false,
+          "position": "in-flow"
+        },
+        {
+          "section": "shell.awwwards-badge",
+          "min": 0,
+          "max": 1,
+          "required": false,
+          "repeatable": false,
+          "position": "fixed"
+        },
+        {
+          "section": "overlay.cookie-notice",
+          "min": 1,
+          "max": 1,
+          "required": true,
+          "repeatable": false,
+          "position": "fixed"
+        },
+        {
+          "section": "overlay.cart-drawer",
+          "min": 1,
+          "max": 1,
+          "required": true,
+          "repeatable": false,
+          "position": "fixed"
+        },
+        {
+          "section": "overlay.board-lightbox",
+          "min": 0,
+          "max": 1,
+          "required": false,
+          "repeatable": false,
+          "position": "fixed"
+        },
+        {
+          "section": "overlay.route-curtain",
+          "min": 1,
+          "max": 1,
+          "required": true,
+          "repeatable": false,
+          "position": "fixed"
+        },
+        {
+          "section": "shell.custom-cursor",
+          "min": 1,
+          "max": 1,
+          "required": true,
+          "repeatable": false,
+          "position": "fixed"
+        }
+      ],
+      "observedSequences": [
+        {
+          "sequence": [
+            "hero.case-header",
+            "work.case-role",
+            "work.case-context",
+            "work.case-process",
+            "work.case-chapter[chapter]",
+            "work.case-chapter[chapter]",
+            "work.case-chapter[chapter]",
+            "work.case-chapter[chapter]",
+            "work.case-chapter[chapter]",
+            "work.next-project"
+          ],
+          "routes": [
+            "/work/figcoms"
+          ]
+        },
+        {
+          "sequence": [
+            "hero.case-header",
+            "work.case-role",
+            "work.case-process",
+            "work.case-chapter[part-opener]",
+            "work.case-chapter[chapter]",
+            "work.case-chapter[part-opener]",
+            "work.case-chapter[chapter]",
+            "work.case-chapter[chapter]",
+            "work.case-chapter[chapter]",
+            "work.next-project"
+          ],
+          "routes": [
+            "/work/rise"
+          ]
+        },
+        {
+          "sequence": [
+            "hero.case-header",
+            "work.case-role",
+            "work.case-context",
+            "work.case-process",
+            "work.case-chapter[chapter]",
+            "work.case-chapter[chapter]",
+            "work.case-chapter[chapter]",
+            "work.next-project"
+          ],
+          "routes": [
+            "/work/imotion"
+          ]
+        },
+        {
+          "sequence": [
+            "hero.case-header",
+            "work.case-role",
+            "work.case-context",
+            "work.case-process",
+            "work.case-chapter[part-opener]",
+            "work.case-chapter[chapter]",
+            "work.case-chapter[chapter]",
+            "work.case-chapter[chapter]",
+            "work.case-chapter[chapter]",
+            "work.case-chapter[part-opener]",
+            "work.case-chapter[chapter]",
+            "work.case-chapter[chapter]",
+            "work.case-chapter[chapter]",
+            "work.case-chapter[chapter]",
+            "work.next-project"
+          ],
+          "routes": [
+            "/work/israel-police"
+          ]
+        }
+      ]
+    },
+    "shop-index": {
+      "title": "Shop index",
+      "routePattern": "^/shop$",
+      "citation": "cite.shop.header",
+      "nodes": [
+        {
+          "section": "shell.skip-link",
+          "min": 1,
+          "max": 1,
+          "required": true,
+          "repeatable": false,
+          "position": "fixed"
+        },
+        {
+          "section": "shell.primary-nav",
+          "variant": "sticky-bar",
+          "min": 1,
+          "max": 1,
+          "required": true,
+          "repeatable": false,
+          "position": "sticky"
+        },
+        {
+          "section": "overlay.menu-panel",
+          "min": 1,
+          "max": 1,
+          "required": true,
+          "repeatable": false,
+          "position": "fixed"
+        },
+        {
+          "section": "hero.shop-header",
+          "min": 1,
+          "max": 1,
+          "required": true,
+          "repeatable": false,
+          "position": "in-flow"
+        },
+        {
+          "section": "commerce.shop-filters",
+          "min": 1,
+          "max": 1,
+          "required": true,
+          "repeatable": false,
+          "position": "in-flow"
+        },
+        {
+          "section": "commerce.product-grid",
+          "min": 1,
+          "max": 1,
+          "required": true,
+          "repeatable": false,
+          "position": "in-flow"
+        },
+        {
+          "section": "conversion.drops-signup",
+          "min": 1,
+          "max": 1,
+          "required": true,
+          "repeatable": false,
+          "position": "in-flow"
+        },
+        {
+          "section": "shell.footer",
+          "min": 1,
+          "max": 1,
+          "required": true,
+          "repeatable": false,
+          "position": "in-flow"
+        },
+        {
+          "section": "shell.awwwards-badge",
+          "min": 0,
+          "max": 1,
+          "required": false,
+          "repeatable": false,
+          "position": "fixed"
+        },
+        {
+          "section": "overlay.cookie-notice",
+          "min": 1,
+          "max": 1,
+          "required": true,
+          "repeatable": false,
+          "position": "fixed"
+        },
+        {
+          "section": "overlay.cart-drawer",
+          "min": 1,
+          "max": 1,
+          "required": true,
+          "repeatable": false,
+          "position": "fixed"
+        },
+        {
+          "section": "overlay.route-curtain",
+          "min": 1,
+          "max": 1,
+          "required": true,
+          "repeatable": false,
+          "position": "fixed"
+        },
+        {
+          "section": "shell.custom-cursor",
+          "min": 1,
+          "max": 1,
+          "required": true,
+          "repeatable": false,
+          "position": "fixed"
+        }
+      ],
+      "observedSequences": [
+        {
+          "sequence": [
+            "hero.shop-header",
+            "commerce.shop-filters",
+            "commerce.product-grid",
+            "conversion.drops-signup"
+          ],
+          "routes": [
+            "/shop"
+          ]
+        }
+      ]
+    },
+    "product-detail": {
+      "title": "Shop product detail",
+      "routePattern": "^/shop/[a-z0-9-]+$",
+      "citation": "cite.shop.detail",
+      "nodes": [
+        {
+          "section": "shell.skip-link",
+          "min": 1,
+          "max": 1,
+          "required": true,
+          "repeatable": false,
+          "position": "fixed"
+        },
+        {
+          "section": "shell.primary-nav",
+          "variant": "sticky-bar",
+          "min": 1,
+          "max": 1,
+          "required": true,
+          "repeatable": false,
+          "position": "sticky"
+        },
+        {
+          "section": "overlay.menu-panel",
+          "min": 1,
+          "max": 1,
+          "required": true,
+          "repeatable": false,
+          "position": "fixed"
+        },
+        {
+          "section": "hero.product-detail",
+          "min": 1,
+          "max": 1,
+          "required": true,
+          "repeatable": false,
+          "position": "in-flow"
+        },
+        {
+          "section": "commerce.more-from-shop",
+          "min": 1,
+          "max": 1,
+          "required": true,
+          "repeatable": false,
+          "position": "in-flow"
+        },
+        {
+          "section": "shell.footer",
+          "min": 1,
+          "max": 1,
+          "required": true,
+          "repeatable": false,
+          "position": "in-flow"
+        },
+        {
+          "section": "shell.awwwards-badge",
+          "min": 0,
+          "max": 1,
+          "required": false,
+          "repeatable": false,
+          "position": "fixed"
+        },
+        {
+          "section": "overlay.cookie-notice",
+          "min": 1,
+          "max": 1,
+          "required": true,
+          "repeatable": false,
+          "position": "fixed"
+        },
+        {
+          "section": "overlay.cart-drawer",
+          "min": 1,
+          "max": 1,
+          "required": true,
+          "repeatable": false,
+          "position": "fixed"
+        },
+        {
+          "section": "overlay.route-curtain",
+          "min": 1,
+          "max": 1,
+          "required": true,
+          "repeatable": false,
+          "position": "fixed"
+        },
+        {
+          "section": "shell.custom-cursor",
+          "min": 1,
+          "max": 1,
+          "required": true,
+          "repeatable": false,
+          "position": "fixed"
+        }
+      ],
+      "observedSequences": [
+        {
+          "sequence": [
+            "hero.product-detail",
+            "commerce.more-from-shop"
+          ],
+          "routes": [
+            "/shop/red-series-01",
+            "/shop/red-series-02",
+            "/shop/red-series-03",
+            "/shop/inked-frame",
+            "/shop/pink-portrait"
+          ]
+        }
+      ]
+    },
+    "legal": {
+      "title": "Legal document",
+      "routePattern": "^/(privacy|terms)$",
+      "citation": "cite.legal.header",
+      "nodes": [
+        {
+          "section": "shell.skip-link",
+          "min": 1,
+          "max": 1,
+          "required": true,
+          "repeatable": false,
+          "position": "fixed"
+        },
+        {
+          "section": "shell.primary-nav",
+          "variant": "sticky-bar",
+          "min": 1,
+          "max": 1,
+          "required": true,
+          "repeatable": false,
+          "position": "sticky"
+        },
+        {
+          "section": "overlay.menu-panel",
+          "min": 1,
+          "max": 1,
+          "required": true,
+          "repeatable": false,
+          "position": "fixed"
+        },
+        {
+          "section": "hero.legal-header",
+          "min": 1,
+          "max": 1,
+          "required": true,
+          "repeatable": false,
+          "position": "in-flow"
+        },
+        {
+          "section": "legal.clause",
+          "min": 1,
+          "max": 12,
+          "required": true,
+          "repeatable": true,
+          "position": "in-flow"
+        },
+        {
+          "section": "shell.footer",
+          "min": 1,
+          "max": 1,
+          "required": true,
+          "repeatable": false,
+          "position": "in-flow"
+        },
+        {
+          "section": "shell.awwwards-badge",
+          "min": 0,
+          "max": 1,
+          "required": false,
+          "repeatable": false,
+          "position": "fixed"
+        },
+        {
+          "section": "overlay.cookie-notice",
+          "min": 1,
+          "max": 1,
+          "required": true,
+          "repeatable": false,
+          "position": "fixed"
+        },
+        {
+          "section": "overlay.cart-drawer",
+          "min": 1,
+          "max": 1,
+          "required": true,
+          "repeatable": false,
+          "position": "fixed"
+        },
+        {
+          "section": "overlay.route-curtain",
+          "min": 1,
+          "max": 1,
+          "required": true,
+          "repeatable": false,
+          "position": "fixed"
+        },
+        {
+          "section": "shell.custom-cursor",
+          "min": 1,
+          "max": 1,
+          "required": true,
+          "repeatable": false,
+          "position": "fixed"
+        }
+      ],
+      "observedSequences": [
+        {
+          "sequence": [
+            "hero.legal-header",
+            "legal.clause",
+            "legal.clause",
+            "legal.clause",
+            "legal.clause",
+            "legal.clause",
+            "legal.clause",
+            "legal.clause",
+            "legal.clause",
+            "legal.clause"
+          ],
+          "routes": [
+            "/privacy"
+          ]
+        },
+        {
+          "sequence": [
+            "hero.legal-header",
+            "legal.clause",
+            "legal.clause",
+            "legal.clause",
+            "legal.clause",
+            "legal.clause",
+            "legal.clause",
+            "legal.clause"
+          ],
+          "routes": [
+            "/terms"
+          ]
+        }
+      ]
+    },
+    "art-lab": {
+      "title": "Art Lab canvas",
+      "routePattern": "^/art-lab$",
+      "citation": "cite.artlab.main",
+      "nodes": [
+        {
+          "section": "shell.skip-link",
+          "min": 1,
+          "max": 1,
+          "required": true,
+          "repeatable": false,
+          "position": "fixed"
+        },
+        {
+          "section": "art.lab-header",
+          "min": 1,
+          "max": 1,
+          "required": true,
+          "repeatable": false,
+          "position": "fixed"
+        },
+        {
+          "section": "art.draggable-plane",
+          "min": 1,
+          "max": 1,
+          "required": true,
+          "repeatable": false,
+          "position": "fixed"
+        },
+        {
+          "section": "overlay.drag-cue",
+          "min": 1,
+          "max": 1,
+          "required": true,
+          "repeatable": false,
+          "position": "fixed"
+        },
+        {
+          "section": "shell.awwwards-badge",
+          "min": 0,
+          "max": 1,
+          "required": false,
+          "repeatable": false,
+          "position": "fixed"
+        },
+        {
+          "section": "overlay.cookie-notice",
+          "min": 1,
+          "max": 1,
+          "required": true,
+          "repeatable": false,
+          "position": "fixed"
+        },
+        {
+          "section": "overlay.cart-drawer",
+          "min": 1,
+          "max": 1,
+          "required": true,
+          "repeatable": false,
+          "position": "fixed"
+        },
+        {
+          "section": "overlay.route-curtain",
+          "min": 1,
+          "max": 1,
+          "required": true,
+          "repeatable": false,
+          "position": "fixed"
+        },
+        {
+          "section": "shell.custom-cursor",
+          "min": 1,
+          "max": 1,
+          "required": true,
+          "repeatable": false,
+          "position": "fixed"
+        }
+      ],
+      "observedSequences": [
+        {
+          "sequence": [],
+          "routes": [
+            "/art-lab"
+          ]
+        }
+      ]
+    }
+  }
+}

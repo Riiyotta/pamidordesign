@@ -1,0 +1,6 @@
+{
+  "id": "primitive.rule",
+  "description": "1.5px full-width hairline that opens most blocks.",
+  "evidence": "cite.css.rule",
+  "overridableProps": []
+}

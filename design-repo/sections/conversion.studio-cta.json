@@ -1,0 +1,91 @@
+{
+  "id": "conversion.studio-cta",
+  "title": "Studio closing CTA",
+  "contractVersion": "1.0.0",
+  "source": {
+    "id": "src.conversion-studio-cta",
+    "file": "src/pages/Studio.jsx",
+    "tag": "<section",
+    "lines": "951-998",
+    "citation": "cite.studio.cta"
+  },
+  "semantic": {
+    "id": "conversion.studio-cta",
+    "category": "CONVERSION",
+    "purpose": "Closing band: two-line headline, an outlined start-project button and the contact e-mail."
+  },
+  "retrievalEligible": true,
+  "templates": [
+    "studio"
+  ],
+  "content": {
+    "fields": {
+      "headlineLines": {
+        "type": "list",
+        "required": true,
+        "minItems": 1,
+        "items": {
+          "type": "text",
+          "required": true,
+          "maxWords": 2,
+          "evidence": "cite.studio.cta"
+        },
+        "maxItems": 2,
+        "evidence": "cite.studio.cta"
+      },
+      "button": {
+        "type": "link",
+        "required": true,
+        "maxWords": 2,
+        "evidence": "cite.studio.cta"
+      },
+      "contact": {
+        "type": "contact",
+        "required": true,
+        "maxWords": 2,
+        "evidence": "cite.shell.footer"
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true,
+    "mustBeLastContent": true
+  },
+  "layout": {
+    "position": "in-flow",
+    "surfaceTokens": [
+      "surface.page"
+    ],
+    "height": "512px at 1440 (measured)"
+  },
+  "responsive": {
+    "breakpoints": [
+      "breakpoint.lg"
+    ],
+    "changes": [
+      {
+        "at": "breakpoint.lg",
+        "property": "layout",
+        "below": "stacked, left aligned",
+        "atOrAbove": "row: headline left, actions bottom-right",
+        "evidence": "cite.rwd.studio-cta"
+      }
+    ]
+  },
+  "motion": {
+    "allowedPatterns": [
+      "reveal-rise",
+      "char-sweep",
+      "none"
+    ],
+    "default": "reveal-rise"
+  },
+  "assetRoles": [
+    "owner-contact-link"
+  ],
+  "generatedAssetRoles": [
+    "original-copy",
+    "placeholder-url"
+  ],
+  "measuredInstances": 1
+}

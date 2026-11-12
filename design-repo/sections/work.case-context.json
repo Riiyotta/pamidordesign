@@ -1,0 +1,80 @@
+{
+  "id": "work.case-context",
+  "title": "Case-study context",
+  "contractVersion": "1.0.0",
+  "source": {
+    "id": "src.work-case-context",
+    "file": "src/pages/WorkFigcoms.jsx",
+    "tag": "<section",
+    "lines": "215-245",
+    "citation": "cite.case.context"
+  },
+  "semantic": {
+    "id": "work.case-context",
+    "category": "WORK",
+    "purpose": "Framing block explaining why the project existed: up to three labelled paragraphs (why it exists / the problem / overview and follow-ups)."
+  },
+  "retrievalEligible": true,
+  "templates": [
+    "case-study"
+  ],
+  "content": {
+    "fields": {
+      "items": {
+        "type": "list",
+        "required": true,
+        "minItems": 1,
+        "items": {
+          "label": {
+            "type": "text",
+            "required": true,
+            "maxWords": 6,
+            "evidence": "measured:fieldProfiles.work.case-context.eyebrow.maxWords"
+          },
+          "body": {
+            "type": "text",
+            "required": true,
+            "maxWords": 45,
+            "evidence": "measured:fieldProfiles.work.case-context.dd.maxWords"
+          }
+        },
+        "maxItems": 3,
+        "evidence": "measured:fieldProfiles.work.case-context.dt.maxCount"
+      }
+    }
+  },
+  "constraints": {},
+  "layout": {
+    "position": "in-flow",
+    "surfaceTokens": [
+      "surface.page"
+    ],
+    "height": "291-415px at 1440 (measured, absent on one case study)"
+  },
+  "responsive": {
+    "breakpoints": [
+      "breakpoint.lg"
+    ],
+    "changes": [
+      {
+        "at": "breakpoint.lg",
+        "property": "layout",
+        "below": "stacked",
+        "atOrAbove": "5-col grid 2 / 3",
+        "evidence": "cite.rwd.grid5"
+      }
+    ]
+  },
+  "motion": {
+    "allowedPatterns": [
+      "reveal-rise",
+      "none"
+    ],
+    "default": "reveal-rise"
+  },
+  "assetRoles": [],
+  "generatedAssetRoles": [
+    "original-copy"
+  ],
+  "measuredInstances": 3
+}
